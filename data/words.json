@@ -6,7 +6,9 @@
     "decoys": [
       "Extremely heavy or dense in weight.",
       "Relating to formal ceremonies or rituals."
-    ]
+    ],
+    "rarity": "rare",
+    "category": "Academic & Formal"
   },
   {
     "word": "Ubiquitous",
@@ -15,7 +17,9 @@
     "decoys": [
       "Difficult to understand or explain clearly.",
       "Extremely rare and hard to find."
-    ]
+    ],
+    "rarity": "common",
+    "category": "Everyday Essentials"
   },
   {
     "word": "Serendipity",
@@ -24,7 +28,9 @@
     "decoys": [
       "A strong feeling of regret or sadness.",
       "The act of planning something in great detail."
-    ]
+    ],
+    "rarity": "legendary",
+    "category": "Everyday Essentials"
   },
   {
     "word": "Resilient",
@@ -33,7 +39,9 @@
     "decoys": [
       "Prone to giving up easily under pressure.",
       "Excessively cautious or hesitant."
-    ]
+    ],
+    "rarity": "common",
+    "category": "Everyday Essentials"
   },
   {
     "word": "Meticulous",
@@ -42,6 +50,8 @@
     "decoys": [
       "Careless and prone to making mistakes.",
       "Loud and easily noticeable."
-    ]
+    ],
+    "rarity": "rare",
+    "category": "Academic & Formal"
   }
 ]
