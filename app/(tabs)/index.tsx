@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { StyleSheet, Text, View } from "react-native";
-import words from "../data/words.json";
-import { updateStreak } from "../logic/streaks";
-import { getWordOfTheDay } from "../logic/wordOfDay";
+import words from "../../data/words.json";
+import { updateStreak } from "../../logic/streaks";
+import { getWordOfTheDay } from "../../logic/wordOfDay";
 
 export default function Index() {
   const today = getWordOfTheDay(words);

@@ -15,3 +15,25 @@ A mobile app for building English vocabulary through a daily word challenge, wit
 - **Expo Router** for navigation
 
 ## Project Structure
+
+## Running Locally
+
+```bash
+git clone https://github.com/IanTeoh/vocablab.git
+cd vocablab
+npm install
+npx expo start
+```
+
+Scan the QR code with the **Expo Go** app (iOS/Android) to run it on your device.
+
+## Roadmap
+
+- [ ] Guess-the-meaning challenge before revealing the definition
+- [ ] Tabbed navigation (Today / Coming Soon / Profile)
+- [ ] Profile tab with stats (words learned, longest streak)
+- [ ] Social/competitive word duels
+
+## Author
+
+Built by Ian Teoh as a personal project to practice full-stack mobile development.
