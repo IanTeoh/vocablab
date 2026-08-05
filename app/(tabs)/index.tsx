@@ -1,6 +1,7 @@
 import { ScrollView, StyleSheet } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import BackgroundPattern from "../../components/BackgroundPattern";
+import ReviewCard from "../../components/ReviewCard";
 import WordAdventureCard from "../../components/WordAdventureCard";
 import WordOfDayCard from "../../components/WordOfDayCard";
 import { Colors, Spacing } from "../../constants/theme";
@@ -12,6 +13,7 @@ export default function Index() {
       <ScrollView contentContainerStyle={styles.container}>
         <WordOfDayCard />
         <WordAdventureCard />
+        <ReviewCard />
       </ScrollView>
     </SafeAreaView>
   );

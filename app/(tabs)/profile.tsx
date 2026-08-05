@@ -9,6 +9,7 @@ import {
   ScrollView,
   StyleSheet,
   Text,
+  TextInput,
   View,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
@@ -30,6 +31,7 @@ export default function Profile() {
   const [adventureLevel, setAdventureLevel] = useState<number | null>(null);
   const [selectedCategory, setSelectedCategory] = useState<any | null>(null);
   const [selectedWord, setSelectedWord] = useState<any | null>(null);
+  const [searchQuery, setSearchQuery] = useState("");
   const slideAnim = useRef(new Animated.Value(SCREEN_WIDTH)).current;
 
   function openCategory(item: any) {
@@ -60,6 +62,20 @@ export default function Profile() {
 
   const collectedSet = new Set(collectedWords.map((w) => w.word));
   const categoryProgress = getCategoryProgress(words, collectedWords);
+
+  const isSearching = searchQuery.trim().length > 0;
+  const filteredWords = isSearching
+    ? (words as any[])
+        .filter((w) =>
+          w.word.toLowerCase().includes(searchQuery.trim().toLowerCase()),
+        )
+        .sort((a, b) => {
+          const aCaught = collectedSet.has(a.word) ? 1 : 0;
+          const bCaught = collectedSet.has(b.word) ? 1 : 0;
+          if (aCaught !== bCaught) return bCaught - aCaught;
+          return a.word.localeCompare(b.word);
+        })
+    : [];
 
   function handleReset() {
     Alert.alert("Reset all data?", "For testing only.", [
@@ -121,6 +137,92 @@ export default function Profile() {
     );
   }
 
+  function renderSearchResultRow(w: any) {
+    const caught = collectedSet.has(w.word);
+    const rarity = getRarityStyle(w.rarity);
+    const content = (
+      <>
+        <Text style={styles.resultEmoji}>{caught ? "📖" : "🔒"}</Text>
+        <View style={{ flex: 1 }}>
+          <Text
+            style={[
+              styles.resultWord,
+              caught ? { color: Colors.ink } : { color: Colors.inkMuted },
+            ]}
+          >
+            {caught ? w.word : "?????"}
+          </Text>
+          <Text style={styles.resultSubtext}>
+            {w.category}
+            {caught ? ` · ${rarity.label}` : ""}
+          </Text>
+        </View>
+        {caught && (
+          <View
+            style={[styles.resultRarityDot, { backgroundColor: rarity.color }]}
+          />
+        )}
+      </>
+    );
+
+    if (!caught) {
+      return (
+        <View key={w.word} style={styles.resultRow}>
+          {content}
+        </View>
+      );
+    }
+
+    return (
+      <PressableScale
+        key={w.word}
+        style={styles.resultRow}
+        onPress={() => setSelectedWord(w)}
+      >
+        {content}
+      </PressableScale>
+    );
+  }
+
+  function renderCategorySection(item: any) {
+    const sortedWords = [...item.words].sort((a: any, b: any) => {
+      const scoreOf = (w: any) =>
+        (collectedSet.has(w.word) ? 2 : 0) + (w.rarity === "legendary" ? 1 : 0);
+      return scoreOf(b) - scoreOf(a);
+    });
+    const previewWords = sortedWords.slice(0, 3);
+    const hasMore = item.words.length > 3;
+
+    return (
+      <View style={styles.categorySection}>
+        <View style={styles.categoryHeader}>
+          <Text style={styles.categoryTitle}>{item.category}</Text>
+          <View style={styles.headerRightRow}>
+            <Text style={styles.categoryProgressText}>
+              {item.caught}/{item.total}
+            </Text>
+            {hasMore && (
+              <PressableScale
+                style={styles.seeAllLink}
+                onPress={() => openCategory(item)}
+              >
+                <Text style={styles.seeAllLinkText}>See all →</Text>
+              </PressableScale>
+            )}
+          </View>
+        </View>
+        <View style={styles.progressBarTrack}>
+          <View
+            style={[styles.progressBarFill, { width: `${item.percent}%` }]}
+          />
+        </View>
+        <View style={styles.grid}>
+          {previewWords.map((w: any) => renderWordTile(w))}
+        </View>
+      </View>
+    );
+  }
+
   return (
     <SafeAreaView
       style={{ flex: 1, backgroundColor: Colors.background }}
@@ -130,8 +232,9 @@ export default function Profile() {
 
       <FlatList
         style={styles.container}
-        data={categoryProgress}
-        keyExtractor={(item) => item.category}
+        data={isSearching ? filteredWords : categoryProgress}
+        keyExtractor={(item: any) => (isSearching ? item.word : item.category)}
+        keyboardShouldPersistTaps="handled"
         ListHeaderComponent={
           <>
             <Text style={styles.title}>Your Dictionary</Text>
@@ -157,56 +260,54 @@ export default function Profile() {
                 </View>
               </View>
             )}
+
+            <View style={styles.searchBar}>
+              <Text style={styles.searchIcon}>🔍</Text>
+              <TextInput
+                style={styles.searchInput}
+                placeholder="Search words..."
+                placeholderTextColor={Colors.inkMuted}
+                value={searchQuery}
+                onChangeText={setSearchQuery}
+                autoCapitalize="none"
+                autoCorrect={false}
+              />
+              {isSearching && (
+                <PressableScale
+                  style={styles.searchClear}
+                  onPress={() => setSearchQuery("")}
+                >
+                  <Text style={styles.searchClearText}>✕</Text>
+                </PressableScale>
+              )}
+            </View>
+
+            {isSearching && (
+              <Text style={styles.resultsCount}>
+                {filteredWords.length}{" "}
+                {filteredWords.length === 1 ? "result" : "results"}
+              </Text>
+            )}
           </>
         }
-        renderItem={({ item }) => {
-          const sortedWords = [...item.words].sort((a: any, b: any) => {
-            const scoreOf = (w: any) =>
-              (collectedSet.has(w.word) ? 2 : 0) +
-              (w.rarity === "legendary" ? 1 : 0);
-            return scoreOf(b) - scoreOf(a);
-          });
-          const previewWords = sortedWords.slice(0, 3);
-          const hasMore = item.words.length > 3;
-
-          return (
-            <View style={styles.categorySection}>
-              <View style={styles.categoryHeader}>
-                <Text style={styles.categoryTitle}>{item.category}</Text>
-                <View style={styles.headerRightRow}>
-                  <Text style={styles.categoryProgressText}>
-                    {item.caught}/{item.total}
-                  </Text>
-                  {hasMore && (
-                    <PressableScale
-                      style={styles.seeAllLink}
-                      onPress={() => openCategory(item)}
-                    >
-                      <Text style={styles.seeAllLinkText}>See all →</Text>
-                    </PressableScale>
-                  )}
-                </View>
-              </View>
-              <View style={styles.progressBarTrack}>
-                <View
-                  style={[
-                    styles.progressBarFill,
-                    { width: `${item.percent}%` },
-                  ]}
-                />
-              </View>
-              <View style={styles.grid}>
-                {previewWords.map((w: any) => renderWordTile(w))}
-              </View>
-            </View>
-          );
-        }}
+        renderItem={({ item }) =>
+          isSearching
+            ? renderSearchResultRow(item)
+            : renderCategorySection(item)
+        }
+        ListEmptyComponent={
+          isSearching ? (
+            <Text style={styles.noResults}>No words match "{searchQuery}"</Text>
+          ) : null
+        }
         ListFooterComponent={
-          <PressableScale style={styles.resetButton} onPress={handleReset}>
-            <Text style={styles.resetButtonText}>
-              🧪 Reset App Data (dev only)
-            </Text>
-          </PressableScale>
+          !isSearching ? (
+            <PressableScale style={styles.resetButton} onPress={handleReset}>
+              <Text style={styles.resetButtonText}>
+                🧪 Reset App Data (dev only)
+              </Text>
+            </PressableScale>
+          ) : null
         }
         contentContainerStyle={{ padding: Spacing.lg }}
       />
@@ -223,8 +324,11 @@ export default function Profile() {
             { transform: [{ translateX: slideAnim }] },
           ]}
         >
-          <SafeAreaView style={{ flex: 1 }} edges={["top"]}>
-            <ScrollView contentContainerStyle={styles.modalContent}>
+          <SafeAreaView style={styles.modalSafeArea} edges={["top", "bottom"]}>
+            <ScrollView
+              style={{ flex: 1 }}
+              contentContainerStyle={styles.modalContent}
+            >
               <Text style={styles.modalTitle}>
                 {selectedCategory?.category}
               </Text>
@@ -234,13 +338,16 @@ export default function Profile() {
               <View style={styles.grid}>
                 {selectedCategory?.words.map((w: any) => renderWordTile(w))}
               </View>
+            </ScrollView>
+
+            <View style={styles.modalFooter}>
               <PressableScale
                 style={styles.closeButton}
                 onPress={closeCategoryModal}
               >
                 <Text style={styles.closeButtonText}>Close</Text>
               </PressableScale>
-            </ScrollView>
+            </View>
           </SafeAreaView>
         </Animated.View>
       </Modal>
@@ -290,6 +397,73 @@ const styles = StyleSheet.create({
     color: Colors.inkMuted,
     marginTop: 4,
     textAlign: "center",
+  },
+  searchBar: {
+    flexDirection: "row",
+    alignItems: "center",
+    backgroundColor: Colors.surface,
+    borderRadius: Radius.pill,
+    borderWidth: 1,
+    borderColor: Colors.border,
+    paddingHorizontal: 14,
+    marginBottom: Spacing.sm,
+  },
+  searchIcon: { fontSize: 15, marginRight: 8 },
+  searchInput: {
+    flex: 1,
+    fontFamily: Fonts.body,
+    fontSize: 15,
+    color: Colors.ink,
+    paddingVertical: 10,
+  },
+  searchClear: {
+    paddingHorizontal: 6,
+    paddingVertical: 4,
+  },
+  searchClearText: {
+    fontFamily: Fonts.bodySemiBold,
+    fontSize: 14,
+    color: Colors.inkMuted,
+  },
+  resultsCount: {
+    fontFamily: Fonts.body,
+    fontSize: 13,
+    color: Colors.inkMuted,
+    marginBottom: Spacing.md,
+  },
+  resultRow: {
+    flexDirection: "row",
+    alignItems: "center",
+    backgroundColor: Colors.surface,
+    borderRadius: Radius.md,
+    borderWidth: 1,
+    borderColor: Colors.border,
+    padding: 12,
+    marginBottom: Spacing.sm,
+  },
+  resultEmoji: { fontSize: 20, marginRight: 12 },
+  resultWord: {
+    fontFamily: Fonts.bodySemiBold,
+    fontSize: 16,
+    marginBottom: 2,
+  },
+  resultSubtext: {
+    fontFamily: Fonts.body,
+    fontSize: 12,
+    color: Colors.inkMuted,
+  },
+  resultRarityDot: {
+    width: 8,
+    height: 8,
+    borderRadius: 4,
+    marginLeft: 8,
+  },
+  noResults: {
+    fontFamily: Fonts.body,
+    fontSize: 14,
+    color: Colors.inkMuted,
+    textAlign: "center",
+    marginTop: Spacing.xl,
   },
   categorySection: { marginBottom: Spacing.lg },
   categoryHeader: {
@@ -365,7 +539,8 @@ const styles = StyleSheet.create({
     backgroundColor: Colors.background,
     width: SCREEN_WIDTH,
   },
-  modalContent: { padding: Spacing.lg },
+  modalSafeArea: { flex: 1 },
+  modalContent: { padding: Spacing.lg, paddingBottom: Spacing.lg },
   modalTitle: {
     fontFamily: Fonts.displayBold,
     fontSize: 26,
@@ -378,13 +553,21 @@ const styles = StyleSheet.create({
     color: Colors.inkMuted,
     marginBottom: Spacing.lg,
   },
+  modalFooter: {
+    paddingHorizontal: Spacing.lg,
+    paddingTop: Spacing.sm,
+    paddingBottom: Spacing.sm,
+    borderTopWidth: 1,
+    borderTopColor: Colors.border,
+    backgroundColor: Colors.background,
+  },
   closeButton: {
     paddingVertical: 14,
     borderRadius: Radius.pill,
     alignItems: "center",
     borderWidth: 1,
     borderColor: Colors.border,
-    marginTop: Spacing.md,
+    backgroundColor: Colors.surface,
   },
   closeButtonText: {
     fontFamily: Fonts.bodySemiBold,

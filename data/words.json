@@ -3,117 +3,426 @@
     "word": "Candid",
     "definition": "Truthful and straightforward; frank.",
     "example": "She gave a candid answer about why the project was delayed.",
-    "decoys": [
-      "Overly polite to the point of dishonesty.",
-      "Reluctant to share any opinion at all."
-    ],
     "rarity": "common",
-    "category": "Everyday Essentials"
+    "category": "Character & Everyday"
   },
   {
     "word": "Genuine",
     "definition": "Authentic and sincere.",
     "example": "His apology felt genuine, not just something he was told to say.",
-    "decoys": [
-      "Cleverly disguised as something else.",
-      "Overly rehearsed and formal."
-    ],
     "rarity": "common",
-    "category": "Everyday Essentials"
+    "category": "Character & Everyday"
   },
   {
     "word": "Reluctant",
     "definition": "Unwilling and hesitant.",
     "example": "He was reluctant to try the new restaurant everyone kept recommending.",
-    "decoys": [
-      "Eager and quick to volunteer.",
-      "Confused about what to choose."
-    ],
     "rarity": "common",
-    "category": "Everyday Essentials"
+    "category": "Character & Everyday"
   },
   {
     "word": "Concise",
     "definition": "Giving information clearly in few words.",
     "example": "The instructions were concise, so nobody got lost.",
-    "decoys": [
-      "Written in an overly complicated style.",
-      "Repeated multiple times for emphasis."
-    ],
     "rarity": "common",
-    "category": "Everyday Essentials"
+    "category": "Character & Everyday"
   },
   {
-    "word": "Diligent",
-    "definition": "Showing careful and persistent effort.",
-    "example": "She was diligent about reviewing her notes every single night.",
-    "decoys": [
-      "Easily distracted from the task at hand.",
-      "Doing the bare minimum required."
-    ],
+    "word": "Honest",
+    "definition": "Free of deceit; truthful.",
+    "example": "She was honest about how nervous she felt before the interview.",
     "rarity": "common",
-    "category": "Academic & Formal"
+    "category": "Character & Everyday"
   },
   {
-    "word": "Ambiguous",
-    "definition": "Open to more than one interpretation.",
-    "example": "The instructions were ambiguous, so half the class did it differently.",
-    "decoys": [
-      "Extremely precise and exact.",
-      "Written in a foreign language."
-    ],
+    "word": "Cautious",
+    "definition": "Careful to avoid risk or danger.",
+    "example": "He stayed cautious on the icy road, driving slower than usual.",
     "rarity": "common",
-    "category": "Academic & Formal"
+    "category": "Character & Everyday"
   },
   {
-    "word": "Feasible",
-    "definition": "Possible to do easily or conveniently.",
-    "example": "The team decided the timeline was feasible if they started right away.",
-    "decoys": [
-      "Completely impossible under any circumstance.",
-      "Only achievable with unlimited money."
-    ],
+    "word": "Curious",
+    "definition": "Eager to know or learn something.",
+    "example": "The toddler was curious about everything in the new house.",
     "rarity": "common",
-    "category": "Academic & Formal"
+    "category": "Character & Everyday"
   },
   {
-    "word": "Vivid",
-    "definition": "Producing powerful feelings or clear images in the mind.",
-    "example": "Her vivid description made it feel like we were actually there.",
-    "decoys": ["Dull and forgettable.", "Written in very short sentences."],
+    "word": "Grateful",
+    "definition": "Feeling or showing thankfulness.",
+    "example": "She felt grateful for the help her neighbors gave during the move.",
     "rarity": "common",
-    "category": "Expressive & Descriptive"
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Patient",
+    "definition": "Able to wait calmly without frustration.",
+    "example": "He stayed patient while waiting in the long checkout line.",
+    "rarity": "common",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Humble",
+    "definition": "Not proud or arrogant about oneself.",
+    "example": "Despite her success, she remained humble about her achievements.",
+    "rarity": "common",
+    "category": "Character & Everyday"
   },
   {
     "word": "Resilient",
     "definition": "Able to recover quickly from difficulties.",
     "example": "She remained resilient despite facing many setbacks.",
-    "decoys": [
-      "Prone to giving up easily under pressure.",
-      "Excessively cautious or hesitant."
-    ],
     "rarity": "rare",
-    "category": "Everyday Essentials"
+    "category": "Character & Everyday"
   },
   {
     "word": "Pragmatic",
     "definition": "Dealing with things sensibly and realistically.",
     "example": "He took a pragmatic approach and focused on what would actually work.",
-    "decoys": [
-      "Guided purely by emotion rather than logic.",
-      "Focused only on abstract theory."
-    ],
     "rarity": "rare",
-    "category": "Everyday Essentials"
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Considerate",
+    "definition": "Careful not to inconvenience or hurt others.",
+    "example": "She was considerate enough to keep her music down after midnight.",
+    "rarity": "rare",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Versatile",
+    "definition": "Able to adapt to many different functions.",
+    "example": "The versatile tool worked for a dozen different repair jobs.",
+    "rarity": "rare",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Adaptable",
+    "definition": "Able to adjust easily to new conditions.",
+    "example": "He proved adaptable when his flight got rebooked twice in one day.",
+    "rarity": "rare",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Sincere",
+    "definition": "Free from pretense; genuinely felt.",
+    "example": "Her sincere thank-you note meant more than any gift.",
+    "rarity": "rare",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Thrifty",
+    "definition": "Careful with money; avoiding waste.",
+    "example": "Being thrifty, he repaired the old lamp instead of buying a new one.",
+    "rarity": "rare",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Punctual",
+    "definition": "Arriving or acting exactly at the expected time.",
+    "example": "She was always punctual, never once late to a meeting.",
+    "rarity": "rare",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Cognizant",
+    "definition": "Having knowledge or awareness of something.",
+    "example": "She was cognizant of the risks before agreeing to the plan.",
+    "rarity": "epic",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Judicious",
+    "definition": "Having or showing good judgment.",
+    "example": "His judicious use of the budget kept the project on track.",
+    "rarity": "epic",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Unassuming",
+    "definition": "Not pretentious or arrogant; modest.",
+    "example": "The unassuming chef let his cooking speak for itself.",
+    "rarity": "epic",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Discerning",
+    "definition": "Showing good judgment, especially about quality.",
+    "example": "A discerning shopper, she always checked reviews before buying anything.",
+    "rarity": "epic",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Frugal",
+    "definition": "Sparing or economical with resources.",
+    "example": "Their frugal habits let them save a surprising amount each month.",
+    "rarity": "epic",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Serendipity",
+    "definition": "The occurrence of finding pleasant things by chance.",
+    "example": "Meeting my best friend at that coffee shop was pure serendipity.",
+    "rarity": "legendary",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Wanderlust",
+    "definition": "A strong desire to travel and explore the world.",
+    "example": "Her wanderlust led her to visit twenty countries before turning thirty.",
+    "rarity": "legendary",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Diligent",
+    "definition": "Showing careful and persistent effort.",
+    "example": "She was diligent about reviewing her notes every single night.",
+    "rarity": "common",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Ambiguous",
+    "definition": "Open to more than one interpretation.",
+    "example": "The instructions were ambiguous, so half the class did it differently.",
+    "rarity": "common",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Feasible",
+    "definition": "Possible to do easily or conveniently.",
+    "example": "The team decided the timeline was feasible if they started right away.",
+    "rarity": "common",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Accurate",
+    "definition": "Correct in all details; exact.",
+    "example": "The report needed to be accurate before it went to the client.",
+    "rarity": "common",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Relevant",
+    "definition": "Closely connected or appropriate to the matter at hand.",
+    "example": "Only relevant sources were included in the final bibliography.",
+    "rarity": "common",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Adequate",
+    "definition": "Satisfactory or acceptable in quality or quantity.",
+    "example": "The funding was adequate to cover the first phase of research.",
+    "rarity": "common",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Consistent",
+    "definition": "Acting or done in the same way over time.",
+    "example": "Her consistent effort each week led to steady improvement.",
+    "rarity": "common",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Objective",
+    "definition": "Not influenced by personal feelings or opinions.",
+    "example": "The judge tried to remain objective while reviewing both arguments.",
+    "rarity": "common",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Precise",
+    "definition": "Exact and accurate in detail.",
+    "example": "The recipe called for a precise amount of yeast.",
+    "rarity": "common",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Valid",
+    "definition": "Well-grounded and justifiable.",
+    "example": "She raised a valid concern about the project's timeline.",
+    "rarity": "common",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Meticulous",
+    "definition": "Showing great attention to detail.",
+    "example": "He was meticulous in checking every line of code.",
+    "rarity": "rare",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Astute",
+    "definition": "Having sharp judgement; shrewd.",
+    "example": "Her astute observation caught a flaw no one else had noticed.",
+    "rarity": "rare",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Prudent",
+    "definition": "Acting with care and thought for the future.",
+    "example": "Saving part of every paycheck was a prudent habit she picked up early.",
+    "rarity": "rare",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Coherent",
+    "definition": "Logical and consistent; easy to follow.",
+    "example": "His coherent argument won over most of the skeptics in the room.",
+    "rarity": "rare",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Substantiate",
+    "definition": "To provide evidence to support a claim.",
+    "example": "The lawyer needed more documents to substantiate her case.",
+    "rarity": "epic",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Empirical",
+    "definition": "Based on observation or experience rather than theory.",
+    "example": "The scientist relied on empirical data instead of assumptions.",
+    "rarity": "epic",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Rigorous",
+    "definition": "Extremely thorough and careful.",
+    "example": "The paper went through a rigorous review before it was published.",
+    "rarity": "rare",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Plausible",
+    "definition": "Seeming reasonable or probable.",
+    "example": "It was a plausible excuse, but the teacher still checked the story.",
+    "rarity": "rare",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Perspicacious",
+    "definition": "Having keen insight or understanding.",
+    "example": "The perspicacious detective solved the case before anyone else had a clue.",
+    "rarity": "epic",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Erudite",
+    "definition": "Having great knowledge from extensive reading.",
+    "example": "The erudite professor could discuss almost any historical era in depth.",
+    "rarity": "epic",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Circumspect",
+    "definition": "Careful to consider consequences before acting.",
+    "example": "She stayed circumspect, weighing every option before signing the contract.",
+    "rarity": "epic",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Deleterious",
+    "definition": "Causing harm or damage.",
+    "example": "The report warned of the deleterious effects of the chemical on local wildlife.",
+    "rarity": "rare",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Nuanced",
+    "definition": "Characterized by subtle distinctions or variations.",
+    "example": "Her nuanced explanation captured details a simpler summary would have missed.",
+    "rarity": "rare",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Ineffable",
+    "definition": "Too great or extreme to be expressed in words.",
+    "example": "Standing at the canyon's edge, she felt an ineffable sense of awe.",
+    "rarity": "legendary",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Pellucid",
+    "definition": "Extremely clear and easy to understand.",
+    "example": "His pellucid explanation made the complicated tax rule finally make sense.",
+    "rarity": "legendary",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Vivid",
+    "definition": "Producing powerful feelings or clear images in the mind.",
+    "example": "Her vivid description made it feel like we were actually there.",
+    "rarity": "common",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Graceful",
+    "definition": "Moving in a smooth, elegant way.",
+    "example": "The dancer's graceful movements captivated the entire audience.",
+    "rarity": "common",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Radiant",
+    "definition": "Sending out light; glowing brightly.",
+    "example": "The bride looked radiant as she walked down the aisle.",
+    "rarity": "common",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Gentle",
+    "definition": "Mild and kind in manner.",
+    "example": "He spoke in a gentle voice to calm the crying child.",
+    "rarity": "common",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Fierce",
+    "definition": "Showing intense energy, aggression, or passion.",
+    "example": "The two teams battled with fierce determination until the final whistle.",
+    "rarity": "common",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Lively",
+    "definition": "Full of energy and enthusiasm.",
+    "example": "The lively market was packed with music and color.",
+    "rarity": "common",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Charming",
+    "definition": "Pleasant and attractive in a way that wins people over.",
+    "example": "His charming smile put everyone at ease immediately.",
+    "rarity": "common",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Elegant",
+    "definition": "Graceful and stylish in appearance or manner.",
+    "example": "She wore an elegant dress to the awards dinner.",
+    "rarity": "common",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Bold",
+    "definition": "Confident and willing to take risks.",
+    "example": "It was a bold decision to quit his job and start the company.",
+    "rarity": "common",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Serene",
+    "definition": "Calm, peaceful, and untroubled.",
+    "example": "The lake was serene at sunrise, without a single ripple.",
+    "rarity": "common",
+    "category": "Expressive & Descriptive"
   },
   {
     "word": "Tenacious",
     "definition": "Holding firmly to something; persistent.",
     "example": "Her tenacious attitude helped her finish the marathon despite the pain.",
-    "decoys": [
-      "Quick to change plans at the first obstacle.",
-      "Indifferent to the outcome of a task."
-    ],
     "rarity": "rare",
     "category": "Expressive & Descriptive"
   },
@@ -121,65 +430,55 @@
     "word": "Eloquent",
     "definition": "Fluent and persuasive in speaking or writing.",
     "example": "The eloquent speech left the entire audience in awe.",
-    "decoys": [
-      "Mumbled and difficult to understand.",
-      "Written entirely in technical jargon."
-    ],
     "rarity": "rare",
     "category": "Expressive & Descriptive"
   },
   {
-    "word": "Meticulous",
-    "definition": "Showing great attention to detail.",
-    "example": "He was meticulous in checking every line of code.",
-    "decoys": [
-      "Careless and prone to making mistakes.",
-      "Loud and easily noticeable."
-    ],
+    "word": "Melancholic",
+    "definition": "Having a feeling of thoughtful sadness.",
+    "example": "The melancholic melody stayed with her long after the song ended.",
     "rarity": "rare",
-    "category": "Academic & Formal"
+    "category": "Expressive & Descriptive"
   },
   {
-    "word": "Astute",
-    "definition": "Having sharp judgement; shrewd.",
-    "example": "Her astute observation caught a flaw no one else had noticed.",
-    "decoys": [
-      "Slow to understand new information.",
-      "Overly trusting of everyone's opinion."
-    ],
+    "word": "Whimsical",
+    "definition": "Playfully quaint or fanciful.",
+    "example": "The whimsical decorations gave the shop a storybook feel.",
     "rarity": "rare",
-    "category": "Academic & Formal"
+    "category": "Expressive & Descriptive"
   },
   {
-    "word": "Prudent",
-    "definition": "Acting with care and thought for the future.",
-    "example": "Saving part of every paycheck was a prudent habit she picked up early.",
-    "decoys": [
-      "Reckless with money and decisions.",
-      "Focused only on short-term fun."
-    ],
+    "word": "Exuberant",
+    "definition": "Full of energy, excitement, and enthusiasm.",
+    "example": "The exuberant crowd cheered as the fireworks began.",
     "rarity": "rare",
-    "category": "Academic & Formal"
+    "category": "Expressive & Descriptive"
   },
   {
-    "word": "Cognizant",
-    "definition": "Having knowledge or awareness of something.",
-    "example": "She was cognizant of the risks before agreeing to the plan.",
-    "decoys": [
-      "Completely unaware of the situation.",
-      "Actively trying to ignore the facts."
-    ],
-    "rarity": "epic",
-    "category": "Everyday Essentials"
+    "word": "Poignant",
+    "definition": "Evoking a keen sense of sadness or regret.",
+    "example": "The poignant ending left the whole theater in silence.",
+    "rarity": "rare",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Sublime",
+    "definition": "Of such excellence or beauty as to inspire awe.",
+    "example": "The view from the summit was simply sublime.",
+    "rarity": "rare",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Ethereal",
+    "definition": "Extremely delicate and light in a way that seems otherworldly.",
+    "example": "The mist gave the forest an ethereal, dreamlike quality.",
+    "rarity": "rare",
+    "category": "Expressive & Descriptive"
   },
   {
     "word": "Ubiquitous",
     "definition": "Present, appearing, or found everywhere.",
     "example": "Smartphones have become ubiquitous in modern life.",
-    "decoys": [
-      "Difficult to understand or explain clearly.",
-      "Extremely rare and hard to find."
-    ],
     "rarity": "epic",
     "category": "Expressive & Descriptive"
   },
@@ -187,10 +486,6 @@
     "word": "Ostentatious",
     "definition": "Designed to impress; showy.",
     "example": "The ostentatious mansion had gold fixtures in every room.",
-    "decoys": [
-      "Deliberately modest and understated.",
-      "Hidden away from public view."
-    ],
     "rarity": "epic",
     "category": "Expressive & Descriptive"
   },
@@ -198,65 +493,1602 @@
     "word": "Equanimity",
     "definition": "Mental calmness in difficult situations.",
     "example": "She handled the emergency with remarkable equanimity.",
-    "decoys": [
-      "A sudden burst of panic and confusion.",
-      "An overwhelming sense of excitement."
-    ],
     "rarity": "epic",
     "category": "Expressive & Descriptive"
   },
   {
-    "word": "Perspicacious",
-    "definition": "Having keen insight or understanding.",
-    "example": "The perspicacious detective solved the case before anyone else had a clue.",
-    "decoys": [
-      "Slow to notice obvious details.",
-      "Easily fooled by simple tricks."
-    ],
+    "word": "Effervescent",
+    "definition": "Vivacious and enthusiastic.",
+    "example": "Her effervescent personality made every party more fun.",
     "rarity": "epic",
-    "category": "Academic & Formal"
+    "category": "Expressive & Descriptive"
   },
   {
-    "word": "Serendipity",
-    "definition": "The occurrence of finding pleasant things by chance.",
-    "example": "Meeting my best friend at that coffee shop was pure serendipity.",
-    "decoys": [
-      "A strong feeling of regret or sadness.",
-      "The act of planning something in great detail."
-    ],
-    "rarity": "legendary",
-    "category": "Everyday Essentials"
+    "word": "Luminous",
+    "definition": "Giving off light; bright and glowing.",
+    "example": "The luminous jellyfish lit up the dark aquarium tank.",
+    "rarity": "epic",
+    "category": "Expressive & Descriptive"
   },
   {
     "word": "Ephemeral",
     "definition": "Lasting for a very short time.",
     "example": "The beauty of cherry blossoms is ephemeral, lasting only a week.",
-    "decoys": [
-      "Extremely heavy or dense in weight.",
-      "Relating to formal ceremonies or rituals."
-    ],
     "rarity": "legendary",
     "category": "Expressive & Descriptive"
-  },
-  {
-    "word": "Ineffable",
-    "definition": "Too great or extreme to be expressed in words.",
-    "example": "Standing at the canyon's edge, she felt an ineffable sense of awe.",
-    "decoys": [
-      "Easily summarized in a single sentence.",
-      "Common and unremarkable."
-    ],
-    "rarity": "legendary",
-    "category": "Academic & Formal"
   },
   {
     "word": "Mellifluous",
     "definition": "Sweet or musical; pleasant to hear.",
     "example": "His mellifluous voice made even the safety announcement sound soothing.",
-    "decoys": [
-      "Harsh and grating to the ear.",
-      "Extremely fast and hard to follow."
-    ],
+    "rarity": "legendary",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Efficient",
+    "definition": "Achieving results with minimal wasted effort.",
+    "example": "The new system made checkout far more efficient.",
+    "rarity": "common",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Reliable",
+    "definition": "Consistently good in quality or performance.",
+    "example": "She built a reputation as a reliable project manager.",
+    "rarity": "common",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Proactive",
+    "definition": "Acting in advance to deal with an expected difficulty.",
+    "example": "He was proactive about fixing the bug before customers noticed.",
+    "rarity": "common",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Strategic",
+    "definition": "Carefully planned to achieve a specific goal.",
+    "example": "The company made a strategic decision to enter a new market.",
+    "rarity": "common",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Competent",
+    "definition": "Having the skill or knowledge to do something well.",
+    "example": "The new hire proved competent from her very first week.",
+    "rarity": "common",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Ambitious",
+    "definition": "Having a strong desire for success or achievement.",
+    "example": "Her ambitious plan aimed to double revenue within a year.",
+    "rarity": "common",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Innovative",
+    "definition": "Featuring new methods or ideas.",
+    "example": "The startup was known for its innovative approach to logistics.",
+    "rarity": "common",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Collaborative",
+    "definition": "Involving people working together toward a shared goal.",
+    "example": "The collaborative project brought together three different teams.",
+    "rarity": "common",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Accountable",
+    "definition": "Responsible and required to explain one's actions.",
+    "example": "Each manager was held accountable for their department's budget.",
+    "rarity": "common",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Organized",
+    "definition": "Arranged in a structured, efficient way.",
+    "example": "Her organized notes made studying for the exam much easier.",
+    "rarity": "common",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Negotiate",
+    "definition": "To discuss terms in order to reach an agreement.",
+    "example": "They managed to negotiate a lower price on the lease.",
+    "rarity": "rare",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Delegate",
+    "definition": "To assign a task or responsibility to another person.",
+    "example": "A good manager knows when to delegate rather than do it all herself.",
+    "rarity": "rare",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Streamline",
+    "definition": "To make a process more efficient by simplifying it.",
+    "example": "The new software helped streamline the entire hiring process.",
+    "rarity": "rare",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Leverage",
+    "definition": "To use something to maximum advantage.",
+    "example": "They decided to leverage their existing customer base for the launch.",
+    "rarity": "rare",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Synergy",
+    "definition": "The extra benefit created when things work together effectively.",
+    "example": "The merger created real synergy between the two teams' strengths.",
+    "rarity": "rare",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Diversify",
+    "definition": "To vary and expand a range of products or investments.",
+    "example": "The company chose to diversify rather than rely on one product line.",
+    "rarity": "rare",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Consolidate",
+    "definition": "To combine separate parts into a single, stronger whole.",
+    "example": "The firm decided to consolidate its five offices into two.",
+    "rarity": "rare",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Optimize",
+    "definition": "To make something as effective or useful as possible.",
+    "example": "The team spent weeks trying to optimize the checkout page.",
+    "rarity": "rare",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Entrepreneurial",
+    "definition": "Willing to take on financial risk to build a new venture.",
+    "example": "Her entrepreneurial spirit led her to start three companies by age thirty.",
+    "rarity": "epic",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Fiduciary",
+    "definition": "Involving trust, especially regarding financial matters.",
+    "example": "As a financial advisor, she had a fiduciary duty to her clients.",
+    "rarity": "epic",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Autonomous",
+    "definition": "Acting independently, without outside control.",
+    "example": "The team operated as an autonomous unit within the larger company.",
+    "rarity": "epic",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Lucrative",
+    "definition": "Producing a substantial amount of profit.",
+    "example": "The lucrative contract secured the company's finances for years.",
+    "rarity": "epic",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Scalable",
+    "definition": "Able to grow or expand efficiently without breaking down.",
+    "example": "Investors were drawn to the startup's scalable business model.",
+    "rarity": "epic",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Acumen",
+    "definition": "The ability to make quick, accurate judgments in a particular area.",
+    "example": "Her business acumen helped the company survive a difficult year.",
+    "rarity": "legendary",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Panacea",
+    "definition": "A solution or remedy claimed to fix every problem.",
+    "example": "The consultant admitted the new software was no panacea for the team's issues.",
+    "rarity": "legendary",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Compassionate",
+    "definition": "Feeling or showing sympathy and concern for others.",
+    "example": "The nurse was known for her compassionate bedside manner.",
+    "rarity": "common",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Jealous",
+    "definition": "Feeling envious of someone's advantages or possessions.",
+    "example": "He felt jealous watching his friend get promoted first.",
+    "rarity": "common",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Anxious",
+    "definition": "Feeling worried or nervous.",
+    "example": "She grew anxious as the exam start time approached.",
+    "rarity": "common",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Content",
+    "definition": "Feeling satisfied and at peace.",
+    "example": "He seemed genuinely content with his simple life by the coast.",
+    "rarity": "common",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Proud",
+    "definition": "Feeling deep satisfaction from one's achievements.",
+    "example": "She was proud of finishing the marathon on her first try.",
+    "rarity": "common",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Ashamed",
+    "definition": "Feeling embarrassed or guilty about something.",
+    "example": "He felt ashamed after realizing he had forgotten her birthday.",
+    "rarity": "common",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Hopeful",
+    "definition": "Feeling optimistic about a future outcome.",
+    "example": "They remained hopeful even after the first round of interviews.",
+    "rarity": "common",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Fearless",
+    "definition": "Showing no fear; brave.",
+    "example": "The fearless climber scaled the cliff without hesitation.",
+    "rarity": "common",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Loyal",
+    "definition": "Faithful and devoted to a person or cause.",
+    "example": "The loyal dog waited by the door every day until he came home.",
+    "rarity": "common",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Sympathetic",
+    "definition": "Showing understanding or care for someone else's feelings.",
+    "example": "She gave a sympathetic nod as her friend explained the bad news.",
+    "rarity": "common",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Resentful",
+    "definition": "Feeling bitter or angry about being treated unfairly.",
+    "example": "He grew resentful after being passed over for the promotion twice.",
+    "rarity": "rare",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Nostalgic",
+    "definition": "Feeling a sentimental longing for the past.",
+    "example": "The old song made her feel nostalgic for her college years.",
+    "rarity": "rare",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Empathetic",
+    "definition": "Able to understand and share the feelings of others.",
+    "example": "Her empathetic response made him feel truly heard.",
+    "rarity": "rare",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Indifferent",
+    "definition": "Having no particular interest or concern.",
+    "example": "He remained indifferent to the debate happening around him.",
+    "rarity": "rare",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Vulnerable",
+    "definition": "Open to being emotionally or physically hurt.",
+    "example": "Sharing her story made her feel vulnerable but also relieved.",
+    "rarity": "rare",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Optimistic",
+    "definition": "Hopeful and confident about the future.",
+    "example": "Despite the setback, the team stayed optimistic about the launch.",
+    "rarity": "rare",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Pessimistic",
+    "definition": "Expecting the worst possible outcome.",
+    "example": "His pessimistic outlook made it hard for him to enjoy good news.",
+    "rarity": "rare",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Apprehensive",
+    "definition": "Anxious or fearful about something that may happen.",
+    "example": "She felt apprehensive walking into her first day at the new job.",
+    "rarity": "rare",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Stoic",
+    "definition": "Enduring hardship without showing feelings or complaint.",
+    "example": "He remained stoic through the entire surgery recovery.",
+    "rarity": "epic",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Vindictive",
+    "definition": "Having a strong desire for revenge.",
+    "example": "Her vindictive comment revealed how hurt she still was.",
+    "rarity": "epic",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Altruistic",
+    "definition": "Showing selfless concern for the wellbeing of others.",
+    "example": "His altruistic decision to donate his bonus surprised the whole office.",
+    "rarity": "epic",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Complacent",
+    "definition": "Showing smug satisfaction with one's own achievements.",
+    "example": "The champion team grew complacent and lost the next match.",
+    "rarity": "epic",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Wistful",
+    "definition": "Having a feeling of vague or regretful longing.",
+    "example": "She gave a wistful smile as she packed up her childhood home.",
+    "rarity": "epic",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Schadenfreude",
+    "definition": "Pleasure derived from another person's misfortune.",
+    "example": "He felt a flicker of schadenfreude when his rival's plan fell apart.",
+    "rarity": "legendary",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Sonder",
+    "definition": "The realization that each stranger has a life as complex as your own.",
+    "example": "Watching the crowded train platform, she was struck by a wave of sonder.",
+    "rarity": "legendary",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Logical",
+    "definition": "Following clear reasoning; sensible.",
+    "example": "His logical explanation cleared up all the confusion.",
+    "rarity": "common",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Creative",
+    "definition": "Involving original thinking or imagination.",
+    "example": "She found a creative way to solve the storage problem.",
+    "rarity": "common",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Focused",
+    "definition": "Giving full attention to a single task.",
+    "example": "He stayed focused despite the noisy office around him.",
+    "rarity": "common",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Rational",
+    "definition": "Based on clear reason rather than emotion.",
+    "example": "She made a rational decision after weighing all the options.",
+    "rarity": "common",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Skeptical",
+    "definition": "Not easily convinced; having doubts.",
+    "example": "He stayed skeptical of the offer that seemed too good to be true.",
+    "rarity": "common",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Analytical",
+    "definition": "Using careful, logical analysis.",
+    "example": "Her analytical mind made her great at spotting patterns in data.",
+    "rarity": "rare",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Imaginative",
+    "definition": "Having or showing creativity and inventiveness.",
+    "example": "The imaginative child built an entire city out of blocks.",
+    "rarity": "common",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Decisive",
+    "definition": "Able to make decisions quickly and confidently.",
+    "example": "The decisive coach called the winning play without hesitation.",
+    "rarity": "common",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Reflective",
+    "definition": "Thinking deeply about something.",
+    "example": "She spent a reflective evening journaling about the past year.",
+    "rarity": "rare",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Intuitive",
+    "definition": "Using instinct rather than conscious reasoning.",
+    "example": "His intuitive sense of design made the app easy to use.",
+    "rarity": "common",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Perceptive",
+    "definition": "Quick to notice or understand things.",
+    "example": "Her perceptive question got right to the heart of the problem.",
+    "rarity": "rare",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Methodical",
+    "definition": "Done in a careful, systematic way.",
+    "example": "He took a methodical approach to organizing the entire garage.",
+    "rarity": "rare",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Hypothesis",
+    "definition": "A proposed explanation based on limited evidence.",
+    "example": "Her hypothesis was that warmer water would speed up the reaction.",
+    "rarity": "common",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Deduce",
+    "definition": "To reach a conclusion through logical reasoning.",
+    "example": "From the muddy footprints, he was able to deduce which door they used.",
+    "rarity": "rare",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Contemplate",
+    "definition": "To think deeply about something.",
+    "example": "She sat by the window to contemplate the decision ahead of her.",
+    "rarity": "rare",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Abstract",
+    "definition": "Existing as an idea rather than a physical thing.",
+    "example": "The lecture covered some fairly abstract concepts in philosophy.",
+    "rarity": "common",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Speculate",
+    "definition": "To form a theory without firm evidence.",
+    "example": "Analysts began to speculate about the reasons behind the sudden drop.",
+    "rarity": "rare",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Rationalize",
+    "definition": "To justify behavior with logical reasons, even if not the true ones.",
+    "example": "He tried to rationalize skipping the gym by calling it a rest day.",
+    "rarity": "rare",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Introspective",
+    "definition": "Examining one's own thoughts and feelings.",
+    "example": "The long drive left her feeling introspective about her career choices.",
+    "rarity": "epic",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Paradigm",
+    "definition": "A typical example or pattern of how something works.",
+    "example": "The discovery shifted the entire paradigm of modern physics.",
+    "rarity": "epic",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Dichotomy",
+    "definition": "A division between two sharply contrasting things.",
+    "example": "The film explores the dichotomy between ambition and contentment.",
+    "rarity": "epic",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Epiphany",
+    "definition": "A sudden and striking realization.",
+    "example": "She had an epiphany about her career while washing the dishes.",
+    "rarity": "epic",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Conundrum",
+    "definition": "A confusing and difficult problem.",
+    "example": "The scheduling conundrum took three meetings to finally resolve.",
+    "rarity": "epic",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Epistemology",
+    "definition": "The study of the nature and limits of human knowledge.",
+    "example": "Her thesis on epistemology questioned how we can ever truly know something for certain.",
+    "rarity": "legendary",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Modest",
+    "definition": "Not boastful or arrogant about one's abilities.",
+    "example": "Despite winning the award, she stayed modest about her achievement.",
+    "rarity": "common",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Thoughtful",
+    "definition": "Showing careful consideration or kindness toward others.",
+    "example": "He left a thoughtful note before leaving for his trip.",
+    "rarity": "common",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Cheerful",
+    "definition": "Noticeably happy and optimistic.",
+    "example": "Her cheerful greeting brightened everyone's morning.",
+    "rarity": "common",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Trustworthy",
+    "definition": "Deserving of trust and confidence.",
+    "example": "He was known as the most trustworthy person on the team.",
+    "rarity": "common",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Easygoing",
+    "definition": "Relaxed and tolerant in approach or manner.",
+    "example": "Her easygoing attitude made the road trip stress-free.",
+    "rarity": "common",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Amiable",
+    "definition": "Friendly and pleasant in nature.",
+    "example": "The amiable host made every guest feel welcome.",
+    "rarity": "rare",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Steadfast",
+    "definition": "Firmly loyal or unwavering in purpose.",
+    "example": "Her steadfast support never wavered, even during hard times.",
+    "rarity": "rare",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Gracious",
+    "definition": "Courteous and kind, especially toward others.",
+    "example": "The gracious winner thanked every member of her team.",
+    "rarity": "rare",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Diplomatic",
+    "definition": "Skilled at handling sensitive matters tactfully.",
+    "example": "He gave a diplomatic answer that upset no one at the table.",
+    "rarity": "rare",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Magnanimous",
+    "definition": "Generous and forgiving, especially toward a rival.",
+    "example": "The magnanimous champion praised her opponent's performance.",
+    "rarity": "epic",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Congenial",
+    "definition": "Pleasant and agreeable, especially in social situations.",
+    "example": "The congenial atmosphere made the reunion feel effortless.",
+    "rarity": "epic",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Perfidious",
+    "definition": "Deceitful and untrustworthy; guilty of betrayal.",
+    "example": "The perfidious advisor had been leaking secrets for years.",
+    "rarity": "legendary",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Practical",
+    "definition": "Concerned with actual use rather than theory.",
+    "example": "She offered a practical solution instead of an abstract idea.",
+    "rarity": "common",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Theoretical",
+    "definition": "Based on theory rather than practice or experience.",
+    "example": "The class covered the theoretical side before any hands-on work.",
+    "rarity": "common",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Detailed",
+    "definition": "Containing many specific facts or particulars.",
+    "example": "He gave a detailed account of everything that happened.",
+    "rarity": "common",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Systematic",
+    "definition": "Done according to a fixed plan or method.",
+    "example": "Her systematic approach made the audit go smoothly.",
+    "rarity": "common",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Insightful",
+    "definition": "Showing deep understanding of a situation.",
+    "example": "His insightful comment reframed the whole discussion.",
+    "rarity": "common",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Deductive",
+    "definition": "Relating to reasoning from general principles to a specific conclusion.",
+    "example": "The detective used deductive reasoning to solve the case.",
+    "rarity": "rare",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Inference",
+    "definition": "A conclusion reached through reasoning rather than direct statement.",
+    "example": "From her silence, he made the inference that something was wrong.",
+    "rarity": "rare",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Postulate",
+    "definition": "To suggest a theory or idea as a basis for reasoning.",
+    "example": "Scientists postulate that the phenomenon is linked to temperature change.",
+    "rarity": "rare",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Cerebral",
+    "definition": "Relating to the intellect rather than emotions.",
+    "example": "The film had a cerebral plot that rewarded close attention.",
+    "rarity": "rare",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Sagacious",
+    "definition": "Having sound judgment; wise.",
+    "example": "The sagacious advisor foresaw the problem months in advance.",
+    "rarity": "epic",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Didactic",
+    "definition": "Intended to teach, often excessively so.",
+    "example": "The film's didactic tone made it feel more like a lecture.",
+    "rarity": "epic",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Esoteric",
+    "definition": "Understood by only a small, specialized group.",
+    "example": "The lecture covered some fairly esoteric corners of the field.",
+    "rarity": "epic",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Verisimilitude",
+    "definition": "The appearance of being true or real.",
+    "example": "The novel's verisimilitude made the fictional town feel like a real place.",
+    "rarity": "legendary",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Productive",
+    "definition": "Producing a significant amount or result.",
+    "example": "It was a productive meeting, and every task got assigned.",
+    "rarity": "common",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Resourceful",
+    "definition": "Able to find quick, clever ways to solve problems.",
+    "example": "She was resourceful enough to fix the printer with what was in the drawer.",
+    "rarity": "common",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Dependable",
+    "definition": "Reliable and trustworthy in performance.",
+    "example": "He was the most dependable person on the crew.",
+    "rarity": "common",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Motivated",
+    "definition": "Having a strong reason or drive to act.",
+    "example": "The bonus kept the whole team motivated through the deadline.",
+    "rarity": "common",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Assertive",
+    "definition": "Confident and direct in stating one's views.",
+    "example": "She was assertive in the negotiation without being rude.",
+    "rarity": "common",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Outsource",
+    "definition": "To have work done by an outside supplier rather than in-house.",
+    "example": "The company decided to outsource its customer support team.",
+    "rarity": "rare",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Benchmark",
+    "definition": "A standard used to measure or judge performance.",
+    "example": "They used last year's sales as a benchmark for this quarter.",
+    "rarity": "rare",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Overhead",
+    "definition": "The ongoing costs of running a business.",
+    "example": "Rent and utilities made up most of the shop's overhead.",
+    "rarity": "rare",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Compliance",
+    "definition": "The act of following rules, laws, or standards.",
+    "example": "The audit confirmed the factory was in full compliance.",
+    "rarity": "rare",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Conglomerate",
+    "definition": "A large corporation made up of several smaller companies.",
+    "example": "The startup was eventually bought by a massive media conglomerate.",
+    "rarity": "epic",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Amortize",
+    "definition": "To gradually pay off a debt over time through regular payments.",
+    "example": "The company chose to amortize the loan over ten years.",
+    "rarity": "epic",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Perquisite",
+    "definition": "A benefit received in addition to regular pay.",
+    "example": "A company car was one of the perquisites of the executive role.",
+    "rarity": "legendary",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Colorful",
+    "definition": "Full of color, or vivid and interesting.",
+    "example": "The market was colorful, packed with fruit stalls and fabric stands.",
+    "rarity": "common",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Dazzling",
+    "definition": "Extremely impressive or bright.",
+    "example": "The dazzling fireworks lit up the entire sky.",
+    "rarity": "common",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Peaceful",
+    "definition": "Calm and free from disturbance.",
+    "example": "The garden was peaceful in the early morning light.",
+    "rarity": "common",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Mysterious",
+    "definition": "Difficult to understand or explain.",
+    "example": "A mysterious light appeared over the hill at dusk.",
+    "rarity": "common",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Enchanting",
+    "definition": "Delightfully charming or magical.",
+    "example": "The old bookstore had an enchanting, timeless feel.",
+    "rarity": "common",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Resplendent",
+    "definition": "Impressively bright or beautiful.",
+    "example": "The cathedral was resplendent under the afternoon sun.",
+    "rarity": "rare",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Haunting",
+    "definition": "Poignant and unforgettable, often in an eerie way.",
+    "example": "The haunting melody stayed in her mind for days.",
+    "rarity": "rare",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Evocative",
+    "definition": "Bringing strong images or feelings to mind.",
+    "example": "His evocative writing made the old house feel alive again.",
+    "rarity": "rare",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Idyllic",
+    "definition": "Extremely peaceful, picturesque, or happy.",
+    "example": "They spent an idyllic week at the lake house.",
+    "rarity": "rare",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Sonorous",
+    "definition": "Having a full, deep, and pleasant sound.",
+    "example": "The narrator's sonorous voice suited the documentary perfectly.",
+    "rarity": "epic",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Iridescent",
+    "definition": "Showing luminous colors that shift when viewed from different angles.",
+    "example": "The soap bubble was iridescent in the sunlight.",
+    "rarity": "epic",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Incandescent",
+    "definition": "Glowing with intense heat or light; brilliantly bright.",
+    "example": "The sunset turned the clouds an incandescent orange.",
+    "rarity": "epic",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Susurrus",
+    "definition": "A soft whispering or rustling sound.",
+    "example": "The only sound in the clearing was the susurrus of leaves overhead.",
+    "rarity": "legendary",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Earnest",
+    "definition": "Sincere and serious in intention or effort.",
+    "example": "He made an earnest attempt to apologize for the mix-up.",
+    "rarity": "common",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Timid",
+    "definition": "Lacking confidence; easily frightened.",
+    "example": "The timid puppy hid behind the couch during the thunderstorm.",
+    "rarity": "common",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Belligerent",
+    "definition": "Hostile and aggressive in manner.",
+    "example": "The belligerent customer refused to lower his voice.",
+    "rarity": "rare",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Docile",
+    "definition": "Easily managed or taught; submissive.",
+    "example": "The docile horse followed every command without hesitation.",
+    "rarity": "rare",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Meek",
+    "definition": "Quiet, gentle, and easily imposed upon.",
+    "example": "The meek intern rarely spoke up in meetings.",
+    "rarity": "rare",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Obstinate",
+    "definition": "Stubbornly refusing to change one's mind.",
+    "example": "The obstinate toddler refused to wear his shoes.",
+    "rarity": "rare",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Placid",
+    "definition": "Calm and undisturbed; peaceful.",
+    "example": "The lake was placid at dawn, without a single ripple.",
+    "rarity": "rare",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Zealous",
+    "definition": "Filled with intense enthusiasm for a cause.",
+    "example": "The zealous volunteer showed up an hour early every day.",
+    "rarity": "rare",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Benevolent",
+    "definition": "Kind and generous in nature.",
+    "example": "The benevolent donor funded the entire scholarship program.",
+    "rarity": "rare",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Affable",
+    "definition": "Friendly and easy to talk to.",
+    "example": "The affable shopkeeper always remembered his regulars by name.",
+    "rarity": "epic",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Brazen",
+    "definition": "Bold and shameless, without embarrassment.",
+    "example": "He made a brazen attempt to cut the entire line.",
+    "rarity": "epic",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Callous",
+    "definition": "Showing no sympathy for the feelings of others.",
+    "example": "His callous remark about her project stung more than he realized.",
+    "rarity": "epic",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Deferential",
+    "definition": "Showing respect for another's authority or wishes.",
+    "example": "The new hire was deferential toward the senior staff at first.",
+    "rarity": "epic",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Flippant",
+    "definition": "Not showing proper seriousness; casually disrespectful.",
+    "example": "Her flippant answer annoyed the interviewer.",
+    "rarity": "epic",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Forthright",
+    "definition": "Direct and outspoken; frank.",
+    "example": "His forthright feedback was blunt but genuinely helpful.",
+    "rarity": "epic",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Impetuous",
+    "definition": "Acting quickly without careful thought.",
+    "example": "Her impetuous decision to quit surprised everyone at work.",
+    "rarity": "epic",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Insolent",
+    "definition": "Rudely disrespectful, especially toward someone in authority.",
+    "example": "The insolent reply got him sent straight to the principal's office.",
+    "rarity": "epic",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Rambunctious",
+    "definition": "Boisterous and full of uncontrolled energy.",
+    "example": "The rambunctious puppies tore through the living room.",
+    "rarity": "epic",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Reticent",
+    "definition": "Reluctant to speak or share one's thoughts.",
+    "example": "She stayed reticent about her plans until everything was finalized.",
+    "rarity": "epic",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Sanguine",
+    "definition": "Optimistic and confident, especially in a difficult situation.",
+    "example": "He remained sanguine about the project despite the tight deadline.",
+    "rarity": "epic",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Taciturn",
+    "definition": "Reserved and saying very little.",
+    "example": "The taciturn old fisherman rarely said more than a few words.",
+    "rarity": "epic",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Contrite",
+    "definition": "Deeply sorry for having done wrong.",
+    "example": "His contrite apology finally convinced her to forgive him.",
+    "rarity": "epic",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Demure",
+    "definition": "Reserved, modest, and shy in manner.",
+    "example": "She gave a demure smile before slipping out of the party early.",
+    "rarity": "epic",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Garrulous",
+    "definition": "Excessively talkative, especially about trivial matters.",
+    "example": "The garrulous cab driver talked the entire way to the airport.",
+    "rarity": "epic",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Pensive",
+    "definition": "Deeply thoughtful, often with a hint of sadness.",
+    "example": "She stared out the train window with a pensive expression.",
+    "rarity": "epic",
+    "category": "Character & Everyday"
+  },
+  {
+    "word": "Illogical",
+    "definition": "Not following the rules of clear reasoning.",
+    "example": "His argument was illogical and fell apart under questioning.",
+    "rarity": "common",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Intrinsic",
+    "definition": "Belonging naturally to something; essential.",
+    "example": "Curiosity is intrinsic to how young children learn.",
+    "rarity": "common",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Paradox",
+    "definition": "A statement or situation that seems contradictory but may be true.",
+    "example": "It's a strange paradox that the more choices we have, the harder deciding becomes.",
+    "rarity": "common",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Rhetorical",
+    "definition": "Relating to language used for effect rather than a literal answer.",
+    "example": "\"Who doesn't love a good sale?\" was clearly a rhetorical question.",
+    "rarity": "common",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Subjective",
+    "definition": "Based on personal opinion rather than objective fact.",
+    "example": "Taste in music is completely subjective.",
+    "rarity": "common",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Synthesis",
+    "definition": "The combination of separate ideas or elements into a whole.",
+    "example": "Her thesis was a synthesis of two very different research fields.",
+    "rarity": "common",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Anomaly",
+    "definition": "Something that deviates from what is standard or expected.",
+    "example": "The scientists flagged the reading as an anomaly and ran the test again.",
+    "rarity": "rare",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Axiom",
+    "definition": "A statement widely accepted as true without need for proof.",
+    "example": "\"Honesty is the best policy\" is often treated as an axiom.",
+    "rarity": "rare",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Corollary",
+    "definition": "A natural consequence or result that follows from something else.",
+    "example": "Better sleep is often a corollary of regular exercise.",
+    "rarity": "rare",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Discrepancy",
+    "definition": "A difference between things that should match.",
+    "example": "The accountant found a small discrepancy between the two reports.",
+    "rarity": "rare",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Fallacy",
+    "definition": "A mistaken belief based on flawed reasoning.",
+    "example": "It's a common fallacy that cracking your knuckles causes arthritis.",
+    "rarity": "rare",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Hypothetical",
+    "definition": "Based on an assumption rather than known fact.",
+    "example": "Let's consider a hypothetical scenario where the budget doubles.",
+    "rarity": "rare",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Inductive",
+    "definition": "Relating to reasoning from specific examples toward a general conclusion.",
+    "example": "She used inductive reasoning, drawing a pattern from a dozen small experiments.",
+    "rarity": "rare",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Innate",
+    "definition": "Existing from birth rather than acquired.",
+    "example": "He seemed to have an innate talent for music.",
+    "rarity": "rare",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Lucid",
+    "definition": "Clear and easy to understand.",
+    "example": "Her lucid explanation made the complicated topic feel simple.",
+    "rarity": "rare",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Metaphorical",
+    "definition": "Symbolic rather than literal in meaning.",
+    "example": "The storm in the novel was clearly metaphorical, standing in for her grief.",
+    "rarity": "rare",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Premise",
+    "definition": "A statement or idea that forms the basis of an argument.",
+    "example": "The whole plan rested on a shaky premise.",
+    "rarity": "rare",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Tangential",
+    "definition": "Only loosely connected to the main topic.",
+    "example": "His comment was tangential, but it sparked an interesting side discussion.",
+    "rarity": "rare",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Theorem",
+    "definition": "A statement proven to be true based on other accepted statements.",
+    "example": "The students spent the whole class proving a single geometric theorem.",
+    "rarity": "rare",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Vernacular",
+    "definition": "The everyday language spoken by ordinary people in a region.",
+    "example": "The novel was written entirely in the local vernacular.",
+    "rarity": "rare",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Cognition",
+    "definition": "The mental process of acquiring knowledge and understanding.",
+    "example": "The study focused on how sleep affects cognition in teenagers.",
+    "rarity": "rare",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Cogent",
+    "definition": "Clear, logical, and convincing.",
+    "example": "She made a cogent case for changing the deadline.",
+    "rarity": "epic",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Elucidate",
+    "definition": "To make something clear through explanation.",
+    "example": "The professor paused to elucidate a particularly tricky concept.",
+    "rarity": "epic",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Extrapolate",
+    "definition": "To estimate unknown information by extending known data.",
+    "example": "Researchers extrapolated future trends from the first year of results.",
+    "rarity": "epic",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Heuristic",
+    "definition": "A practical mental shortcut used to make quick decisions.",
+    "example": "Choosing the shortest checkout line is a simple heuristic most people use.",
+    "rarity": "epic",
+    "category": "Mind & Academia"
+  },
+  {
+    "word": "Acquisition",
+    "definition": "The act of acquiring or gaining something, especially a company or asset.",
+    "example": "The acquisition doubled the size of the company overnight.",
+    "rarity": "common",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Capitalize",
+    "definition": "To take financial advantage of an opportunity.",
+    "example": "The brand moved fast to capitalize on the viral trend.",
+    "rarity": "common",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Deficit",
+    "definition": "The amount by which spending exceeds income.",
+    "example": "The city had to address a growing budget deficit.",
+    "rarity": "common",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Equity",
+    "definition": "The value of ownership in an asset after debts are subtracted.",
+    "example": "Paying down the mortgage slowly built up their home equity.",
+    "rarity": "common",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Franchise",
+    "definition": "A business license allowing someone to operate under an established brand.",
+    "example": "She opened her first coffee shop franchise last spring.",
+    "rarity": "common",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Portfolio",
+    "definition": "A collection of investments, or a set of work samples.",
+    "example": "He updated his design portfolio before applying for the job.",
+    "rarity": "common",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Revenue",
+    "definition": "The total income a business generates from its activities.",
+    "example": "Online sales made up most of the company's revenue this year.",
+    "rarity": "common",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Surplus",
+    "definition": "An amount left over after requirements have been met.",
+    "example": "The farm had a surplus of tomatoes after the harvest.",
+    "rarity": "common",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Allocate",
+    "definition": "To distribute resources for a particular purpose.",
+    "example": "The team had to allocate the remaining budget across three projects.",
+    "rarity": "rare",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Collateral",
+    "definition": "An asset offered as security for a loan.",
+    "example": "The bank required his car as collateral for the small loan.",
+    "rarity": "rare",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Contingency",
+    "definition": "A possible future event that must be planned for.",
+    "example": "They kept a contingency fund in case sales dropped unexpectedly.",
+    "rarity": "rare",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Expedite",
+    "definition": "To make a process happen more quickly.",
+    "example": "She paid extra to expedite the shipping on her order.",
+    "rarity": "rare",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Incentivize",
+    "definition": "To motivate someone with a reward or benefit.",
+    "example": "The company incentivized early sign-ups with a discount.",
+    "rarity": "rare",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Liaison",
+    "definition": "A person who acts as a link between groups.",
+    "example": "She became the liaison between the design and engineering teams.",
+    "rarity": "rare",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Liquidity",
+    "definition": "The ease with which an asset can be converted into cash.",
+    "example": "The company kept extra cash on hand to maintain liquidity.",
+    "rarity": "rare",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Mandate",
+    "definition": "An official order or instruction to do something.",
+    "example": "The new safety mandate required helmets on every job site.",
+    "rarity": "rare",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Mediate",
+    "definition": "To help settle a dispute between two parties.",
+    "example": "A neutral manager was brought in to mediate the disagreement.",
+    "rarity": "rare",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Merger",
+    "definition": "The combination of two organizations into one.",
+    "example": "The merger created one of the largest firms in the industry.",
+    "rarity": "rare",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Procure",
+    "definition": "To obtain something, especially through effort or planning.",
+    "example": "The team worked for weeks to procure the rare parts they needed.",
+    "rarity": "rare",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Stakeholder",
+    "definition": "A person or group with an interest in a decision or project.",
+    "example": "Every stakeholder was invited to review the proposal before launch.",
+    "rarity": "rare",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Arbitrate",
+    "definition": "To officially settle a dispute between two parties.",
+    "example": "A retired judge was hired to arbitrate the contract dispute.",
+    "rarity": "epic",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Indemnify",
+    "definition": "To compensate for harm or loss; to protect against legal liability.",
+    "example": "The contract required the contractor to indemnify the homeowner against damages.",
+    "rarity": "epic",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Insolvent",
+    "definition": "Unable to pay debts owed.",
+    "example": "The company was declared insolvent after years of losses.",
+    "rarity": "epic",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Solvency",
+    "definition": "The state of having enough assets to cover one's debts.",
+    "example": "The audit confirmed the bank's solvency despite the market downturn.",
+    "rarity": "epic",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Disburse",
+    "definition": "To pay out money, especially from a fund set aside for a purpose.",
+    "example": "The grant committee will disburse the funds in three installments.",
+    "rarity": "legendary",
+    "category": "Business & Professional"
+  },
+  {
+    "word": "Pristine",
+    "definition": "In its original, spotless condition.",
+    "example": "The vintage car was kept in pristine condition for decades.",
+    "rarity": "common",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Vibrant",
+    "definition": "Full of energy, color, or life.",
+    "example": "The market was vibrant with color, noise, and motion.",
+    "rarity": "common",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Austere",
+    "definition": "Plain and simple; without luxury or decoration.",
+    "example": "The monk's room was austere, with only a bed and a candle.",
+    "rarity": "rare",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Cavernous",
+    "definition": "Resembling a cave; vast and hollow.",
+    "example": "The old warehouse had a cavernous, echoing main hall.",
+    "rarity": "rare",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Desolate",
+    "definition": "Empty, bleak, and deserted.",
+    "example": "The desolate town square was silent after the shops closed for good.",
+    "rarity": "rare",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Resonant",
+    "definition": "Deep, full, and richly reverberating in sound.",
+    "example": "His resonant voice carried easily across the auditorium.",
+    "rarity": "rare",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Somber",
+    "definition": "Dark, gloomy, or serious in mood.",
+    "example": "A somber mood settled over the room as the news spread.",
+    "rarity": "rare",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Sprawling",
+    "definition": "Spreading out over a large, irregular area.",
+    "example": "The sprawling estate stretched across three hundred acres.",
+    "rarity": "rare",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Tumultuous",
+    "definition": "Loud, chaotic, and full of disorder or emotion.",
+    "example": "Their tumultuous relationship swung between joy and constant arguing.",
+    "rarity": "rare",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Turbulent",
+    "definition": "Marked by conflict, disorder, or sudden change.",
+    "example": "The company survived a turbulent first year in business.",
+    "rarity": "rare",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Melodic",
+    "definition": "Pleasant to listen to, like a tune.",
+    "example": "The bird's melodic call echoed through the quiet forest.",
+    "rarity": "rare",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Cacophony",
+    "definition": "A harsh, jarring mixture of sounds.",
+    "example": "The kitchen was a cacophony of clattering pans and shouted orders.",
+    "rarity": "epic",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Diaphanous",
+    "definition": "Light, delicate, and almost see-through.",
+    "example": "The dancer wore a diaphanous scarf that floated with every movement.",
+    "rarity": "epic",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Ebullient",
+    "definition": "Overflowing with enthusiasm and high spirits.",
+    "example": "She gave an ebullient speech after winning the award.",
+    "rarity": "epic",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Gossamer",
+    "definition": "Extremely light, thin, and delicate.",
+    "example": "A gossamer mist hung over the field at sunrise.",
+    "rarity": "epic",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Labyrinthine",
+    "definition": "Extremely complex and winding, like a maze.",
+    "example": "The old city had labyrinthine streets that confused every visitor.",
+    "rarity": "epic",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Languid",
+    "definition": "Slow, relaxed, and lacking energy.",
+    "example": "They spent a languid afternoon reading by the pool.",
+    "rarity": "epic",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Opulent",
+    "definition": "Luxurious and expensive in appearance.",
+    "example": "The hotel lobby was opulent, with marble floors and gold trim.",
+    "rarity": "epic",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Sepulchral",
+    "definition": "Gloomy and hollow, suggestive of a tomb.",
+    "example": "His sepulchral tone made the ghost story even creepier.",
+    "rarity": "epic",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Verdant",
+    "definition": "Green with lush vegetation.",
+    "example": "The valley was verdant after weeks of steady rain.",
+    "rarity": "epic",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Vivacious",
+    "definition": "Full of energy and lively enthusiasm.",
+    "example": "Her vivacious personality made her the center of every party.",
+    "rarity": "epic",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Winsome",
+    "definition": "Charming and appealing in a simple, innocent way.",
+    "example": "The winsome puppy won over the entire office in a day.",
+    "rarity": "epic",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Zestful",
+    "definition": "Full of enthusiasm and energy.",
+    "example": "She approached every new project with zestful curiosity.",
+    "rarity": "epic",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Plaintive",
+    "definition": "Sounding sad or mournful.",
+    "example": "The plaintive cry of the loon carried across the still lake.",
+    "rarity": "epic",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Effulgent",
+    "definition": "Shining brightly; radiant.",
+    "example": "The effulgent glow of the aurora lit up the entire sky.",
     "rarity": "legendary",
     "category": "Expressive & Descriptive"
   }

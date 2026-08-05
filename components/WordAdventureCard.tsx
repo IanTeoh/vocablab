@@ -85,7 +85,7 @@ export default function WordAdventureCard() {
     <View style={styles.card}>
       <Text style={styles.label}>Word Adventure</Text>
       <Text style={styles.subtitle}>
-        Quick rounds of words you haven't learned yet.
+        Quick rounds of words you haven't caught yet.
       </Text>
       <Text style={styles.levelBadge}>
         Level {(sessionsCompleted ?? 0) + 1}
@@ -107,7 +107,7 @@ export default function WordAdventureCard() {
 
       {poolExhausted && (
         <Text style={styles.bannerTextMuted}>
-          You've learned every practice word! 🎉 New rounds unlock as you add
+          You've caught every practice word! 🎉 New rounds unlock as you add
           more words.
         </Text>
       )}
@@ -117,11 +117,10 @@ export default function WordAdventureCard() {
       )}
 
       <PressableScale
-        style={
-          lives === 0
-            ? { ...styles.playButton, ...styles.playButtonDisabled }
-            : styles.playButton
-        }
+        style={[
+          styles.playButton,
+          lives === 0 ? styles.playButtonDisabled : undefined,
+        ]}
         onPress={handlePlay}
       >
         <Text style={styles.playButtonText}>
@@ -169,7 +168,7 @@ const styles = StyleSheet.create({
   },
   label: {
     fontFamily: Fonts.bodySemiBold,
-    fontSize: 13,
+    fontSize: 15,
     color: Colors.inkMuted,
     marginBottom: Spacing.xs,
     textTransform: "uppercase",
@@ -184,7 +183,7 @@ const styles = StyleSheet.create({
   },
   levelBadge: {
     fontFamily: Fonts.bodySemiBold,
-    fontSize: 13,
+    fontSize: 16,
     color: Colors.primary,
     marginBottom: Spacing.md,
   },

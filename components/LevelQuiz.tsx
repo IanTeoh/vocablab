@@ -2,6 +2,7 @@ import * as Haptics from "expo-haptics";
 import { useMemo, useState } from "react";
 import { StyleSheet, Text, View } from "react-native";
 import { Colors, Fonts, Radius, Spacing } from "../constants/theme";
+import words from "../data/words.json";
 import { addWordToDictionary } from "../logic/dictionary";
 import { buildQuizOptions } from "../logic/quiz";
 import { getRarityStyle } from "../logic/rarity";
@@ -30,7 +31,7 @@ export default function LevelQuiz({
 
   const currentWord = level.words[wordIndex];
   const options = useMemo(
-    () => buildQuizOptions(currentWord),
+    () => buildQuizOptions(currentWord, words),
     [currentWord.word],
   );
   const rarity = getRarityStyle(currentWord.rarity);

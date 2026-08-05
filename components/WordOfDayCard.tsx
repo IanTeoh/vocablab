@@ -38,7 +38,7 @@ export default function WordOfDayCard() {
   }, []);
 
   const options = useMemo(
-    () => (today ? buildQuizOptions(today) : []),
+    () => (today ? buildQuizOptions(today, words) : []),
     [today?.word],
   );
   const rarity = today ? getRarityStyle(today.rarity) : null;

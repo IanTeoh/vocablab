@@ -7,7 +7,22 @@ export function shuffle(array) {
   return arr;
 }
 
-export function buildQuizOptions(word) {
-  const options = [word.definition, ...word.decoys];
-  return shuffle(options);
+// Picks 2 decoy definitions from other words, preferring the same
+// rarity tier as the target word so decoys feel like a fair match
+// for the difficulty of the question. Falls back to any other word
+// if there aren't enough same-tier words to pull from.
+function getDecoyPool(word, allWords) {
+  const sameRarity = allWords.filter(
+    (w) => w.rarity === word.rarity && w.word !== word.word,
+  );
+  if (sameRarity.length >= 2) return sameRarity;
+  return allWords.filter((w) => w.word !== word.word);
+}
+
+export function buildQuizOptions(word, allWords) {
+  const pool = getDecoyPool(word, allWords);
+  const decoys = shuffle(pool)
+    .slice(0, 2)
+    .map((w) => w.definition);
+  return shuffle([word.definition, ...decoys]);
 }
