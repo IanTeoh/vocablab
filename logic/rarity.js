@@ -1,7 +1,8 @@
 export const RARITY_STYLES = {
-  common: { color: "#607d8b", label: "Common" },
-  rare: { color: "#1e88e5", label: "Rare" },
-  legendary: { color: "#f9a825", label: "Legendary" },
+  common: { color: "#7FA98A", label: "Common" },
+  rare: { color: "#2D4A3E", label: "Rare" },
+  epic: { color: "#7B4B94", label: "Epic" },
+  legendary: { color: "#D9A441", label: "Legendary" },
 };
 
 export function getRarityStyle(rarity) {

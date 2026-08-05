@@ -43,12 +43,16 @@ export async function getStats(totalWordsInApp) {
     percentComplete: Math.round((dictionary.length / totalWordsInApp) * 100),
   };
 }
-// Reset all data in AsyncStorage, including dictionary, completed date, and streaks
+
 export async function resetAllData() {
   await AsyncStorage.multiRemove([
     DICTIONARY_KEY,
     COMPLETED_KEY,
     "vocablab_streak",
     "vocablab_last_open",
+    "vocablab_word_of_day",
+    "vocablab_lives",
+    "vocablab_lives_date",
+    "vocablab_adventure_sessions_completed",
   ]);
 }

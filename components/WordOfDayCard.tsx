@@ -1,13 +1,15 @@
 import * as Haptics from "expo-haptics";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { SetStateAction, useEffect, useMemo, useRef, useState } from "react";
 import {
-    Animated,
-    Modal,
-    SafeAreaView,
-    StyleSheet,
-    Text,
-    View,
+  ActivityIndicator,
+  Animated,
+  Modal,
+  SafeAreaView,
+  StyleSheet,
+  Text,
+  View,
 } from "react-native";
+import { Colors, Fonts, Radius, Spacing } from "../constants/theme";
 import words from "../data/words.json";
 import { addWordToDictionary, isTodayCompleted } from "../logic/dictionary";
 import { buildQuizOptions } from "../logic/quiz";
@@ -15,25 +17,31 @@ import { getRarityStyle } from "../logic/rarity";
 import { updateStreak } from "../logic/streaks";
 import { getWordOfTheDay } from "../logic/wordOfDay";
 import PressableScale from "./PressableScale";
+import WordDetailModal from "./WordDetailModal";
 
 export default function WordOfDayCard() {
-  const today = getWordOfTheDay(words);
-  const options = useMemo(() => buildQuizOptions(today), [today.word]);
-  const rarity = getRarityStyle(today.rarity);
-
+  const [today, setToday] = useState<any | null>(null);
   const [streak, setStreak] = useState<number | null>(null);
   const [completedToday, setCompletedToday] = useState<boolean | null>(null);
   const [modalVisible, setModalVisible] = useState(false);
-  const [selected, setSelected] = useState<string | null>(null);
+  const [selected, setSelected] = useState(null);
   const [revealed, setRevealed] = useState(false);
   const [added, setAdded] = useState(false);
+  const [detailVisible, setDetailVisible] = useState(false);
 
   const fadeAnim = useRef(new Animated.Value(0)).current;
 
   useEffect(() => {
+    getWordOfTheDay(words).then(setToday);
     updateStreak().then(setStreak);
     isTodayCompleted().then(setCompletedToday);
   }, []);
+
+  const options = useMemo(
+    () => (today ? buildQuizOptions(today) : []),
+    [today?.word],
+  );
+  const rarity = today ? getRarityStyle(today.rarity) : null;
 
   function openQuiz() {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
@@ -49,11 +57,7 @@ export default function WordOfDayCard() {
     }).start();
   }
 
-  function closeQuiz() {
-    setModalVisible(false);
-  }
-
-  function handleSelect(option: string) {
+  async function handleSelect(option: SetStateAction<null>) {
     if (revealed) return;
     setSelected(option);
     setRevealed(true);
@@ -63,12 +67,21 @@ export default function WordOfDayCard() {
       Haptics.notificationAsync(Haptics.NotificationFeedbackType.Error);
     }
   }
+
   async function handleAddToDictionary() {
     await addWordToDictionary(today);
     setAdded(true);
     setCompletedToday(true);
     Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
     setTimeout(() => setModalVisible(false), 900);
+  }
+
+  if (!today) {
+    return (
+      <View style={styles.card}>
+        <ActivityIndicator color={Colors.primary} />
+      </View>
+    );
   }
 
   const isCorrect = selected === today.definition;
@@ -78,10 +91,14 @@ export default function WordOfDayCard() {
       <Text style={styles.label}>Word of the Day</Text>
 
       {completedToday ? (
-        <View style={styles.completedContainer}>
+        <PressableScale
+          style={styles.completedContainer}
+          onPress={() => setDetailVisible(true)}
+        >
           <Text style={styles.word}>{today.word}</Text>
           <Text style={styles.completedBadge}>✅ Completed for today</Text>
-        </View>
+          <Text style={styles.tapHint}>Tap to view definition</Text>
+        </PressableScale>
       ) : (
         <View style={styles.startContainer}>
           <Text style={styles.word}>{today.word}</Text>
@@ -98,7 +115,7 @@ export default function WordOfDayCard() {
       <Modal
         visible={modalVisible}
         animationType="slide"
-        onRequestClose={closeQuiz}
+        onRequestClose={() => setModalVisible(false)}
       >
         <SafeAreaView style={styles.modalContainer}>
           <Animated.View style={[styles.modalContent, { opacity: fadeAnim }]}>
@@ -132,7 +149,7 @@ export default function WordOfDayCard() {
                 <Text
                   style={[
                     styles.result,
-                    { color: isCorrect ? "#2e7d32" : "#c62828" },
+                    { color: isCorrect ? Colors.success : Colors.error },
                   ]}
                 >
                   {isCorrect ? "✅ Correct!" : "❌ Not quite"}
@@ -165,7 +182,7 @@ export default function WordOfDayCard() {
                 {!isCorrect && (
                   <PressableScale
                     style={styles.closeButton}
-                    onPress={closeQuiz}
+                    onPress={() => setModalVisible(false)}
                   >
                     <Text style={styles.closeButtonText}>Close</Text>
                   </PressableScale>
@@ -175,125 +192,171 @@ export default function WordOfDayCard() {
           </Animated.View>
         </SafeAreaView>
       </Modal>
+
+      <WordDetailModal
+        visible={detailVisible}
+        word={today}
+        onClose={() => setDetailVisible(false)}
+      />
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  rarityBadge: {
-    alignSelf: "center",
-    fontSize: 12,
-    fontWeight: "700",
-    borderWidth: 1,
-    borderRadius: 999,
-    paddingHorizontal: 12,
-    paddingVertical: 4,
-    marginBottom: 16,
-    textTransform: "uppercase",
-    letterSpacing: 1,
-  },
   card: {
-    backgroundColor: "#fff",
-    borderRadius: 16,
-    padding: 24,
+    backgroundColor: Colors.surface,
+    borderRadius: Radius.lg,
+    padding: Spacing.lg,
     width: "100%",
-    shadowColor: "#000",
+    borderWidth: 1,
+    borderColor: Colors.border,
+    shadowColor: Colors.ink,
     shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.1,
-    shadowRadius: 8,
-    elevation: 3,
-    marginBottom: 16,
+    shadowOpacity: 0.06,
+    shadowRadius: 10,
+    elevation: 2,
+    marginBottom: Spacing.md,
+    minHeight: 80,
+    justifyContent: "center",
   },
   label: {
-    fontSize: 14,
-    color: "#888",
-    marginBottom: 12,
+    fontFamily: Fonts.bodySemiBold,
+    fontSize: 13,
+    color: Colors.inkMuted,
+    marginBottom: Spacing.sm,
+    textTransform: "uppercase",
+    letterSpacing: 1.2,
+  },
+  startContainer: { alignItems: "center", paddingVertical: Spacing.sm },
+  completedContainer: { alignItems: "center", paddingVertical: Spacing.sm },
+  word: {
+    fontFamily: Fonts.displayBold,
+    fontSize: 34,
+    marginBottom: Spacing.md,
+    color: Colors.ink,
+  },
+  completedBadge: {
+    fontFamily: Fonts.bodySemiBold,
+    fontSize: 15,
+    color: Colors.success,
+  },
+  tapHint: {
+    fontFamily: Fonts.body,
+    fontSize: 12,
+    color: Colors.inkMuted,
+    marginTop: 4,
+  },
+  startButton: {
+    backgroundColor: Colors.primary,
+    paddingVertical: 12,
+    paddingHorizontal: 32,
+    borderRadius: Radius.pill,
+    marginTop: Spacing.sm,
+  },
+  startButtonText: {
+    fontFamily: Fonts.bodySemiBold,
+    color: "#fff",
+    fontSize: 16,
+  },
+  streak: {
+    fontFamily: Fonts.bodySemiBold,
+    fontSize: 15,
+    color: Colors.accent,
+    marginTop: Spacing.sm,
+    textAlign: "center",
+  },
+  modalContainer: { flex: 1, backgroundColor: Colors.background },
+  modalContent: { flex: 1, padding: Spacing.lg, justifyContent: "center" },
+  modalWord: {
+    fontFamily: Fonts.displayBold,
+    fontSize: 42,
+    marginBottom: Spacing.sm,
+    color: Colors.ink,
+    textAlign: "center",
+  },
+  rarityBadge: {
+    alignSelf: "center",
+    fontFamily: Fonts.bodySemiBold,
+    fontSize: 12,
+    borderWidth: 1,
+    borderRadius: Radius.pill,
+    paddingHorizontal: 12,
+    paddingVertical: 4,
+    marginBottom: Spacing.lg,
     textTransform: "uppercase",
     letterSpacing: 1,
   },
-  startContainer: { alignItems: "center", paddingVertical: 12 },
-  completedContainer: { alignItems: "center", paddingVertical: 12 },
-  word: { fontSize: 32, fontWeight: "bold", marginBottom: 16, color: "#222" },
-  completedBadge: { fontSize: 15, fontWeight: "600", color: "#2e7d32" },
-  startButton: {
-    backgroundColor: "#e65100",
-    paddingVertical: 12,
-    paddingHorizontal: 32,
-    borderRadius: 999,
-    marginTop: 8,
-  },
-  startButtonText: { color: "#fff", fontSize: 16, fontWeight: "600" },
-  streak: {
-    fontSize: 16,
-    fontWeight: "600",
-    color: "#e65100",
-    marginTop: 8,
-    textAlign: "center",
-  },
-
-  modalContainer: { flex: 1, backgroundColor: "#f5f5f5" },
-  modalContent: { flex: 1, padding: 24, justifyContent: "center" },
-  modalWord: {
-    fontSize: 40,
-    fontWeight: "bold",
-    marginBottom: 24,
-    color: "#222",
-    textAlign: "center",
-  },
   prompt: {
-    fontSize: 17,
-    color: "#444",
-    marginBottom: 16,
+    fontFamily: Fonts.body,
+    fontSize: 16,
+    color: Colors.inkMuted,
+    marginBottom: Spacing.md,
     textAlign: "center",
   },
   option: {
     borderWidth: 1,
-    borderColor: "#ddd",
-    borderRadius: 12,
+    borderColor: Colors.border,
+    borderRadius: Radius.md,
     padding: 16,
-    marginBottom: 12,
-    backgroundColor: "#fff",
+    marginBottom: Spacing.sm,
+    backgroundColor: Colors.surface,
   },
-  optionText: { fontSize: 16, color: "#333" },
+  optionText: { fontFamily: Fonts.body, fontSize: 16, color: Colors.ink },
   result: {
+    fontFamily: Fonts.displayBold,
     fontSize: 22,
-    fontWeight: "bold",
-    marginBottom: 12,
+    marginBottom: Spacing.md,
     textAlign: "center",
   },
   yourAnswer: {
+    fontFamily: Fonts.body,
     fontSize: 14,
-    color: "#888",
-    marginBottom: 12,
+    color: Colors.inkMuted,
+    marginBottom: Spacing.md,
     fontStyle: "italic",
     textAlign: "center",
   },
-  definition: { fontSize: 17, color: "#444", marginBottom: 12, lineHeight: 24 },
+  definition: {
+    fontFamily: Fonts.body,
+    fontSize: 17,
+    color: Colors.ink,
+    marginBottom: Spacing.md,
+    lineHeight: 24,
+  },
   example: {
+    fontFamily: Fonts.body,
     fontSize: 15,
-    color: "#666",
+    color: Colors.inkMuted,
     fontStyle: "italic",
-    marginBottom: 24,
+    marginBottom: Spacing.lg,
   },
   addButton: {
-    backgroundColor: "#2e7d32",
+    backgroundColor: Colors.success,
     paddingVertical: 14,
-    borderRadius: 999,
+    borderRadius: Radius.pill,
     alignItems: "center",
   },
-  addButtonText: { color: "#fff", fontSize: 16, fontWeight: "600" },
-  addedText: {
+  addButtonText: {
+    fontFamily: Fonts.bodySemiBold,
+    color: "#fff",
     fontSize: 16,
-    color: "#2e7d32",
-    fontWeight: "600",
+  },
+  addedText: {
+    fontFamily: Fonts.bodySemiBold,
+    fontSize: 16,
+    color: Colors.success,
     textAlign: "center",
   },
   closeButton: {
     paddingVertical: 14,
-    borderRadius: 999,
+    borderRadius: Radius.pill,
     alignItems: "center",
     borderWidth: 1,
-    borderColor: "#ccc",
+    borderColor: Colors.border,
   },
-  closeButtonText: { color: "#555", fontSize: 15, fontWeight: "600" },
+  closeButtonText: {
+    fontFamily: Fonts.bodySemiBold,
+    color: Colors.inkMuted,
+    fontSize: 15,
+  },
 });

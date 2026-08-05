@@ -1,14 +1,176 @@
 [
   {
-    "word": "Ephemeral",
-    "definition": "Lasting for a very short time.",
-    "example": "The beauty of cherry blossoms is ephemeral, lasting only a week.",
+    "word": "Candid",
+    "definition": "Truthful and straightforward; frank.",
+    "example": "She gave a candid answer about why the project was delayed.",
     "decoys": [
-      "Extremely heavy or dense in weight.",
-      "Relating to formal ceremonies or rituals."
+      "Overly polite to the point of dishonesty.",
+      "Reluctant to share any opinion at all."
+    ],
+    "rarity": "common",
+    "category": "Everyday Essentials"
+  },
+  {
+    "word": "Genuine",
+    "definition": "Authentic and sincere.",
+    "example": "His apology felt genuine, not just something he was told to say.",
+    "decoys": [
+      "Cleverly disguised as something else.",
+      "Overly rehearsed and formal."
+    ],
+    "rarity": "common",
+    "category": "Everyday Essentials"
+  },
+  {
+    "word": "Reluctant",
+    "definition": "Unwilling and hesitant.",
+    "example": "He was reluctant to try the new restaurant everyone kept recommending.",
+    "decoys": [
+      "Eager and quick to volunteer.",
+      "Confused about what to choose."
+    ],
+    "rarity": "common",
+    "category": "Everyday Essentials"
+  },
+  {
+    "word": "Concise",
+    "definition": "Giving information clearly in few words.",
+    "example": "The instructions were concise, so nobody got lost.",
+    "decoys": [
+      "Written in an overly complicated style.",
+      "Repeated multiple times for emphasis."
+    ],
+    "rarity": "common",
+    "category": "Everyday Essentials"
+  },
+  {
+    "word": "Diligent",
+    "definition": "Showing careful and persistent effort.",
+    "example": "She was diligent about reviewing her notes every single night.",
+    "decoys": [
+      "Easily distracted from the task at hand.",
+      "Doing the bare minimum required."
+    ],
+    "rarity": "common",
+    "category": "Academic & Formal"
+  },
+  {
+    "word": "Ambiguous",
+    "definition": "Open to more than one interpretation.",
+    "example": "The instructions were ambiguous, so half the class did it differently.",
+    "decoys": [
+      "Extremely precise and exact.",
+      "Written in a foreign language."
+    ],
+    "rarity": "common",
+    "category": "Academic & Formal"
+  },
+  {
+    "word": "Feasible",
+    "definition": "Possible to do easily or conveniently.",
+    "example": "The team decided the timeline was feasible if they started right away.",
+    "decoys": [
+      "Completely impossible under any circumstance.",
+      "Only achievable with unlimited money."
+    ],
+    "rarity": "common",
+    "category": "Academic & Formal"
+  },
+  {
+    "word": "Vivid",
+    "definition": "Producing powerful feelings or clear images in the mind.",
+    "example": "Her vivid description made it feel like we were actually there.",
+    "decoys": ["Dull and forgettable.", "Written in very short sentences."],
+    "rarity": "common",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Resilient",
+    "definition": "Able to recover quickly from difficulties.",
+    "example": "She remained resilient despite facing many setbacks.",
+    "decoys": [
+      "Prone to giving up easily under pressure.",
+      "Excessively cautious or hesitant."
+    ],
+    "rarity": "rare",
+    "category": "Everyday Essentials"
+  },
+  {
+    "word": "Pragmatic",
+    "definition": "Dealing with things sensibly and realistically.",
+    "example": "He took a pragmatic approach and focused on what would actually work.",
+    "decoys": [
+      "Guided purely by emotion rather than logic.",
+      "Focused only on abstract theory."
+    ],
+    "rarity": "rare",
+    "category": "Everyday Essentials"
+  },
+  {
+    "word": "Tenacious",
+    "definition": "Holding firmly to something; persistent.",
+    "example": "Her tenacious attitude helped her finish the marathon despite the pain.",
+    "decoys": [
+      "Quick to change plans at the first obstacle.",
+      "Indifferent to the outcome of a task."
+    ],
+    "rarity": "rare",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Eloquent",
+    "definition": "Fluent and persuasive in speaking or writing.",
+    "example": "The eloquent speech left the entire audience in awe.",
+    "decoys": [
+      "Mumbled and difficult to understand.",
+      "Written entirely in technical jargon."
+    ],
+    "rarity": "rare",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Meticulous",
+    "definition": "Showing great attention to detail.",
+    "example": "He was meticulous in checking every line of code.",
+    "decoys": [
+      "Careless and prone to making mistakes.",
+      "Loud and easily noticeable."
     ],
     "rarity": "rare",
     "category": "Academic & Formal"
+  },
+  {
+    "word": "Astute",
+    "definition": "Having sharp judgement; shrewd.",
+    "example": "Her astute observation caught a flaw no one else had noticed.",
+    "decoys": [
+      "Slow to understand new information.",
+      "Overly trusting of everyone's opinion."
+    ],
+    "rarity": "rare",
+    "category": "Academic & Formal"
+  },
+  {
+    "word": "Prudent",
+    "definition": "Acting with care and thought for the future.",
+    "example": "Saving part of every paycheck was a prudent habit she picked up early.",
+    "decoys": [
+      "Reckless with money and decisions.",
+      "Focused only on short-term fun."
+    ],
+    "rarity": "rare",
+    "category": "Academic & Formal"
+  },
+  {
+    "word": "Cognizant",
+    "definition": "Having knowledge or awareness of something.",
+    "example": "She was cognizant of the risks before agreeing to the plan.",
+    "decoys": [
+      "Completely unaware of the situation.",
+      "Actively trying to ignore the facts."
+    ],
+    "rarity": "epic",
+    "category": "Everyday Essentials"
   },
   {
     "word": "Ubiquitous",
@@ -18,8 +180,41 @@
       "Difficult to understand or explain clearly.",
       "Extremely rare and hard to find."
     ],
-    "rarity": "common",
-    "category": "Everyday Essentials"
+    "rarity": "epic",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Ostentatious",
+    "definition": "Designed to impress; showy.",
+    "example": "The ostentatious mansion had gold fixtures in every room.",
+    "decoys": [
+      "Deliberately modest and understated.",
+      "Hidden away from public view."
+    ],
+    "rarity": "epic",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Equanimity",
+    "definition": "Mental calmness in difficult situations.",
+    "example": "She handled the emergency with remarkable equanimity.",
+    "decoys": [
+      "A sudden burst of panic and confusion.",
+      "An overwhelming sense of excitement."
+    ],
+    "rarity": "epic",
+    "category": "Expressive & Descriptive"
+  },
+  {
+    "word": "Perspicacious",
+    "definition": "Having keen insight or understanding.",
+    "example": "The perspicacious detective solved the case before anyone else had a clue.",
+    "decoys": [
+      "Slow to notice obvious details.",
+      "Easily fooled by simple tricks."
+    ],
+    "rarity": "epic",
+    "category": "Academic & Formal"
   },
   {
     "word": "Serendipity",
@@ -33,25 +228,36 @@
     "category": "Everyday Essentials"
   },
   {
-    "word": "Resilient",
-    "definition": "Able to recover quickly from difficulties.",
-    "example": "She remained resilient despite facing many setbacks.",
+    "word": "Ephemeral",
+    "definition": "Lasting for a very short time.",
+    "example": "The beauty of cherry blossoms is ephemeral, lasting only a week.",
     "decoys": [
-      "Prone to giving up easily under pressure.",
-      "Excessively cautious or hesitant."
+      "Extremely heavy or dense in weight.",
+      "Relating to formal ceremonies or rituals."
     ],
-    "rarity": "common",
-    "category": "Everyday Essentials"
+    "rarity": "legendary",
+    "category": "Expressive & Descriptive"
   },
   {
-    "word": "Meticulous",
-    "definition": "Showing great attention to detail.",
-    "example": "He was meticulous in checking every line of code.",
+    "word": "Ineffable",
+    "definition": "Too great or extreme to be expressed in words.",
+    "example": "Standing at the canyon's edge, she felt an ineffable sense of awe.",
     "decoys": [
-      "Careless and prone to making mistakes.",
-      "Loud and easily noticeable."
+      "Easily summarized in a single sentence.",
+      "Common and unremarkable."
     ],
-    "rarity": "rare",
+    "rarity": "legendary",
     "category": "Academic & Formal"
+  },
+  {
+    "word": "Mellifluous",
+    "definition": "Sweet or musical; pleasant to hear.",
+    "example": "His mellifluous voice made even the safety announcement sound soothing.",
+    "decoys": [
+      "Harsh and grating to the ear.",
+      "Extremely fast and hard to follow."
+    ],
+    "rarity": "legendary",
+    "category": "Expressive & Descriptive"
   }
 ]
