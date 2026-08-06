@@ -1,70 +1,62 @@
 import * as Haptics from "expo-haptics";
-import { useFocusEffect } from "expo-router";
-import { SetStateAction, useCallback, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import {
-  ActivityIndicator,
-  Animated,
-  Modal,
-  SafeAreaView,
-  StyleSheet,
-  Text,
-  View,
+    ActivityIndicator,
+    Modal,
+    SafeAreaView,
+    StyleSheet,
+    Text,
+    View,
 } from "react-native";
 import { Colors, Fonts, Radius, Spacing } from "../constants/theme";
-import words from "../data/words.json";
-import { addWordToDictionary, isTodayCompleted } from "../logic/dictionary";
-import { buildQuizOptions } from "../logic/quiz";
-import { getRarityStyle } from "../logic/rarity";
-import { updateStreak } from "../logic/streaks";
-import { getWordOfTheDay } from "../logic/wordOfDay";
+import allRoots from "../data/roots.json";
+import {
+    addRootToDictionary,
+    getRootDictionary,
+} from "../logic/rootDictionary";
+import { getRootOfTheDay } from "../logic/rootOfDay";
+import { buildRootQuizOptions } from "../logic/rootQuiz";
 import PressableScale from "./PressableScale";
 import WordDetailModal from "./WordDetailModal";
 
-export default function WordOfDayCard() {
+export default function RootOfDayCard({ onCaught }: { onCaught?: () => void }) {
   const [today, setToday] = useState<any | null>(null);
-  const [streak, setStreak] = useState<number | null>(null);
-  const [completedToday, setCompletedToday] = useState<boolean | null>(null);
+  const [alreadyCaught, setAlreadyCaught] = useState<boolean | null>(null);
   const [modalVisible, setModalVisible] = useState(false);
-  const [selected, setSelected] = useState(null);
+  const [selected, setSelected] = useState<string | null>(null);
   const [revealed, setRevealed] = useState(false);
   const [added, setAdded] = useState(false);
   const [detailVisible, setDetailVisible] = useState(false);
 
-  const fadeAnim = useRef(new Animated.Value(0)).current;
+  useEffect(() => {
+    getRootOfTheDay(allRoots).then(setToday);
+  }, []);
 
-  useFocusEffect(
-    useCallback(() => {
-      getWordOfTheDay(words).then(setToday);
-      updateStreak().then(setStreak);
-      isTodayCompleted().then(setCompletedToday);
-    }, []),
-  );
+  useEffect(() => {
+    if (!today) return;
+    getRootDictionary().then((dict) => {
+      setAlreadyCaught(dict.some((r: any) => r.root === today.root));
+    });
+  }, [today]);
 
   const options = useMemo(
-    () => (today ? buildQuizOptions(today, words) : []),
-    [today?.word],
+    () => (today ? buildRootQuizOptions(today, allRoots) : []),
+    [today?.root],
   );
-  const rarity = today ? getRarityStyle(today.rarity) : null;
 
   function openQuiz() {
-    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
     setSelected(null);
     setRevealed(false);
     setAdded(false);
     setModalVisible(true);
-    fadeAnim.setValue(0);
-    Animated.timing(fadeAnim, {
-      toValue: 1,
-      duration: 250,
-      useNativeDriver: true,
-    }).start();
   }
 
-  async function handleSelect(option: SetStateAction<null>) {
+  function handleSelect(option: string) {
     if (revealed) return;
     setSelected(option);
     setRevealed(true);
-    if (option === today.definition) {
+    const correctAnswer = `${today.meaning} (${today.origin})`;
+    if (option === correctAnswer) {
       Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
     } else {
       Haptics.notificationAsync(Haptics.NotificationFeedbackType.Error);
@@ -72,9 +64,10 @@ export default function WordOfDayCard() {
   }
 
   async function handleAddToDictionary() {
-    await addWordToDictionary(today);
+    await addRootToDictionary(today);
     setAdded(true);
-    setCompletedToday(true);
+    setAlreadyCaught(true);
+    onCaught?.();
     Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
     setTimeout(() => setModalVisible(false), 900);
   }
@@ -87,32 +80,33 @@ export default function WordOfDayCard() {
     );
   }
 
-  const isCorrect = selected === today.definition;
+  const correctAnswer = `${today.meaning} (${today.origin})`;
+  const isCorrect = selected === correctAnswer;
 
   return (
     <View style={styles.card}>
-      <Text style={styles.label}>Word of the Day</Text>
+      <Text style={styles.label}>Root of the Day</Text>
 
-      {completedToday ? (
+      {alreadyCaught ? (
         <PressableScale
-          style={styles.completedContainer}
+          style={styles.startContainer}
           onPress={() => setDetailVisible(true)}
         >
-          <Text style={styles.word}>{today.word}</Text>
-          <Text style={styles.completedBadge}>✅ Completed for today</Text>
-          <Text style={styles.tapHint}>Tap to view definition</Text>
+          <Text style={styles.icon}>{today.icon}</Text>
+          <Text style={styles.word}>{today.root}</Text>
+          <Text style={styles.completedBadge}>
+            ✅ Already in your collection
+          </Text>
+          <Text style={styles.tapHint}>Tap to view details</Text>
         </PressableScale>
       ) : (
         <View style={styles.startContainer}>
-          <Text style={styles.word}>{today.word}</Text>
+          <Text style={styles.icon}>{today.icon}</Text>
+          <Text style={styles.word}>{today.root}</Text>
           <PressableScale style={styles.startButton} onPress={openQuiz}>
             <Text style={styles.startButtonText}>Start</Text>
           </PressableScale>
         </View>
-      )}
-
-      {streak !== null && (
-        <Text style={styles.streak}>🔥 {streak} day streak</Text>
       )}
 
       <Modal
@@ -121,20 +115,15 @@ export default function WordOfDayCard() {
         onRequestClose={() => setModalVisible(false)}
       >
         <SafeAreaView style={styles.modalContainer}>
-          <Animated.View style={[styles.modalContent, { opacity: fadeAnim }]}>
-            <Text style={styles.modalWord}>{today.word}</Text>
-            <Text
-              style={[
-                styles.rarityBadge,
-                { color: rarity.color, borderColor: rarity.color },
-              ]}
-            >
-              {rarity.label}
-            </Text>
+          <View style={styles.modalContent}>
+            <Text style={styles.modalIcon}>{today.icon}</Text>
+            <Text style={styles.modalWord}>{today.root}</Text>
 
             {!revealed && (
               <>
-                <Text style={styles.prompt}>What does this word mean?</Text>
+                <Text style={styles.prompt}>
+                  Where does this root come from?
+                </Text>
                 {options.map((option, i) => (
                   <PressableScale
                     key={i}
@@ -157,32 +146,28 @@ export default function WordOfDayCard() {
                 >
                   {isCorrect ? "✅ Correct!" : "❌ Not quite"}
                 </Text>
-                {!isCorrect && (
-                  <Text style={styles.yourAnswer}>
-                    You selected: "{selected}"
-                  </Text>
-                )}
-                <Text style={styles.definition}>{today.definition}</Text>
-                <Text style={styles.example}>"{today.example}"</Text>
+                <Text style={styles.definition}>
+                  "{today.root}" comes from {today.origin}, meaning "
+                  {today.meaning}."
+                </Text>
+                <Text style={styles.example}>{today.example}</Text>
 
-                {isCorrect && !added && (
+                {!added ? (
                   <PressableScale
                     style={styles.addButton}
                     onPress={handleAddToDictionary}
                   >
                     <Text style={styles.addButtonText}>
-                      + Add to Dictionary
+                      + Add to Collection
                     </Text>
                   </PressableScale>
-                )}
-
-                {added && (
+                ) : (
                   <Text style={styles.addedText}>
-                    Added to your dictionary 🎉
+                    Added to your collection 🎉
                   </Text>
                 )}
 
-                {!isCorrect && (
+                {!added && (
                   <PressableScale
                     style={styles.closeButton}
                     onPress={() => setModalVisible(false)}
@@ -192,13 +177,18 @@ export default function WordOfDayCard() {
                 )}
               </>
             )}
-          </Animated.View>
+          </View>
         </SafeAreaView>
       </Modal>
 
       <WordDetailModal
         visible={detailVisible}
-        word={today}
+        word={{
+          word: today.root,
+          definition: `${today.meaning} (${today.origin})`,
+          example: today.example,
+          icon: today.icon,
+        }}
         onClose={() => setDetailVisible(false)}
       />
     </View>
@@ -231,12 +221,13 @@ const styles = StyleSheet.create({
     letterSpacing: 1.2,
   },
   startContainer: { alignItems: "center", paddingVertical: Spacing.sm },
-  completedContainer: { alignItems: "center", paddingVertical: Spacing.sm },
+  icon: { fontSize: 34, marginBottom: Spacing.xs },
   word: {
     fontFamily: Fonts.displayBold,
-    fontSize: 34,
+    fontSize: 28,
     marginBottom: Spacing.md,
     color: Colors.ink,
+    textAlign: "center",
   },
   completedBadge: {
     fontFamily: Fonts.bodySemiBold,
@@ -254,40 +245,21 @@ const styles = StyleSheet.create({
     paddingVertical: 12,
     paddingHorizontal: 32,
     borderRadius: Radius.pill,
-    marginTop: Spacing.sm,
   },
   startButtonText: {
     fontFamily: Fonts.bodySemiBold,
     color: "#fff",
     fontSize: 16,
   },
-  streak: {
-    fontFamily: Fonts.bodySemiBold,
-    fontSize: 15,
-    color: Colors.accent,
-    marginTop: Spacing.sm,
-    textAlign: "center",
-  },
   modalContainer: { flex: 1, backgroundColor: Colors.background },
   modalContent: { flex: 1, padding: Spacing.lg, justifyContent: "center" },
+  modalIcon: { fontSize: 48, textAlign: "center", marginBottom: Spacing.xs },
   modalWord: {
     fontFamily: Fonts.displayBold,
-    fontSize: 42,
-    marginBottom: Spacing.sm,
+    fontSize: 32,
+    marginBottom: Spacing.lg,
     color: Colors.ink,
     textAlign: "center",
-  },
-  rarityBadge: {
-    alignSelf: "center",
-    fontFamily: Fonts.bodySemiBold,
-    fontSize: 12,
-    borderWidth: 1,
-    borderRadius: Radius.pill,
-    paddingHorizontal: 12,
-    paddingVertical: 4,
-    marginBottom: Spacing.lg,
-    textTransform: "uppercase",
-    letterSpacing: 1,
   },
   prompt: {
     fontFamily: Fonts.body,
@@ -304,19 +276,16 @@ const styles = StyleSheet.create({
     marginBottom: Spacing.sm,
     backgroundColor: Colors.surface,
   },
-  optionText: { fontFamily: Fonts.body, fontSize: 16, color: Colors.ink },
+  optionText: {
+    fontFamily: Fonts.body,
+    fontSize: 16,
+    color: Colors.ink,
+    textAlign: "center",
+  },
   result: {
     fontFamily: Fonts.displayBold,
     fontSize: 22,
     marginBottom: Spacing.md,
-    textAlign: "center",
-  },
-  yourAnswer: {
-    fontFamily: Fonts.body,
-    fontSize: 14,
-    color: Colors.inkMuted,
-    marginBottom: Spacing.md,
-    fontStyle: "italic",
     textAlign: "center",
   },
   definition: {
@@ -325,6 +294,7 @@ const styles = StyleSheet.create({
     color: Colors.ink,
     marginBottom: Spacing.md,
     lineHeight: 24,
+    textAlign: "center",
   },
   example: {
     fontFamily: Fonts.body,
@@ -332,6 +302,7 @@ const styles = StyleSheet.create({
     color: Colors.inkMuted,
     fontStyle: "italic",
     marginBottom: Spacing.lg,
+    textAlign: "center",
   },
   addButton: {
     backgroundColor: Colors.success,
@@ -356,6 +327,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     borderWidth: 1,
     borderColor: Colors.border,
+    marginTop: Spacing.sm,
   },
   closeButtonText: {
     fontFamily: Fonts.bodySemiBold,

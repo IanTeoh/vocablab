@@ -2,151 +2,1201 @@
   {
     "word": "Kindergarten",
     "origin": "German",
-    "icon": "🧒",
-    "reason": "Literally means \"children's garden.\" Coined by educator Friedrich Fröbel in the 1840s to describe his new approach to early childhood education."
+    "icon": "\ud83e\uddd2",
+    "reason": "Literally means \"children's garden.\" Coined by educator Friedrich Fr\u00f6bel in the 1840s to describe his new approach to early childhood education."
   },
   {
     "word": "Ballet",
     "origin": "French",
-    "icon": "🩰",
+    "icon": "\ud83e\ude70",
     "reason": "Borrowed from French \"ballet,\" itself from Italian \"balletto,\" a diminutive of \"ballo\" meaning \"dance.\" Ballet as an art form developed in the Italian and French royal courts."
   },
   {
     "word": "Sushi",
     "origin": "Japanese",
-    "icon": "🍣",
+    "icon": "\ud83c\udf63",
     "reason": "A direct borrowing of the Japanese word for the dish, which traditionally refers to vinegared rice rather than the raw fish itself."
   },
   {
     "word": "Piano",
     "origin": "Italian",
-    "icon": "🎹",
+    "icon": "\ud83c\udfb9",
     "reason": "Short for \"pianoforte,\" Italian for \"soft-loud,\" describing the instrument's ability to play both quiet and loud notes, unlike the harpsichord."
   },
   {
     "word": "Robot",
     "origin": "Czech",
-    "icon": "🤖",
-    "reason": "Coined by Czech writer Karel Čapek in his 1920 play R.U.R., from the Czech word \"robota\" meaning forced labor or drudgery."
+    "icon": "\ud83e\udd16",
+    "reason": "Coined by Czech writer Karel \u010capek in his 1920 play R.U.R., from the Czech word \"robota\" meaning forced labor or drudgery."
   },
   {
     "word": "Tsunami",
     "origin": "Japanese",
-    "icon": "🌊",
+    "icon": "\ud83c\udf0a",
     "reason": "Literally \"harbor wave,\" combining \"tsu\" (harbor) and \"nami\" (wave), describing how the waves become dangerous specifically near the coast."
   },
   {
     "word": "Yoga",
     "origin": "Sanskrit",
-    "icon": "🧘",
+    "icon": "\ud83e\uddd8",
     "reason": "From Sanskrit \"yoga,\" meaning union or discipline, related to the practice of joining body and mind in ancient Indian philosophy."
   },
   {
     "word": "Karaoke",
     "origin": "Japanese",
-    "icon": "🎤",
-    "reason": "A blend of Japanese \"kara\" (empty) and \"okesutora\" (orchestra), literally meaning \"empty orchestra\" — music without the original vocals."
+    "icon": "\ud83c\udfa4",
+    "reason": "A blend of Japanese \"kara\" (empty) and \"okesutora\" (orchestra), literally meaning \"empty orchestra\" \u2014 music without the original vocals."
   },
   {
     "word": "Alcohol",
     "origin": "Arabic",
-    "icon": "🧪",
+    "icon": "\ud83e\uddea",
     "reason": "From Arabic \"al-kuhl,\" originally referring to a fine powder used as eye makeup, later applied to distilled substances by European alchemists."
   },
   {
     "word": "Ketchup",
     "origin": "Chinese (Hokkien)",
-    "icon": "🍅",
-    "reason": "Believed to come from Hokkien Chinese \"kê-tsiap,\" a fermented fish sauce, which spread through Southeast Asia before European traders adapted it into the tomato-based sauce known today."
+    "icon": "\ud83c\udf45",
+    "reason": "Believed to come from Hokkien Chinese \"k\u00ea-tsiap,\" a fermented fish sauce, which spread through Southeast Asia before European traders adapted it into the tomato-based sauce known today."
   },
   {
     "word": "Cookie",
     "origin": "Dutch",
-    "icon": "🍪",
+    "icon": "\ud83c\udf6a",
     "reason": "From Dutch \"koekje,\" meaning \"little cake,\" brought to America by Dutch settlers in New York."
   },
   {
     "word": "Boss",
     "origin": "Dutch",
-    "icon": "🧑‍💼",
+    "icon": "\ud83e\uddd1\u200d\ud83d\udcbc",
     "reason": "From Dutch \"baas,\" meaning master or foreman, adopted into American English partly because \"master\" carried unwanted associations with slavery."
   },
   {
     "word": "Avatar",
     "origin": "Sanskrit",
-    "icon": "🧑‍🎨",
+    "icon": "\ud83e\uddd1\u200d\ud83c\udfa8",
     "reason": "From Sanskrit \"avatara,\" meaning \"descent,\" originally referring to the earthly incarnation of a Hindu deity, later adapted to mean a digital representation of a person."
   },
   {
     "word": "Tycoon",
     "origin": "Japanese",
-    "icon": "💼",
+    "icon": "\ud83d\udcbc",
     "reason": "From Japanese \"taikun,\" meaning \"great lord,\" a title used for the shogun. It entered English through American diplomats in the 1850s and 60s."
   },
   {
     "word": "Coach",
     "origin": "Hungarian",
-    "icon": "🚂",
+    "icon": "\ud83d\ude82",
     "reason": "From the Hungarian town of Kocs, famous for building horse-drawn carriages in the 15th century. The meaning later extended to \"someone who guides you,\" giving us the modern sense of a sports coach."
   },
   {
     "word": "Mosquito",
     "origin": "Spanish",
-    "icon": "🦟",
+    "icon": "\ud83e\udd9f",
     "reason": "Literally \"little fly\" in Spanish, a diminutive of \"mosca\" (fly)."
   },
   {
     "word": "Chocolate",
     "origin": "Nahuatl (Aztec)",
-    "icon": "🍫",
+    "icon": "\ud83c\udf6b",
     "reason": "From Nahuatl \"xocolatl,\" a bitter drink made from cacao beans consumed by the Aztecs long before sugar was added by Europeans."
   },
   {
     "word": "Tomato",
     "origin": "Nahuatl (Aztec)",
-    "icon": "🍅",
+    "icon": "\ud83c\udf45",
     "reason": "From Nahuatl \"tomatl,\" the Aztec word for the fruit, which spread to Europe after Spanish colonization of the Americas."
   },
   {
     "word": "Guru",
     "origin": "Sanskrit",
-    "icon": "🧙",
+    "icon": "\ud83e\uddd9",
     "reason": "From Sanskrit \"guru,\" meaning teacher or spiritual guide, literally translating to something close to \"weighty\" or \"venerable.\""
   },
   {
     "word": "Shampoo",
     "origin": "Hindi",
-    "icon": "🧴",
+    "icon": "\ud83e\uddf4",
     "reason": "From Hindi \"champo,\" meaning \"to massage,\" introduced to English speakers in colonial India before becoming associated specifically with hair washing."
   },
   {
     "word": "Bungalow",
     "origin": "Hindi/Gujarati",
-    "icon": "🏡",
+    "icon": "\ud83c\udfe1",
     "reason": "From \"bangla,\" meaning \"of Bengal,\" describing a style of low, single-story house common in that region of India."
   },
   {
     "word": "Pajamas",
     "origin": "Hindi/Urdu",
-    "icon": "👖",
+    "icon": "\ud83d\udc56",
     "reason": "From \"pajama,\" a loose-fitting leg garment tied at the waist, adopted by British colonists in India before becoming standard English sleepwear."
   },
   {
     "word": "Karate",
     "origin": "Japanese",
-    "icon": "🥋",
+    "icon": "\ud83e\udd4b",
     "reason": "Literally \"empty hand,\" reflecting that the martial art is practiced without weapons."
   },
   {
     "word": "Igloo",
     "origin": "Inuktitut",
-    "icon": "🧊",
+    "icon": "\ud83e\uddca",
     "reason": "From Inuktitut \"iglu,\" which actually just means \"house\" in general, not specifically a snow dwelling."
   },
   {
     "word": "Safari",
     "origin": "Swahili",
-    "icon": "🦁",
+    "icon": "\ud83e\udd81",
     "reason": "From Swahili \"safari,\" meaning journey, which itself comes from the Arabic word \"safar\" for travel."
+  },
+  {
+    "word": "Angst",
+    "origin": "German",
+    "icon": "\ud83d\ude30",
+    "reason": "German for \"fear\" or \"anxiety,\" adopted into English largely through 20th-century psychology and philosophy to describe a deep, often existential dread."
+  },
+  {
+    "word": "Kayak",
+    "origin": "Inuktitut",
+    "icon": "\ud83d\udef6",
+    "reason": "From the Inuit word for a small, covered boat originally made from animal skins stretched over a wooden frame, used for hunting on Arctic waters."
+  },
+  {
+    "word": "Denim",
+    "origin": "French",
+    "icon": "\ud83d\udc56",
+    "reason": "From \"serge de N\u00eemes,\" a sturdy fabric originally made in the French city of N\u00eemes."
+  },
+  {
+    "word": "Jeans",
+    "origin": "Italian",
+    "icon": "\ud83d\udc56",
+    "reason": "From \"G\u00eanes,\" the French name for the Italian city of Genoa, where a similar cotton fabric was originally produced."
+  },
+  {
+    "word": "Smorgasbord",
+    "origin": "Swedish",
+    "icon": "\ud83c\udf7d\ufe0f",
+    "reason": "Literally \"bread and butter table,\" describing the traditional Swedish buffet of many small dishes served together."
+  },
+  {
+    "word": "Clich\u00e9",
+    "origin": "French",
+    "icon": "\ud83d\udda8\ufe0f",
+    "reason": "Originally a printing term for a pre-cast metal plate used to repeatedly print the same image, extended to mean an overused expression."
+  },
+  {
+    "word": "Caf\u00e9",
+    "origin": "French",
+    "icon": "\u2615",
+    "reason": "French for \"coffee,\" which itself traces back further to Arabic \"qahwa\" \u2014 the word for the drink became the name for the place that served it."
+  },
+  {
+    "word": "Entrepreneur",
+    "origin": "French",
+    "icon": "\ud83d\udcbc",
+    "reason": "From French \"entreprendre,\" meaning \"to undertake,\" describing someone who organizes and takes on the risk of a business venture."
+  },
+  {
+    "word": "Rendezvous",
+    "origin": "French",
+    "icon": "\ud83e\udd1d",
+    "reason": "Literally \"present yourselves,\" from the French command form, describing an agreed meeting time and place."
+  },
+  {
+    "word": "Silhouette",
+    "origin": "French",
+    "icon": "\ud83d\udda4",
+    "reason": "Named after \u00c9tienne de Silhouette, an 18th-century French finance minister known for cheap, quickly-made portrait outlines during his brief and unpopular time in office."
+  },
+  {
+    "word": "Espresso",
+    "origin": "Italian",
+    "icon": "\u2615",
+    "reason": "From Italian for \"pressed out,\" describing how the coffee is forced through finely-ground beans under pressure."
+  },
+  {
+    "word": "Pizza",
+    "origin": "Italian",
+    "icon": "\ud83c\udf55",
+    "reason": "A direct borrowing from Italian, referring to the flatbread dish that originated in Naples."
+  },
+  {
+    "word": "Volcano",
+    "origin": "Italian",
+    "icon": "\ud83c\udf0b",
+    "reason": "From \"Vulcano,\" an Italian island named after Vulcan, the Roman god of fire, believed by ancient peoples to be his forge."
+  },
+  {
+    "word": "Umbrella",
+    "origin": "Italian",
+    "icon": "\u2602\ufe0f",
+    "reason": "From Italian \"ombrella,\" a diminutive of \"ombra\" meaning shade, since umbrellas were first used to block the sun rather than rain."
+  },
+  {
+    "word": "Balcony",
+    "origin": "Italian",
+    "icon": "\ud83c\udfe0",
+    "reason": "From Italian \"balcone,\" describing a platform projecting from a building's upper floor."
+  },
+  {
+    "word": "Casino",
+    "origin": "Italian",
+    "icon": "\ud83c\udfb0",
+    "reason": "A diminutive of Italian \"casa\" (house), originally meaning a small country house or social club before taking on its gambling association."
+  },
+  {
+    "word": "Confetti",
+    "origin": "Italian",
+    "icon": "\ud83c\udf8a",
+    "reason": "Originally referred to the sugared almonds thrown during Italian carnival celebrations, later replaced by paper but keeping the name."
+  },
+  {
+    "word": "Fiasco",
+    "origin": "Italian",
+    "icon": "\ud83d\ude2c",
+    "reason": "Literally \"bottle\" in Italian; the connection to failure comes from an old theatrical phrase for a performance that flopped, though the exact origin story is debated."
+  },
+  {
+    "word": "Graffiti",
+    "origin": "Italian",
+    "icon": "\ud83c\udfa8",
+    "reason": "From Italian \"graffiare,\" meaning \"to scratch,\" originally describing markings scratched into ancient walls before referring to modern spray paint art."
+  },
+  {
+    "word": "Paparazzi",
+    "origin": "Italian",
+    "icon": "\ud83d\udcf8",
+    "reason": "Named after Paparazzo, an aggressive photographer character in Federico Fellini's 1960 film La Dolce Vita."
+  },
+  {
+    "word": "Studio",
+    "origin": "Italian",
+    "icon": "\ud83c\udfac",
+    "reason": "From Italian \"studio,\" meaning a room for study, which came to describe artists' and later film and recording workspaces."
+  },
+  {
+    "word": "Zero",
+    "origin": "Arabic",
+    "icon": "0\ufe0f\u20e3",
+    "reason": "From Arabic \"sifr\" (meaning \"empty\"), which passed into Italian as \"zefiro\" and then into English, tracking the number's spread from Indian and Arabic mathematics into Europe."
+  },
+  {
+    "word": "Algebra",
+    "origin": "Arabic",
+    "icon": "\ud83e\uddee",
+    "reason": "From \"al-jabr,\" part of the title of a 9th-century mathematical text by Persian scholar al-Khwarizmi, meaning \"the reunion of broken parts.\""
+  },
+  {
+    "word": "Sugar",
+    "origin": "Arabic",
+    "icon": "\ud83c\udf6c",
+    "reason": "From Arabic \"sukkar,\" which itself traces back to Sanskrit \"sharkara,\" following the sugar trade from India through the Arab world to Europe."
+  },
+  {
+    "word": "Coffee",
+    "origin": "Arabic",
+    "icon": "\u2615",
+    "reason": "From Arabic \"qahwa,\" via Turkish \"kahve,\" describing the drink first cultivated in the Arabian Peninsula and Ethiopia."
+  },
+  {
+    "word": "Magazine",
+    "origin": "Arabic",
+    "icon": "\ud83d\udcf0",
+    "reason": "From Arabic \"makhazin,\" meaning storehouses; the word originally referred to a place for storing goods before coming to mean a periodical \"storehouse\" of articles."
+  },
+  {
+    "word": "Sofa",
+    "origin": "Arabic",
+    "icon": "\ud83d\udecb\ufe0f",
+    "reason": "From Arabic \"suffah,\" describing a raised platform or bench covered with cushions."
+  },
+  {
+    "word": "Giraffe",
+    "origin": "Arabic",
+    "icon": "\ud83e\udd92",
+    "reason": "From Arabic \"zarafa,\" the origin of which is uncertain but which passed into English through Italian and French."
+  },
+  {
+    "word": "Cotton",
+    "origin": "Arabic",
+    "icon": "\ud83e\uddf5",
+    "reason": "From Arabic \"qutn,\" reflecting how the cotton trade and the plant itself reached Europe through Arabic-speaking traders."
+  },
+  {
+    "word": "Admiral",
+    "origin": "Arabic",
+    "icon": "\u2693",
+    "reason": "From Arabic \"amir al-\" (commander of), a title picked up during the Crusades and later applied specifically to naval commanders."
+  },
+  {
+    "word": "Typhoon",
+    "origin": "Chinese",
+    "icon": "\ud83c\udf2a\ufe0f",
+    "reason": "Likely influenced by both Chinese \"tai fung\" (great wind) and Greek \"typhon\" (a mythological storm giant), blending together as the word entered English."
+  },
+  {
+    "word": "Kung Fu",
+    "origin": "Chinese",
+    "icon": "\ud83e\udd4b",
+    "reason": "From Cantonese \"gong fu,\" originally referring to skill or achievement gained through hard work and time, not martial arts specifically."
+  },
+  {
+    "word": "Tea",
+    "origin": "Chinese",
+    "icon": "\ud83c\udf75",
+    "reason": "From the Min Nan Chinese word \"te,\" spread to Europe by Dutch traders \u2014 while Mandarin-influenced trade routes gave other languages words closer to \"cha.\""
+  },
+  {
+    "word": "Ramen",
+    "origin": "Japanese",
+    "icon": "\ud83c\udf5c",
+    "reason": "Adapted from Chinese \"lamian\" (pulled noodles), the dish and its name were popularized in Japan before spreading worldwide as \"ramen.\""
+  },
+  {
+    "word": "Emoji",
+    "origin": "Japanese",
+    "icon": "\ud83d\ude0a",
+    "reason": "From Japanese \"e\" (picture) and \"moji\" (character); the resemblance to the English word \"emotion\" is a coincidence."
+  },
+  {
+    "word": "Origami",
+    "origin": "Japanese",
+    "icon": "\ud83d\udcc4",
+    "reason": "From \"ori\" (fold) and \"kami\" (paper), describing the traditional art of paper folding."
+  },
+  {
+    "word": "Sudoku",
+    "origin": "Japanese",
+    "icon": "\ud83d\udd22",
+    "reason": "Short for \"suji wa dokushin ni kagiru,\" meaning \"the numbers must remain single,\" though the puzzle format itself was actually invented in the United States."
+  },
+  {
+    "word": "Futon",
+    "origin": "Japanese",
+    "icon": "\ud83d\udecf\ufe0f",
+    "reason": "From Japanese \"futon,\" describing a traditional padded mattress that could be rolled up and stored during the day."
+  },
+  {
+    "word": "Honcho",
+    "origin": "Japanese",
+    "icon": "\ud83d\udc54",
+    "reason": "From \"hancho,\" meaning \"squad leader,\" picked up by American soldiers stationed in Japan after World War II."
+  },
+  {
+    "word": "Wok",
+    "origin": "Chinese",
+    "icon": "\ud83c\udf73",
+    "reason": "From Cantonese \"wok,\" the name for the round-bottomed pan used throughout Chinese cooking."
+  },
+  {
+    "word": "Ninja",
+    "origin": "Japanese",
+    "icon": "\ud83e\udd77",
+    "reason": "From \"nin\" (to endure or sneak) and \"ja\" (person), describing the covert agents and mercenaries of feudal Japan."
+  },
+  {
+    "word": "Samurai",
+    "origin": "Japanese",
+    "icon": "\u2694\ufe0f",
+    "reason": "From a verb meaning \"to serve,\" describing the hereditary warrior class who served Japan's feudal lords."
+  },
+  {
+    "word": "Zen",
+    "origin": "Japanese",
+    "icon": "\ud83e\uddd8",
+    "reason": "The Japanese pronunciation of Chinese \"Chan,\" which itself derives from Sanskrit \"dhyana,\" meaning meditation \u2014 tracing a path from India through China to Japan."
+  },
+  {
+    "word": "Bonsai",
+    "origin": "Japanese",
+    "icon": "\ud83c\udf33",
+    "reason": "From \"bon\" (tray) and \"sai\" (planting), describing the art of growing miniature trees in shallow containers."
+  },
+  {
+    "word": "Mantra",
+    "origin": "Sanskrit",
+    "icon": "\ud83d\udd49\ufe0f",
+    "reason": "From \"man\" (mind) and \"tra\" (instrument), describing a sacred sound or phrase repeated in meditation."
+  },
+  {
+    "word": "Karma",
+    "origin": "Sanskrit",
+    "icon": "\u262f\ufe0f",
+    "reason": "From Sanskrit \"karman,\" meaning \"action\" or \"deed,\" central to the idea that actions have consequences across lifetimes in Hindu and Buddhist thought."
+  },
+  {
+    "word": "Nirvana",
+    "origin": "Sanskrit",
+    "icon": "\ud83d\udd4a\ufe0f",
+    "reason": "Literally \"blown out\" or \"extinguished,\" describing the Buddhist state of liberation from suffering and desire."
+  },
+  {
+    "word": "Loot",
+    "origin": "Hindi",
+    "icon": "\ud83d\udcb0",
+    "reason": "From Hindi \"lut,\" meaning goods seized by force, adopted by British soldiers and officials during colonial rule in India."
+  },
+  {
+    "word": "Jungle",
+    "origin": "Hindi",
+    "icon": "\ud83c\udf34",
+    "reason": "From Hindi \"jangal,\" originally meaning wasteland or forest, later narrowed in English to specifically mean dense tropical forest."
+  },
+  {
+    "word": "Thug",
+    "origin": "Hindi",
+    "icon": "\ud83d\ude20",
+    "reason": "From Hindi \"thag,\" originally referring to a member of a historical band of professional robbers and stranglers in India."
+  },
+  {
+    "word": "Veranda",
+    "origin": "Hindi",
+    "icon": "\ud83c\udfe1",
+    "reason": "Possibly from Hindi \"varanda,\" itself likely borrowed from Portuguese, describing a covered porch attached to a house."
+  },
+  {
+    "word": "Punch",
+    "origin": "Hindi",
+    "icon": "\ud83c\udf79",
+    "reason": "Believed to come from Hindi \"panch,\" meaning \"five,\" referring to the traditional five ingredients (spirit, water, lemon, sugar, and spice) used in the drink."
+  },
+  {
+    "word": "Pundit",
+    "origin": "Hindi",
+    "icon": "\ud83c\udf93",
+    "reason": "From Hindi \"pandit,\" meaning a learned scholar or teacher, especially one versed in Sanskrit and Hindu law."
+  },
+  {
+    "word": "Cheetah",
+    "origin": "Hindi",
+    "icon": "\ud83d\udc06",
+    "reason": "From Hindi \"chita,\" ultimately from Sanskrit, meaning \"speckled\" or \"variegated,\" describing the animal's spotted coat."
+  },
+  {
+    "word": "Candy",
+    "origin": "Sanskrit",
+    "icon": "\ud83c\udf6d",
+    "reason": "Traces back through Arabic and Persian to Sanskrit \"khanda,\" meaning a piece of sugar, following the spread of sugar refining from India."
+  },
+  {
+    "word": "Paradise",
+    "origin": "Persian",
+    "icon": "\ud83c\udf34",
+    "reason": "From Old Persian \"pairidaeza,\" meaning \"walled garden,\" originally describing the lush enclosed parks of Persian royalty."
+  },
+  {
+    "word": "Bazaar",
+    "origin": "Persian",
+    "icon": "\ud83c\udfea",
+    "reason": "From Persian \"bazar,\" meaning marketplace, describing the traditional covered markets found across the Middle East and South Asia."
+  },
+  {
+    "word": "Caravan",
+    "origin": "Persian",
+    "icon": "\ud83d\udc2b",
+    "reason": "From Persian \"karwan,\" describing a group of travelers, often traders, journeying together for safety across long distances."
+  },
+  {
+    "word": "Chess",
+    "origin": "Persian",
+    "icon": "\u265f\ufe0f",
+    "reason": "From Persian \"shah,\" meaning \"king,\" the central piece of the game, which reached Europe through Arabic and Old French."
+  },
+  {
+    "word": "Checkmate",
+    "origin": "Persian",
+    "icon": "\u265a",
+    "reason": "From Persian \"shah mat,\" meaning \"the king is helpless\" or \"the king is dead,\" marking the end of a chess game."
+  },
+  {
+    "word": "Orange",
+    "origin": "Sanskrit",
+    "icon": "\ud83c\udf4a",
+    "reason": "Traces back through Persian and Arabic to Sanskrit \"naranga,\" the name for the fruit, following its spread westward along trade routes."
+  },
+  {
+    "word": "Khaki",
+    "origin": "Urdu",
+    "icon": "\ud83c\udfbd",
+    "reason": "From Urdu and Persian \"khak,\" meaning \"dust\" or \"earth,\" describing the dust-colored fabric first used by British colonial troops in India."
+  },
+  {
+    "word": "Vodka",
+    "origin": "Russian",
+    "icon": "\ud83c\udf78",
+    "reason": "A diminutive of Russian \"voda,\" meaning \"water,\" literally translating to something like \"little water.\""
+  },
+  {
+    "word": "Tundra",
+    "origin": "Russian",
+    "icon": "\ud83c\udfd4\ufe0f",
+    "reason": "Borrowed by Russian from a Sami or Finnish word for a treeless, frozen plain, describing the Arctic landscape."
+  },
+  {
+    "word": "Mammoth",
+    "origin": "Russian",
+    "icon": "\ud83e\udda3",
+    "reason": "From Russian \"mamont,\" possibly derived from a Siberian indigenous word, describing the massive extinct elephant relative found preserved in the region's ice."
+  },
+  {
+    "word": "Troika",
+    "origin": "Russian",
+    "icon": "\ud83d\udef7",
+    "reason": "From Russian \"troe,\" meaning \"three,\" originally describing a traditional carriage pulled by three horses side by side."
+  },
+  {
+    "word": "Polka",
+    "origin": "Czech",
+    "icon": "\ud83d\udc83",
+    "reason": "The lively dance likely takes its name from the Czech word \"pulka,\" meaning \"half-step,\" describing its characteristic quick footwork."
+  },
+  {
+    "word": "Pretzel",
+    "origin": "German",
+    "icon": "\ud83e\udd68",
+    "reason": "From German \"Brezel,\" ultimately from Latin \"brachiatus\" (having branches or arms), describing the twisted, arm-like shape of the bread."
+  },
+  {
+    "word": "Hamburger",
+    "origin": "German",
+    "icon": "\ud83c\udf54",
+    "reason": "Named after Hamburg, Germany, where a style of minced beef patty was associated with the city before German immigrants popularized it in the United States."
+  },
+  {
+    "word": "Wanderlust",
+    "origin": "German",
+    "icon": "\ud83c\udf92",
+    "reason": "A direct compound of German \"wandern\" (to hike or wander) and \"Lust\" (desire), describing a strong urge to travel."
+  },
+  {
+    "word": "Doppelganger",
+    "origin": "German",
+    "icon": "\ud83d\udc65",
+    "reason": "From German \"Doppel\" (double) and \"G\u00e4nger\" (goer), literally meaning \"double-walker,\" describing a look-alike or ghostly double of a living person."
+  },
+  {
+    "word": "Poltergeist",
+    "origin": "German",
+    "icon": "\ud83d\udc7b",
+    "reason": "From German \"poltern\" (to make noise or rumble) and \"Geist\" (ghost or spirit), describing a noisy, mischievous ghost."
+  },
+  {
+    "word": "Waltz",
+    "origin": "German",
+    "icon": "\ud83d\udc83",
+    "reason": "From German \"walzen,\" meaning \"to turn\" or \"to roll,\" describing the dance's characteristic turning steps."
+  },
+  {
+    "word": "Delicatessen",
+    "origin": "German",
+    "icon": "\ud83e\udd6a",
+    "reason": "From German \"Delikatessen,\" meaning delicacies or fine foods, itself borrowed from French \"d\u00e9licatesse.\""
+  },
+  {
+    "word": "Kaput",
+    "origin": "German",
+    "icon": "\ud83d\udca5",
+    "reason": "From German \"kaputt,\" meaning broken or ruined, popularized in English partly through soldiers returning from World War I and II."
+  },
+  {
+    "word": "Boomerang",
+    "origin": "Australian Aboriginal",
+    "icon": "\ud83e\ude83",
+    "reason": "Borrowed from an Aboriginal language of the Sydney region, referring to the curved throwing stick used for hunting."
+  },
+  {
+    "word": "Kangaroo",
+    "origin": "Australian Aboriginal",
+    "icon": "\ud83e\udd98",
+    "reason": "From the Guugu Yimithirr language of northern Australia, referring specifically to a type of dark-colored kangaroo \u2014 the popular myth that it originally meant \"I don't understand\" is false."
+  },
+  {
+    "word": "Taboo",
+    "origin": "Tongan",
+    "icon": "\ud83d\udeab",
+    "reason": "From Tongan \"tabu,\" meaning forbidden or sacred, introduced to English by explorer James Cook after his voyages in the Pacific."
+  },
+  {
+    "word": "Tattoo",
+    "origin": "Tahitian/Samoan",
+    "icon": "\ud83d\udc89",
+    "reason": "From Polynesian \"tatau,\" describing the traditional practice of marking the skin, also introduced to English through James Cook's Pacific voyages."
+  },
+  {
+    "word": "Moose",
+    "origin": "Algonquian",
+    "icon": "\ud83e\udece",
+    "reason": "From an Algonquian language of eastern North America, meaning \"twig eater,\" describing the animal's browsing habits."
+  },
+  {
+    "word": "Hurricane",
+    "origin": "Taino",
+    "icon": "\ud83c\udf00",
+    "reason": "From Taino \"hurakan,\" the name of a storm god, adopted by Spanish colonizers in the Caribbean before entering English."
+  },
+  {
+    "word": "Barbecue",
+    "origin": "Taino",
+    "icon": "\ud83c\udf56",
+    "reason": "From Taino \"barbacoa,\" describing a wooden framework used for cooking or sleeping, adapted by Spanish colonizers to describe outdoor cooking over an open fire."
+  },
+  {
+    "word": "Schadenfreude",
+    "origin": "German",
+    "icon": "\ud83d\ude0f",
+    "reason": "A compound of German \"Schaden\" (harm) and \"Freude\" (joy), describing the pleasure someone feels at another person's misfortune."
+  },
+  {
+    "word": "Zeitgeist",
+    "origin": "German",
+    "icon": "\ud83d\udd70\ufe0f",
+    "reason": "From German \"Zeit\" (time) and \"Geist\" (spirit), meaning the defining mood or spirit of a particular era."
+  },
+  {
+    "word": "Blitz",
+    "origin": "German",
+    "icon": "\u26a1",
+    "reason": "Short for \"Blitzkrieg\" (lightning war), a German military term that entered English during World War II and later broadened to mean any sudden, intense effort."
+  },
+  {
+    "word": "Gesundheit",
+    "origin": "German",
+    "icon": "\ud83e\udd27",
+    "reason": "Literally \"health\" in German, said after someone sneezes as a wish for their wellbeing, much like \"bless you.\""
+  },
+  {
+    "word": "Rucksack",
+    "origin": "German",
+    "icon": "\ud83c\udf92",
+    "reason": "From German \"R\u00fccken\" (back) and \"Sack\" (bag), describing a bag carried on the back."
+  },
+  {
+    "word": "Muesli",
+    "origin": "Swiss German",
+    "icon": "\ud83e\udd63",
+    "reason": "A diminutive of Swiss German \"Mues\" (puree or mush), describing the breakfast dish created by a Swiss physician in the early 1900s."
+  },
+  {
+    "word": "Diesel",
+    "origin": "German",
+    "icon": "\u26fd",
+    "reason": "Named after Rudolf Diesel, the German engineer who invented the diesel engine in the 1890s."
+  },
+  {
+    "word": "Fahrenheit",
+    "origin": "German",
+    "icon": "\ud83c\udf21\ufe0f",
+    "reason": "Named after Daniel Gabriel Fahrenheit, the German physicist who proposed the temperature scale in 1724."
+  },
+  {
+    "word": "Cologne",
+    "origin": "German",
+    "icon": "\ud83e\uddf4",
+    "reason": "Named after the German city of K\u00f6ln (Cologne), where the fragrance known as \"eau de Cologne\" was first produced in the 18th century."
+  },
+  {
+    "word": "Croissant",
+    "origin": "French",
+    "icon": "\ud83e\udd50",
+    "reason": "French for \"crescent,\" describing the pastry's curved shape."
+  },
+  {
+    "word": "Restaurant",
+    "origin": "French",
+    "icon": "\ud83c\udf7d\ufe0f",
+    "reason": "From French \"restaurer\" (to restore), since early establishments were known for serving restorative broths and soups."
+  },
+  {
+    "word": "Bouquet",
+    "origin": "French",
+    "icon": "\ud83d\udc90",
+    "reason": "From French \"bouquet,\" originally meaning a small wood or grove, later coming to describe a bunch of flowers."
+  },
+  {
+    "word": "Bureau",
+    "origin": "French",
+    "icon": "\ud83d\uddc4\ufe0f",
+    "reason": "Originally referred to the coarse woolen cloth (\"bure\") used to cover writing desks, before the word came to mean the desk itself and later an office."
+  },
+  {
+    "word": "Chic",
+    "origin": "French",
+    "icon": "\ud83d\udc85",
+    "reason": "French for \"stylish\" or \"elegant,\" borrowed into English largely unchanged in both spelling and meaning."
+  },
+  {
+    "word": "Etiquette",
+    "origin": "French",
+    "icon": "\ud83c\udfa9",
+    "reason": "From French \"\u00e9tiquette,\" originally meaning a small ticket or label, which came to refer to the rules of proper court behavior posted for guests to follow."
+  },
+  {
+    "word": "Fa\u00e7ade",
+    "origin": "French",
+    "icon": "\ud83c\udfdb\ufe0f",
+    "reason": "From French \"face,\" describing the front of a building, later extended to mean a deceptive outward appearance."
+  },
+  {
+    "word": "Fianc\u00e9",
+    "origin": "French",
+    "icon": "\ud83d\udc8d",
+    "reason": "From French \"fiancer,\" meaning \"to promise,\" describing someone promised in marriage."
+  },
+  {
+    "word": "Naive",
+    "origin": "French",
+    "icon": "\ud83d\ude07",
+    "reason": "From French \"na\u00eff,\" ultimately from Latin \"nativus\" (natural or native), describing an innocent, unworldly quality."
+  },
+  {
+    "word": "Souvenir",
+    "origin": "French",
+    "icon": "\ud83c\udf81",
+    "reason": "From French \"souvenir,\" meaning \"to remember,\" describing an object kept as a memory of a place or event."
+  },
+  {
+    "word": "Chauffeur",
+    "origin": "French",
+    "icon": "\ud83d\ude97",
+    "reason": "Literally \"one who heats,\" originally referring to the person who stoked the boiler of early steam-powered cars."
+  },
+  {
+    "word": "Cuisine",
+    "origin": "French",
+    "icon": "\ud83d\udc68\u200d\ud83c\udf73",
+    "reason": "French for \"kitchen\" or \"cooking style,\" borrowed to describe a particular tradition of food and cooking."
+  },
+  {
+    "word": "Garage",
+    "origin": "French",
+    "icon": "\ud83d\ude99",
+    "reason": "From French \"garer,\" meaning \"to shelter\" or \"to dock,\" originally used for sheltering boats before referring to storing cars."
+  },
+  {
+    "word": "Beret",
+    "origin": "French",
+    "icon": "\ud83c\udfa8",
+    "reason": "From French \"b\u00e9ret,\" ultimately from a word for a type of woolen cap traditionally worn in the Basque and B\u00e9arn regions."
+  },
+  {
+    "word": "Champagne",
+    "origin": "French",
+    "icon": "\ud83e\udd42",
+    "reason": "Named after the Champagne region of France, the only place sparkling wine can legally be called by this name."
+  },
+  {
+    "word": "Ambulance",
+    "origin": "French",
+    "icon": "\ud83d\ude91",
+    "reason": "From French \"h\u00f4pital ambulant\" (walking hospital), describing mobile field hospitals that followed armies before the word narrowed to mean the vehicle itself."
+  },
+  {
+    "word": "Coup",
+    "origin": "French",
+    "icon": "\u26a1",
+    "reason": "French for \"blow\" or \"strike,\" used in English mainly in \"coup d'\u00e9tat,\" literally \"a strike against the state.\""
+  },
+  {
+    "word": "Depot",
+    "origin": "French",
+    "icon": "\ud83d\ude89",
+    "reason": "From French \"d\u00e9p\u00f4t,\" meaning a place where things are deposited or stored, later applied to train and bus stations."
+  },
+  {
+    "word": "Massage",
+    "origin": "French",
+    "icon": "\ud83d\udc86",
+    "reason": "Popularized by French, though it likely traces back further to Arabic \"mass,\" meaning \"to touch\" or \"to feel.\""
+  },
+  {
+    "word": "Salon",
+    "origin": "French",
+    "icon": "\ud83d\udc87",
+    "reason": "From French \"salon,\" meaning a large reception room, originally referring to fashionable social gatherings before narrowing to mean a beauty business."
+  },
+  {
+    "word": "Ballerina",
+    "origin": "Italian",
+    "icon": "\ud83e\ude70",
+    "reason": "The feminine form of Italian \"ballerino\" (dancer), from \"ballare,\" to dance."
+  },
+  {
+    "word": "Fresco",
+    "origin": "Italian",
+    "icon": "\ud83d\uddbc\ufe0f",
+    "reason": "Italian for \"fresh,\" describing the technique of painting on wet, or \"fresh,\" plaster."
+  },
+  {
+    "word": "Gondola",
+    "origin": "Italian",
+    "icon": "\ud83d\udea3",
+    "reason": "From Venetian Italian, describing the narrow, flat-bottomed boats used to navigate the canals of Venice."
+  },
+  {
+    "word": "Opera",
+    "origin": "Italian",
+    "icon": "\ud83c\udfad",
+    "reason": "Italian for \"work,\" specifically referring to a dramatic work set to music."
+  },
+  {
+    "word": "Piazza",
+    "origin": "Italian",
+    "icon": "\ud83c\udfdb\ufe0f",
+    "reason": "Italian for a public square or open space in a city, often surrounded by buildings."
+  },
+  {
+    "word": "Regatta",
+    "origin": "Italian",
+    "icon": "\u26f5",
+    "reason": "From Venetian Italian, originally describing a gondola race on the city's canals before broadening to mean any boat race."
+  },
+  {
+    "word": "Soprano",
+    "origin": "Italian",
+    "icon": "\ud83c\udfa4",
+    "reason": "From Italian \"sopra\" (above), describing the highest singing voice range."
+  },
+  {
+    "word": "Stanza",
+    "origin": "Italian",
+    "icon": "\ud83d\udcdc",
+    "reason": "Italian for \"room\" or \"stopping place,\" describing a grouped section of lines in a poem."
+  },
+  {
+    "word": "Tempo",
+    "origin": "Italian",
+    "icon": "\ud83c\udfb5",
+    "reason": "Italian for \"time,\" describing the speed at which a piece of music is played."
+  },
+  {
+    "word": "Villa",
+    "origin": "Italian",
+    "icon": "\ud83c\udfe1",
+    "reason": "From Latin \"villa,\" a country house or estate, passed into English through Italian usage."
+  },
+  {
+    "word": "Broccoli",
+    "origin": "Italian",
+    "icon": "\ud83e\udd66",
+    "reason": "The plural of Italian \"broccolo,\" meaning \"the flowering top of a cabbage.\""
+  },
+  {
+    "word": "Spaghetti",
+    "origin": "Italian",
+    "icon": "\ud83c\udf5d",
+    "reason": "The plural of Italian \"spaghetto,\" a diminutive of \"spago\" (string or twine), describing the pasta's thin shape."
+  },
+  {
+    "word": "Zucchini",
+    "origin": "Italian",
+    "icon": "\ud83e\udd52",
+    "reason": "The plural of Italian \"zucchino,\" a diminutive of \"zucca\" (squash or gourd)."
+  },
+  {
+    "word": "Mafia",
+    "origin": "Italian",
+    "icon": "\ud83d\udd74\ufe0f",
+    "reason": "From Sicilian Italian, originally describing boldness or bravado before becoming associated specifically with organized crime networks."
+  },
+  {
+    "word": "Cappuccino",
+    "origin": "Italian",
+    "icon": "\u2615",
+    "reason": "Named for its color resembling the brown hooded robes worn by Capuchin friars."
+  },
+  {
+    "word": "Gelato",
+    "origin": "Italian",
+    "icon": "\ud83c\udf68",
+    "reason": "Italian for \"frozen,\" describing the dense, slow-churned style of Italian ice cream."
+  },
+  {
+    "word": "Bandana",
+    "origin": "Hindi",
+    "icon": "\ud83e\udde3",
+    "reason": "From Hindi \"bandhnu,\" describing a method of tie-dying cloth that produces a distinctive spotted pattern."
+  },
+  {
+    "word": "Bangle",
+    "origin": "Hindi",
+    "icon": "\ud83d\udcab",
+    "reason": "From Hindi \"bangri,\" describing a rigid bracelet, often glass or metal, worn around the wrist."
+  },
+  {
+    "word": "Chutney",
+    "origin": "Hindi",
+    "icon": "\ud83e\udd6d",
+    "reason": "From Hindi \"chatni,\" describing a spiced condiment made from fruits, vegetables, or herbs."
+  },
+  {
+    "word": "Cummerbund",
+    "origin": "Hindi",
+    "icon": "\ud83c\udfbd",
+    "reason": "From Hindi and Persian \"kamarband,\" meaning \"waistband,\" adopted by British colonial officers as formal dress."
+  },
+  {
+    "word": "Mogul",
+    "origin": "Persian",
+    "icon": "\ud83d\udc51",
+    "reason": "From \"Mughal,\" referring to the Muslim dynasty that ruled much of India, later extended in English to mean any powerful, influential figure."
+  },
+  {
+    "word": "Shawl",
+    "origin": "Persian",
+    "icon": "\ud83e\udde3",
+    "reason": "From Persian \"shal,\" describing a piece of fabric worn over the shoulders, originally associated with the Kashmir region."
+  },
+  {
+    "word": "Tiger",
+    "origin": "Persian",
+    "icon": "\ud83d\udc05",
+    "reason": "Traces through Greek \"tigris\" back to a Persian or Iranian source, believed to be related to a word meaning \"arrow,\" describing the animal's swift movement."
+  },
+  {
+    "word": "Lilac",
+    "origin": "Persian",
+    "icon": "\ud83c\udf38",
+    "reason": "From Persian \"nilak\" (bluish), passed through Arabic and French before arriving in English as the name of both the flower and its pale purple color."
+  },
+  {
+    "word": "Naan",
+    "origin": "Persian",
+    "icon": "\ud83e\uded3",
+    "reason": "From Persian \"nan,\" simply meaning \"bread,\" describing the soft, leavened flatbread now associated with South Asian cuisine."
+  },
+  {
+    "word": "Kebab",
+    "origin": "Persian",
+    "icon": "\ud83c\udf62",
+    "reason": "From Persian \"kabab,\" describing grilled or roasted meat, a word shared and adapted widely across the Middle East, Turkey, and South Asia."
+  },
+  {
+    "word": "Falafel",
+    "origin": "Arabic",
+    "icon": "\ud83e\uddc6",
+    "reason": "From Arabic \"falafil,\" describing the deep-fried patties made from ground chickpeas or fava beans."
+  },
+  {
+    "word": "Hummus",
+    "origin": "Arabic",
+    "icon": "\ud83e\uded8",
+    "reason": "Arabic for \"chickpeas,\" the main ingredient in the popular chickpea and tahini dip."
+  },
+  {
+    "word": "Sheikh",
+    "origin": "Arabic",
+    "icon": "\ud83e\uddd5",
+    "reason": "From Arabic \"shaykh,\" originally meaning \"elder\" or \"old man,\" used as a title of respect for a leader or tribal chief."
+  },
+  {
+    "word": "Harem",
+    "origin": "Arabic",
+    "icon": "\ud83c\udfdb\ufe0f",
+    "reason": "From Arabic \"haram,\" meaning \"forbidden\" or \"sacred,\" describing a private, protected part of a household."
+  },
+  {
+    "word": "Genie",
+    "origin": "Arabic",
+    "icon": "\ud83e\uddde",
+    "reason": "From Arabic \"jinni,\" describing a supernatural spirit in Islamic mythology, later popularized in English through translations of the One Thousand and One Nights."
+  },
+  {
+    "word": "Elixir",
+    "origin": "Arabic",
+    "icon": "\ud83e\uddea",
+    "reason": "From Arabic \"al-iksir,\" describing a substance alchemists believed could turn base metals into gold or grant eternal life."
+  },
+  {
+    "word": "Syrup",
+    "origin": "Arabic",
+    "icon": "\ud83c\udf6f",
+    "reason": "From Arabic \"sharab,\" meaning \"a drink,\" related to the same root that gave English the word \"sherbet.\""
+  },
+  {
+    "word": "Mattress",
+    "origin": "Arabic",
+    "icon": "\ud83d\udecf\ufe0f",
+    "reason": "From Arabic \"matrah,\" meaning \"the place where something is thrown down,\" describing a place to lie down and sleep."
+  },
+  {
+    "word": "Monsoon",
+    "origin": "Arabic",
+    "icon": "\ud83c\udf27\ufe0f",
+    "reason": "From Arabic \"mawsim,\" meaning \"season,\" describing the seasonal winds and rains of South and Southeast Asia."
+  },
+  {
+    "word": "Tariff",
+    "origin": "Arabic",
+    "icon": "\ud83d\udcb0",
+    "reason": "From Arabic \"ta'rif,\" meaning \"notification\" or \"a making known,\" describing a published list of prices or duties."
+  },
+  {
+    "word": "Alcove",
+    "origin": "Arabic",
+    "icon": "\ud83c\udfe0",
+    "reason": "From Arabic \"al-qubba\" (the vault or dome), passed through Spanish \"alcoba\" to describe a recessed section of a room."
+  },
+  {
+    "word": "Lute",
+    "origin": "Arabic",
+    "icon": "\ud83c\udfb8",
+    "reason": "From Arabic \"al-'ud,\" literally \"the wood,\" describing the stringed instrument that spread into Europe through Islamic Spain."
+  },
+  {
+    "word": "Sherbet",
+    "origin": "Persian",
+    "icon": "\ud83c\udf67",
+    "reason": "From Persian \"sharbat,\" a cooling drink, itself related to the Arabic root for \"to drink\" that also gave English \"syrup\" and \"coffee.\""
+  },
+  {
+    "word": "Bazooka",
+    "origin": "American English (onomatopoeic)",
+    "icon": "\ud83d\ude80",
+    "reason": "Named after a crude horn-like musical instrument invented by comedian Bob Burns, whose shape resembled the World War II anti-tank weapon."
+  },
+  {
+    "word": "Skunk",
+    "origin": "Algonquian",
+    "icon": "\ud83e\udda8",
+    "reason": "From an Algonquian language of eastern North America, describing the animal known for its strong-smelling spray."
+  },
+  {
+    "word": "Raccoon",
+    "origin": "Algonquian",
+    "icon": "\ud83e\udd9d",
+    "reason": "From an Algonquian word roughly meaning \"one who scratches with the hands,\" describing the animal's dexterous front paws."
+  },
+  {
+    "word": "Chipmunk",
+    "origin": "Ojibwe",
+    "icon": "\ud83d\udc3f\ufe0f",
+    "reason": "From an Ojibwe word describing the small striped squirrel, possibly related to the sound of its chattering call."
+  },
+  {
+    "word": "Canoe",
+    "origin": "Arawakan",
+    "icon": "\ud83d\udef6",
+    "reason": "From an Arawakan language of the Caribbean, describing a narrow boat propelled by paddles, first encountered by Spanish explorers."
+  },
+  {
+    "word": "Cannibal",
+    "origin": "Arawakan",
+    "icon": "\ud83c\udf7d\ufe0f",
+    "reason": "Derived from \"Caniba,\" a name Spanish explorers used for the Carib people, based on reports (of disputed accuracy) that they ate human flesh."
+  },
+  {
+    "word": "Potato",
+    "origin": "Taino",
+    "icon": "\ud83e\udd54",
+    "reason": "From Taino \"batata,\" originally referring to the sweet potato, later applied more broadly after Spanish colonization."
+  },
+  {
+    "word": "Sauna",
+    "origin": "Finnish",
+    "icon": "\ud83e\uddd6",
+    "reason": "A direct borrowing from Finnish, describing the traditional steam bathhouse central to Finnish culture for centuries."
+  },
+  {
+    "word": "Reindeer",
+    "origin": "Old Norse",
+    "icon": "\ud83e\udd8c",
+    "reason": "From Old Norse \"hreindyri,\" combining a word for the animal with \"dyr\" (deer), reflecting Scandinavian familiarity with the species."
+  },
+  {
+    "word": "Ombudsman",
+    "origin": "Swedish",
+    "icon": "\u2696\ufe0f",
+    "reason": "From Swedish \"ombud\" (representative) and \"man,\" describing an official appointed to investigate complaints against institutions."
+  },
+  {
+    "word": "Slalom",
+    "origin": "Norwegian",
+    "icon": "\u26f7\ufe0f",
+    "reason": "From Norwegian dialect words meaning \"sloping track,\" describing the skiing technique of weaving between markers."
+  },
+  {
+    "word": "Fjord",
+    "origin": "Norwegian",
+    "icon": "\ud83c\udfd4\ufe0f",
+    "reason": "From Old Norse \"fj\u00f6r\u00f0r,\" describing the long, narrow, steep-sided inlets carved by glaciers along the Norwegian coast."
+  },
+  {
+    "word": "Geyser",
+    "origin": "Icelandic",
+    "icon": "\ud83d\udca6",
+    "reason": "Named after Geysir, a specific hot spring in Iceland whose name comes from an Old Norse verb meaning \"to gush.\""
+  },
+  {
+    "word": "Gung-ho",
+    "origin": "Chinese",
+    "icon": "\ud83d\udcaa",
+    "reason": "From Chinese \"gonghe,\" part of the name of Chinese industrial cooperatives, adopted by U.S. Marines in the 1940s to mean \"work together\" and later \"overly enthusiastic.\""
+  },
+  {
+    "word": "Feng Shui",
+    "origin": "Chinese",
+    "icon": "\ud83e\udded",
+    "reason": "Literally \"wind\" and \"water,\" describing the traditional Chinese practice of arranging spaces in harmony with natural energy flow."
+  },
+  {
+    "word": "Tofu",
+    "origin": "Chinese",
+    "icon": "\ud83e\uddc8",
+    "reason": "From Chinese \"doufu,\" meaning \"bean curd,\" the food and its name spread first to Japan and then worldwide."
+  },
+  {
+    "word": "Wonton",
+    "origin": "Chinese",
+    "icon": "\ud83e\udd5f",
+    "reason": "From Cantonese \"wan tan,\" describing the small dumplings, often served in soup."
+  },
+  {
+    "word": "Umami",
+    "origin": "Japanese",
+    "icon": "\ud83c\udf72",
+    "reason": "From Japanese \"umai\" (delicious) and \"mi\" (taste), describing the savory \"fifth taste\" identified by a Japanese chemist in 1908."
+  },
+  {
+    "word": "Sake",
+    "origin": "Japanese",
+    "icon": "\ud83c\udf76",
+    "reason": "Japanese for \"alcohol\" broadly, though in English it specifically refers to the traditional fermented rice wine."
+  },
+  {
+    "word": "Manga",
+    "origin": "Japanese",
+    "icon": "\ud83d\udcda",
+    "reason": "From Japanese \"man\" (whimsical) and \"ga\" (pictures), describing Japanese comics and graphic novels."
+  },
+  {
+    "word": "Anime",
+    "origin": "Japanese",
+    "icon": "\ud83c\udfac",
+    "reason": "A shortened Japanese pronunciation of the English word \"animation,\" now referring specifically to Japanese-produced animated works."
+  },
+  {
+    "word": "Sensei",
+    "origin": "Japanese",
+    "icon": "\ud83e\udd4b",
+    "reason": "From \"sen\" (before) and \"sei\" (life/born), literally meaning \"one born before,\" used as a respectful title for teachers and masters."
+  },
+  {
+    "word": "Tofurky",
+    "origin": "American English (blend)",
+    "icon": "\ud83e\udd83",
+    "reason": "A modern English blend of \"tofu\" and \"turkey,\" invented to describe a plant-based Thanksgiving alternative \u2014 included here as an example of how new loanword-influenced blends keep forming even today."
+  },
+  {
+    "word": "Molotov",
+    "origin": "Russian",
+    "icon": "\ud83d\udd25",
+    "reason": "Named after Soviet foreign minister Vyacheslav Molotov; Finnish soldiers coined \"Molotov cocktail\" sarcastically during the 1939 Winter War."
+  },
+  {
+    "word": "Babushka",
+    "origin": "Russian",
+    "icon": "\ud83e\uddd5",
+    "reason": "Russian for \"grandmother,\" which in English came to describe the type of headscarf traditionally worn by older Russian women."
   }
 ]

@@ -85,14 +85,14 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="coming-soon1"
+        name="etymology"
         options={{
-          title: "Soon",
+          title: "Roots",
           tabBarIcon: ({ focused }) => (
             <TabIcon
               iconOutline="leaf-outline"
               iconFilled="leaf"
-              label="Soon"
+              label="Roots"
               focused={focused}
             />
           ),

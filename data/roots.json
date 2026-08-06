@@ -3,7 +3,7 @@
     "root": "Bio",
     "origin": "Greek",
     "meaning": "life",
-    "icon": "🧬",
+    "icon": "\ud83e\uddec",
     "example": "Biology is the study of living organisms.",
     "derivatives": [
       "biology",
@@ -24,7 +24,7 @@
     "root": "Graph",
     "origin": "Greek",
     "meaning": "writing or drawing",
-    "icon": "✍️",
+    "icon": "\u270d\ufe0f",
     "example": "A photograph captures a moment in an image.",
     "derivatives": [
       "photograph",
@@ -45,7 +45,7 @@
     "root": "Tele",
     "origin": "Greek",
     "meaning": "far or distant",
-    "icon": "📡",
+    "icon": "\ud83d\udce1",
     "example": "A telescope lets us see distant stars.",
     "derivatives": [
       "telephone",
@@ -62,7 +62,7 @@
     "root": "Phon",
     "origin": "Greek",
     "meaning": "sound",
-    "icon": "🔊",
+    "icon": "\ud83d\udd0a",
     "example": "The telephone carries sound across long distances.",
     "derivatives": [
       "telephone",
@@ -80,7 +80,7 @@
     "root": "Chrono",
     "origin": "Greek",
     "meaning": "time",
-    "icon": "⏳",
+    "icon": "\u23f3",
     "example": "A chronology lists events in the order they happened.",
     "derivatives": [
       "chronology",
@@ -95,7 +95,7 @@
     "root": "Photo",
     "origin": "Greek",
     "meaning": "light",
-    "icon": "💡",
+    "icon": "\ud83d\udca1",
     "example": "Photosynthesis converts light into energy for plants.",
     "derivatives": [
       "photograph",
@@ -109,7 +109,7 @@
     "root": "Auto",
     "origin": "Greek",
     "meaning": "self",
-    "icon": "🤖",
+    "icon": "\ud83e\udd16",
     "example": "An autobiography is a story someone writes about themselves.",
     "derivatives": [
       "automobile",
@@ -125,7 +125,7 @@
     "root": "Geo",
     "origin": "Greek",
     "meaning": "earth",
-    "icon": "🌍",
+    "icon": "\ud83c\udf0d",
     "example": "Geography is the study of the earth's surface.",
     "derivatives": [
       "geography",
@@ -139,7 +139,7 @@
     "root": "Therm",
     "origin": "Greek",
     "meaning": "heat",
-    "icon": "🌡️",
+    "icon": "\ud83c\udf21\ufe0f",
     "example": "A thermometer measures temperature.",
     "derivatives": [
       "thermometer",
@@ -154,7 +154,7 @@
     "root": "Path",
     "origin": "Greek",
     "meaning": "feeling or suffering",
-    "icon": "💗",
+    "icon": "\ud83d\udc97",
     "example": "Sympathy means sharing in someone else's feelings.",
     "derivatives": [
       "sympathy",
@@ -170,7 +170,7 @@
     "root": "Scope",
     "origin": "Greek",
     "meaning": "to look or see",
-    "icon": "🔭",
+    "icon": "\ud83d\udd2d",
     "example": "A microscope lets scientists see tiny objects.",
     "derivatives": [
       "telescope",
@@ -185,7 +185,7 @@
     "root": "Dict",
     "origin": "Latin",
     "meaning": "to say or speak",
-    "icon": "🗣️",
+    "icon": "\ud83d\udde3\ufe0f",
     "example": "A dictionary lists the meanings of words.",
     "derivatives": [
       "dictionary",
@@ -201,7 +201,7 @@
     "root": "Port",
     "origin": "Latin",
     "meaning": "to carry",
-    "icon": "📦",
+    "icon": "\ud83d\udce6",
     "example": "Companies import and export goods across borders.",
     "derivatives": [
       "transport",
@@ -217,7 +217,7 @@
     "root": "Spect",
     "origin": "Latin",
     "meaning": "to look or watch",
-    "icon": "👀",
+    "icon": "\ud83d\udc40",
     "example": "The inspector will inspect the building carefully.",
     "derivatives": [
       "spectator",
@@ -233,7 +233,7 @@
     "root": "Rupt",
     "origin": "Latin",
     "meaning": "to break",
-    "icon": "💥",
+    "icon": "\ud83d\udca5",
     "example": "The volcano could erupt at any moment.",
     "derivatives": [
       "interrupt",
@@ -248,7 +248,7 @@
     "root": "Scrib",
     "origin": "Latin",
     "meaning": "to write",
-    "icon": "📝",
+    "icon": "\ud83d\udcdd",
     "example": "You can subscribe to receive new articles by email.",
     "derivatives": [
       "describe",
@@ -264,7 +264,7 @@
     "root": "Vis",
     "origin": "Latin",
     "meaning": "to see",
-    "icon": "👁️",
+    "icon": "\ud83d\udc41\ufe0f",
     "example": "Television lets us see events from far away.",
     "derivatives": [
       "television",
@@ -280,7 +280,7 @@
     "root": "Aqua",
     "origin": "Latin",
     "meaning": "water",
-    "icon": "💧",
+    "icon": "\ud83d\udca7",
     "example": "The aquarium is home to hundreds of fish.",
     "derivatives": ["aquarium", "aquatic", "aqueduct", "aquamarine"]
   },
@@ -288,7 +288,7 @@
     "root": "Bene",
     "origin": "Latin",
     "meaning": "good or well",
-    "icon": "🌟",
+    "icon": "\ud83c\udf1f",
     "example": "Volunteering benefits the whole community.",
     "derivatives": [
       "benefit",
@@ -302,7 +302,7 @@
     "root": "Mal",
     "origin": "Latin",
     "meaning": "bad",
-    "icon": "⚠️",
+    "icon": "\u26a0\ufe0f",
     "example": "A computer virus is a type of malware.",
     "derivatives": [
       "malfunction",
@@ -317,7 +317,7 @@
     "root": "Mono",
     "origin": "Greek",
     "meaning": "one or single",
-    "icon": "1️⃣",
+    "icon": "1\ufe0f\u20e3",
     "example": "A monologue is a speech given by just one person.",
     "derivatives": ["monologue", "monopoly", "monotone", "monorail", "monogamy"]
   },
@@ -325,7 +325,7 @@
     "root": "Poly",
     "origin": "Greek",
     "meaning": "many",
-    "icon": "🔢",
+    "icon": "\ud83d\udd22",
     "example": "A polygon is a shape with many sides.",
     "derivatives": ["polygon", "polygamy", "polyglot", "polymer", "polytechnic"]
   },
@@ -333,7 +333,7 @@
     "root": "Terra",
     "origin": "Latin",
     "meaning": "earth or land",
-    "icon": "🏞️",
+    "icon": "\ud83c\udfde\ufe0f",
     "example": "The mountainous terrain made hiking difficult.",
     "derivatives": ["terrain", "territory", "terrestrial", "terrarium"]
   },
@@ -341,7 +341,7 @@
     "root": "Cred",
     "origin": "Latin",
     "meaning": "to believe",
-    "icon": "🤝",
+    "icon": "\ud83e\udd1d",
     "example": "Her credentials make her a credible expert.",
     "derivatives": [
       "credible",
@@ -355,8 +355,1700 @@
     "root": "Mort",
     "origin": "Latin",
     "meaning": "death",
-    "icon": "⚰️",
+    "icon": "\u26b0\ufe0f",
     "example": "The story explores the theme of mortality.",
     "derivatives": ["mortal", "immortal", "mortgage", "mortuary", "mortality"]
+  },
+  {
+    "root": "Anthropo",
+    "origin": "Greek",
+    "meaning": "human",
+    "icon": "\ud83e\uddd1",
+    "example": "Anthropology studies human societies and cultures.",
+    "derivatives": [
+      "anthropology",
+      "philanthropy",
+      "anthropomorphic",
+      "misanthrope"
+    ]
+  },
+  {
+    "root": "Anim",
+    "origin": "Latin",
+    "meaning": "life or spirit",
+    "icon": "\ud83d\udcab",
+    "example": "The animals in the film were brought to life through animation.",
+    "derivatives": ["animal", "animate", "unanimous", "animation", "inanimate"]
+  },
+  {
+    "root": "Ann",
+    "origin": "Latin",
+    "meaning": "year",
+    "icon": "\ud83d\udcc5",
+    "example": "We celebrate our wedding anniversary every year.",
+    "derivatives": [
+      "annual",
+      "anniversary",
+      "biennial",
+      "millennium",
+      "annuity"
+    ]
+  },
+  {
+    "root": "Astro",
+    "origin": "Greek",
+    "meaning": "star",
+    "icon": "\u2b50",
+    "example": "The astronaut studied astronomy before her mission.",
+    "derivatives": [
+      "astronaut",
+      "astronomy",
+      "asteroid",
+      "disaster",
+      "astrology"
+    ]
+  },
+  {
+    "root": "Aud",
+    "origin": "Latin",
+    "meaning": "to hear",
+    "icon": "\ud83d\udc42",
+    "example": "The audience listened to the audio through headphones.",
+    "derivatives": ["audio", "audience", "auditorium", "inaudible", "audition"]
+  },
+  {
+    "root": "Bell",
+    "origin": "Latin",
+    "meaning": "war",
+    "icon": "\u2694\ufe0f",
+    "example": "The rebel forces were known for their belligerent tactics.",
+    "derivatives": [
+      "belligerent",
+      "rebel",
+      "antebellum",
+      "bellicose",
+      "rebellion"
+    ]
+  },
+  {
+    "root": "Cap",
+    "origin": "Latin",
+    "meaning": "to take or seize",
+    "icon": "\ud83e\udd32",
+    "example": "The soldiers were taken captive after their capture.",
+    "derivatives": ["capture", "captive", "capable", "capacity", "captor"]
+  },
+  {
+    "root": "Cent",
+    "origin": "Latin",
+    "meaning": "hundred",
+    "icon": "\ud83d\udcaf",
+    "example": "The building celebrated its centennial after one hundred years.",
+    "derivatives": [
+      "century",
+      "centipede",
+      "percent",
+      "centennial",
+      "centimeter"
+    ]
+  },
+  {
+    "root": "Circ",
+    "origin": "Latin",
+    "meaning": "ring or around",
+    "icon": "\u2b55",
+    "example": "Blood circulates around the body through the circulatory system.",
+    "derivatives": ["circle", "circus", "circulate", "circumference", "circuit"]
+  },
+  {
+    "root": "Corp",
+    "origin": "Latin",
+    "meaning": "body",
+    "icon": "\ud83e\udec0",
+    "example": "The corporation was incorporated as a single legal body.",
+    "derivatives": ["corporation", "corpse", "corporal", "incorporate", "corps"]
+  },
+  {
+    "root": "Cycl",
+    "origin": "Greek",
+    "meaning": "circle or wheel",
+    "icon": "\ud83d\udeb2",
+    "example": "She likes to cycle around the park on her bicycle.",
+    "derivatives": ["bicycle", "cycle", "recycle", "cyclone", "motorcycle"]
+  },
+  {
+    "root": "Dem",
+    "origin": "Greek",
+    "meaning": "people",
+    "icon": "\ud83d\udc65",
+    "example": "Democracy means rule by the people.",
+    "derivatives": [
+      "democracy",
+      "epidemic",
+      "demographic",
+      "pandemic",
+      "demagogue"
+    ]
+  },
+  {
+    "root": "Derm",
+    "origin": "Greek",
+    "meaning": "skin",
+    "icon": "\ud83e\uddf4",
+    "example": "A dermatologist treats conditions of the skin.",
+    "derivatives": [
+      "dermatology",
+      "epidermis",
+      "hypodermic",
+      "taxidermy",
+      "dermatitis"
+    ]
+  },
+  {
+    "root": "Dyn",
+    "origin": "Greek",
+    "meaning": "power",
+    "icon": "\u26a1",
+    "example": "The dynamite provided enough power to blast through rock.",
+    "derivatives": ["dynamic", "dynamite", "dynasty", "dynamo", "dynamics"]
+  },
+  {
+    "root": "Fac",
+    "origin": "Latin",
+    "meaning": "to make or do",
+    "icon": "\ud83c\udfed",
+    "example": "The factory manufactures thousands of parts each day.",
+    "derivatives": [
+      "factory",
+      "manufacture",
+      "fact",
+      "satisfaction",
+      "facilitate"
+    ]
+  },
+  {
+    "root": "Fer",
+    "origin": "Latin",
+    "meaning": "to carry",
+    "icon": "\ud83d\udce4",
+    "example": "Please refer to the conference materials I sent you.",
+    "derivatives": ["transfer", "refer", "prefer", "conference", "offer"]
+  },
+  {
+    "root": "Fin",
+    "origin": "Latin",
+    "meaning": "end or limit",
+    "icon": "\ud83c\udfc1",
+    "example": "We need to define the final boundary of the property.",
+    "derivatives": ["final", "finish", "infinite", "define", "finite"]
+  },
+  {
+    "root": "Flex",
+    "origin": "Latin",
+    "meaning": "to bend",
+    "icon": "\ud83e\udd38",
+    "example": "Light can reflect and deflect off flexible surfaces.",
+    "derivatives": ["flexible", "reflect", "deflect", "flexor", "inflexible"]
+  },
+  {
+    "root": "Form",
+    "origin": "Latin",
+    "meaning": "shape",
+    "icon": "\ud83d\udd37",
+    "example": "The team wore a uniform to transform their appearance.",
+    "derivatives": ["uniform", "transform", "reform", "formation", "conform"]
+  },
+  {
+    "root": "Fract",
+    "origin": "Latin",
+    "meaning": "to break",
+    "icon": "\ud83d\udc94",
+    "example": "A fracture is a break, and a fraction is a broken-off part.",
+    "derivatives": ["fracture", "fraction", "fragile", "fragment", "infraction"]
+  },
+  {
+    "root": "Gen",
+    "origin": "Greek",
+    "meaning": "birth or origin",
+    "icon": "\ud83c\udf31",
+    "example": "Genetic traits are passed down at the moment of generation.",
+    "derivatives": ["generate", "genetic", "genesis", "generation", "genealogy"]
+  },
+  {
+    "root": "Grad",
+    "origin": "Latin",
+    "meaning": "to step or go",
+    "icon": "\ud83c\udf93",
+    "example": "She will graduate after making gradual progress each year.",
+    "derivatives": ["graduate", "progress", "gradual", "regress", "gradient"]
+  },
+  {
+    "root": "Gram",
+    "origin": "Greek",
+    "meaning": "written or drawn",
+    "icon": "\ud83d\udcdd",
+    "example": "The diagram was sent as a telegram.",
+    "derivatives": ["grammar", "diagram", "telegram", "program", "grammatical"]
+  },
+  {
+    "root": "Greg",
+    "origin": "Latin",
+    "meaning": "flock or group",
+    "icon": "\ud83d\udc11",
+    "example": "The gregarious crowd began to congregate near the stage.",
+    "derivatives": [
+      "congregate",
+      "gregarious",
+      "segregate",
+      "aggregate",
+      "congregation"
+    ]
+  },
+  {
+    "root": "Herb",
+    "origin": "Latin",
+    "meaning": "plant",
+    "icon": "\ud83c\udf3f",
+    "example": "Cows are herbivores that graze on herbal plants.",
+    "derivatives": ["herbivore", "herbal", "herbicide", "herbarium"]
+  },
+  {
+    "root": "Hydro",
+    "origin": "Greek",
+    "meaning": "water",
+    "icon": "\ud83d\udca7",
+    "example": "Hydroelectric power uses the force of moving water.",
+    "derivatives": [
+      "hydrogen",
+      "dehydrate",
+      "hydrant",
+      "hydroelectric",
+      "hydraulic"
+    ]
+  },
+  {
+    "root": "Ject",
+    "origin": "Latin",
+    "meaning": "to throw",
+    "icon": "\ud83d\ude80",
+    "example": "The pilot had to eject before the plane could reject its landing.",
+    "derivatives": ["project", "reject", "inject", "eject", "objection"]
+  },
+  {
+    "root": "Junct",
+    "origin": "Latin",
+    "meaning": "to join",
+    "icon": "\ud83d\udd17",
+    "example": "The two roads meet at this junction.",
+    "derivatives": ["junction", "adjoin", "conjunction", "rejoin", "juncture"]
+  },
+  {
+    "root": "Lat",
+    "origin": "Latin",
+    "meaning": "to carry or side",
+    "icon": "\u2194\ufe0f",
+    "example": "The translator had to translate every related word.",
+    "derivatives": ["translate", "relate", "dilate", "elate", "correlate"]
+  },
+  {
+    "root": "Lect",
+    "origin": "Latin",
+    "meaning": "to read or choose",
+    "icon": "\ud83d\udcd6",
+    "example": "The professor gave a lecture on how to select the right words.",
+    "derivatives": ["legible", "collect", "select", "lecture", "election"]
+  },
+  {
+    "root": "Lith",
+    "origin": "Greek",
+    "meaning": "stone",
+    "icon": "\ud83e\udea8",
+    "example": "The ancient monolith was carved from a single stone.",
+    "derivatives": ["monolith", "lithograph", "megalith", "lithosphere"]
+  },
+  {
+    "root": "Loc",
+    "origin": "Latin",
+    "meaning": "place",
+    "icon": "\ud83d\udccd",
+    "example": "We had to relocate the local office to a new location.",
+    "derivatives": ["location", "local", "relocate", "dislocate", "allocate"]
+  },
+  {
+    "root": "Log",
+    "origin": "Greek",
+    "meaning": "word or study",
+    "icon": "\ud83e\udde0",
+    "example": "Biology is the study of life through logical observation.",
+    "derivatives": ["biology", "dialogue", "logic", "catalogue", "geology"]
+  },
+  {
+    "root": "Luc",
+    "origin": "Latin",
+    "meaning": "light",
+    "icon": "\ud83d\udca1",
+    "example": "The lamp helped illuminate the translucent glass.",
+    "derivatives": [
+      "illuminate",
+      "lucid",
+      "translucent",
+      "luminous",
+      "elucidate"
+    ]
+  },
+  {
+    "root": "Magn",
+    "origin": "Latin",
+    "meaning": "great",
+    "icon": "\ud83d\udd0d",
+    "example": "The magnifying glass made the small print magnificent to read.",
+    "derivatives": [
+      "magnificent",
+      "magnify",
+      "magnitude",
+      "magnate",
+      "magnanimous"
+    ]
+  },
+  {
+    "root": "Man",
+    "origin": "Latin",
+    "meaning": "hand",
+    "icon": "\u270b",
+    "example": "The manual labor was done entirely by hand.",
+    "derivatives": [
+      "manual",
+      "manufacture",
+      "manuscript",
+      "manipulate",
+      "manage"
+    ]
+  },
+  {
+    "root": "Mar",
+    "origin": "Latin",
+    "meaning": "sea",
+    "icon": "\ud83c\udf0a",
+    "example": "The submarine traveled beneath the marine waters.",
+    "derivatives": ["marine", "submarine", "maritime", "aquamarine", "mariner"]
+  },
+  {
+    "root": "Medi",
+    "origin": "Latin",
+    "meaning": "middle",
+    "icon": "\u25fe",
+    "example": "The mediator worked to find a middle ground.",
+    "derivatives": ["medium", "mediate", "medieval", "intermediate", "median"]
+  },
+  {
+    "root": "Metr",
+    "origin": "Greek",
+    "meaning": "measure",
+    "icon": "\ud83d\udccf",
+    "example": "A thermometer measures temperature with precision.",
+    "derivatives": [
+      "thermometer",
+      "symmetry",
+      "kilometer",
+      "metric",
+      "diameter"
+    ]
+  },
+  {
+    "root": "Micro",
+    "origin": "Greek",
+    "meaning": "small",
+    "icon": "\ud83d\udd2c",
+    "example": "A microscope helps us see tiny microorganisms.",
+    "derivatives": [
+      "microscope",
+      "microphone",
+      "microorganism",
+      "microwave",
+      "microbe"
+    ]
+  },
+  {
+    "root": "Migra",
+    "origin": "Latin",
+    "meaning": "to move",
+    "icon": "\ud83e\udda2",
+    "example": "Birds migrate south, and many immigrants move to new countries.",
+    "derivatives": [
+      "migrate",
+      "immigrant",
+      "emigrate",
+      "migration",
+      "transmigrate"
+    ]
+  },
+  {
+    "root": "Min",
+    "origin": "Latin",
+    "meaning": "small",
+    "icon": "\ud83e\udd0f",
+    "example": "The minimum amount fits in a miniature container.",
+    "derivatives": ["minimum", "miniature", "minor", "diminish", "minimize"]
+  },
+  {
+    "root": "Mit",
+    "origin": "Latin",
+    "meaning": "to send",
+    "icon": "\ud83d\udce1",
+    "example": "You must submit the form before we can transmit approval.",
+    "derivatives": ["transmit", "permission", "submit", "missile", "admit"]
+  },
+  {
+    "root": "Mot",
+    "origin": "Latin",
+    "meaning": "to move",
+    "icon": "\ud83d\ude97",
+    "example": "The automobile's motion was hard to stop.",
+    "derivatives": ["mobile", "motion", "motivate", "automobile", "promote"]
+  },
+  {
+    "root": "Multi",
+    "origin": "Latin",
+    "meaning": "many",
+    "icon": "\ud83d\udd22",
+    "example": "You can multiply a multitude of numbers together.",
+    "derivatives": [
+      "multiple",
+      "multiply",
+      "multitude",
+      "multicultural",
+      "multimedia"
+    ]
+  },
+  {
+    "root": "Nat",
+    "origin": "Latin",
+    "meaning": "born",
+    "icon": "\ud83d\udc76",
+    "example": "The nation's native people had lived there since birth.",
+    "derivatives": ["native", "nature", "nation", "innate", "prenatal"]
+  },
+  {
+    "root": "Nav",
+    "origin": "Latin",
+    "meaning": "ship",
+    "icon": "\u26f4\ufe0f",
+    "example": "A skilled captain can navigate the navy's ships.",
+    "derivatives": ["navigate", "navy", "naval", "circumnavigate", "navigator"]
+  },
+  {
+    "root": "Neo",
+    "origin": "Greek",
+    "meaning": "new",
+    "icon": "\u2728",
+    "example": "A neonatal unit cares for newly born babies.",
+    "derivatives": ["neonatal", "neologism", "neon", "neoclassical"]
+  },
+  {
+    "root": "Nom",
+    "origin": "Greek",
+    "meaning": "name or law",
+    "icon": "\ud83d\udcdb",
+    "example": "The committee will nominate someone to run the economy.",
+    "derivatives": [
+      "economy",
+      "autonomy",
+      "nominate",
+      "astronomy",
+      "nomenclature"
+    ]
+  },
+  {
+    "root": "Nov",
+    "origin": "Latin",
+    "meaning": "new",
+    "icon": "\ud83c\udd95",
+    "example": "The novelist wrote an innovative new novel.",
+    "derivatives": ["novel", "innovate", "renovate", "novice", "novelty"]
+  },
+  {
+    "root": "Ortho",
+    "origin": "Greek",
+    "meaning": "straight or correct",
+    "icon": "\ud83e\uddb7",
+    "example": "An orthodontist straightens crooked teeth.",
+    "derivatives": ["orthodontist", "orthodox", "orthopedic", "orthography"]
+  },
+  {
+    "root": "Ped",
+    "origin": "Latin",
+    "meaning": "foot",
+    "icon": "\ud83e\uddb6",
+    "example": "The pedestrian pressed the bicycle's pedal with her foot.",
+    "derivatives": ["pedal", "pedestrian", "tripod", "pedestal", "expedite"]
+  },
+  {
+    "root": "Pel",
+    "origin": "Latin",
+    "meaning": "to drive or push",
+    "icon": "\ud83d\udea4",
+    "example": "The propeller helped propel the boat forward.",
+    "derivatives": ["propel", "repel", "impulse", "expel", "compel"]
+  },
+  {
+    "root": "Pend",
+    "origin": "Latin",
+    "meaning": "to hang or weigh",
+    "icon": "\u23f3",
+    "example": "The pendant hung from her neck while the decision was pending.",
+    "derivatives": ["pendant", "suspend", "pending", "expensive", "dependent"]
+  },
+  {
+    "root": "Phil",
+    "origin": "Greek",
+    "meaning": "love",
+    "icon": "\u2764\ufe0f",
+    "example": "Philosophy literally means the love of wisdom.",
+    "derivatives": ["philosophy", "philanthropy", "bibliophile", "philharmonic"]
+  },
+  {
+    "root": "Phobia",
+    "origin": "Greek",
+    "meaning": "fear",
+    "icon": "\ud83d\ude28",
+    "example": "Claustrophobia is the fear of small, enclosed spaces.",
+    "derivatives": [
+      "claustrophobia",
+      "arachnophobia",
+      "xenophobia",
+      "acrophobia"
+    ]
+  },
+  {
+    "root": "Phys",
+    "origin": "Greek",
+    "meaning": "nature or body",
+    "icon": "\ud83c\udfcb\ufe0f",
+    "example": "The physician studied physics before medical school.",
+    "derivatives": [
+      "physical",
+      "physics",
+      "physician",
+      "physique",
+      "physiology"
+    ]
+  },
+  {
+    "root": "Pop",
+    "origin": "Latin",
+    "meaning": "people",
+    "icon": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc66",
+    "example": "The city's population grew more popular each year.",
+    "derivatives": ["population", "popular", "populace", "populous"]
+  },
+  {
+    "root": "Prim",
+    "origin": "Latin",
+    "meaning": "first",
+    "icon": "1\ufe0f\u20e3",
+    "example": "The primary goal was to protect the primitive tools.",
+    "derivatives": ["primary", "primitive", "prime", "primate", "primal"]
+  },
+  {
+    "root": "Psych",
+    "origin": "Greek",
+    "meaning": "mind or soul",
+    "icon": "\ud83e\udde0",
+    "example": "The psychologist studied the human mind.",
+    "derivatives": ["psychology", "psychic", "psychiatrist", "psychopath"]
+  },
+  {
+    "root": "Punct",
+    "origin": "Latin",
+    "meaning": "point",
+    "icon": "\ud83d\udccd",
+    "example": "Please be punctual and use correct punctuation.",
+    "derivatives": ["punctual", "puncture", "punctuation", "acupuncture"]
+  },
+  {
+    "root": "Sci",
+    "origin": "Latin",
+    "meaning": "to know",
+    "icon": "\ud83d\udd2c",
+    "example": "Science helps us understand what we consciously know.",
+    "derivatives": ["science", "conscious", "omniscient", "scientific"]
+  },
+  {
+    "root": "Sect",
+    "origin": "Latin",
+    "meaning": "to cut",
+    "icon": "\u2702\ufe0f",
+    "example": "The biologist had to dissect the small insect.",
+    "derivatives": ["section", "dissect", "insect", "bisect", "intersect"]
+  },
+  {
+    "root": "Sent",
+    "origin": "Latin",
+    "meaning": "to feel",
+    "icon": "\ud83d\udcad",
+    "example": "Her sentiment showed she was sensitive to the sensation.",
+    "derivatives": ["sentiment", "sensitive", "sensation", "consent", "resent"]
+  },
+  {
+    "root": "Serv",
+    "origin": "Latin",
+    "meaning": "to save or serve",
+    "icon": "\ud83d\udece\ufe0f",
+    "example": "The waiter offered great service to preserve his reputation.",
+    "derivatives": ["preserve", "service", "reservation", "servant", "conserve"]
+  },
+  {
+    "root": "Sign",
+    "origin": "Latin",
+    "meaning": "mark or seal",
+    "icon": "\u270d\ufe0f",
+    "example": "Her signature was the design's official signal.",
+    "derivatives": ["signature", "signal", "design", "insignia", "significant"]
+  },
+  {
+    "root": "Sol",
+    "origin": "Latin",
+    "meaning": "sun or alone",
+    "icon": "\u2600\ufe0f",
+    "example": "Solar panels capture energy in solitude.",
+    "derivatives": ["solar", "solitude", "solo", "isolate", "solitary"]
+  },
+  {
+    "root": "Somn",
+    "origin": "Latin",
+    "meaning": "sleep",
+    "icon": "\ud83d\ude34",
+    "example": "Insomnia made it hard for her to sleep at night.",
+    "derivatives": ["insomnia", "somnolent", "somnambulist", "somnambulism"]
+  },
+  {
+    "root": "Soph",
+    "origin": "Greek",
+    "meaning": "wisdom",
+    "icon": "\ud83e\udd89",
+    "example": "A sophomore is considered wiser than a first-year student.",
+    "derivatives": ["philosophy", "sophisticated", "sophomore", "sophist"]
+  },
+  {
+    "root": "Spir",
+    "origin": "Latin",
+    "meaning": "to breathe",
+    "icon": "\ud83c\udf2c\ufe0f",
+    "example": "Her speech was meant to inspire and respire new energy.",
+    "derivatives": ["inspire", "respire", "conspire", "aspire", "expire"]
+  },
+  {
+    "root": "Strict",
+    "origin": "Latin",
+    "meaning": "to bind tight",
+    "icon": "\ud83d\udd12",
+    "example": "The strict rules were meant to restrict bad behavior.",
+    "derivatives": ["strict", "restrict", "constrict", "restriction"]
+  },
+  {
+    "root": "Struct",
+    "origin": "Latin",
+    "meaning": "to build",
+    "icon": "\ud83c\udfd7\ufe0f",
+    "example": "Workers used the instructions to construct the structure.",
+    "derivatives": [
+      "construct",
+      "structure",
+      "instruct",
+      "destruction",
+      "obstruct"
+    ]
+  },
+  {
+    "root": "Tact",
+    "origin": "Latin",
+    "meaning": "to touch",
+    "icon": "\ud83d\udc46",
+    "example": "They stayed in contact even though the plan was intact.",
+    "derivatives": ["contact", "tangible", "intact", "tangent", "tactile"]
+  },
+  {
+    "root": "Tain",
+    "origin": "Latin",
+    "meaning": "to hold",
+    "icon": "\ud83d\udce6",
+    "example": "The container was built to contain and retain heat.",
+    "derivatives": ["contain", "retain", "maintain", "tenant", "sustain"]
+  },
+  {
+    "root": "Tract",
+    "origin": "Latin",
+    "meaning": "to pull or drag",
+    "icon": "\ud83d\ude9c",
+    "example": "The tractor was used to extract the tree's roots.",
+    "derivatives": ["attract", "tractor", "extract", "contract", "distract"]
+  },
+  {
+    "root": "Uni",
+    "origin": "Latin",
+    "meaning": "one",
+    "icon": "1\ufe0f\u20e3",
+    "example": "The unicorn was a unique, one-of-a-kind creature.",
+    "derivatives": ["unicorn", "unity", "universe", "unique", "unite"]
+  },
+  {
+    "root": "Ven",
+    "origin": "Latin",
+    "meaning": "to come",
+    "icon": "\ud83d\udeaa",
+    "example": "We had to invent a way to prevent everyone from convening.",
+    "derivatives": ["convene", "invent", "prevent", "adventure", "convention"]
+  },
+  {
+    "root": "Vers",
+    "origin": "Latin",
+    "meaning": "to turn",
+    "icon": "\ud83d\udd04",
+    "example": "She had to convert her plan and reverse her decision.",
+    "derivatives": ["convert", "reverse", "divert", "versatile", "universe"]
+  },
+  {
+    "root": "Viv",
+    "origin": "Latin",
+    "meaning": "life",
+    "icon": "\ud83c\udf1f",
+    "example": "The survivor was able to revive her vivid memories.",
+    "derivatives": ["survive", "vital", "revive", "vivid", "vivacious"]
+  },
+  {
+    "root": "Voc",
+    "origin": "Latin",
+    "meaning": "voice or call",
+    "icon": "\ud83c\udfa4",
+    "example": "Learning new vocabulary helps you vocalize your thoughts.",
+    "derivatives": ["vocal", "vocabulary", "invoke", "evoke", "advocate"]
+  },
+  {
+    "root": "Ambi",
+    "origin": "Latin",
+    "meaning": "both",
+    "icon": "\u2194\ufe0f",
+    "example": "An ambidextrous person can write with both hands equally well.",
+    "derivatives": ["ambidextrous", "ambiguous", "ambivalent", "ambience"]
+  },
+  {
+    "root": "Ante",
+    "origin": "Latin",
+    "meaning": "before",
+    "icon": "\u23ee\ufe0f",
+    "example": "The antecedent event happened before everything else.",
+    "derivatives": [
+      "antecedent",
+      "anteroom",
+      "antedate",
+      "anterior",
+      "antediluvian"
+    ]
+  },
+  {
+    "root": "Anti",
+    "origin": "Greek",
+    "meaning": "against",
+    "icon": "\ud83d\udeab",
+    "example": "The antibody works against harmful bacteria in the body.",
+    "derivatives": ["antibody", "antisocial", "antagonist", "antidote"]
+  },
+  {
+    "root": "Arch",
+    "origin": "Greek",
+    "meaning": "chief or ruler",
+    "icon": "\ud83d\udc51",
+    "example": "The monarch was seen as the archenemy of the rebels.",
+    "derivatives": ["monarch", "anarchy", "archenemy", "architect"]
+  },
+  {
+    "root": "Cardi",
+    "origin": "Greek",
+    "meaning": "heart",
+    "icon": "\u2764\ufe0f",
+    "example": "A cardiologist treats problems related to the heart.",
+    "derivatives": [
+      "cardiac",
+      "cardiology",
+      "cardiovascular",
+      "cardiogram",
+      "electrocardiogram"
+    ]
+  },
+  {
+    "root": "Chrom",
+    "origin": "Greek",
+    "meaning": "color",
+    "icon": "\ud83c\udfa8",
+    "example": "A chromatic scale moves through every color of sound in music.",
+    "derivatives": [
+      "chromatic",
+      "monochrome",
+      "chromosome",
+      "chromium",
+      "chromatography"
+    ]
+  },
+  {
+    "root": "Cogn",
+    "origin": "Latin",
+    "meaning": "to know",
+    "icon": "\ud83e\udde0",
+    "example": "Police officers can recognize a fugitive traveling incognito.",
+    "derivatives": [
+      "recognize",
+      "cognitive",
+      "incognito",
+      "cognizant",
+      "recognition"
+    ]
+  },
+  {
+    "root": "Contra",
+    "origin": "Latin",
+    "meaning": "against",
+    "icon": "\u2696\ufe0f",
+    "example": "His actions seemed to contradict everything he said.",
+    "derivatives": ["contradict", "contrast", "contraband", "contrary"]
+  },
+  {
+    "root": "Cosm",
+    "origin": "Greek",
+    "meaning": "world or order",
+    "icon": "\ud83c\udf0c",
+    "example": "The cosmos is vast, and cosmopolitan cities feel like the whole world in one place.",
+    "derivatives": ["cosmos", "cosmopolitan", "microcosm", "cosmic"]
+  },
+  {
+    "root": "Cracy",
+    "origin": "Greek",
+    "meaning": "rule",
+    "icon": "\ud83c\udfdb\ufe0f",
+    "example": "Democracy means rule by the people, not by an aristocracy.",
+    "derivatives": ["democracy", "aristocracy", "bureaucracy", "autocracy"]
+  },
+  {
+    "root": "Culp",
+    "origin": "Latin",
+    "meaning": "blame",
+    "icon": "\ud83d\udc49",
+    "example": "The culprit was found culpable for the crime.",
+    "derivatives": ["culprit", "culpable", "exculpate", "culpability"]
+  },
+  {
+    "root": "Deca",
+    "origin": "Greek",
+    "meaning": "ten",
+    "icon": "\ud83d\udd1f",
+    "example": "A decade lasts ten years, just as a decathlon has ten events.",
+    "derivatives": ["decade", "decimal", "decathlon", "decagon", "decameter"]
+  },
+  {
+    "root": "Domin",
+    "origin": "Latin",
+    "meaning": "to rule",
+    "icon": "\ud83d\udc51",
+    "example": "The dominant team managed to dominate the entire league.",
+    "derivatives": ["dominate", "dominant", "predominant", "dominion"]
+  },
+  {
+    "root": "Duct",
+    "origin": "Latin",
+    "meaning": "to lead",
+    "icon": "\u27a1\ufe0f",
+    "example": "The conductor's job is to conduct and lead the orchestra.",
+    "derivatives": ["conduct", "induce", "educate", "reduce"]
+  },
+  {
+    "root": "Equi",
+    "origin": "Latin",
+    "meaning": "equal",
+    "icon": "\u2696\ufe0f",
+    "example": "The equator divides the earth into two equal halves.",
+    "derivatives": ["equator", "equivalent", "equilibrium", "equality"]
+  },
+  {
+    "root": "Ethn",
+    "origin": "Greek",
+    "meaning": "race or nation",
+    "icon": "\ud83c\udf0d",
+    "example": "The festival celebrates the region's ethnic diversity.",
+    "derivatives": ["ethnic", "ethnicity", "ethnography", "ethnocentric"]
+  },
+  {
+    "root": "Extra",
+    "origin": "Latin",
+    "meaning": "beyond",
+    "icon": "\u2728",
+    "example": "The extraordinary story felt almost extraterrestrial.",
+    "derivatives": [
+      "extraordinary",
+      "extraterrestrial",
+      "extrovert",
+      "extracurricular",
+      "extraneous"
+    ]
+  },
+  {
+    "root": "Fid",
+    "origin": "Latin",
+    "meaning": "faith or trust",
+    "icon": "\ud83e\udd1d",
+    "example": "She decided to confide in her friend, trusting his fidelity.",
+    "derivatives": ["confide", "fidelity", "infidel", "confident"]
+  },
+  {
+    "root": "Firm",
+    "origin": "Latin",
+    "meaning": "strong or fixed",
+    "icon": "\ud83d\udcaa",
+    "example": "Please confirm and affirm your commitment to the plan.",
+    "derivatives": ["confirm", "affirm", "firmament", "affirmative"]
+  },
+  {
+    "root": "Fus",
+    "origin": "Latin",
+    "meaning": "to pour",
+    "icon": "\ud83d\udca7",
+    "example": "The doctor had to infuse medicine through a transfusion.",
+    "derivatives": ["infuse", "confuse", "transfusion", "diffuse"]
+  },
+  {
+    "root": "Gest",
+    "origin": "Latin",
+    "meaning": "to carry or act",
+    "icon": "\ud83d\ude4b",
+    "example": "A simple gesture can help you digest a difficult idea.",
+    "derivatives": ["gesture", "digest", "congest", "suggest"]
+  },
+  {
+    "root": "Grat",
+    "origin": "Latin",
+    "meaning": "pleasing or thanks",
+    "icon": "\ud83d\ude4f",
+    "example": "She was grateful and wanted to congratulate her friend's gratitude.",
+    "derivatives": ["grateful", "congratulate", "gratitude", "gratify"]
+  },
+  {
+    "root": "Hetero",
+    "origin": "Greek",
+    "meaning": "different",
+    "icon": "\ud83d\udd00",
+    "example": "A heterogeneous mixture is made of different, uneven parts.",
+    "derivatives": [
+      "heterogeneous",
+      "heterodox",
+      "heterosexual",
+      "heterogeneity"
+    ]
+  },
+  {
+    "root": "Homo",
+    "origin": "Greek",
+    "meaning": "same",
+    "icon": "\ud83d\udff0",
+    "example": "A homophone sounds the same as another word but means something different.",
+    "derivatives": [
+      "homogeneous",
+      "homophone",
+      "homonym",
+      "homosexual",
+      "homozygous"
+    ]
+  },
+  {
+    "root": "Hyper",
+    "origin": "Greek",
+    "meaning": "over or excessive",
+    "icon": "\u26a1",
+    "example": "The hyperactive child was full of hyperbole and excess energy.",
+    "derivatives": [
+      "hyperactive",
+      "hyperbole",
+      "hypertension",
+      "hyperlink",
+      "hypersensitive"
+    ]
+  },
+  {
+    "root": "Hypo",
+    "origin": "Greek",
+    "meaning": "under",
+    "icon": "\u2b07\ufe0f",
+    "example": "Hypothermia occurs when body temperature drops too far under normal.",
+    "derivatives": [
+      "hypothermia",
+      "hypodermic",
+      "hypothesis",
+      "hypoglycemia",
+      "hypoallergenic"
+    ]
+  },
+  {
+    "root": "Idio",
+    "origin": "Greek",
+    "meaning": "one's own",
+    "icon": "\ud83d\udde3\ufe0f",
+    "example": "Every language has its own unique idioms and idiosyncrasies.",
+    "derivatives": ["idiom", "idiosyncrasy", "idiomatic", "idiosyncratic"]
+  },
+  {
+    "root": "Infra",
+    "origin": "Latin",
+    "meaning": "below",
+    "icon": "\ud83c\udfd7\ufe0f",
+    "example": "The city's infrastructure includes roads that use infrared sensors.",
+    "derivatives": ["infrastructure", "infrared", "infrasound"]
+  },
+  {
+    "root": "Inter",
+    "origin": "Latin",
+    "meaning": "between",
+    "icon": "\ud83c\udf10",
+    "example": "International travel means going between different countries.",
+    "derivatives": ["international", "interrupt", "intersect", "interact"]
+  },
+  {
+    "root": "Intra",
+    "origin": "Latin",
+    "meaning": "within",
+    "icon": "\ud83d\udce5",
+    "example": "Intramural sports happen entirely within one school.",
+    "derivatives": ["intramural", "intravenous", "intranet", "intrastate"]
+  },
+  {
+    "root": "Juven",
+    "origin": "Latin",
+    "meaning": "young",
+    "icon": "\ud83e\uddd2",
+    "example": "The juvenile court handles cases involving young people.",
+    "derivatives": ["juvenile", "rejuvenate", "juvenilia"]
+  },
+  {
+    "root": "Later",
+    "origin": "Latin",
+    "meaning": "side",
+    "icon": "\u2194\ufe0f",
+    "example": "The treaty was signed by both sides in a bilateral agreement.",
+    "derivatives": [
+      "lateral",
+      "bilateral",
+      "collateral",
+      "laterally",
+      "unilateral"
+    ]
+  },
+  {
+    "root": "Leg",
+    "origin": "Latin",
+    "meaning": "law",
+    "icon": "\u2696\ufe0f",
+    "example": "It's not legal to legislate without following proper procedure.",
+    "derivatives": ["legal", "legislate", "legitimate", "legislator"]
+  },
+  {
+    "root": "Liber",
+    "origin": "Latin",
+    "meaning": "free",
+    "icon": "\ud83d\udd4a\ufe0f",
+    "example": "The liberated prisoners finally had their liberty.",
+    "derivatives": [
+      "liberty",
+      "liberate",
+      "liberal",
+      "libertarian",
+      "liberation"
+    ]
+  },
+  {
+    "root": "Loqu",
+    "origin": "Latin",
+    "meaning": "to speak",
+    "icon": "\ud83d\udde3\ufe0f",
+    "example": "Her eloquent speech was full of colloquial charm.",
+    "derivatives": [
+      "eloquent",
+      "colloquial",
+      "soliloquy",
+      "loquacious",
+      "grandiloquent"
+    ]
+  },
+  {
+    "root": "Macro",
+    "origin": "Greek",
+    "meaning": "large",
+    "icon": "\ud83d\udcc8",
+    "example": "Macroeconomics studies the economy on a large scale.",
+    "derivatives": ["macroeconomics", "macrocosm", "macroscopic", "macrobiotic"]
+  },
+  {
+    "root": "Mega",
+    "origin": "Greek",
+    "meaning": "great or large",
+    "icon": "\ud83d\udce2",
+    "example": "The megaphone made her voice sound enormous.",
+    "derivatives": [
+      "megaphone",
+      "megabyte",
+      "megalith",
+      "megalomania",
+      "megastore"
+    ]
+  },
+  {
+    "root": "Meta",
+    "origin": "Greek",
+    "meaning": "beyond or change",
+    "icon": "\ud83e\udd8b",
+    "example": "A caterpillar's metamorphosis is a dramatic change of form.",
+    "derivatives": [
+      "metamorphosis",
+      "metaphor",
+      "metabolism",
+      "metaphysics",
+      "metadata"
+    ]
+  },
+  {
+    "root": "Morph",
+    "origin": "Greek",
+    "meaning": "shape or form",
+    "icon": "\ud83d\udd04",
+    "example": "The amorphous blob had no fixed shape at all.",
+    "derivatives": [
+      "metamorphosis",
+      "amorphous",
+      "morphology",
+      "morph",
+      "endomorph"
+    ]
+  },
+  {
+    "root": "Nihil",
+    "origin": "Latin",
+    "meaning": "nothing",
+    "icon": "\u2b55",
+    "example": "The explosion seemed to annihilate everything into nothing.",
+    "derivatives": ["annihilate", "nihilism", "nihilist", "annihilation"]
+  },
+  {
+    "root": "Omni",
+    "origin": "Latin",
+    "meaning": "all",
+    "icon": "\ud83c\udf10",
+    "example": "In many myths, gods are described as omnipotent and omniscient.",
+    "derivatives": ["omnipotent", "omniscient", "omnivore", "omnidirectional"]
+  },
+  {
+    "root": "Onym",
+    "origin": "Greek",
+    "meaning": "name",
+    "icon": "\ud83c\udff7\ufe0f",
+    "example": "A synonym has a similar name, while an antonym is opposite.",
+    "derivatives": ["synonym", "antonym", "pseudonym", "eponym", "acronym"]
+  },
+  {
+    "root": "Pac",
+    "origin": "Latin",
+    "meaning": "peace",
+    "icon": "\u262e\ufe0f",
+    "example": "The pacifist worked to pacify the conflict peacefully.",
+    "derivatives": ["pacify", "pacifist", "pacific", "pacifism", "appease"]
+  },
+  {
+    "root": "Pan",
+    "origin": "Greek",
+    "meaning": "all",
+    "icon": "\ud83c\udf10",
+    "example": "A pandemic spreads across all regions, unlike a local epidemic.",
+    "derivatives": ["panorama", "pandemic", "panacea", "pantheon", "panoramic"]
+  },
+  {
+    "root": "Para",
+    "origin": "Greek",
+    "meaning": "beside or beyond",
+    "icon": "\u2194\ufe0f",
+    "example": "The two lines ran parallel, side by side.",
+    "derivatives": [
+      "parallel",
+      "paradox",
+      "paraphrase",
+      "paranormal",
+      "paragraph"
+    ]
+  },
+  {
+    "root": "Patr",
+    "origin": "Latin",
+    "meaning": "father",
+    "icon": "\ud83d\udc68",
+    "example": "The patriarch was seen as a paternal figure to the whole family.",
+    "derivatives": [
+      "paternal",
+      "patriot",
+      "patriarch",
+      "patronize",
+      "expatriate"
+    ]
+  },
+  {
+    "root": "Peri",
+    "origin": "Greek",
+    "meaning": "around",
+    "icon": "\ud83d\udd04",
+    "example": "You can measure the perimeter of a shape by going all the way around it.",
+    "derivatives": [
+      "perimeter",
+      "periscope",
+      "period",
+      "peripheral",
+      "peripatetic"
+    ]
+  },
+  {
+    "root": "Plac",
+    "origin": "Latin",
+    "meaning": "to please",
+    "icon": "\ud83d\ude0c",
+    "example": "The placid lake seemed to placate everyone's worries.",
+    "derivatives": ["placate", "placid", "complacent", "placebo", "implacable"]
+  },
+  {
+    "root": "Plur",
+    "origin": "Latin",
+    "meaning": "more",
+    "icon": "\u2795",
+    "example": "The plural form is used when there is more than one.",
+    "derivatives": ["plural", "pluralize", "plurality", "pluralism"]
+  },
+  {
+    "root": "Pneuma",
+    "origin": "Greek",
+    "meaning": "breath or air",
+    "icon": "\ud83c\udf2c\ufe0f",
+    "example": "Pneumonia is a lung infection that affects the breath.",
+    "derivatives": ["pneumonia", "pneumatic", "pneumatics"]
+  },
+  {
+    "root": "Poli",
+    "origin": "Greek",
+    "meaning": "city",
+    "icon": "\ud83c\udfd9\ufe0f",
+    "example": "A metropolis is a large city, and politics originally meant city affairs.",
+    "derivatives": [
+      "metropolis",
+      "politics",
+      "police",
+      "policy",
+      "cosmopolitan"
+    ]
+  },
+  {
+    "root": "Pos",
+    "origin": "Latin",
+    "meaning": "to place",
+    "icon": "\ud83d\udccd",
+    "example": "She had to compose herself before taking her position.",
+    "derivatives": ["position", "compose", "postpone", "deposit"]
+  },
+  {
+    "root": "Post",
+    "origin": "Latin",
+    "meaning": "after",
+    "icon": "\u23ed\ufe0f",
+    "example": "The postscript was added after the letter was finished.",
+    "derivatives": [
+      "postpone",
+      "posterity",
+      "postscript",
+      "posthumous",
+      "postmortem"
+    ]
+  },
+  {
+    "root": "Pre",
+    "origin": "Latin",
+    "meaning": "before",
+    "icon": "\u23ee\ufe0f",
+    "example": "You can often predict the future by preventing problems before they happen.",
+    "derivatives": ["predict", "prevent", "preview", "prepare"]
+  },
+  {
+    "root": "Pro",
+    "origin": "Latin",
+    "meaning": "forward or for",
+    "icon": "\u27a1\ufe0f",
+    "example": "The team continued to progress and promote their new product.",
+    "derivatives": ["progress", "promote", "protect", "produce"]
+  },
+  {
+    "root": "Proto",
+    "origin": "Greek",
+    "meaning": "first",
+    "icon": "1\ufe0f\u20e3",
+    "example": "The prototype was the first working version of the machine.",
+    "derivatives": [
+      "prototype",
+      "protagonist",
+      "protocol",
+      "protozoa",
+      "protoplasm"
+    ]
+  },
+  {
+    "root": "Pseudo",
+    "origin": "Greek",
+    "meaning": "false",
+    "icon": "\ud83c\udfad",
+    "example": "The author wrote under a pseudonym to hide her real name.",
+    "derivatives": [
+      "pseudonym",
+      "pseudoscience",
+      "pseudonymous",
+      "pseudointellectual"
+    ]
+  },
+  {
+    "root": "Quer",
+    "origin": "Latin",
+    "meaning": "to ask",
+    "icon": "\u2753",
+    "example": "She wanted to inquire further, so she posed another question.",
+    "derivatives": ["question", "inquire", "query", "querulous", "inquisitive"]
+  },
+  {
+    "root": "Retro",
+    "origin": "Latin",
+    "meaning": "backward",
+    "icon": "\u23ea",
+    "example": "In retrospect, the retroactive policy caused problems.",
+    "derivatives": [
+      "retrospect",
+      "retroactive",
+      "retrograde",
+      "retrofit",
+      "retrospective"
+    ]
+  },
+  {
+    "root": "Rog",
+    "origin": "Latin",
+    "meaning": "to ask",
+    "icon": "\ud83d\uddef\ufe0f",
+    "example": "The interrogation felt harsh, and his arrogant tone didn't help.",
+    "derivatives": [
+      "interrogate",
+      "arrogant",
+      "surrogate",
+      "derogatory",
+      "prerogative"
+    ]
+  },
+  {
+    "root": "Sat",
+    "origin": "Latin",
+    "meaning": "enough",
+    "icon": "\u2705",
+    "example": "The sponge became saturated after it could hold no more water.",
+    "derivatives": [
+      "satisfy",
+      "saturate",
+      "insatiable",
+      "satiate",
+      "saturation"
+    ]
+  },
+  {
+    "root": "Semi",
+    "origin": "Latin",
+    "meaning": "half",
+    "icon": "\u25d0",
+    "example": "The semicircle formed exactly half of a full circle.",
+    "derivatives": [
+      "semicircle",
+      "semifinal",
+      "semiconductor",
+      "semiannual",
+      "semiautomatic"
+    ]
+  },
+  {
+    "root": "Simil",
+    "origin": "Latin",
+    "meaning": "like",
+    "icon": "\ud83d\udff0",
+    "example": "The two paintings were similar enough to simulate one another.",
+    "derivatives": [
+      "similar",
+      "simulate",
+      "assimilate",
+      "simile",
+      "verisimilitude"
+    ]
+  },
+  {
+    "root": "Sub",
+    "origin": "Latin",
+    "meaning": "under",
+    "icon": "\u2b07\ufe0f",
+    "example": "The submarine traveled under the sea near the subway station.",
+    "derivatives": ["submarine", "subway", "substandard", "subordinate"]
+  },
+  {
+    "root": "Super",
+    "origin": "Latin",
+    "meaning": "above",
+    "icon": "\u2b06\ufe0f",
+    "example": "The superior manager had to supervise the entire team.",
+    "derivatives": ["superior", "supervise", "superb", "superhuman"]
+  },
+  {
+    "root": "Syn",
+    "origin": "Greek",
+    "meaning": "together",
+    "icon": "\ud83e\udd1d",
+    "example": "The dancers had to synchronize their steps together perfectly.",
+    "derivatives": [
+      "synchronize",
+      "symphony",
+      "synonym",
+      "syndrome",
+      "synthesis"
+    ]
+  },
+  {
+    "root": "Techno",
+    "origin": "Greek",
+    "meaning": "skill or art",
+    "icon": "\ud83d\udcbb",
+    "example": "New technology relies on precise technique and craft.",
+    "derivatives": [
+      "technology",
+      "technique",
+      "technical",
+      "technician",
+      "technophile"
+    ]
+  },
+  {
+    "root": "Theo",
+    "origin": "Greek",
+    "meaning": "god",
+    "icon": "\u26ea",
+    "example": "Theology is the study of ideas about god.",
+    "derivatives": [
+      "theology",
+      "atheist",
+      "monotheism",
+      "theocracy",
+      "polytheism"
+    ]
+  },
+  {
+    "root": "Trans",
+    "origin": "Latin",
+    "meaning": "across",
+    "icon": "\u27a1\ufe0f",
+    "example": "The company will transport goods and transform them along the way.",
+    "derivatives": ["transport", "transform", "translate", "transfer"]
+  },
+  {
+    "root": "Tri",
+    "origin": "Greek",
+    "meaning": "three",
+    "icon": "3\ufe0f\u20e3",
+    "example": "A triangle has three sides, just like a tripod has three legs.",
+    "derivatives": ["triangle", "tripod", "trilogy", "tricycle", "triple"]
+  },
+  {
+    "root": "Ultra",
+    "origin": "Latin",
+    "meaning": "beyond",
+    "icon": "\ud83d\udd06",
+    "example": "Ultraviolet light is beyond what the human eye can see.",
+    "derivatives": [
+      "ultraviolet",
+      "ultimatum",
+      "ultrasound",
+      "ultramodern",
+      "ultrasonic"
+    ]
+  },
+  {
+    "root": "Urb",
+    "origin": "Latin",
+    "meaning": "city",
+    "icon": "\ud83c\udfd9\ufe0f",
+    "example": "Urban areas are growing faster than the suburbs around them.",
+    "derivatives": ["urban", "suburb", "urbanize", "urbanization", "exurb"]
+  },
+  {
+    "root": "Vac",
+    "origin": "Latin",
+    "meaning": "empty",
+    "icon": "\ud83c\udf0c",
+    "example": "They had to evacuate the vacant, empty building.",
+    "derivatives": ["vacant", "vacuum", "evacuate", "vacate", "vacation"]
+  },
+  {
+    "root": "Vor",
+    "origin": "Latin",
+    "meaning": "to eat",
+    "icon": "\ud83c\udf7d\ufe0f",
+    "example": "A carnivore eats meat, while an herbivore eats only plants.",
+    "derivatives": ["carnivore", "herbivore", "voracious", "omnivore"]
+  },
+  {
+    "root": "Zoo",
+    "origin": "Greek",
+    "meaning": "animal",
+    "icon": "\ud83e\udd81",
+    "example": "Zoology is the scientific study of animals.",
+    "derivatives": ["zoology", "zoo", "protozoa", "zoologist", "zoomorphic"]
+  },
+  {
+    "root": "Acr",
+    "origin": "Greek",
+    "meaning": "sharp or high",
+    "icon": "\ud83c\udfd4\ufe0f",
+    "example": "The acrobat performed at the very top, and the acrid smell was sharp in the air.",
+    "derivatives": ["acrobat", "acrid", "acrophobia", "acronym"]
+  },
+  {
+    "root": "Belli",
+    "origin": "Latin",
+    "meaning": "beautiful",
+    "icon": "\ud83c\udf38",
+    "example": "The embellished dress made her look even more beautiful.",
+    "derivatives": ["embellish", "belle", "beauty"]
+  },
+  {
+    "root": "Cur",
+    "origin": "Latin",
+    "meaning": "to care or run",
+    "icon": "\ud83c\udfc3",
+    "example": "The doctor found a cure by focusing on accurate care.",
+    "derivatives": ["cure", "curator", "accurate", "occur"]
+  },
+  {
+    "root": "Dorm",
+    "origin": "Latin",
+    "meaning": "to sleep",
+    "icon": "\ud83d\ude34",
+    "example": "Students in the dormitory tried to stay dormant until morning.",
+    "derivatives": ["dormitory", "dormant"]
+  },
+  {
+    "root": "Grav",
+    "origin": "Latin",
+    "meaning": "heavy",
+    "icon": "\u2696\ufe0f",
+    "example": "Gravity pulls heavy objects toward the earth's center.",
+    "derivatives": ["gravity", "grave", "aggravate", "gravitate"]
+  },
+  {
+    "root": "Ling",
+    "origin": "Latin",
+    "meaning": "tongue or language",
+    "icon": "\ud83d\udc45",
+    "example": "A bilingual speaker is fluent in more than one language.",
+    "derivatives": ["bilingual", "linguistics", "language"]
+  },
+  {
+    "root": "Mater",
+    "origin": "Latin",
+    "meaning": "mother",
+    "icon": "\ud83d\udc69",
+    "example": "Maternal instincts guided her like her own mother's did.",
+    "derivatives": ["maternal", "maternity", "matriarch", "alma mater"]
+  },
+  {
+    "root": "Nomin",
+    "origin": "Latin",
+    "meaning": "name",
+    "icon": "\ud83c\udff7\ufe0f",
+    "example": "The committee will nominate a candidate before the denomination is announced.",
+    "derivatives": ["nominate", "denomination", "nomenclature"]
+  },
+  {
+    "root": "Ocul",
+    "origin": "Latin",
+    "meaning": "eye",
+    "icon": "\ud83d\udc41\ufe0f",
+    "example": "A binocular lets you see far away with both eyes.",
+    "derivatives": ["binoculars", "ocular", "monocle"]
+  },
+  {
+    "root": "Popul",
+    "origin": "Latin",
+    "meaning": "people",
+    "icon": "\ud83d\udc65",
+    "example": "The population grew as the region became more populated.",
+    "derivatives": ["population", "populate", "populous", "depopulate"]
+  },
+  {
+    "root": "Rad",
+    "origin": "Latin",
+    "meaning": "root or ray",
+    "icon": "\ud83c\udf31",
+    "example": "The radish gets its name from its root, and radiation spreads out in rays.",
+    "derivatives": ["radical", "radiate", "radish", "eradicate"]
+  },
+  {
+    "root": "Scend",
+    "origin": "Latin",
+    "meaning": "to climb",
+    "icon": "\ud83e\uddd7",
+    "example": "The plane began to ascend, and later it would descend for landing.",
+    "derivatives": ["ascend", "descend", "transcend"]
+  },
+  {
+    "root": "Tang",
+    "origin": "Latin",
+    "meaning": "to touch",
+    "icon": "\ud83e\udd1a",
+    "example": "The idea was tangible enough to seem almost within reach.",
+    "derivatives": ["tangible", "tangent", "contingent", "intangible"]
+  },
+  {
+    "root": "Und",
+    "origin": "Latin",
+    "meaning": "wave",
+    "icon": "\ud83c\udf0a",
+    "example": "The river overflowed and inundated the entire valley.",
+    "derivatives": ["inundate", "abundant", "redundant"]
+  },
+  {
+    "root": "Vale",
+    "origin": "Latin",
+    "meaning": "to be strong or well",
+    "icon": "\ud83d\udcaa",
+    "example": "The valedictorian gave a speech valuing everyone's hard work.",
+    "derivatives": ["valedictorian", "value", "valid", "prevail"]
+  },
+  {
+    "root": "Verb",
+    "origin": "Latin",
+    "meaning": "word",
+    "icon": "\ud83d\udcdd",
+    "example": "The verbose speaker used far too many words.",
+    "derivatives": ["verbal", "verbose", "proverb", "verbatim"]
+  },
+  {
+    "root": "Volv",
+    "origin": "Latin",
+    "meaning": "to roll or turn",
+    "icon": "\ud83d\udd04",
+    "example": "The revolution caused the whole system to evolve.",
+    "derivatives": ["revolve", "evolve", "involve", "revolution"]
+  },
+  {
+    "root": "Xen",
+    "origin": "Greek",
+    "meaning": "stranger or foreign",
+    "icon": "\ud83c\udf10",
+    "example": "Xenophobia is an irrational fear of foreigners.",
+    "derivatives": ["xenophobia", "xenon"]
   }
 ]

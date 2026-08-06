@@ -21,13 +21,18 @@ import PressableScale from "../../components/PressableScale";
 import WordDetailModal from "../../components/WordDetailModal";
 import { Colors, Fonts, Radius, Spacing } from "../../constants/theme";
 import idioms from "../../data/idioms.json";
+import roots from "../../data/roots.json";
 import words from "../../data/words.json";
 import { getCategoryProgress } from "../../logic/categories";
+import { learnEverything } from "../../logic/devTools";
 import { getDictionary, getStats, resetAllData } from "../../logic/dictionary";
 import { getIdiomDictionary } from "../../logic/idiomDictionary";
 import { getIdiomojiHighScore } from "../../logic/idiomojiHighScore";
 import { getSessionsCompletedCount } from "../../logic/levels";
+import { getLoanwordHighScore } from "../../logic/loanwordHighScore";
 import { getRarityStyle } from "../../logic/rarity";
+import { getOverallDerivativesHighScore } from "../../logic/rootDerivativesHighScore";
+import { getRootDictionary } from "../../logic/rootDictionary";
 
 const { width: SCREEN_WIDTH } = Dimensions.get("window");
 
@@ -35,6 +40,13 @@ export default function Profile() {
   const [stats, setStats] = useState<any | null>(null);
   const [collectedWords, setCollectedWords] = useState<any[]>([]);
   const [collectedIdioms, setCollectedIdioms] = useState<any[]>([]);
+  const [collectedRoots, setCollectedRoots] = useState<any[]>([]);
+  const [derivativesHighScore, setDerivativesHighScore] = useState<
+    number | null
+  >(null);
+  const [loanwordHighScore, setLoanwordHighScore] = useState<number | null>(
+    null,
+  );
   const [idiomojiHighScore, setIdiomojiHighScore] = useState<number | null>(
     null,
   );
@@ -69,6 +81,11 @@ export default function Profile() {
       getStats(words.length).then(setStats);
       getDictionary().then(setCollectedWords);
       getIdiomDictionary().then(setCollectedIdioms);
+      getRootDictionary().then(setCollectedRoots);
+      getOverallDerivativesHighScore().then((r) =>
+        setDerivativesHighScore(r.score),
+      );
+      getLoanwordHighScore().then(setLoanwordHighScore);
       getIdiomojiHighScore().then(setIdiomojiHighScore);
       getSessionsCompletedCount().then((count) => setAdventureLevel(count + 1));
     }, []),
@@ -76,6 +93,7 @@ export default function Profile() {
 
   const collectedSet = new Set(collectedWords.map((w) => w.word));
   const idiomCollectedSet = new Set(collectedIdioms.map((w) => w.word));
+  const rootCollectedSet = new Set(collectedRoots.map((r) => r.root));
 
   const categoryProgress = getCategoryProgress(words, collectedWords);
 
@@ -88,7 +106,16 @@ export default function Profile() {
     isIdiom: true,
   };
 
-  const sections = [...categoryProgress, idiomSection];
+  const rootSection = {
+    category: "Roots",
+    words: roots,
+    caught: rootCollectedSet.size,
+    total: roots.length,
+    percent: Math.round((rootCollectedSet.size / roots.length) * 100),
+    isRoot: true,
+  };
+
+  const sections = [...categoryProgress, idiomSection, rootSection];
 
   const isSearching = searchQuery.trim().length > 0;
   const filteredWords = isSearching
@@ -115,10 +142,34 @@ export default function Profile() {
           setStats(await getStats(words.length));
           setCollectedWords([]);
           setCollectedIdioms([]);
+          setCollectedRoots([]);
           setAdventureLevel(1);
+          setIdiomojiHighScore(0);
+          setDerivativesHighScore(0);
+          setLoanwordHighScore(0);
         },
       },
     ]);
+  }
+
+  function handleLearnAll() {
+    Alert.alert(
+      "Learn everything?",
+      "Fills every dictionary — words, idioms, and roots. For testing only.",
+      [
+        { text: "Cancel", style: "cancel" },
+        {
+          text: "Learn All",
+          onPress: async () => {
+            await learnEverything(words, idioms, roots);
+            setStats(await getStats(words.length));
+            setCollectedWords(await getDictionary());
+            setCollectedIdioms(await getIdiomDictionary());
+            setCollectedRoots(await getRootDictionary());
+          },
+        },
+      ],
+    );
   }
 
   function renderWordTile(w: any) {
@@ -208,6 +259,56 @@ export default function Profile() {
     );
   }
 
+  function renderRootTile(r: any) {
+    const caught = rootCollectedSet.has(r.root);
+    const tileStyle = [
+      styles.wordTile,
+      caught
+        ? {
+            backgroundColor: Colors.surface,
+            borderWidth: 2,
+            borderColor: Colors.primary,
+          }
+        : styles.tileLocked,
+    ];
+    const content = (
+      <>
+        <Text style={styles.tileEmoji}>{caught ? r.icon || "🌱" : "🔒"}</Text>
+        <Text
+          style={[styles.tileText, caught && { color: Colors.primary }]}
+          numberOfLines={2}
+        >
+          {caught ? r.root : "?????"}
+        </Text>
+      </>
+    );
+
+    if (!caught) {
+      return (
+        <View key={r.root} style={tileStyle}>
+          {content}
+        </View>
+      );
+    }
+
+    return (
+      <PressableScale
+        key={r.root}
+        style={tileStyle}
+        onPress={() =>
+          setSelectedWord({
+            word: r.root,
+            definition: `${r.meaning} (${r.origin})`,
+            example: r.example,
+            icon: r.icon,
+          })
+        }
+      >
+        {content}
+      </PressableScale>
+    );
+  }
+
   function renderSearchResultRow(w: any) {
     const caught = collectedSet.has(w.word);
     const rarity = getRarityStyle(w.rarity);
@@ -257,13 +358,23 @@ export default function Profile() {
 
   function renderCategorySection(item: any) {
     const isIdiom = !!item.isIdiom;
-    const relevantSet = isIdiom ? idiomCollectedSet : collectedSet;
-    const tileRenderer = isIdiom ? renderIdiomTile : renderWordTile;
+    const isRoot = !!item.isRoot;
+    const relevantSet = isRoot
+      ? rootCollectedSet
+      : isIdiom
+        ? idiomCollectedSet
+        : collectedSet;
+    const tileRenderer = isRoot
+      ? renderRootTile
+      : isIdiom
+        ? renderIdiomTile
+        : renderWordTile;
+    const idField = isRoot ? "root" : "word";
 
     const sortedWords = [...item.words].sort((a: any, b: any) => {
       const scoreOf = (w: any) =>
-        (relevantSet.has(w.word) ? 2 : 0) +
-        (!isIdiom && w.rarity === "legendary" ? 1 : 0);
+        (relevantSet.has(w[idField]) ? 2 : 0) +
+        (!isIdiom && !isRoot && w.rarity === "legendary" ? 1 : 0);
       return scoreOf(b) - scoreOf(a);
     });
     const previewWords = sortedWords.slice(0, 3);
@@ -381,11 +492,21 @@ export default function Profile() {
         }
         ListFooterComponent={
           !isSearching ? (
-            <PressableScale style={styles.resetButton} onPress={handleReset}>
-              <Text style={styles.resetButtonText}>
-                🧪 Reset App Data (dev only)
-              </Text>
-            </PressableScale>
+            <>
+              <PressableScale
+                style={styles.learnAllButton}
+                onPress={handleLearnAll}
+              >
+                <Text style={styles.learnAllButtonText}>
+                  🧪 Learn All Words (dev only)
+                </Text>
+              </PressableScale>
+              <PressableScale style={styles.resetButton} onPress={handleReset}>
+                <Text style={styles.resetButtonText}>
+                  🧪 Reset App Data (dev only)
+                </Text>
+              </PressableScale>
+            </>
           ) : null
         }
         contentContainerStyle={{ padding: Spacing.lg, paddingBottom: 100 }}
@@ -409,24 +530,37 @@ export default function Profile() {
               { paddingTop: insets.top, paddingBottom: insets.bottom },
             ]}
           >
-            <ScrollView
+            <FlatList
               style={{ flex: 1 }}
               contentContainerStyle={styles.modalContent}
-            >
-              <Text style={styles.modalTitle}>
-                {selectedCategory?.category}
-              </Text>
-              <Text style={styles.modalSubtitle}>
-                {selectedCategory?.caught}/{selectedCategory?.total} caught
-              </Text>
-              <View style={styles.grid}>
-                {selectedCategory?.words.map((w: any) =>
-                  selectedCategory?.isIdiom
+              data={selectedCategory?.words ?? []}
+              keyExtractor={(w: any) =>
+                selectedCategory?.isRoot ? w.root : w.word
+              }
+              numColumns={3}
+              columnWrapperStyle={{ justifyContent: "flex-start" }}
+              initialNumToRender={30}
+              windowSize={5}
+              maxToRenderPerBatch={30}
+              removeClippedSubviews
+              ListHeaderComponent={
+                <>
+                  <Text style={styles.modalTitle}>
+                    {selectedCategory?.category}
+                  </Text>
+                  <Text style={styles.modalSubtitle}>
+                    {selectedCategory?.caught}/{selectedCategory?.total} caught
+                  </Text>
+                </>
+              }
+              renderItem={({ item: w }: { item: any }) =>
+                selectedCategory?.isRoot
+                  ? renderRootTile(w)
+                  : selectedCategory?.isIdiom
                     ? renderIdiomTile(w)
-                    : renderWordTile(w),
-                )}
-              </View>
-            </ScrollView>
+                    : renderWordTile(w)
+              }
+            />
 
             <View style={styles.modalFooter}>
               <PressableScale
@@ -496,6 +630,28 @@ export default function Profile() {
               <View style={styles.statBox}>
                 <Text style={styles.statNumber}>{idiomojiHighScore ?? 0}</Text>
                 <Text style={styles.statLabel}>🎮 Idiomoji Best</Text>
+              </View>
+            </View>
+
+            <Text style={styles.statsSectionLabel}>Etymology</Text>
+            <View style={styles.statsGrid}>
+              <View style={styles.statBox}>
+                <Text style={styles.statNumber}>{rootSection.caught}</Text>
+                <Text style={styles.statLabel}>🌱 Roots Caught</Text>
+              </View>
+              <View style={styles.statBox}>
+                <Text style={styles.statNumber}>{rootSection.percent}%</Text>
+                <Text style={styles.statLabel}>Complete</Text>
+              </View>
+              <View style={styles.statBox}>
+                <Text style={styles.statNumber}>
+                  {derivativesHighScore ?? 0}
+                </Text>
+                <Text style={styles.statLabel}>🧩 Derivatives Best</Text>
+              </View>
+              <View style={styles.statBox}>
+                <Text style={styles.statNumber}>{loanwordHighScore ?? 0}</Text>
+                <Text style={styles.statLabel}>🌍 Origins Best</Text>
               </View>
             </View>
           </ScrollView>
@@ -708,6 +864,19 @@ const styles = StyleSheet.create({
     fontSize: 11,
     color: Colors.ink,
     textAlign: "center",
+  },
+  learnAllButton: {
+    borderWidth: 1,
+    borderColor: Colors.success,
+    borderRadius: Radius.pill,
+    paddingVertical: 12,
+    alignItems: "center",
+    marginTop: Spacing.sm,
+  },
+  learnAllButtonText: {
+    fontFamily: Fonts.bodySemiBold,
+    color: Colors.success,
+    fontSize: 13,
   },
   resetButton: {
     borderWidth: 1,

@@ -58,5 +58,11 @@ export async function resetAllData() {
     "vocablab_idiom_completed_date",
     "vocablab_idiom_of_day",
     "vocablab_idiom_sessions_completed",
+    "vocablab_root_dictionary",
+    "vocablab_root_of_day",
+    "vocablab_root_derivatives_high_score_v2",
+    "vocablab_root_derivatives_scores",
+    "vocablab_loanword_play_high_score",
+    "vocablab_idiomoji_high_score",
   ]);
 }
