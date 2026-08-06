@@ -25,6 +25,7 @@ import words from "../../data/words.json";
 import { getCategoryProgress } from "../../logic/categories";
 import { getDictionary, getStats, resetAllData } from "../../logic/dictionary";
 import { getIdiomDictionary } from "../../logic/idiomDictionary";
+import { getIdiomojiHighScore } from "../../logic/idiomojiHighScore";
 import { getSessionsCompletedCount } from "../../logic/levels";
 import { getRarityStyle } from "../../logic/rarity";
 
@@ -34,6 +35,9 @@ export default function Profile() {
   const [stats, setStats] = useState<any | null>(null);
   const [collectedWords, setCollectedWords] = useState<any[]>([]);
   const [collectedIdioms, setCollectedIdioms] = useState<any[]>([]);
+  const [idiomojiHighScore, setIdiomojiHighScore] = useState<number | null>(
+    null,
+  );
   const [adventureLevel, setAdventureLevel] = useState<number | null>(null);
   const [selectedCategory, setSelectedCategory] = useState<any | null>(null);
   const [selectedWord, setSelectedWord] = useState<any | null>(null);
@@ -65,6 +69,7 @@ export default function Profile() {
       getStats(words.length).then(setStats);
       getDictionary().then(setCollectedWords);
       getIdiomDictionary().then(setCollectedIdioms);
+      getIdiomojiHighScore().then(setIdiomojiHighScore);
       getSessionsCompletedCount().then((count) => setAdventureLevel(count + 1));
     }, []),
   );
@@ -487,6 +492,10 @@ export default function Profile() {
               <View style={styles.statBox}>
                 <Text style={styles.statNumber}>{idiomSection.percent}%</Text>
                 <Text style={styles.statLabel}>Complete</Text>
+              </View>
+              <View style={styles.statBox}>
+                <Text style={styles.statNumber}>{idiomojiHighScore ?? 0}</Text>
+                <Text style={styles.statLabel}>🎮 Idiomoji Best</Text>
               </View>
             </View>
           </ScrollView>

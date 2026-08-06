@@ -1,18 +1,17 @@
+import * as Haptics from "expo-haptics";
 import { useFocusEffect } from "expo-router";
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useState } from "react";
 import { Modal, SafeAreaView, StyleSheet, Text, View } from "react-native";
 import { Colors, Fonts, Radius, Spacing } from "../constants/theme";
 import idioms from "../data/idioms.json";
 import {
-    addIdiomToDictionary,
-    getIdiomDictionary,
+  addIdiomToDictionary,
+  getIdiomDictionary,
 } from "../logic/idiomDictionary";
 import { generateIdiomSession } from "../logic/idiomSessions";
 import { getLives, loseLife, MAX_LIVES } from "../logic/lives";
-import LevelQuiz from "./LevelQuiz";
+import { buildQuizOptions } from "../logic/quiz";
 import PressableScale from "./PressableScale";
-
-type Session = { id: number; words: any[]; title: string };
 
 export default function IdiomPracticeCard({
   onCaught,
@@ -20,68 +19,81 @@ export default function IdiomPracticeCard({
   onCaught?: () => void;
 }) {
   const [lives, setLives] = useState<number | null>(null);
+  const [dictionary, setDictionary] = useState<any[]>([]);
   const [modalVisible, setModalVisible] = useState(false);
-  const [activeSession, setActiveSession] = useState<Session | null>(null);
   const [outOfLives, setOutOfLives] = useState(false);
   const [poolExhausted, setPoolExhausted] = useState(false);
-  const [justCompleted, setJustCompleted] = useState(false);
+  const [currentIdiom, setCurrentIdiom] = useState<any | null>(null);
+  const [options, setOptions] = useState<string[]>([]);
+  const [selected, setSelected] = useState<string | null>(null);
+  const [revealed, setRevealed] = useState(false);
 
   useFocusEffect(
     useCallback(() => {
       getLives().then(setLives);
+      getIdiomDictionary().then(setDictionary);
     }, []),
   );
 
-  useEffect(() => {
-    if (!justCompleted) return;
-    const t = setTimeout(() => setJustCompleted(false), 4000);
-    return () => clearTimeout(t);
-  }, [justCompleted]);
+  function loadIdiom(currentDictionary: any[]) {
+    const pool = generateIdiomSession(idioms, currentDictionary, 1);
+    if (pool.length === 0) {
+      setPoolExhausted(true);
+      setModalVisible(false);
+      return false;
+    }
+    const idiom = pool[0];
+    setCurrentIdiom(idiom);
+    setOptions(buildQuizOptions(idiom, idioms));
+    setSelected(null);
+    setRevealed(false);
+    return true;
+  }
 
   async function handlePlay() {
     if (lives === 0) return;
-    const dictionary = await getIdiomDictionary();
-    const sessionWords = generateIdiomSession(idioms, dictionary, 3);
-
-    if (sessionWords.length === 0) {
-      setPoolExhausted(true);
-      return;
-    }
-
+    const freshDictionary = await getIdiomDictionary();
+    setDictionary(freshDictionary);
     setPoolExhausted(false);
     setOutOfLives(false);
-    setJustCompleted(false);
-    setActiveSession({ id: 0, words: sessionWords, title: "" });
-    setModalVisible(true);
+    if (loadIdiom(freshDictionary)) {
+      setModalVisible(true);
+    }
   }
 
-  async function handleLoseLife() {
-    const remaining = await loseLife();
-    setLives(remaining);
-    return remaining;
+  async function handleSelect(option: string) {
+    if (revealed || !currentIdiom) return;
+    setSelected(option);
+    setRevealed(true);
+
+    if (option === currentIdiom.definition) {
+      Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
+      await addIdiomToDictionary(currentIdiom);
+      setDictionary((prev) => [...prev, currentIdiom]);
+      onCaught?.();
+    } else {
+      Haptics.notificationAsync(Haptics.NotificationFeedbackType.Error);
+      const remaining = await loseLife();
+      setLives(remaining);
+      if (remaining <= 0) {
+        setTimeout(() => {
+          setOutOfLives(true);
+          setModalVisible(false);
+        }, 1200);
+      }
+    }
   }
 
-  async function handleWordCaught(idiom: any) {
-    await addIdiomToDictionary(idiom);
-    onCaught?.();
-  }
-
-  function handleSessionComplete() {
-    setActiveSession(null);
-    setModalVisible(false);
-    setJustCompleted(true);
-  }
-
-  function handleOutOfLives() {
-    setOutOfLives(true);
-    setActiveSession(null);
-    setModalVisible(false);
+  function handleNext() {
+    loadIdiom(dictionary);
   }
 
   function handleExit() {
-    setActiveSession(null);
     setModalVisible(false);
   }
+
+  const isCorrect = selected === currentIdiom?.definition;
+  const canContinue = (lives ?? 0) > 0;
 
   return (
     <View style={styles.card}>
@@ -100,7 +112,7 @@ export default function IdiomPracticeCard({
 
       {(outOfLives || lives === 0) && (
         <Text style={styles.bannerTextError}>
-          Out of lives — come back tomorrow for 3 more!
+          Out of lives — come back tomorrow for 3 more! ❤️
         </Text>
       )}
 
@@ -110,15 +122,8 @@ export default function IdiomPracticeCard({
         </Text>
       )}
 
-      {justCompleted && (
-        <Text style={styles.bannerTextSuccess}>Round complete! 🎉</Text>
-      )}
-
       <PressableScale
-        style={[
-          styles.playButton,
-          ...(lives === 0 ? [styles.playButtonDisabled] : []),
-        ]}
+        style={[styles.playButton, lives === 0 && styles.playButtonDisabled]}
         onPress={handlePlay}
       >
         <Text style={styles.playButtonText}>
@@ -132,18 +137,69 @@ export default function IdiomPracticeCard({
         onRequestClose={handleExit}
       >
         <SafeAreaView style={styles.modalContainer}>
-          {activeSession && (
-            <LevelQuiz
-              level={activeSession}
-              allWords={idioms}
-              livesLeft={lives ?? 0}
-              onLoseLife={handleLoseLife}
-              onLevelComplete={handleSessionComplete}
-              onOutOfLives={handleOutOfLives}
-              onExit={handleExit}
-              onWordCaught={handleWordCaught}
-            />
-          )}
+          <View style={styles.modalContent}>
+            {currentIdiom && (
+              <>
+                <View style={styles.topRow}>
+                  <View />
+                  <Text style={styles.livesText}>
+                    {"❤️".repeat(lives ?? 0)}
+                    {"🖤".repeat(Math.max(0, MAX_LIVES - (lives ?? 0)))}
+                  </Text>
+                </View>
+
+                <Text style={styles.word}>{currentIdiom.word}</Text>
+
+                {!revealed && (
+                  <>
+                    <Text style={styles.prompt}>
+                      What does this idiom mean?
+                    </Text>
+                    {options.map((option, i) => (
+                      <PressableScale
+                        key={i}
+                        style={styles.option}
+                        onPress={() => handleSelect(option)}
+                      >
+                        <Text style={styles.optionText}>{option}</Text>
+                      </PressableScale>
+                    ))}
+                  </>
+                )}
+
+                {revealed && (
+                  <>
+                    <Text
+                      style={[
+                        styles.result,
+                        {
+                          color: isCorrect ? Colors.success : Colors.error,
+                        },
+                      ]}
+                    >
+                      {isCorrect ? "✅ Correct!" : "❌ Not quite (-1 life)"}
+                    </Text>
+                    <Text style={styles.definition}>
+                      {currentIdiom.definition}
+                    </Text>
+
+                    {canContinue && (
+                      <PressableScale
+                        style={styles.nextButton}
+                        onPress={handleNext}
+                      >
+                        <Text style={styles.nextButtonText}>Next Idiom</Text>
+                      </PressableScale>
+                    )}
+                  </>
+                )}
+
+                <PressableScale style={styles.exitButton} onPress={handleExit}>
+                  <Text style={styles.exitButtonText}>Exit</Text>
+                </PressableScale>
+              </>
+            )}
+          </View>
         </SafeAreaView>
       </Modal>
     </View>
@@ -178,7 +234,7 @@ const styles = StyleSheet.create({
     fontFamily: Fonts.body,
     fontSize: 14,
     color: Colors.inkMuted,
-    marginBottom: Spacing.md,
+    marginBottom: Spacing.sm,
     textAlign: "center",
   },
   livesRow: { marginBottom: Spacing.sm },
@@ -194,13 +250,6 @@ const styles = StyleSheet.create({
     fontFamily: Fonts.bodySemiBold,
     fontSize: 13,
     color: Colors.inkMuted,
-    textAlign: "center",
-    marginBottom: Spacing.sm,
-  },
-  bannerTextSuccess: {
-    fontFamily: Fonts.bodySemiBold,
-    fontSize: 13,
-    color: Colors.success,
     textAlign: "center",
     marginBottom: Spacing.sm,
   },
@@ -220,4 +269,68 @@ const styles = StyleSheet.create({
     fontSize: 16,
   },
   modalContainer: { flex: 1, backgroundColor: Colors.background },
+  modalContent: { flex: 1, padding: Spacing.lg, justifyContent: "center" },
+  topRow: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    marginBottom: Spacing.lg,
+  },
+  word: {
+    fontFamily: Fonts.displayBold,
+    fontSize: 30,
+    color: Colors.ink,
+    textAlign: "center",
+    marginBottom: Spacing.lg,
+  },
+  prompt: {
+    fontFamily: Fonts.body,
+    fontSize: 16,
+    color: Colors.inkMuted,
+    marginBottom: Spacing.md,
+    textAlign: "center",
+  },
+  option: {
+    borderWidth: 1,
+    borderColor: Colors.border,
+    borderRadius: Radius.md,
+    padding: 16,
+    marginBottom: Spacing.sm,
+    backgroundColor: Colors.surface,
+  },
+  optionText: { fontFamily: Fonts.body, fontSize: 16, color: Colors.ink },
+  result: {
+    fontFamily: Fonts.displayBold,
+    fontSize: 20,
+    marginBottom: Spacing.md,
+    textAlign: "center",
+  },
+  definition: {
+    fontFamily: Fonts.body,
+    fontSize: 16,
+    color: Colors.ink,
+    marginBottom: Spacing.lg,
+    textAlign: "center",
+    lineHeight: 22,
+  },
+  nextButton: {
+    backgroundColor: Colors.primary,
+    paddingVertical: 14,
+    borderRadius: Radius.pill,
+    alignItems: "center",
+    marginBottom: Spacing.sm,
+  },
+  nextButtonText: {
+    fontFamily: Fonts.bodySemiBold,
+    color: "#fff",
+    fontSize: 16,
+  },
+  exitButton: {
+    paddingVertical: 10,
+    alignItems: "center",
+  },
+  exitButtonText: {
+    fontFamily: Fonts.bodySemiBold,
+    color: Colors.inkMuted,
+    fontSize: 13,
+  },
 });

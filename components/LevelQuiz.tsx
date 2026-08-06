@@ -36,7 +36,7 @@ export default function LevelQuiz({
     () => buildQuizOptions(currentWord, allWords),
     [currentWord.word],
   );
-  const rarity = getRarityStyle(currentWord.rarity);
+  const rarity = currentWord.rarity ? getRarityStyle(currentWord.rarity) : null;
   const isCorrect = selected === currentWord.definition;
   const isLastWord = wordIndex === level.words.length - 1;
   const sessionLabel =
@@ -91,14 +91,16 @@ export default function LevelQuiz({
       </Text>
 
       <Text style={styles.word}>{currentWord.word}</Text>
-      <Text
-        style={[
-          styles.rarityBadge,
-          { color: rarity.color, borderColor: rarity.color },
-        ]}
-      >
-        {rarity.label}
-      </Text>
+      {rarity && (
+        <Text
+          style={[
+            styles.rarityBadge,
+            { color: rarity.color, borderColor: rarity.color },
+          ]}
+        >
+          {rarity.label}
+        </Text>
+      )}
 
       {!revealed && (
         <>

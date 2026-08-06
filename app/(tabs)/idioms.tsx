@@ -4,6 +4,7 @@ import { ScrollView, StyleSheet, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import BackgroundPattern from "../../components/BackgroundPattern";
 import IdiomOfDayCard from "../../components/IdiomOfDayCard";
+import IdiomojiCard from "../../components/IdiomojiCard";
 import IdiomPracticeCard from "../../components/IdiomPracticeCard";
 import IdiomReviewCard from "../../components/IdiomReviewCard";
 import { Colors, Fonts, Radius, Spacing } from "../../constants/theme";
@@ -48,6 +49,7 @@ export default function Idioms() {
         )}
 
         <IdiomOfDayCard onCaught={handleCaught} />
+        <IdiomojiCard />
         <IdiomPracticeCard onCaught={handleCaught} />
         <IdiomReviewCard refreshKey={refreshKey} />
       </ScrollView>
