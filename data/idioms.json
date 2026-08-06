@@ -1,0 +1,3537 @@
+[
+  {
+    "word": "Break the ice",
+    "definition": "To ease tension or begin a conversation in an awkward situation.",
+    "example": "He told a joke to break the ice at the start of the meeting.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\uddca"
+  },
+  {
+    "word": "Piece of cake",
+    "definition": "Something very easy to do.",
+    "example": "After all that practice, the exam felt like a piece of cake.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf70"
+  },
+  {
+    "word": "Under the weather",
+    "definition": "Feeling slightly ill.",
+    "example": "She stayed home today because she was feeling under the weather.",
+    "category": "Idioms & Expressions",
+    "icon": "\u26c8\ufe0f"
+  },
+  {
+    "word": "Once in a blue moon",
+    "definition": "Very rarely.",
+    "example": "He only calls his cousins once in a blue moon.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf15"
+  },
+  {
+    "word": "Cost an arm and a leg",
+    "definition": "To be very expensive.",
+    "example": "That designer bag cost an arm and a leg.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udcb8"
+  },
+  {
+    "word": "Hit the sack",
+    "definition": "To go to bed.",
+    "example": "It's late, I'm going to hit the sack.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udecc"
+  },
+  {
+    "word": "On the ball",
+    "definition": "Alert, competent, and quick to understand things.",
+    "example": "The new intern is really on the ball.",
+    "category": "Idioms & Expressions",
+    "icon": "\u26bd"
+  },
+  {
+    "word": "Bite the bullet",
+    "definition": "To face a difficult situation with courage.",
+    "example": "She decided to bite the bullet and ask for a raise.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\uddb7"
+  },
+  {
+    "word": "Let the cat out of the bag",
+    "definition": "To accidentally reveal a secret.",
+    "example": "He let the cat out of the bag about the surprise party.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc08"
+  },
+  {
+    "word": "Spill the beans",
+    "definition": "To reveal secret information.",
+    "example": "Come on, spill the beans about what happened at the meeting.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\uded8"
+  },
+  {
+    "word": "Burn the midnight oil",
+    "definition": "To work late into the night.",
+    "example": "She burned the midnight oil finishing the report before the deadline.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udd6f\ufe0f"
+  },
+  {
+    "word": "Beat around the bush",
+    "definition": "To avoid getting to the point of a matter.",
+    "example": "Stop beating around the bush and just tell me what happened.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf33"
+  },
+  {
+    "word": "Jump on the bandwagon",
+    "definition": "To join a popular trend or activity.",
+    "example": "Once the app went viral, every brand jumped on the bandwagon.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\ude8b"
+  },
+  {
+    "word": "Kill two birds with one stone",
+    "definition": "To achieve two goals with a single action.",
+    "example": "By walking to work, he kills two birds with one stone.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc26"
+  },
+  {
+    "word": "Cut corners",
+    "definition": "To do something in the easiest or cheapest way, often sacrificing quality.",
+    "example": "The contractor cut corners, and the roof started leaking within a year.",
+    "category": "Idioms & Expressions",
+    "icon": "\u2702\ufe0f"
+  },
+  {
+    "word": "Add fuel to the fire",
+    "definition": "To make a bad situation worse.",
+    "example": "Bringing up old arguments just added fuel to the fire.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udd25"
+  },
+  {
+    "word": "Go the extra mile",
+    "definition": "To make a special effort beyond what is expected.",
+    "example": "The waiter went the extra mile to make our anniversary dinner special.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfc3"
+  },
+  {
+    "word": "Read between the lines",
+    "definition": "To understand a hidden or implied meaning.",
+    "example": "You have to read between the lines to see what she's really asking for.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udd0d"
+  },
+  {
+    "word": "Bury the hatchet",
+    "definition": "To make peace and end a conflict.",
+    "example": "After years of feuding, the two families finally buried the hatchet.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\ude93"
+  },
+  {
+    "word": "Throw in the towel",
+    "definition": "To give up on an effort.",
+    "example": "After three failed attempts, he threw in the towel and moved on.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udff3\ufe0f"
+  },
+  {
+    "word": "Cross that bridge when you come to it",
+    "definition": "To deal with a problem only when it actually happens.",
+    "example": "We don't need to worry about that yet, we'll cross that bridge when we come to it.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf09"
+  },
+  {
+    "word": "Barking up the wrong tree",
+    "definition": "To pursue a mistaken or misguided course of action.",
+    "example": "If you think I took your charger, you're barking up the wrong tree.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc15"
+  },
+  {
+    "word": "A blessing in disguise",
+    "definition": "Something that seems bad at first but turns out to be good.",
+    "example": "Losing that job turned out to be a blessing in disguise.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfad"
+  },
+  {
+    "word": "Cross the Rubicon",
+    "definition": "To take an irreversible step past the point of no return.",
+    "example": "Signing the contract meant they had officially crossed the Rubicon.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf0a"
+  },
+  {
+    "word": "Cut from the same cloth",
+    "definition": "Sharing very similar character or qualities with someone else.",
+    "example": "The two brothers are cut from the same cloth, both stubborn and generous.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\uddf5"
+  },
+  {
+    "word": "Actions speak louder than words",
+    "definition": "What someone does matters more than what they say.",
+    "example": "He didn't apologize in words, but he fixed the mistake \u2014 actions speak louder than words.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udcaa"
+  },
+  {
+    "word": "A dime a dozen",
+    "definition": "Something very common and easy to find.",
+    "example": "Cheap plastic toys like that are a dime a dozen at the market.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\ude99"
+  },
+  {
+    "word": "A picture is worth a thousand words",
+    "definition": "An image can express an idea more powerfully than a description.",
+    "example": "She didn't need to explain the damage; the photo said it all \u2014 a picture is worth a thousand words.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\uddbc\ufe0f"
+  },
+  {
+    "word": "Back to the drawing board",
+    "definition": "To start a plan over after it has failed.",
+    "example": "The prototype didn't work, so it was back to the drawing board.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udcd0"
+  },
+  {
+    "word": "The ball is in your court",
+    "definition": "It's now your turn to make a decision or take action.",
+    "example": "I've sent my proposal, so the ball is in your court now.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfbe"
+  },
+  {
+    "word": "Best of both worlds",
+    "definition": "A situation that combines the advantages of two different things.",
+    "example": "Working remotely part-time gave her the best of both worlds.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf17"
+  },
+  {
+    "word": "Better late than never",
+    "definition": "It's better for something to happen late than not at all.",
+    "example": "He finally sent his birthday card three weeks late \u2014 better late than never.",
+    "category": "Idioms & Expressions",
+    "icon": "\u23f0"
+  },
+  {
+    "word": "Bite off more than you can chew",
+    "definition": "To take on more responsibility than you can handle.",
+    "example": "He bit off more than he could chew when he agreed to plan the entire event alone.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf54"
+  },
+  {
+    "word": "Break a leg",
+    "definition": "A way of wishing someone good luck, especially before a performance.",
+    "example": "Break a leg out there tonight!",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf40"
+  },
+  {
+    "word": "By the skin of your teeth",
+    "definition": "To just barely succeed at something.",
+    "example": "She passed the exam by the skin of her teeth.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\uddb7"
+  },
+  {
+    "word": "Call it a day",
+    "definition": "To stop working on something for the time being.",
+    "example": "We've made good progress, let's call it a day.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf07"
+  },
+  {
+    "word": "Costs a fortune",
+    "definition": "To be very expensive.",
+    "example": "That renovation costs a fortune.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udcb0"
+  },
+  {
+    "word": "Curiosity killed the cat",
+    "definition": "Being too curious can get you into trouble.",
+    "example": "Don't go poking around in his desk \u2014 curiosity killed the cat.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc31"
+  },
+  {
+    "word": "Cut to the chase",
+    "definition": "To get to the point without wasting time.",
+    "example": "Let's cut to the chase: are you in or out?",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfac"
+  },
+  {
+    "word": "Play devil's advocate",
+    "definition": "To argue the opposite side of a debate to test an idea.",
+    "example": "I'll play devil's advocate for a moment: what if the plan fails?",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\ude08"
+  },
+  {
+    "word": "Don't count your chickens before they hatch",
+    "definition": "Don't assume something will succeed before it actually happens.",
+    "example": "We haven't won the contract yet, so don't count your chickens before they hatch.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc14"
+  },
+  {
+    "word": "Don't cry over spilled milk",
+    "definition": "Don't be upset about something that has already happened and can't be changed.",
+    "example": "The vase is broken now, no use crying over spilled milk.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udd5b"
+  },
+  {
+    "word": "Don't judge a book by its cover",
+    "definition": "Don't form an opinion about something based only on appearance.",
+    "example": "He looked unfriendly at first, but don't judge a book by its cover.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udcda"
+  },
+  {
+    "word": "The elephant in the room",
+    "definition": "An obvious problem that everyone avoids discussing.",
+    "example": "Nobody wanted to mention the elephant in the room: the company was losing money.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc18"
+  },
+  {
+    "word": "Every cloud has a silver lining",
+    "definition": "There is something positive in every difficult situation.",
+    "example": "Losing that job was hard, but every cloud has a silver lining \u2014 it led her to a better one.",
+    "category": "Idioms & Expressions",
+    "icon": "\u2601\ufe0f"
+  },
+  {
+    "word": "Face the music",
+    "definition": "To accept the consequences of your actions.",
+    "example": "He finally decided to face the music and admit his mistake.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfb6"
+  },
+  {
+    "word": "Fit as a fiddle",
+    "definition": "In very good physical health.",
+    "example": "At eighty, my grandfather is still fit as a fiddle.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfbb"
+  },
+  {
+    "word": "Get out of hand",
+    "definition": "To become difficult to control.",
+    "example": "The party got out of hand once word spread on social media.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf00"
+  },
+  {
+    "word": "Get your act together",
+    "definition": "To organize yourself and start behaving more responsibly.",
+    "example": "You need to get your act together before the deadline hits.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\uddc2\ufe0f"
+  },
+  {
+    "word": "Give someone the cold shoulder",
+    "definition": "To deliberately ignore or be unfriendly toward someone.",
+    "example": "She gave him the cold shoulder after their argument.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udd76"
+  },
+  {
+    "word": "Back to square one",
+    "definition": "Back to the starting point after a failed attempt.",
+    "example": "The funding fell through, so we're back to square one.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udd01"
+  },
+  {
+    "word": "Go cold turkey",
+    "definition": "To quit a habit suddenly and completely.",
+    "example": "He decided to go cold turkey and stop drinking coffee overnight.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udd83"
+  },
+  {
+    "word": "Hang in there",
+    "definition": "To keep trying despite difficulties; don't give up.",
+    "example": "I know it's tough right now, just hang in there.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udea2"
+  },
+  {
+    "word": "Head over heels",
+    "definition": "Completely and enthusiastically in love.",
+    "example": "They fell head over heels for each other within a week.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc98"
+  },
+  {
+    "word": "Hit the nail on the head",
+    "definition": "To describe exactly what is causing a situation or problem.",
+    "example": "Her explanation hit the nail on the head.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udd28"
+  },
+  {
+    "word": "Hold your horses",
+    "definition": "Wait and be patient.",
+    "example": "Hold your horses, we haven't even confirmed the date yet.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc34"
+  },
+  {
+    "word": "In hot water",
+    "definition": "In trouble.",
+    "example": "He's in hot water with his boss after missing the deadline.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf21\ufe0f"
+  },
+  {
+    "word": "In the heat of the moment",
+    "definition": "Acting without thinking clearly because of strong emotion.",
+    "example": "She said something she regretted in the heat of the moment.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udd25"
+  },
+  {
+    "word": "It takes two to tango",
+    "definition": "Both people involved share responsibility for a situation.",
+    "example": "Don't blame only him for the argument, it takes two to tango.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc83"
+  },
+  {
+    "word": "Jump the gun",
+    "definition": "To act before the right time.",
+    "example": "He jumped the gun and announced the news before it was official.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfc1"
+  },
+  {
+    "word": "Keep an eye on",
+    "definition": "To watch or monitor something carefully.",
+    "example": "Can you keep an eye on the kids for a minute?",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc40"
+  },
+  {
+    "word": "Keep your chin up",
+    "definition": "Stay positive during a difficult time.",
+    "example": "It's been a rough week, but keep your chin up.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\ude42"
+  },
+  {
+    "word": "Kick the bucket",
+    "definition": "A casual way of saying someone has died.",
+    "example": "The old car finally kicked the bucket after years of use.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udea3"
+  },
+  {
+    "word": "The last straw",
+    "definition": "The final problem in a series that makes a situation unbearable.",
+    "example": "Being late again was the last straw for his patience.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udd64"
+  },
+  {
+    "word": "Let sleeping dogs lie",
+    "definition": "Avoid bringing up a past issue that could cause trouble.",
+    "example": "It's an old disagreement, best to let sleeping dogs lie.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udca4"
+  },
+  {
+    "word": "Make a long story short",
+    "definition": "To summarize something briefly.",
+    "example": "To make a long story short, we missed the flight.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udcdd"
+  },
+  {
+    "word": "Miss the boat",
+    "definition": "To miss an opportunity.",
+    "example": "If you don't apply this week, you might miss the boat.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udea2"
+  },
+  {
+    "word": "Monkey business",
+    "definition": "Silly, dishonest, or mischievous behavior.",
+    "example": "The teacher warned the students against any monkey business during the trip.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc12"
+  },
+  {
+    "word": "On cloud nine",
+    "definition": "Extremely happy.",
+    "example": "She's been on cloud nine since getting the acceptance letter.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\ude0a"
+  },
+  {
+    "word": "Once bitten, twice shy",
+    "definition": "After a bad experience, you become more cautious.",
+    "example": "He got scammed once and refuses to buy online again \u2014 once bitten, twice shy.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc0d"
+  },
+  {
+    "word": "Out of the blue",
+    "definition": "Unexpectedly.",
+    "example": "She called me out of the blue after years of silence.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf24\ufe0f"
+  },
+  {
+    "word": "Out of the frying pan into the fire",
+    "definition": "To go from a bad situation into an even worse one.",
+    "example": "Quitting that job to take this one felt like jumping out of the frying pan into the fire.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf73"
+  },
+  {
+    "word": "Get a piece of the pie",
+    "definition": "To receive a share of the profits or benefits.",
+    "example": "Everyone on the team wanted a piece of the pie once the company succeeded.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udd67"
+  },
+  {
+    "word": "Pull someone's leg",
+    "definition": "To playfully tease or joke with someone.",
+    "example": "Relax, I'm just pulling your leg.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\uddb5"
+  },
+  {
+    "word": "Pull yourself together",
+    "definition": "To calm down and regain control of your emotions.",
+    "example": "Take a breath and pull yourself together before the interview.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\uddd8"
+  },
+  {
+    "word": "Put all your eggs in one basket",
+    "definition": "To risk everything on a single plan or option.",
+    "example": "Applying to only one university is putting all your eggs in one basket.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\uddfa"
+  },
+  {
+    "word": "Rain on someone's parade",
+    "definition": "To spoil someone's plans or happiness.",
+    "example": "I hate to rain on your parade, but the venue is already booked.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf27\ufe0f"
+  },
+  {
+    "word": "Rule of thumb",
+    "definition": "A general, practical guideline.",
+    "example": "As a rule of thumb, save at least ten percent of your income.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc4d"
+  },
+  {
+    "word": "See eye to eye",
+    "definition": "To agree with someone.",
+    "example": "The siblings finally saw eye to eye about the family business.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc41\ufe0f"
+  },
+  {
+    "word": "Sit on the fence",
+    "definition": "To avoid making a decision or taking a side.",
+    "example": "He kept sitting on the fence instead of choosing a plan.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udea7"
+  },
+  {
+    "word": "Speak of the devil",
+    "definition": "Said when someone appears right after being mentioned.",
+    "example": "Speak of the devil, here she comes now.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc7b"
+  },
+  {
+    "word": "Steal someone's thunder",
+    "definition": "To take credit for someone else's achievement or take attention away from them.",
+    "example": "He stole her thunder by announcing the news before she could.",
+    "category": "Idioms & Expressions",
+    "icon": "\u26a1"
+  },
+  {
+    "word": "Take it with a grain of salt",
+    "definition": "To not take something too seriously or literally.",
+    "example": "Take his advice with a grain of salt, he's not an expert.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\uddc2"
+  },
+  {
+    "word": "Taste of your own medicine",
+    "definition": "To experience the same unpleasant treatment you've given others.",
+    "example": "After all the pranks he pulled, he finally got a taste of his own medicine.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc8a"
+  },
+  {
+    "word": "Time flies",
+    "definition": "Time seems to pass very quickly.",
+    "example": "I can't believe it's already December, time flies.",
+    "category": "Idioms & Expressions",
+    "icon": "\u23f3"
+  },
+  {
+    "word": "Turn a blind eye",
+    "definition": "To deliberately ignore something wrong.",
+    "example": "The manager turned a blind eye to the small mistakes.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\ude48"
+  },
+  {
+    "word": "Under the radar",
+    "definition": "Without attracting attention.",
+    "example": "The small startup grew quickly while staying under the radar.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udce1"
+  },
+  {
+    "word": "Up in the air",
+    "definition": "Undecided or uncertain.",
+    "example": "Our vacation plans are still up in the air.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf88"
+  },
+  {
+    "word": "Wear your heart on your sleeve",
+    "definition": "To openly show your emotions.",
+    "example": "She's always worn her heart on her sleeve, you always know how she feels.",
+    "category": "Idioms & Expressions",
+    "icon": "\u2764\ufe0f"
+  },
+  {
+    "word": "When pigs fly",
+    "definition": "Used to say something will never happen.",
+    "example": "He'll clean his room when pigs fly.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc37"
+  },
+  {
+    "word": "Wrap your head around it",
+    "definition": "To fully understand something complicated.",
+    "example": "It took me a while to wrap my head around the new software.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udde0"
+  },
+  {
+    "word": "You can't have your cake and eat it too",
+    "definition": "You can't enjoy two incompatible things at once.",
+    "example": "You want to save money and travel every month? You can't have your cake and eat it too.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf82"
+  },
+  {
+    "word": "A penny for your thoughts",
+    "definition": "A way of asking what someone is thinking about.",
+    "example": "You've been quiet all day, a penny for your thoughts?",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udcad"
+  },
+  {
+    "word": "Break the bank",
+    "definition": "To cost more money than you can afford.",
+    "example": "That vacation package won't break the bank.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfe6"
+  },
+  {
+    "word": "Come rain or shine",
+    "definition": "Regardless of the circumstances or weather.",
+    "example": "We'll be there to support you, come rain or shine.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf26\ufe0f"
+  },
+  {
+    "word": "Down to earth",
+    "definition": "Practical and sensible; not pretentious.",
+    "example": "Despite her fame, she's very down to earth.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf0d"
+  },
+  {
+    "word": "Get cold feet",
+    "definition": "To become nervous or hesitant about doing something you had planned.",
+    "example": "He got cold feet right before the wedding.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\uddb6"
+  },
+  {
+    "word": "Go down in flames",
+    "definition": "To fail dramatically and completely.",
+    "example": "The project went down in flames after the budget was cut.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udca5"
+  },
+  {
+    "word": "Hit the ground running",
+    "definition": "To start something with a lot of energy and enthusiasm right away.",
+    "example": "The new manager hit the ground running on her first day.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\ude80"
+  },
+  {
+    "word": "In the same boat",
+    "definition": "In the same difficult situation as someone else.",
+    "example": "Don't worry, we're all in the same boat with this deadline.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udea3"
+  },
+  {
+    "word": "Left out in the cold",
+    "definition": "Excluded or ignored.",
+    "example": "He felt left out in the cold when he wasn't invited to the meeting.",
+    "category": "Idioms & Expressions",
+    "icon": "\u2744\ufe0f"
+  },
+  {
+    "word": "On thin ice",
+    "definition": "In a risky or precarious situation, close to trouble.",
+    "example": "After his last mistake, he's on thin ice with his boss.",
+    "category": "Idioms & Expressions",
+    "icon": "\u26a0\ufe0f"
+  },
+  {
+    "word": "Show your true colors",
+    "definition": "To reveal your real character, often a negative one.",
+    "example": "He finally showed his true colors when things got difficult.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfa8"
+  },
+  {
+    "word": "Sit tight",
+    "definition": "To wait patiently without taking action.",
+    "example": "Just sit tight, the results will be out soon.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\ude91"
+  },
+  {
+    "word": "Take the plunge",
+    "definition": "To finally decide to do something, especially after hesitating.",
+    "example": "After months of saving, they took the plunge and bought a house.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfca"
+  },
+  {
+    "word": "Ahead of the curve",
+    "definition": "More advanced or innovative than others in a field.",
+    "example": "The company stayed ahead of the curve by adopting new technology early.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udcc8"
+  },
+  {
+    "word": "All bark and no bite",
+    "definition": "Someone who makes threats but doesn't follow through.",
+    "example": "Don't worry about his yelling, he's all bark and no bite.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc15"
+  },
+  {
+    "word": "All ears",
+    "definition": "Fully listening and paying attention.",
+    "example": "Go ahead, I'm all ears.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc42"
+  },
+  {
+    "word": "All in a day's work",
+    "definition": "Something considered normal or routine, even if difficult.",
+    "example": "Fixing three computers before lunch? All in a day's work for her.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\uddd3\ufe0f"
+  },
+  {
+    "word": "Apple of my eye",
+    "definition": "Someone who is cherished above all others.",
+    "example": "His granddaughter is the apple of his eye.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf4e"
+  },
+  {
+    "word": "As easy as pie",
+    "definition": "Very easy to do.",
+    "example": "Once you know the steps, assembling the shelf is as easy as pie.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udd67"
+  },
+  {
+    "word": "As happy as a clam",
+    "definition": "Extremely content and happy.",
+    "example": "She was as happy as a clam relaxing on the beach.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc1a"
+  },
+  {
+    "word": "At the drop of a hat",
+    "definition": "Immediately, without hesitation.",
+    "example": "He'll help a friend at the drop of a hat.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfa9"
+  },
+  {
+    "word": "Beating a dead horse",
+    "definition": "Continuing to argue a point that's already settled or pointless.",
+    "example": "We've discussed this five times already, we're beating a dead horse.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc0e"
+  },
+  {
+    "word": "Bend over backwards",
+    "definition": "To make a great effort to help someone.",
+    "example": "The staff bent over backwards to make our stay comfortable.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udd38"
+  },
+  {
+    "word": "Best thing since sliced bread",
+    "definition": "An excellent new idea or invention.",
+    "example": "He thinks this new app is the best thing since sliced bread.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf5e"
+  },
+  {
+    "word": "Between a rock and a hard place",
+    "definition": "Facing a difficult decision with no good options.",
+    "example": "She was between a rock and a hard place, choosing between two job offers with real downsides.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udea8"
+  },
+  {
+    "word": "Bite the dust",
+    "definition": "To fail or come to an end.",
+    "example": "Another one of my houseplants has bitten the dust.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf35"
+  },
+  {
+    "word": "Blow off steam",
+    "definition": "To release stress or built-up frustration.",
+    "example": "He went for a run to blow off steam after the stressful meeting.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udca8"
+  },
+  {
+    "word": "Break even",
+    "definition": "To have neither profit nor loss.",
+    "example": "The store finally broke even after its first difficult year.",
+    "category": "Idioms & Expressions",
+    "icon": "\u2696\ufe0f"
+  },
+  {
+    "word": "Bring home the bacon",
+    "definition": "To earn money to support a family.",
+    "example": "Both parents work full-time to bring home the bacon.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udd53"
+  },
+  {
+    "word": "Burn bridges",
+    "definition": "To damage a relationship in a way that can't be repaired.",
+    "example": "He quit without notice and burned bridges with his old employer.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf09"
+  },
+  {
+    "word": "Burst your bubble",
+    "definition": "To ruin someone's happy mood or unrealistic idea.",
+    "example": "I hate to burst your bubble, but the show was cancelled.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udee7"
+  },
+  {
+    "word": "Butterflies in my stomach",
+    "definition": "A nervous, fluttery feeling before something important.",
+    "example": "She had butterflies in her stomach before the interview.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udd8b"
+  },
+  {
+    "word": "Buy time",
+    "definition": "To delay something in order to gain an advantage.",
+    "example": "He asked for an extension just to buy time.",
+    "category": "Idioms & Expressions",
+    "icon": "\u23f1\ufe0f"
+  },
+  {
+    "word": "By a long shot",
+    "definition": "By a wide margin; clearly.",
+    "example": "That wasn't the best restaurant in town, not by a long shot.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfaf"
+  },
+  {
+    "word": "Calm before the storm",
+    "definition": "A period of quiet before something difficult or chaotic happens.",
+    "example": "The office was oddly quiet, the calm before the storm of deadline week.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf2a\ufe0f"
+  },
+  {
+    "word": "Caught red-handed",
+    "definition": "Caught in the act of doing something wrong.",
+    "example": "He was caught red-handed sneaking a cookie before dinner.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udd90\ufe0f"
+  },
+  {
+    "word": "Change of heart",
+    "definition": "A change in opinion or feeling.",
+    "example": "She had a change of heart and decided to stay in the city.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc97"
+  },
+  {
+    "word": "Chip on your shoulder",
+    "definition": "A lingering feeling of resentment.",
+    "example": "He's had a chip on his shoulder since being passed over for the promotion.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udeb5"
+  },
+  {
+    "word": "Clean slate",
+    "definition": "A fresh start, free of past mistakes.",
+    "example": "Moving to a new city gave her a clean slate.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\uddfd"
+  },
+  {
+    "word": "Close call",
+    "definition": "A situation that narrowly avoided disaster.",
+    "example": "That was a close call, the bus almost left without us.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\ude05"
+  },
+  {
+    "word": "Cool as a cucumber",
+    "definition": "Very calm, especially under pressure.",
+    "example": "Even during the emergency, she stayed cool as a cucumber.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udd52"
+  },
+  {
+    "word": "Cross your fingers",
+    "definition": "To hope for good luck.",
+    "example": "I'm crossing my fingers that the weather holds for the wedding.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udd1e"
+  },
+  {
+    "word": "Cry wolf",
+    "definition": "To raise a false alarm, making people distrust future warnings.",
+    "example": "After crying wolf twice, no one believed him the third time.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc3a"
+  },
+  {
+    "word": "Cut someone some slack",
+    "definition": "To be less critical or demanding of someone.",
+    "example": "He's new here, cut him some slack.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udea2"
+  },
+  {
+    "word": "Dark horse",
+    "definition": "An unexpected competitor who succeeds.",
+    "example": "The dark horse candidate ended up winning the election.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc34"
+  },
+  {
+    "word": "Dead ringer",
+    "definition": "Someone or something that closely resembles another.",
+    "example": "She's a dead ringer for her older sister.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc6f"
+  },
+  {
+    "word": "Diamond in the rough",
+    "definition": "Someone or something with great potential that isn't yet polished.",
+    "example": "The old house was a diamond in the rough, worth renovating.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc8e"
+  },
+  {
+    "word": "Dog eat dog",
+    "definition": "A ruthlessly competitive environment.",
+    "example": "The startup world can be dog eat dog.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc15"
+  },
+  {
+    "word": "Down in the dumps",
+    "definition": "Feeling sad or depressed.",
+    "example": "He's been down in the dumps since losing his job.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf27\ufe0f"
+  },
+  {
+    "word": "Draw a blank",
+    "definition": "To be unable to remember or think of something.",
+    "example": "I drew a blank when he asked for my number.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udde0"
+  },
+  {
+    "word": "Drive someone up the wall",
+    "definition": "To greatly annoy someone.",
+    "example": "That constant tapping is driving me up the wall.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\uddf1"
+  },
+  {
+    "word": "Drop in the bucket",
+    "definition": "A very small amount compared to what's needed.",
+    "example": "The donation was generous, but it's a drop in the bucket for the whole project.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udea3"
+  },
+  {
+    "word": "Eat your heart out",
+    "definition": "Said to express that someone should be envious.",
+    "example": "I got the last ticket, eat your heart out!",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\ude0f"
+  },
+  {
+    "word": "Egg on your face",
+    "definition": "Looking foolish after being proven wrong.",
+    "example": "He predicted they'd lose, and now he's got egg on his face.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udd5a"
+  },
+  {
+    "word": "Fall for it",
+    "definition": "To be tricked into believing something.",
+    "example": "I can't believe I fell for that prank again.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfad"
+  },
+  {
+    "word": "Fish out of water",
+    "definition": "Feeling awkward or out of place in a new situation.",
+    "example": "He felt like a fish out of water at his first big conference.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc1f"
+  },
+  {
+    "word": "Flash in the pan",
+    "definition": "A brief success that doesn't last.",
+    "example": "The band's hit song turned out to be a flash in the pan.",
+    "category": "Idioms & Expressions",
+    "icon": "\u2728"
+  },
+  {
+    "word": "Fly by the seat of your pants",
+    "definition": "To improvise without a clear plan.",
+    "example": "We had no itinerary, we just flew by the seat of our pants.",
+    "category": "Idioms & Expressions",
+    "icon": "\u2708\ufe0f"
+  },
+  {
+    "word": "Fly on the wall",
+    "definition": "An unseen observer of a situation.",
+    "example": "I wish I could've been a fly on the wall during that meeting.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udeb0"
+  },
+  {
+    "word": "For a song",
+    "definition": "For a very low price.",
+    "example": "She got the antique table for a song at the flea market.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfb5"
+  },
+  {
+    "word": "From scratch",
+    "definition": "Starting from the very beginning, without pre-made materials.",
+    "example": "She baked the cake from scratch.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\uddd1\u200d\ud83c\udf73"
+  },
+  {
+    "word": "Get a grip",
+    "definition": "To gain control of your emotions.",
+    "example": "Take a deep breath and get a grip before the presentation.",
+    "category": "Idioms & Expressions",
+    "icon": "\u270b"
+  },
+  {
+    "word": "Get the ball rolling",
+    "definition": "To start something moving or in progress.",
+    "example": "Let's get the ball rolling on the new project today.",
+    "category": "Idioms & Expressions",
+    "icon": "\u26bd"
+  },
+  {
+    "word": "Get the hang of it",
+    "definition": "To learn how to do something properly.",
+    "example": "It took a while, but she finally got the hang of the new software.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfa3"
+  },
+  {
+    "word": "Give it a shot",
+    "definition": "To try something.",
+    "example": "I've never done pottery before, but I'll give it a shot.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfaf"
+  },
+  {
+    "word": "Go all out",
+    "definition": "To make a maximum effort.",
+    "example": "The team went all out to finish the project on time.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\ude80"
+  },
+  {
+    "word": "Go with the flow",
+    "definition": "To adapt easily to circumstances.",
+    "example": "She doesn't plan much, she just goes with the flow.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf0a"
+  },
+  {
+    "word": "Grasp at straws",
+    "definition": "To try desperate, unlikely solutions.",
+    "example": "He was grasping at straws trying to explain the mistake.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udd64"
+  },
+  {
+    "word": "Green light",
+    "definition": "Permission to proceed.",
+    "example": "The manager finally gave the green light for the new campaign.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udfe2"
+  },
+  {
+    "word": "Have a ball",
+    "definition": "To have a great time.",
+    "example": "The kids had a ball at the amusement park.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf89"
+  },
+  {
+    "word": "Have your head in the clouds",
+    "definition": "To be distracted or unrealistic.",
+    "example": "He's got his head in the clouds, dreaming about quitting his job to travel.",
+    "category": "Idioms & Expressions",
+    "icon": "\u2601\ufe0f"
+  },
+  {
+    "word": "High and dry",
+    "definition": "Left without help or resources.",
+    "example": "The company went bankrupt, leaving investors high and dry.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfdc\ufe0f"
+  },
+  {
+    "word": "Hit a snag",
+    "definition": "To encounter an unexpected problem.",
+    "example": "The renovation hit a snag when they found old wiring.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\ude9d"
+  },
+  {
+    "word": "Hit or miss",
+    "definition": "Unpredictable; sometimes successful, sometimes not.",
+    "example": "The quality of the food there is hit or miss.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfaf"
+  },
+  {
+    "word": "Hit the books",
+    "definition": "To study intensively.",
+    "example": "I need to hit the books before the final exam.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udcd6"
+  },
+  {
+    "word": "Hit the hay",
+    "definition": "To go to bed.",
+    "example": "It's midnight, I should hit the hay.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udecf\ufe0f"
+  },
+  {
+    "word": "Hit the jackpot",
+    "definition": "To have great luck or success.",
+    "example": "They hit the jackpot when they found their dream house at that price.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfb0"
+  },
+  {
+    "word": "Hit the road",
+    "definition": "To leave, especially on a trip.",
+    "example": "We should hit the road early to beat traffic.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udee3\ufe0f"
+  },
+  {
+    "word": "Hold your tongue",
+    "definition": "To refrain from speaking, especially when tempted to say something critical.",
+    "example": "She wanted to argue but decided to hold her tongue.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udd10"
+  },
+  {
+    "word": "In a nutshell",
+    "definition": "Briefly summarized.",
+    "example": "In a nutshell, the meeting went well.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf30"
+  },
+  {
+    "word": "In the dark",
+    "definition": "Uninformed about something.",
+    "example": "The employees were kept in the dark about the merger.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf11"
+  },
+  {
+    "word": "In the same breath",
+    "definition": "Saying two contradictory things one right after another.",
+    "example": "He said he was fine, then in the same breath admitted he was exhausted.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udca8"
+  },
+  {
+    "word": "In your shoes",
+    "definition": "In your position or situation.",
+    "example": "If I were in your shoes, I'd take the offer.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc5e"
+  },
+  {
+    "word": "It's not rocket science",
+    "definition": "Something isn't as complicated as it seems.",
+    "example": "Setting up the printer isn't rocket science.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\ude80"
+  },
+  {
+    "word": "Jump for joy",
+    "definition": "To be extremely happy.",
+    "example": "She jumped for joy when she got the acceptance letter.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udd38"
+  },
+  {
+    "word": "Keep your fingers crossed",
+    "definition": "To hope for a good outcome.",
+    "example": "Keep your fingers crossed that the weather stays nice for the picnic.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udd1e"
+  },
+  {
+    "word": "Kick back",
+    "definition": "To relax.",
+    "example": "After the exam, I just want to kick back and watch a movie.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udecb\ufe0f"
+  },
+  {
+    "word": "Know the ropes",
+    "definition": "To understand how to do something, usually through experience.",
+    "example": "It took him a month to know the ropes at his new job.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udea2"
+  },
+  {
+    "word": "Let the chips fall where they may",
+    "definition": "To let events happen naturally without trying to control the outcome.",
+    "example": "I've done my best, now I'll let the chips fall where they may.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf5f"
+  },
+  {
+    "word": "Long shot",
+    "definition": "Something unlikely to succeed.",
+    "example": "Winning the scholarship is a long shot, but she's applying anyway.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfaf"
+  },
+  {
+    "word": "Loose ends",
+    "definition": "Unfinished details of a task or plan.",
+    "example": "We just need to tie up a few loose ends before the launch.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\uddf5"
+  },
+  {
+    "word": "Lose your touch",
+    "definition": "To lose a skill you once had.",
+    "example": "I think I've lost my touch, I used to be great at chess.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfa8"
+  },
+  {
+    "word": "Make ends meet",
+    "definition": "To earn just enough money to cover basic expenses.",
+    "example": "They took a second job to make ends meet.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udcb5"
+  },
+  {
+    "word": "Method to the madness",
+    "definition": "A hidden logic behind something that appears chaotic.",
+    "example": "His desk looks messy, but there's a method to the madness.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udde9"
+  },
+  {
+    "word": "My hands are tied",
+    "definition": "Unable to help because of restrictions or rules.",
+    "example": "I'd love to give you a refund, but my hands are tied by company policy.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\ude45"
+  },
+  {
+    "word": "No pain no gain",
+    "definition": "Achieving something worthwhile requires effort or discomfort.",
+    "example": "Training for the marathon is exhausting, but no pain, no gain.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfcb\ufe0f"
+  },
+  {
+    "word": "Not my cup of tea",
+    "definition": "Something that isn't to your taste or liking.",
+    "example": "Horror movies are just not my cup of tea.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf75"
+  },
+  {
+    "word": "Off the hook",
+    "definition": "No longer responsible or in trouble.",
+    "example": "Since someone else volunteered, I'm off the hook for the presentation.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfa3"
+  },
+  {
+    "word": "Off the top of your head",
+    "definition": "Said or recalled from memory, without checking.",
+    "example": "I can't remember the address off the top of my head.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udde0"
+  },
+  {
+    "word": "On the same page",
+    "definition": "In agreement about something.",
+    "example": "Let's make sure we're on the same page before the client meeting.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udcc4"
+  },
+  {
+    "word": "On the spot",
+    "definition": "Immediately, without preparation.",
+    "example": "She was asked a tough question on the spot during the interview.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udccd"
+  },
+  {
+    "word": "Once in a lifetime",
+    "definition": "A rare and special opportunity.",
+    "example": "Seeing the northern lights was a once in a lifetime experience.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf0c"
+  },
+  {
+    "word": "Out of the woods",
+    "definition": "Past the most difficult part of a situation.",
+    "example": "The patient is recovering well, but she's not out of the woods yet.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf32"
+  },
+  {
+    "word": "Over the moon",
+    "definition": "Extremely happy.",
+    "example": "He was over the moon when he got the job offer.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf1d"
+  },
+  {
+    "word": "Pull the plug",
+    "definition": "To stop or cancel something.",
+    "example": "The studio pulled the plug on the project after the budget ran out.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udd0c"
+  },
+  {
+    "word": "Pull through",
+    "definition": "To survive or recover from a difficult situation.",
+    "example": "The doctors are confident she'll pull through.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udcaa"
+  },
+  {
+    "word": "Push the envelope",
+    "definition": "To go beyond normal limits; to innovate.",
+    "example": "The design team loves to push the envelope with bold new ideas.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udce9"
+  },
+  {
+    "word": "Put the cart before the horse",
+    "definition": "To do things in the wrong order.",
+    "example": "Buying furniture before signing the lease is putting the cart before the horse.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc0e"
+  },
+  {
+    "word": "Raining cats and dogs",
+    "definition": "Raining very heavily.",
+    "example": "We got soaked, it was raining cats and dogs out there.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf27\ufe0f"
+  },
+  {
+    "word": "Ring a bell",
+    "definition": "To sound familiar.",
+    "example": "That name rings a bell, but I can't place it.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udd14"
+  },
+  {
+    "word": "Second nature",
+    "definition": "A skill so well learned it feels automatic.",
+    "example": "After years of practice, playing the piano is second nature to her.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfb9"
+  },
+  {
+    "word": "Sixth sense",
+    "definition": "An intuitive ability to know things beyond normal senses.",
+    "example": "She has a sixth sense for when something is wrong.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udd2e"
+  },
+  {
+    "word": "Slow and steady wins the race",
+    "definition": "Consistent, careful effort succeeds better than rushing.",
+    "example": "He didn't rush his studying, slow and steady wins the race.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc22"
+  },
+  {
+    "word": "Add insult to injury",
+    "definition": "To make a bad situation even worse.",
+    "example": "Losing the game was bad enough, but the injury added insult to injury.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udd15"
+  },
+  {
+    "word": "Against the clock",
+    "definition": "Racing to finish something before a deadline.",
+    "example": "The team worked against the clock to launch on time.",
+    "category": "Idioms & Expressions",
+    "icon": "\u23f1\ufe0f"
+  },
+  {
+    "word": "All talk and no action",
+    "definition": "Someone who talks about doing things but never actually does them.",
+    "example": "He keeps promising to start the gym but he's all talk and no action.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udde3\ufe0f"
+  },
+  {
+    "word": "An axe to grind",
+    "definition": "A personal reason for being angry or resentful about something.",
+    "example": "He seems to have an axe to grind with the new manager.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\ude93"
+  },
+  {
+    "word": "Armed to the teeth",
+    "definition": "Heavily equipped or prepared.",
+    "example": "The team showed up armed to the teeth with data for the pitch.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udee1\ufe0f"
+  },
+  {
+    "word": "Back against the wall",
+    "definition": "In a difficult situation with no easy way out.",
+    "example": "With the deadline tomorrow, she had her back against the wall.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\uddf1"
+  },
+  {
+    "word": "His bark is worse than his bite",
+    "definition": "Someone seems more threatening than they actually are.",
+    "example": "Don't worry about the coach yelling, his bark is worse than his bite.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc15"
+  },
+  {
+    "word": "Bated breath",
+    "definition": "Waiting anxiously or excitedly.",
+    "example": "Fans waited with bated breath for the album release.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\ude2e"
+  },
+  {
+    "word": "Beat a hasty retreat",
+    "definition": "To leave quickly, especially to avoid trouble.",
+    "example": "When the alarm went off, they beat a hasty retreat.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfc3"
+  },
+  {
+    "word": "Bells and whistles",
+    "definition": "Extra, often unnecessary features.",
+    "example": "The basic model works fine, we don't need all the bells and whistles.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udd14"
+  },
+  {
+    "word": "Below the belt",
+    "definition": "Unfair or cruel, especially in an argument.",
+    "example": "That comment about his family was below the belt.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udd4a"
+  },
+  {
+    "word": "Best foot forward",
+    "definition": "To try to make the best impression possible.",
+    "example": "Put your best foot forward at the interview.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc63"
+  },
+  {
+    "word": "Big fish in a small pond",
+    "definition": "An important person within a small group or place.",
+    "example": "He was a big fish in a small pond at his old company.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc1f"
+  },
+  {
+    "word": "Bird's eye view",
+    "definition": "A view from above; a broad overview.",
+    "example": "The rooftop gave us a bird's eye view of the whole city.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udd85"
+  },
+  {
+    "word": "Bite your tongue",
+    "definition": "To stop yourself from saying something.",
+    "example": "I wanted to argue, but I bit my tongue.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc45"
+  },
+  {
+    "word": "Blow a fuse",
+    "definition": "To become suddenly very angry.",
+    "example": "He blew a fuse when he saw the parking ticket.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udca5"
+  },
+  {
+    "word": "Blow your own trumpet",
+    "definition": "To boast about your own achievements.",
+    "example": "She doesn't like to blow her own trumpet, even after the big win.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfba"
+  },
+  {
+    "word": "Bone to pick",
+    "definition": "A reason to be annoyed with someone.",
+    "example": "I've got a bone to pick with you about last night.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\uddb4"
+  },
+  {
+    "word": "Born with a silver spoon in your mouth",
+    "definition": "Born into a wealthy family.",
+    "example": "He was born with a silver spoon in his mouth and never had to work.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udd44"
+  },
+  {
+    "word": "Bottom line",
+    "definition": "The most important fact or conclusion.",
+    "example": "The bottom line is we need more funding.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udcca"
+  },
+  {
+    "word": "Break new ground",
+    "definition": "To do something innovative or original.",
+    "example": "Her research broke new ground in the field.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf31"
+  },
+  {
+    "word": "Break the mold",
+    "definition": "To do something differently from the usual way.",
+    "example": "The new design broke the mold in the industry.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\uddf1"
+  },
+  {
+    "word": "Bright-eyed and bushy-tailed",
+    "definition": "Alert, energetic, and enthusiastic.",
+    "example": "She showed up bright-eyed and bushy-tailed on her first day.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc3f\ufe0f"
+  },
+  {
+    "word": "Bring to the table",
+    "definition": "To offer valuable skills or ideas.",
+    "example": "She brings a lot of experience to the table.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf7d\ufe0f"
+  },
+  {
+    "word": "Burn the candle at both ends",
+    "definition": "To work or stay busy for long hours without enough rest.",
+    "example": "He's been burning the candle at both ends studying for finals.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udd6f\ufe0f"
+  },
+  {
+    "word": "Bury your head in the sand",
+    "definition": "To ignore a problem, hoping it will go away.",
+    "example": "Ignoring the bills won't help, don't bury your head in the sand.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfd6\ufe0f"
+  },
+  {
+    "word": "Cast the first stone",
+    "definition": "To be the first to criticize or blame someone.",
+    "example": "None of us are perfect, so let's not be the first to cast a stone.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udea8"
+  },
+  {
+    "word": "Catch someone off guard",
+    "definition": "To surprise someone when they aren't prepared.",
+    "example": "The sudden question caught her off guard.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\ude32"
+  },
+  {
+    "word": "Chase your tail",
+    "definition": "To be very busy without accomplishing much.",
+    "example": "I've been chasing my tail all week with small tasks.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc15"
+  },
+  {
+    "word": "Chew the fat",
+    "definition": "To chat casually.",
+    "example": "We sat on the porch chewing the fat for hours.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udcac"
+  },
+  {
+    "word": "Chip off the old block",
+    "definition": "Someone who closely resembles a parent in character.",
+    "example": "He's a real chip off the old block, just as stubborn as his dad.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udeb5"
+  },
+  {
+    "word": "Clear the air",
+    "definition": "To resolve a misunderstanding or disagreement.",
+    "example": "They finally sat down to clear the air after the argument.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf2c\ufe0f"
+  },
+  {
+    "word": "Climb the ladder",
+    "definition": "To advance in your career.",
+    "example": "She's climbing the ladder quickly at her new job.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\ude9c"
+  },
+  {
+    "word": "Come out of your shell",
+    "definition": "To become less shy.",
+    "example": "He really came out of his shell after joining the drama club.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc22"
+  },
+  {
+    "word": "Come to terms with",
+    "definition": "To accept a difficult situation.",
+    "example": "It took time for him to come to terms with the news.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udd1d"
+  },
+  {
+    "word": "Cost a pretty penny",
+    "definition": "To be very expensive.",
+    "example": "That watch must have cost a pretty penny.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udcb0"
+  },
+  {
+    "word": "Crack under pressure",
+    "definition": "To fail to perform well when stressed.",
+    "example": "He's known for staying calm and never cracking under pressure.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udd5a"
+  },
+  {
+    "word": "Cut and dried",
+    "definition": "Simple, clear, and already decided.",
+    "example": "The case seemed cut and dried, but new evidence changed everything.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udccb"
+  },
+  {
+    "word": "Cut the mustard",
+    "definition": "To meet expectations or perform well enough.",
+    "example": "His work just didn't cut the mustard this quarter.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf2d"
+  },
+  {
+    "word": "Dead in the water",
+    "definition": "No longer working or making progress.",
+    "example": "The project has been dead in the water since funding was cut.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udea4"
+  },
+  {
+    "word": "The devil is in the details",
+    "definition": "Small details can cause problems if overlooked.",
+    "example": "The plan looks great, but the devil is in the details.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\ude08"
+  },
+  {
+    "word": "Dig your heels in",
+    "definition": "To stubbornly refuse to change your position.",
+    "example": "She dug her heels in and refused to compromise.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc60"
+  },
+  {
+    "word": "Down to the wire",
+    "definition": "Until the very last moment.",
+    "example": "The vote came down to the wire.",
+    "category": "Idioms & Expressions",
+    "icon": "\u23f3"
+  },
+  {
+    "word": "Drag your feet",
+    "definition": "To act slowly or reluctantly.",
+    "example": "He's been dragging his feet on finishing the report.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc0c"
+  },
+  {
+    "word": "Draw the line",
+    "definition": "To set a limit on what is acceptable.",
+    "example": "I draw the line at working weekends.",
+    "category": "Idioms & Expressions",
+    "icon": "\u270f\ufe0f"
+  },
+  {
+    "word": "Dressed to the nines",
+    "definition": "Dressed very fashionably or formally.",
+    "example": "She showed up dressed to the nines for the gala.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc57"
+  },
+  {
+    "word": "Drop the ball",
+    "definition": "To make a mistake or fail to do something expected.",
+    "example": "The team dropped the ball on the deadline.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfc0"
+  },
+  {
+    "word": "Dry run",
+    "definition": "A practice attempt before the real event.",
+    "example": "We did a dry run of the presentation before the client meeting.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfc3"
+  },
+  {
+    "word": "Duck out",
+    "definition": "To leave quietly or secretly.",
+    "example": "He ducked out of the meeting early.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udd86"
+  },
+  {
+    "word": "Eager beaver",
+    "definition": "Someone very enthusiastic and hardworking.",
+    "example": "The new intern is a real eager beaver.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\uddab"
+  },
+  {
+    "word": "The early bird catches the worm",
+    "definition": "Those who act early gain an advantage.",
+    "example": "She got there before anyone else, the early bird catches the worm.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc26"
+  },
+  {
+    "word": "Easier said than done",
+    "definition": "Something that sounds simple but is actually difficult.",
+    "example": "Losing weight is easier said than done.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udde3\ufe0f"
+  },
+  {
+    "word": "Elbow grease",
+    "definition": "Physical effort or hard work.",
+    "example": "This floor just needs some elbow grease to shine again.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udcaa"
+  },
+  {
+    "word": "Face value",
+    "definition": "The apparent worth of something, without deeper analysis.",
+    "example": "Don't take his story at face value, check the facts first.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfad"
+  },
+  {
+    "word": "Fair and square",
+    "definition": "Done honestly, without cheating.",
+    "example": "She won the competition fair and square.",
+    "category": "Idioms & Expressions",
+    "icon": "\u2696\ufe0f"
+  },
+  {
+    "word": "Fall on deaf ears",
+    "definition": "To be ignored.",
+    "example": "Our complaints fell on deaf ears.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc42"
+  },
+  {
+    "word": "Feather in your cap",
+    "definition": "An achievement to be proud of.",
+    "example": "Winning that award was a real feather in her cap.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udeb6"
+  },
+  {
+    "word": "Feel the pinch",
+    "definition": "To experience financial difficulty.",
+    "example": "Many families are feeling the pinch with rising prices.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udcb8"
+  },
+  {
+    "word": "Fight tooth and nail",
+    "definition": "To fight fiercely for something.",
+    "example": "They fought tooth and nail to save the local park.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\uddb7"
+  },
+  {
+    "word": "Fine line",
+    "definition": "A very subtle distinction.",
+    "example": "There's a fine line between confidence and arrogance.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\uddf5"
+  },
+  {
+    "word": "Finger in every pie",
+    "definition": "Involved in many different activities or projects.",
+    "example": "She has a finger in every pie around the office.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udd67"
+  },
+  {
+    "word": "Fired up",
+    "definition": "Excited and energetic.",
+    "example": "The team was fired up after the win.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udd25"
+  },
+  {
+    "word": "First come first served",
+    "definition": "Available to people in the order they arrive.",
+    "example": "Tickets are first come first served.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf9f\ufe0f"
+  },
+  {
+    "word": "Food for thought",
+    "definition": "Something worth thinking about seriously.",
+    "example": "His comment gave me a lot of food for thought.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf72"
+  },
+  {
+    "word": "For the birds",
+    "definition": "Worthless or unimportant.",
+    "example": "That excuse is for the birds.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc26"
+  },
+  {
+    "word": "Get the short end of the stick",
+    "definition": "To be treated unfairly.",
+    "example": "He always gets the short end of the stick when tasks are divided.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udd62"
+  },
+  {
+    "word": "Get wind of",
+    "definition": "To hear about something, often secretly.",
+    "example": "She got wind of the surprise party.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf2c\ufe0f"
+  },
+  {
+    "word": "Give the benefit of the doubt",
+    "definition": "To assume the best about someone despite uncertainty.",
+    "example": "I'll give him the benefit of the doubt this time.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udd14"
+  },
+  {
+    "word": "Go against the grain",
+    "definition": "To do something different from the usual way.",
+    "example": "Her approach goes against the grain of traditional teaching.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udeb5"
+  },
+  {
+    "word": "Go back on your word",
+    "definition": "To break a promise.",
+    "example": "He went back on his word and cancelled last minute.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udd19"
+  },
+  {
+    "word": "Go belly up",
+    "definition": "To fail completely, especially a business.",
+    "example": "The startup went belly up after two years.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc1f"
+  },
+  {
+    "word": "Go for broke",
+    "definition": "To risk everything for a chance of success.",
+    "example": "They decided to go for broke and invest their savings.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfb0"
+  },
+  {
+    "word": "Go out on a limb",
+    "definition": "To take a risk by saying or doing something bold.",
+    "example": "I'll go out on a limb and say we'll win this year.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf33"
+  },
+  {
+    "word": "Go the distance",
+    "definition": "To finish something you started, no matter how hard.",
+    "example": "The runner had the determination to go the distance.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfc3"
+  },
+  {
+    "word": "Goes without saying",
+    "definition": "Something so obvious it doesn't need to be stated.",
+    "example": "It goes without saying that safety comes first.",
+    "category": "Idioms & Expressions",
+    "icon": "\u2714\ufe0f"
+  },
+  {
+    "word": "Golden opportunity",
+    "definition": "An excellent chance to do something.",
+    "example": "This internship is a golden opportunity for her career.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf1f"
+  },
+  {
+    "word": "Good things come to those who wait",
+    "definition": "Patience is often rewarded.",
+    "example": "She waited two years for the promotion, good things come to those who wait.",
+    "category": "Idioms & Expressions",
+    "icon": "\u23f3"
+  },
+  {
+    "word": "Grease someone's palm",
+    "definition": "To bribe someone.",
+    "example": "Rumor has it he greased a few palms to get the permit.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udd90\ufe0f"
+  },
+  {
+    "word": "Green with envy",
+    "definition": "Very jealous.",
+    "example": "She was green with envy when she saw his new car.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc9a"
+  },
+  {
+    "word": "Grin and bear it",
+    "definition": "To endure something unpleasant without complaining.",
+    "example": "There's nothing we can do but grin and bear it.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\ude2c"
+  },
+  {
+    "word": "Hang by a thread",
+    "definition": "In a very risky or fragile situation.",
+    "example": "The company's future was hanging by a thread.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\uddf5"
+  },
+  {
+    "word": "Hard nut to crack",
+    "definition": "A difficult problem or person to understand.",
+    "example": "That math question was a hard nut to crack.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udd5c"
+  },
+  {
+    "word": "Have a heart",
+    "definition": "Be kind or sympathetic.",
+    "example": "Come on, have a heart, give him another chance.",
+    "category": "Idioms & Expressions",
+    "icon": "\u2764\ufe0f"
+  },
+  {
+    "word": "Have the upper hand",
+    "definition": "To have an advantage over others.",
+    "example": "With more resources, they had the upper hand in negotiations.",
+    "category": "Idioms & Expressions",
+    "icon": "\u270b"
+  },
+  {
+    "word": "Head start",
+    "definition": "An early advantage.",
+    "example": "Studying over the summer gave her a head start on the semester.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfc1"
+  },
+  {
+    "word": "Hold water",
+    "definition": "To be logical or valid.",
+    "example": "His excuse just doesn't hold water.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udca7"
+  },
+  {
+    "word": "Hot under the collar",
+    "definition": "Angry or agitated.",
+    "example": "He got hot under the collar when they cancelled his order.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udd75"
+  },
+  {
+    "word": "In a bind",
+    "definition": "In a difficult situation.",
+    "example": "I'm in a bind, my car broke down and I need a ride.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udea2"
+  },
+  {
+    "word": "In a pickle",
+    "definition": "In a difficult or awkward situation.",
+    "example": "We're in a bit of a pickle, the flight got cancelled.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udd52"
+  },
+  {
+    "word": "In cahoots",
+    "definition": "Secretly cooperating, often for something dishonest.",
+    "example": "They suspected the two employees were in cahoots.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udd2b"
+  },
+  {
+    "word": "In one ear and out the other",
+    "definition": "Quickly forgotten after being heard.",
+    "example": "My advice goes in one ear and out the other with him.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc42"
+  },
+  {
+    "word": "In the bag",
+    "definition": "Certain to happen; already secured.",
+    "example": "With that lead, the win was in the bag.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf92"
+  },
+  {
+    "word": "In the driver's seat",
+    "definition": "In control of a situation.",
+    "example": "She's firmly in the driver's seat of this project.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\ude97"
+  },
+  {
+    "word": "In the limelight",
+    "definition": "The center of public attention.",
+    "example": "The young actor suddenly found himself in the limelight.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfac"
+  },
+  {
+    "word": "In the loop",
+    "definition": "Informed and included in communication.",
+    "example": "Please keep me in the loop about the changes.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udd04"
+  },
+  {
+    "word": "In the nick of time",
+    "definition": "Just before it's too late.",
+    "example": "They arrived in the nick of time to catch the train.",
+    "category": "Idioms & Expressions",
+    "icon": "\u23f0"
+  },
+  {
+    "word": "Jack of all trades",
+    "definition": "Someone skilled at many different things.",
+    "example": "He's a jack of all trades, fixing everything around the house.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\uddf0"
+  },
+  {
+    "word": "Keep it under wraps",
+    "definition": "To keep something secret.",
+    "example": "They kept the new product under wraps until launch day.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udd10"
+  },
+  {
+    "word": "Keep something at bay",
+    "definition": "To prevent something from getting closer or worse.",
+    "example": "Regular exercise helps keep stress at bay.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udee1\ufe0f"
+  },
+  {
+    "word": "Kick the habit",
+    "definition": "To stop doing something addictive or unhealthy.",
+    "example": "He finally kicked the habit of smoking.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udead"
+  },
+  {
+    "word": "Kill the messenger",
+    "definition": "To blame the person who delivers bad news rather than the news itself.",
+    "example": "Don't kill the messenger, I'm just telling you what the report said.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udce8"
+  },
+  {
+    "word": "Killer instinct",
+    "definition": "A strong drive to win or succeed, especially in competition.",
+    "example": "She has the killer instinct needed to close big deals.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfaf"
+  },
+  {
+    "word": "Knock on wood",
+    "definition": "Said to avoid bad luck after mentioning something good.",
+    "example": "We haven't had any issues so far, knock on wood.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udeb5"
+  },
+  {
+    "word": "Know something like the back of your hand",
+    "definition": "To know something extremely well.",
+    "example": "He knows this neighborhood like the back of his hand.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udd90\ufe0f"
+  },
+  {
+    "word": "Lay it on thick",
+    "definition": "To exaggerate praise or flattery.",
+    "example": "He really laid it on thick when asking for a favor.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\uddc8"
+  },
+  {
+    "word": "Lay low",
+    "definition": "To stay out of sight or avoid attention.",
+    "example": "After the scandal, the celebrity decided to lay low for a while.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udd2b"
+  },
+  {
+    "word": "Leave no stone unturned",
+    "definition": "To try every possible way to find or achieve something.",
+    "example": "The detectives left no stone unturned in the investigation.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udea8"
+  },
+  {
+    "word": "Let bygones be bygones",
+    "definition": "To forget past disagreements and move forward.",
+    "example": "It's time we let bygones be bygones and start fresh.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udd1d"
+  },
+  {
+    "word": "Level playing field",
+    "definition": "A fair situation where everyone has equal opportunity.",
+    "example": "The new rules created a level playing field for small businesses.",
+    "category": "Idioms & Expressions",
+    "icon": "\u2696\ufe0f"
+  },
+  {
+    "word": "Lick your wounds",
+    "definition": "To recover quietly after a defeat or disappointment.",
+    "example": "After losing the game, the team went home to lick their wounds.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\ude79"
+  },
+  {
+    "word": "Light at the end of the tunnel",
+    "definition": "A sign that a difficult situation is finally improving.",
+    "example": "After months of hard work, she could finally see the light at the end of the tunnel.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udd73\ufe0f"
+  },
+  {
+    "word": "Like father like son",
+    "definition": "A child resembles their parent in behavior or character.",
+    "example": "He's just as stubborn as his dad, like father like son.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc68\u200d\ud83d\udc66"
+  },
+  {
+    "word": "Like pulling teeth",
+    "definition": "Very difficult to accomplish.",
+    "example": "Getting him to clean his room is like pulling teeth.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\uddb7"
+  },
+  {
+    "word": "Live and learn",
+    "definition": "You gain wisdom from your mistakes.",
+    "example": "I burned the dinner again, well, live and learn.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udcd6"
+  },
+  {
+    "word": "Live from hand to mouth",
+    "definition": "To have barely enough money to survive.",
+    "example": "During those early years, they lived from hand to mouth.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc5b"
+  },
+  {
+    "word": "Lock, stock, and barrel",
+    "definition": "Including everything; completely.",
+    "example": "They sold the business, lock, stock, and barrel.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udd12"
+  },
+  {
+    "word": "Look before you leap",
+    "definition": "Think carefully before acting.",
+    "example": "He regretted the purchase, he should have looked before he leaped.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc40"
+  },
+  {
+    "word": "Lose your marbles",
+    "definition": "To go crazy or act irrationally.",
+    "example": "Have you lost your marbles? That's a terrible idea.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udd2e"
+  },
+  {
+    "word": "Low blow",
+    "definition": "An unfair or unkind remark or action.",
+    "example": "Bringing up his divorce was a real low blow.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udd4a"
+  },
+  {
+    "word": "Make a mountain out of a molehill",
+    "definition": "To exaggerate a small problem.",
+    "example": "It's just a scratch, don't make a mountain out of a molehill.",
+    "category": "Idioms & Expressions",
+    "icon": "\u26f0\ufe0f"
+  },
+  {
+    "word": "Make no bones about it",
+    "definition": "To speak directly and honestly without hesitation.",
+    "example": "She made no bones about her disappointment with the results.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\uddb4"
+  },
+  {
+    "word": "Make waves",
+    "definition": "To cause trouble or attract attention by doing something different.",
+    "example": "The new policy is making waves across the industry.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf0a"
+  },
+  {
+    "word": "Man of his word",
+    "definition": "Someone who keeps their promises.",
+    "example": "You can trust him, he's a man of his word.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udd1d"
+  },
+  {
+    "word": "Mind your own business",
+    "definition": "To not interfere in others' affairs.",
+    "example": "She told him to mind his own business.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udd10"
+  },
+  {
+    "word": "Miss the mark",
+    "definition": "To fail to achieve the intended goal.",
+    "example": "The ad campaign missed the mark with younger audiences.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfaf"
+  },
+  {
+    "word": "Money doesn't grow on trees",
+    "definition": "Money is limited and must be earned carefully.",
+    "example": "We can't buy everything, money doesn't grow on trees.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf33"
+  },
+  {
+    "word": "Move the goalposts",
+    "definition": "To unfairly change the rules or requirements partway through.",
+    "example": "Every time I meet the target, they move the goalposts.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udd45"
+  },
+  {
+    "word": "Music to my ears",
+    "definition": "Very pleasing news to hear.",
+    "example": "Hearing the project was approved was music to my ears.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfb5"
+  },
+  {
+    "word": "Nail-biter",
+    "definition": "A tense and exciting situation, especially in sports or competition.",
+    "example": "The final match was a real nail-biter.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc85"
+  },
+  {
+    "word": "Neck and neck",
+    "definition": "Very close in a competition.",
+    "example": "The two candidates were neck and neck in the polls.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfc7"
+  },
+  {
+    "word": "Nip it in the bud",
+    "definition": "To stop a problem early before it grows.",
+    "example": "The manager nipped the conflict in the bud before it escalated.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf31"
+  },
+  {
+    "word": "No love lost",
+    "definition": "A lack of friendliness or respect between people.",
+    "example": "There's clearly no love lost between those two coworkers.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc94"
+  },
+  {
+    "word": "Not born yesterday",
+    "definition": "Not naive; too experienced to be easily fooled.",
+    "example": "I know what you're trying to do, I wasn't born yesterday.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\uddd3"
+  },
+  {
+    "word": "Off the beaten path",
+    "definition": "Unusual or not commonly visited.",
+    "example": "They found a charming caf\u00e9 off the beaten path.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udd7e"
+  },
+  {
+    "word": "Off the wall",
+    "definition": "Strange, unconventional, or unexpected.",
+    "example": "His ideas are always a bit off the wall, but they work.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\uddf1"
+  },
+  {
+    "word": "On a roll",
+    "definition": "Experiencing a streak of success.",
+    "example": "She's on a roll, winning three matches in a row.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfb3"
+  },
+  {
+    "word": "On pins and needles",
+    "definition": "Anxiously waiting for something.",
+    "example": "We've been on pins and needles waiting for the results.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udccc"
+  },
+  {
+    "word": "On the fly",
+    "definition": "Doing something quickly, without much preparation.",
+    "example": "He fixed the bug on the fly during the demo.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udeb0"
+  },
+  {
+    "word": "On the house",
+    "definition": "Given for free, usually by a business.",
+    "example": "The waiter said dessert was on the house.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfe0"
+  },
+  {
+    "word": "On the nose",
+    "definition": "Exactly right or precise.",
+    "example": "Her prediction was right on the nose.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc43"
+  },
+  {
+    "word": "One foot in the grave",
+    "definition": "Very old or close to death, often used humorously.",
+    "example": "He jokes that he's got one foot in the grave, but he's healthier than most.",
+    "category": "Idioms & Expressions",
+    "icon": "\u26b0\ufe0f"
+  },
+  {
+    "word": "Out of order",
+    "definition": "Not working properly, or not following proper procedure.",
+    "example": "The elevator is out of order again.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udeab"
+  },
+  {
+    "word": "Out of sight out of mind",
+    "definition": "Things not visible are easily forgotten.",
+    "example": "Once she moved away, it was out of sight, out of mind for most of her old friends.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc41\ufe0f"
+  },
+  {
+    "word": "Out of the ordinary",
+    "definition": "Unusual.",
+    "example": "Nothing out of the ordinary happened at the meeting.",
+    "category": "Idioms & Expressions",
+    "icon": "\u2753"
+  },
+  {
+    "word": "Over the hill",
+    "definition": "Considered old or past one's prime.",
+    "example": "He jokes about being over the hill now that he's turned fifty.",
+    "category": "Idioms & Expressions",
+    "icon": "\u26f0\ufe0f"
+  },
+  {
+    "word": "Par for the course",
+    "definition": "Typical or expected, especially something unfortunate.",
+    "example": "Delays are par for the course during construction season.",
+    "category": "Idioms & Expressions",
+    "icon": "\u26f3"
+  },
+  {
+    "word": "Pass the buck",
+    "definition": "To shift responsibility or blame to someone else.",
+    "example": "Stop passing the buck and admit your mistake.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udd04"
+  },
+  {
+    "word": "Pay through the nose",
+    "definition": "To pay an excessive amount for something.",
+    "example": "We paid through the nose for parking downtown.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udcb8"
+  },
+  {
+    "word": "Piece of work",
+    "definition": "A difficult or unusual person, often used critically.",
+    "example": "That client is quite a piece of work.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfad"
+  },
+  {
+    "word": "Pie in the sky",
+    "definition": "An unrealistic hope or plan.",
+    "example": "His idea of retiring at thirty is pie in the sky.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udd67"
+  },
+  {
+    "word": "Pin your hopes on",
+    "definition": "To rely heavily on something for success.",
+    "example": "She pinned her hopes on getting into her top choice school.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udccc"
+  },
+  {
+    "word": "Play by ear",
+    "definition": "To improvise without a fixed plan.",
+    "example": "We don't have a strict schedule, we're just playing it by ear.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc42"
+  },
+  {
+    "word": "Play hardball",
+    "definition": "To act aggressively or without compromise, especially in negotiations.",
+    "example": "The company decided to play hardball during contract talks.",
+    "category": "Idioms & Expressions",
+    "icon": "\u26be"
+  },
+  {
+    "word": "Play it safe",
+    "definition": "To avoid risks.",
+    "example": "Given the uncertainty, they decided to play it safe.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udedf"
+  },
+  {
+    "word": "Point blank",
+    "definition": "Directly and bluntly.",
+    "example": "She told him point blank that the plan wouldn't work.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfaf"
+  },
+  {
+    "word": "Poker face",
+    "definition": "An expression that hides your true feelings.",
+    "example": "He kept a poker face during the entire negotiation.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udccf"
+  },
+  {
+    "word": "Pop the question",
+    "definition": "To propose marriage.",
+    "example": "He finally popped the question on their anniversary trip.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc8d"
+  },
+  {
+    "word": "Pot calling the kettle black",
+    "definition": "Criticizing someone for a flaw you also have.",
+    "example": "Him calling me messy is the pot calling the kettle black.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf73"
+  },
+  {
+    "word": "Practice makes perfect",
+    "definition": "Repeated practice leads to improvement.",
+    "example": "Keep rehearsing, practice makes perfect.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfaf"
+  },
+  {
+    "word": "Preach to the choir",
+    "definition": "To try to convince people who already agree with you.",
+    "example": "You don't need to convince me, you're preaching to the choir.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfa4"
+  },
+  {
+    "word": "Pull rank",
+    "definition": "To use your higher position to get your way.",
+    "example": "The manager pulled rank to override the team's decision.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf96\ufe0f"
+  },
+  {
+    "word": "Pull the rug out from under",
+    "definition": "To suddenly remove support or help from someone.",
+    "example": "The funding cut pulled the rug out from under the whole project.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\uddf9"
+  },
+  {
+    "word": "Pull your weight",
+    "definition": "To do your fair share of work.",
+    "example": "Everyone needs to pull their weight for this to succeed.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfcb\ufe0f"
+  },
+  {
+    "word": "Put a sock in it",
+    "definition": "A blunt way of telling someone to be quiet.",
+    "example": "He told his brother to put a sock in it during the movie.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udde6"
+  },
+  {
+    "word": "Put on hold",
+    "definition": "To delay or pause something temporarily.",
+    "example": "The renovation was put on hold due to weather.",
+    "category": "Idioms & Expressions",
+    "icon": "\u23f8\ufe0f"
+  },
+  {
+    "word": "Put the pieces together",
+    "definition": "To figure out how separate facts connect.",
+    "example": "Once she saw the receipt, she put the pieces together.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udde9"
+  },
+  {
+    "word": "Put your foot down",
+    "definition": "To take a firm stand about something.",
+    "example": "He finally put his foot down about the messy kitchen.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\uddb6"
+  },
+  {
+    "word": "Put your foot in your mouth",
+    "definition": "To say something embarrassing or awkward by mistake.",
+    "example": "I really put my foot in my mouth at dinner last night.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc44"
+  },
+  {
+    "word": "Quick on the draw",
+    "definition": "Fast to react or respond.",
+    "example": "She's always quick on the draw with a clever comeback.",
+    "category": "Idioms & Expressions",
+    "icon": "\u26a1"
+  },
+  {
+    "word": "Rain check",
+    "definition": "A postponement of an invitation or plan for a later date.",
+    "example": "Can I take a rain check on dinner this week?",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf27\ufe0f"
+  },
+  {
+    "word": "Read someone like a book",
+    "definition": "To easily understand what someone is thinking or feeling.",
+    "example": "His mom can read him like a book.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udcd6"
+  },
+  {
+    "word": "Reap what you sow",
+    "definition": "You experience the results of your own actions.",
+    "example": "He worked hard for years and finally reaped what he sowed.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf3e"
+  },
+  {
+    "word": "Right off the bat",
+    "definition": "Immediately, from the very start.",
+    "example": "She impressed the interviewer right off the bat.",
+    "category": "Idioms & Expressions",
+    "icon": "\u26be"
+  },
+  {
+    "word": "Rob Peter to pay Paul",
+    "definition": "To solve one financial problem by creating another.",
+    "example": "Using one credit card to pay another is robbing Peter to pay Paul.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udcb3"
+  },
+  {
+    "word": "Rock the boat",
+    "definition": "To disturb a stable situation, often unnecessarily.",
+    "example": "Everything's working fine, let's not rock the boat.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udea3"
+  },
+  {
+    "word": "Roll with the punches",
+    "definition": "To adapt calmly to difficulties as they come.",
+    "example": "She's learned to roll with the punches after years in the industry.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udd4a"
+  },
+  {
+    "word": "Rome wasn't built in a day",
+    "definition": "Important achievements take time.",
+    "example": "Don't get discouraged, Rome wasn't built in a day.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfdb\ufe0f"
+  },
+  {
+    "word": "Run in the family",
+    "definition": "A trait shared across generations.",
+    "example": "Curly hair runs in the family.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc6a"
+  },
+  {
+    "word": "Run out of steam",
+    "definition": "To lose energy or motivation.",
+    "example": "By the third hour of the meeting, everyone had run out of steam.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\ude82"
+  },
+  {
+    "word": "Save face",
+    "definition": "To avoid embarrassment or preserve one's reputation.",
+    "example": "He changed his answer just to save face.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\ude05"
+  },
+  {
+    "word": "Save for a rainy day",
+    "definition": "To set money aside for future difficulties.",
+    "example": "They've been saving for a rainy day since they got married.",
+    "category": "Idioms & Expressions",
+    "icon": "\u2614"
+  },
+  {
+    "word": "Sell like hotcakes",
+    "definition": "To sell very quickly and in large amounts.",
+    "example": "The new sneakers are selling like hotcakes.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udd5e"
+  },
+  {
+    "word": "Set in stone",
+    "definition": "Fixed and unable to be changed.",
+    "example": "The schedule isn't set in stone yet.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udea8"
+  },
+  {
+    "word": "Shake a leg",
+    "definition": "Hurry up.",
+    "example": "Shake a leg, we're going to be late!",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\uddb5"
+  },
+  {
+    "word": "Shape up or ship out",
+    "definition": "Improve your behavior or leave.",
+    "example": "The coach warned the team to shape up or ship out.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udea2"
+  },
+  {
+    "word": "Shed light on",
+    "definition": "To help clarify or explain something.",
+    "example": "The new evidence shed light on what really happened.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udca1"
+  },
+  {
+    "word": "Shoot from the hip",
+    "definition": "To speak or act impulsively, without much thought.",
+    "example": "He tends to shoot from the hip in meetings.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfaf"
+  },
+  {
+    "word": "Shoot yourself in the foot",
+    "definition": "To cause your own problem through a careless action.",
+    "example": "By skipping the interview, he shot himself in the foot.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\uddb6"
+  },
+  {
+    "word": "Sink or swim",
+    "definition": "Succeed through your own effort or fail completely.",
+    "example": "It's sink or swim in your first year of business.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfca"
+  },
+  {
+    "word": "Skeleton in the closet",
+    "definition": "A hidden, often embarrassing secret.",
+    "example": "Every family has a skeleton in the closet.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc80"
+  },
+  {
+    "word": "Sleep on it",
+    "definition": "To delay a decision until the next day for more thought.",
+    "example": "Let's sleep on it before we sign the contract.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\ude34"
+  },
+  {
+    "word": "Small talk",
+    "definition": "Light, casual conversation.",
+    "example": "They made small talk while waiting for the meeting to start.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udcac"
+  },
+  {
+    "word": "Smooth sailing",
+    "definition": "Progress without difficulty.",
+    "example": "After the rocky start, it's been smooth sailing.",
+    "category": "Idioms & Expressions",
+    "icon": "\u26f5"
+  },
+  {
+    "word": "Snap decision",
+    "definition": "A quick decision made without much thought.",
+    "example": "He made a snap decision to change careers.",
+    "category": "Idioms & Expressions",
+    "icon": "\u26a1"
+  },
+  {
+    "word": "Speak your mind",
+    "definition": "To say what you honestly think.",
+    "example": "She's never afraid to speak her mind.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\uddef\ufe0f"
+  },
+  {
+    "word": "Spill the tea",
+    "definition": "To share juicy gossip.",
+    "example": "Come on, spill the tea, what happened at the party?",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf75"
+  },
+  {
+    "word": "Spread yourself too thin",
+    "definition": "To take on too many responsibilities at once.",
+    "example": "Between work and school, he's spreading himself too thin.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\uddc8"
+  },
+  {
+    "word": "Stab in the back",
+    "definition": "To betray someone who trusted you.",
+    "example": "She felt he stabbed her in the back by taking credit for her work.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\ude14"
+  },
+  {
+    "word": "Stand your ground",
+    "definition": "To hold firm to your position despite pressure.",
+    "example": "She stood her ground during the negotiation.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\uddcd"
+  },
+  {
+    "word": "Take a back seat",
+    "definition": "To become less involved or important in a situation.",
+    "example": "He decided to take a back seat and let his partner run the company.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\ude97"
+  },
+  {
+    "word": "Take it easy",
+    "definition": "Relax and not worry too much.",
+    "example": "Take it easy, we still have plenty of time.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\ude0c"
+  },
+  {
+    "word": "Take it on the chin",
+    "definition": "To accept criticism or a setback bravely, without complaint.",
+    "example": "He took the tough feedback on the chin and kept working.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udd4a"
+  },
+  {
+    "word": "Take my word for it",
+    "definition": "Trust what I'm telling you without proof.",
+    "example": "It's a great restaurant, take my word for it.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udd1d"
+  },
+  {
+    "word": "Take the bull by the horns",
+    "definition": "To confront a difficult situation directly and confidently.",
+    "example": "She decided to take the bull by the horns and confront her boss.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc02"
+  },
+  {
+    "word": "Take the edge off",
+    "definition": "To make something less intense or unpleasant.",
+    "example": "A short walk helped take the edge off her stress.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf3f"
+  },
+  {
+    "word": "Take the high road",
+    "definition": "To act with integrity, even when treated unfairly.",
+    "example": "Instead of arguing back, she took the high road.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udee3\ufe0f"
+  },
+  {
+    "word": "Take the initiative",
+    "definition": "To be the first to act, without being told.",
+    "example": "He took the initiative and started the project early.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\ude80"
+  },
+  {
+    "word": "Take the wind out of someone's sails",
+    "definition": "To make someone lose confidence or enthusiasm.",
+    "example": "The harsh review really took the wind out of her sails.",
+    "category": "Idioms & Expressions",
+    "icon": "\u26f5"
+  },
+  {
+    "word": "Talk is cheap",
+    "definition": "It's easy to say things but harder to actually do them.",
+    "example": "He keeps promising changes, but talk is cheap.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udde3\ufe0f"
+  },
+  {
+    "word": "Talk someone's ear off",
+    "definition": "To talk to someone for a long time, often about unimportant things.",
+    "example": "My neighbor talked my ear off about his garden.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc42"
+  },
+  {
+    "word": "Teach an old dog new tricks",
+    "definition": "It's difficult to change long-held habits, especially in older people.",
+    "example": "It's hard to teach an old dog new tricks, but he's slowly learning the new system.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc15"
+  },
+  {
+    "word": "Tear your hair out",
+    "definition": "To be extremely frustrated.",
+    "example": "She was tearing her hair out trying to fix the bug.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\ude16"
+  },
+  {
+    "word": "Tell it like it is",
+    "definition": "To speak honestly, even if it's blunt.",
+    "example": "I appreciate that he always tells it like it is.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\uddef\ufe0f"
+  },
+  {
+    "word": "The apple doesn't fall far from the tree",
+    "definition": "Children often resemble their parents in character.",
+    "example": "She's just as creative as her mother, the apple doesn't fall far from the tree.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf4e"
+  },
+  {
+    "word": "The bigger they are the harder they fall",
+    "definition": "Powerful people or things face a bigger downfall when they fail.",
+    "example": "The company dominated the market for years, but the bigger they are, the harder they fall.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udcc9"
+  },
+  {
+    "word": "The buck stops here",
+    "definition": "Ultimate responsibility rests with this person.",
+    "example": "As the manager, the buck stops here.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfaf"
+  },
+  {
+    "word": "The cream of the crop",
+    "definition": "The best of a group.",
+    "example": "These students are the cream of the crop this year.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udd5b"
+  },
+  {
+    "word": "The die is cast",
+    "definition": "A decision has been made and cannot be changed.",
+    "example": "Once she signed the contract, the die was cast.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfb2"
+  },
+  {
+    "word": "The exception proves the rule",
+    "definition": "An unusual case confirms that a general rule normally applies.",
+    "example": "Most days he's on time, so today's delay is the exception that proves the rule.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udccf"
+  },
+  {
+    "word": "The grass is always greener on the other side",
+    "definition": "Other situations often seem better than they really are.",
+    "example": "He envies his friend's job, but the grass is always greener on the other side.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf31"
+  },
+  {
+    "word": "The icing on the cake",
+    "definition": "An extra good thing added to an already good situation.",
+    "example": "The bonus was the icing on the cake after a great year.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf82"
+  },
+  {
+    "word": "The jury is still out",
+    "definition": "A decision or opinion has not yet been reached.",
+    "example": "The jury is still out on whether the new policy will work.",
+    "category": "Idioms & Expressions",
+    "icon": "\u2696\ufe0f"
+  },
+  {
+    "word": "The lion's share",
+    "definition": "The largest part of something.",
+    "example": "The company took the lion's share of the market this year.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udd81"
+  },
+  {
+    "word": "The proof is in the pudding",
+    "definition": "The real value of something is shown by testing it in practice.",
+    "example": "He claims it works, but the proof is in the pudding.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf6e"
+  },
+  {
+    "word": "The sky's the limit",
+    "definition": "There's no limit to what's possible.",
+    "example": "With her talent and drive, the sky's the limit.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf0c"
+  },
+  {
+    "word": "The straw that broke the camel's back",
+    "definition": "The final small problem that causes a much bigger reaction.",
+    "example": "The missed meeting was the straw that broke the camel's back.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc2b"
+  },
+  {
+    "word": "The whole nine yards",
+    "definition": "Everything; the complete amount.",
+    "example": "They planned the wedding with flowers, band, and the whole nine yards.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf89"
+  },
+  {
+    "word": "There's no place like home",
+    "definition": "Home is the most comfortable and preferred place to be.",
+    "example": "After the long trip, she was glad to be back, there's no place like home.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfe1"
+  },
+  {
+    "word": "Think outside the box",
+    "definition": "To think creatively, beyond usual limits.",
+    "example": "The team had to think outside the box to solve the problem.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udce6"
+  },
+  {
+    "word": "Throw caution to the wind",
+    "definition": "To act boldly without worrying about risk.",
+    "example": "He threw caution to the wind and quit his job to travel.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf43"
+  },
+  {
+    "word": "Throw someone under the bus",
+    "definition": "To blame or betray someone to protect yourself.",
+    "example": "He threw his coworker under the bus during the meeting.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\ude8c"
+  },
+  {
+    "word": "Tie the knot",
+    "definition": "To get married.",
+    "example": "They finally tied the knot last summer.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc8d"
+  },
+  {
+    "word": "Tighten your belt",
+    "definition": "To spend less money.",
+    "example": "With prices rising, they had to tighten their belts.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc56"
+  },
+  {
+    "word": "Time heals all wounds",
+    "definition": "Painful feelings become easier to bear over time.",
+    "example": "It's been hard since the breakup, but time heals all wounds.",
+    "category": "Idioms & Expressions",
+    "icon": "\u23f3"
+  },
+  {
+    "word": "Time is money",
+    "definition": "Time is a valuable resource and shouldn't be wasted.",
+    "example": "Let's get straight to the point, time is money.",
+    "category": "Idioms & Expressions",
+    "icon": "\u23f0"
+  },
+  {
+    "word": "Tip of the iceberg",
+    "definition": "A small visible part of a much larger issue.",
+    "example": "These complaints are just the tip of the iceberg.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\uddca"
+  },
+  {
+    "word": "To each their own",
+    "definition": "Everyone has different preferences.",
+    "example": "I don't love spicy food, but to each their own.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udd37"
+  },
+  {
+    "word": "Tongue in cheek",
+    "definition": "Said humorously, not meant seriously.",
+    "example": "His comment was tongue in cheek, don't take it personally.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\ude0f"
+  },
+  {
+    "word": "Too big for your britches",
+    "definition": "Overly confident or arrogant.",
+    "example": "Winning once doesn't mean you should get too big for your britches.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc56"
+  },
+  {
+    "word": "Too many cooks spoil the broth",
+    "definition": "Too many people trying to do the same task causes problems.",
+    "example": "Everyone was giving directions at once, too many cooks spoil the broth.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc68\u200d\ud83c\udf73"
+  },
+  {
+    "word": "Touch and go",
+    "definition": "Uncertain; the outcome could go either way.",
+    "example": "The surgery was touch and go for a while.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf21\ufe0f"
+  },
+  {
+    "word": "Tough it out",
+    "definition": "To endure a difficult situation without giving up.",
+    "example": "She decided to tough it out and finish the marathon.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udcaa"
+  },
+  {
+    "word": "Tread water",
+    "definition": "To stay in the same position without making progress.",
+    "example": "The company has just been treading water this quarter.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfca"
+  },
+  {
+    "word": "Trial and error",
+    "definition": "Learning through repeated attempts and mistakes.",
+    "example": "He learned to cook mostly through trial and error.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udd01"
+  },
+  {
+    "word": "Turn over a new leaf",
+    "definition": "To start behaving in a better way.",
+    "example": "After the wake-up call, he decided to turn over a new leaf.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf43"
+  },
+  {
+    "word": "Turn the tables",
+    "definition": "To reverse a situation, especially to gain an advantage.",
+    "example": "The underdog team turned the tables in the second half.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udd04"
+  },
+  {
+    "word": "Twist someone's arm",
+    "definition": "To persuade someone to do something they were reluctant to do.",
+    "example": "It took some convincing, but I twisted his arm to join us.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udcaa"
+  },
+  {
+    "word": "Two peas in a pod",
+    "definition": "Two people who are very similar or always together.",
+    "example": "Those two are like two peas in a pod.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udedb"
+  },
+  {
+    "word": "Under your nose",
+    "definition": "Right in front of you, but overlooked.",
+    "example": "The keys were under his nose the whole time.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc43"
+  },
+  {
+    "word": "Up a creek without a paddle",
+    "definition": "In a difficult situation with no easy way out.",
+    "example": "Without a backup plan, we're up a creek without a paddle.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udef6"
+  },
+  {
+    "word": "Up for grabs",
+    "definition": "Available to anyone who wants it.",
+    "example": "The last spot on the team is still up for grabs.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\ude4c"
+  },
+  {
+    "word": "Up to par",
+    "definition": "Meeting the expected standard.",
+    "example": "His work hasn't been up to par lately.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udccf"
+  },
+  {
+    "word": "Up to speed",
+    "definition": "Fully informed and current on a topic.",
+    "example": "Let me get you up to speed on the project.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfce\ufe0f"
+  },
+  {
+    "word": "Uphill battle",
+    "definition": "A difficult struggle to achieve something.",
+    "example": "Convincing the board was an uphill battle.",
+    "category": "Idioms & Expressions",
+    "icon": "\u26f0\ufe0f"
+  },
+  {
+    "word": "Water under the bridge",
+    "definition": "A past issue that's no longer important.",
+    "example": "That argument is water under the bridge now.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf09"
+  },
+  {
+    "word": "Wear thin",
+    "definition": "To gradually become less tolerable or effective.",
+    "example": "His excuses are starting to wear thin.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\uddf5"
+  },
+  {
+    "word": "Wear two hats",
+    "definition": "To have two different roles or responsibilities.",
+    "example": "As a small business owner, she wears two hats: manager and accountant.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfa9"
+  },
+  {
+    "word": "Weather the storm",
+    "definition": "To survive a difficult period.",
+    "example": "The company weathered the storm during the recession.",
+    "category": "Idioms & Expressions",
+    "icon": "\u26c8\ufe0f"
+  },
+  {
+    "word": "What goes around comes around",
+    "definition": "Your actions eventually come back to affect you.",
+    "example": "Be kind to others, what goes around comes around.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udd04"
+  },
+  {
+    "word": "Wheel and deal",
+    "definition": "To negotiate aggressively, especially in business.",
+    "example": "He's always wheeling and dealing to close a sale.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udd1d"
+  },
+  {
+    "word": "When in Rome",
+    "definition": "Follow the customs of the place you're in.",
+    "example": "When in Rome, they tried the local street food.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfdb\ufe0f"
+  },
+  {
+    "word": "When it rains it pours",
+    "definition": "Problems often happen all at once.",
+    "example": "First the car broke down, then the roof leaked, when it rains it pours.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf27\ufe0f"
+  },
+  {
+    "word": "Whistle blower",
+    "definition": "Someone who reports wrongdoing within an organization.",
+    "example": "The whistle blower exposed the company's unsafe practices.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udce3"
+  },
+  {
+    "word": "White elephant",
+    "definition": "A possession that is costly but not useful.",
+    "example": "The old mansion became a white elephant nobody wanted to maintain.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc18"
+  },
+  {
+    "word": "Wild goose chase",
+    "definition": "A hopeless or pointless search.",
+    "example": "We spent all day on a wild goose chase looking for the missing file.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udebf"
+  },
+  {
+    "word": "Word for word",
+    "definition": "Exactly as originally said or written.",
+    "example": "She repeated the speech word for word.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udcdd"
+  },
+  {
+    "word": "Word of mouth",
+    "definition": "Information spread by people talking to each other.",
+    "example": "The restaurant became popular through word of mouth.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udcac"
+  },
+  {
+    "word": "Work like a dog",
+    "definition": "To work extremely hard.",
+    "example": "She's been working like a dog to finish the report.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc15"
+  },
+  {
+    "word": "Wrap it up",
+    "definition": "To finish something.",
+    "example": "Let's wrap it up, we're running out of time.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf81"
+  },
+  {
+    "word": "Wriggle out of",
+    "definition": "To avoid a responsibility through clever excuses.",
+    "example": "He tried to wriggle out of doing the dishes.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc1b"
+  },
+  {
+    "word": "Write off",
+    "definition": "To dismiss something as unlikely to succeed.",
+    "example": "Don't write off the underdog team just yet.",
+    "category": "Idioms & Expressions",
+    "icon": "\u270d\ufe0f"
+  },
+  {
+    "word": "You snooze you lose",
+    "definition": "If you're slow to act, you miss out on an opportunity.",
+    "example": "The tickets sold out fast, you snooze you lose.",
+    "category": "Idioms & Expressions",
+    "icon": "\u23f0"
+  },
+  {
+    "word": "Your guess is as good as mine",
+    "definition": "I don't know either.",
+    "example": "Why the flight is delayed? Your guess is as good as mine.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udd37"
+  },
+  {
+    "word": "Zip your lip",
+    "definition": "Stop talking; keep quiet.",
+    "example": "He was told to zip his lip during the negotiation.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udd10"
+  },
+  {
+    "word": "A leopard can't change its spots",
+    "definition": "People rarely change their basic nature.",
+    "example": "He promised to be different, but a leopard can't change its spots.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc06"
+  },
+  {
+    "word": "A little bird told me",
+    "definition": "Said when you don't want to reveal your source of information.",
+    "example": "A little bird told me you got the promotion.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc26"
+  },
+  {
+    "word": "A rolling stone gathers no moss",
+    "definition": "Someone who keeps moving avoids becoming stagnant.",
+    "example": "He never stays in one job long, a rolling stone gathers no moss.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\udea8"
+  },
+  {
+    "word": "A stitch in time saves nine",
+    "definition": "Fixing a small problem early prevents bigger problems later.",
+    "example": "Get that leak checked now, a stitch in time saves nine.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\uddf5"
+  },
+  {
+    "word": "A watched pot never boils",
+    "definition": "Time seems to pass slower when you're anxiously waiting.",
+    "example": "Stop refreshing your email, a watched pot never boils.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf72"
+  },
+  {
+    "word": "Ace up your sleeve",
+    "definition": "A hidden advantage or resource kept in reserve.",
+    "example": "She always has an ace up her sleeve for tough negotiations.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udccf"
+  },
+  {
+    "word": "Act your age",
+    "definition": "Behave in a way appropriate for your age.",
+    "example": "Come on, act your age and stop the silly jokes.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf82"
+  },
+  {
+    "word": "Against all odds",
+    "definition": "Despite very low chances of success.",
+    "example": "Against all odds, the small team won the championship.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfb2"
+  },
+  {
+    "word": "Air your dirty laundry",
+    "definition": "To publicly discuss private or embarrassing matters.",
+    "example": "They aired their dirty laundry on social media.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\uddfa"
+  },
+  {
+    "word": "All hands on deck",
+    "definition": "Everyone needs to help.",
+    "example": "It's crunch time, we need all hands on deck.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\ude4c"
+  },
+  {
+    "word": "All in good time",
+    "definition": "Something will happen eventually, be patient.",
+    "example": "Don't rush, the results will come all in good time.",
+    "category": "Idioms & Expressions",
+    "icon": "\u23f3"
+  },
+  {
+    "word": "All is fair in love and war",
+    "definition": "Any behavior is acceptable in extreme situations like love or conflict.",
+    "example": "He said all is fair in love and war when defending his competitive strategy.",
+    "category": "Idioms & Expressions",
+    "icon": "\u2694\ufe0f"
+  },
+  {
+    "word": "All thumbs",
+    "definition": "Clumsy, especially with your hands.",
+    "example": "I'm all thumbs when it comes to fixing things.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc4d"
+  },
+  {
+    "word": "An eye for an eye",
+    "definition": "Punishment should match the harm done.",
+    "example": "He believes in an eye for an eye when it comes to justice.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udc41\ufe0f"
+  },
+  {
+    "word": "Another string to your bow",
+    "definition": "An additional skill or resource.",
+    "example": "Learning to code gave her another string to her bow.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfbb"
+  },
+  {
+    "word": "Any port in a storm",
+    "definition": "In a crisis, any solution is acceptable, even an imperfect one.",
+    "example": "It wasn't the hotel we wanted, but any port in a storm.",
+    "category": "Idioms & Expressions",
+    "icon": "\u26f5"
+  },
+  {
+    "word": "Ask for the moon",
+    "definition": "To request something unreasonable or excessive.",
+    "example": "Asking for a raise that big is asking for the moon.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf15"
+  },
+  {
+    "word": "At a crossroads",
+    "definition": "At a point where an important decision must be made.",
+    "example": "She's at a crossroads in her career.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udea6"
+  },
+  {
+    "word": "At the end of the day",
+    "definition": "When everything is considered; ultimately.",
+    "example": "At the end of the day, all that matters is that everyone is safe.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf07"
+  },
+  {
+    "word": "At the eleventh hour",
+    "definition": "At the very last moment.",
+    "example": "They reached a deal at the eleventh hour.",
+    "category": "Idioms & Expressions",
+    "icon": "\u23f0"
+  },
+  {
+    "word": "Back on your feet",
+    "definition": "Recovered and functioning normally again.",
+    "example": "It took a while, but he's finally back on his feet after the surgery.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83e\uddb6"
+  },
+  {
+    "word": "Back to basics",
+    "definition": "Returning to the simplest and most fundamental ideas.",
+    "example": "After the failed experiment, the team went back to basics.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udd24"
+  },
+  {
+    "word": "Bad apple",
+    "definition": "A person who has a negative influence on a group.",
+    "example": "One bad apple can spoil the whole team's morale.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udf4e"
+  },
+  {
+    "word": "Bad blood",
+    "definition": "Ongoing resentment between people.",
+    "example": "There's been bad blood between the two families for years.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udca2"
+  },
+  {
+    "word": "Beat the odds",
+    "definition": "To succeed despite very low chances.",
+    "example": "The small startup beat the odds and became profitable.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83c\udfb2"
+  },
+  {
+    "word": "Behind closed doors",
+    "definition": "Done privately, away from public view.",
+    "example": "The negotiations happened behind closed doors.",
+    "category": "Idioms & Expressions",
+    "icon": "\ud83d\udeaa"
+  }
+]

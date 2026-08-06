@@ -38,7 +38,7 @@ export default function WordDetailModal({
   }, [visible]);
 
   if (!word) return null;
-  const rarity = getRarityStyle(word.rarity);
+  const rarity = word.rarity ? getRarityStyle(word.rarity) : null;
 
   return (
     <Modal
@@ -55,14 +55,17 @@ export default function WordDetailModal({
           ]}
         >
           <Pressable onPress={() => {}}>
-            <Text
-              style={[
-                styles.rarityBadge,
-                { color: rarity.color, borderColor: rarity.color },
-              ]}
-            >
-              {rarity.label}
-            </Text>
+            {rarity && (
+              <Text
+                style={[
+                  styles.rarityBadge,
+                  { color: rarity.color, borderColor: rarity.color },
+                ]}
+              >
+                {rarity.label}
+              </Text>
+            )}
+            {word.icon && <Text style={styles.icon}>{word.icon}</Text>}
             <Text style={styles.word}>{word.word}</Text>
             <Text style={styles.definition}>{word.definition}</Text>
             {word.example && (
@@ -118,6 +121,7 @@ const styles = StyleSheet.create({
     marginBottom: Spacing.sm,
     textAlign: "center",
   },
+  icon: { fontSize: 40, textAlign: "center", marginBottom: Spacing.xs },
   definition: {
     fontFamily: Fonts.body,
     fontSize: 16,

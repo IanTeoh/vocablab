@@ -2,24 +2,24 @@ import { useFocusEffect } from "expo-router";
 import { useCallback, useEffect, useState } from "react";
 import { Modal, SafeAreaView, StyleSheet, Text, View } from "react-native";
 import { Colors, Fonts, Radius, Spacing } from "../constants/theme";
-import words from "../data/words.json";
-import { addWordToDictionary, getDictionary } from "../logic/dictionary";
+import idioms from "../data/idioms.json";
 import {
-  generateAdventureSession,
-  getSessionsCompletedCount,
-  incrementSessionsCompleted,
-} from "../logic/levels";
+    addIdiomToDictionary,
+    getIdiomDictionary,
+} from "../logic/idiomDictionary";
+import { generateIdiomSession } from "../logic/idiomSessions";
 import { getLives, loseLife, MAX_LIVES } from "../logic/lives";
 import LevelQuiz from "./LevelQuiz";
 import PressableScale from "./PressableScale";
 
-type Session = { id: number; words: any[] };
+type Session = { id: number; words: any[]; title: string };
 
-export default function WordAdventureCard() {
+export default function IdiomPracticeCard({
+  onCaught,
+}: {
+  onCaught?: () => void;
+}) {
   const [lives, setLives] = useState<number | null>(null);
-  const [sessionsCompleted, setSessionsCompleted] = useState<number | null>(
-    null,
-  );
   const [modalVisible, setModalVisible] = useState(false);
   const [activeSession, setActiveSession] = useState<Session | null>(null);
   const [outOfLives, setOutOfLives] = useState(false);
@@ -29,7 +29,6 @@ export default function WordAdventureCard() {
   useFocusEffect(
     useCallback(() => {
       getLives().then(setLives);
-      getSessionsCompletedCount().then(setSessionsCompleted);
     }, []),
   );
 
@@ -41,8 +40,8 @@ export default function WordAdventureCard() {
 
   async function handlePlay() {
     if (lives === 0) return;
-    const dictionary = await getDictionary();
-    const sessionWords = generateAdventureSession(words, dictionary, 3);
+    const dictionary = await getIdiomDictionary();
+    const sessionWords = generateIdiomSession(idioms, dictionary, 3);
 
     if (sessionWords.length === 0) {
       setPoolExhausted(true);
@@ -52,7 +51,7 @@ export default function WordAdventureCard() {
     setPoolExhausted(false);
     setOutOfLives(false);
     setJustCompleted(false);
-    setActiveSession({ id: (sessionsCompleted ?? 0) + 1, words: sessionWords });
+    setActiveSession({ id: 0, words: sessionWords, title: "" });
     setModalVisible(true);
   }
 
@@ -62,9 +61,12 @@ export default function WordAdventureCard() {
     return remaining;
   }
 
-  async function handleSessionComplete() {
-    const newCount = await incrementSessionsCompleted();
-    setSessionsCompleted(newCount);
+  async function handleWordCaught(idiom: any) {
+    await addIdiomToDictionary(idiom);
+    onCaught?.();
+  }
+
+  function handleSessionComplete() {
     setActiveSession(null);
     setModalVisible(false);
     setJustCompleted(true);
@@ -83,12 +85,9 @@ export default function WordAdventureCard() {
 
   return (
     <View style={styles.card}>
-      <Text style={styles.label}>Word Adventure</Text>
+      <Text style={styles.label}>Idiom Practice</Text>
       <Text style={styles.subtitle}>
-        Quick rounds of words you haven't learned.
-      </Text>
-      <Text style={styles.levelBadge}>
-        Level {(sessionsCompleted ?? 0) + 1}
+        Quick rounds of idioms you haven't caught yet.
       </Text>
 
       <View style={styles.livesRow}>
@@ -107,8 +106,7 @@ export default function WordAdventureCard() {
 
       {poolExhausted && (
         <Text style={styles.bannerTextMuted}>
-          You've caught every practice word! 🎉 New rounds unlock as you add
-          more words.
+          You've caught every idiom! 🎉 New ones unlock as more get added.
         </Text>
       )}
 
@@ -137,13 +135,13 @@ export default function WordAdventureCard() {
           {activeSession && (
             <LevelQuiz
               level={activeSession}
-              allWords={words}
+              allWords={idioms}
               livesLeft={lives ?? 0}
               onLoseLife={handleLoseLife}
               onLevelComplete={handleSessionComplete}
               onOutOfLives={handleOutOfLives}
               onExit={handleExit}
-              onWordCaught={addWordToDictionary}
+              onWordCaught={handleWordCaught}
             />
           )}
         </SafeAreaView>
@@ -180,14 +178,8 @@ const styles = StyleSheet.create({
     fontFamily: Fonts.body,
     fontSize: 14,
     color: Colors.inkMuted,
-    marginBottom: Spacing.sm,
-    textAlign: "center",
-  },
-  levelBadge: {
-    fontFamily: Fonts.bodySemiBold,
-    fontSize: 16,
-    color: Colors.primary,
     marginBottom: Spacing.md,
+    textAlign: "center",
   },
   livesRow: { marginBottom: Spacing.sm },
   livesText: { fontSize: 20 },

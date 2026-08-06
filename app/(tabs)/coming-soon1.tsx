@@ -1,18 +1,15 @@
-import { StyleSheet, Text } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
-import BackgroundPattern from "../../components/BackgroundPattern";
+import BackgroundPattern from "@/components/BackgroundPattern";
+import { StyleSheet, Text, View } from "react-native";
 import { Colors, Fonts, Spacing } from "../../constants/theme";
 
-export default function ComingSoon() {
+export default function ComingSoon1() {
   return (
-    <SafeAreaView style={styles.container} edges={["top"]}>
+    <View style={styles.container}>
       <BackgroundPattern />
-      <Text style={styles.emoji}>🚧</Text>
+      <Text style={styles.emoji}>🌱</Text>
       <Text style={styles.title}>More coming soon</Text>
-      <Text style={styles.subtitle}>
-        Word duels and minigames are on the way.
-      </Text>
-    </SafeAreaView>
+      <Text style={styles.subtitle}>A new way to learn is on the way.</Text>
+    </View>
   );
 }
 

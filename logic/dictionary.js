@@ -54,5 +54,9 @@ export async function resetAllData() {
     "vocablab_lives",
     "vocablab_lives_date",
     "vocablab_adventure_sessions_completed",
+    "vocablab_idiom_dictionary",
+    "vocablab_idiom_completed_date",
+    "vocablab_idiom_of_day",
+    "vocablab_idiom_sessions_completed",
   ]);
 }

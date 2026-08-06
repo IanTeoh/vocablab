@@ -2,28 +2,30 @@ import * as Haptics from "expo-haptics";
 import { useMemo, useState } from "react";
 import { StyleSheet, Text, View } from "react-native";
 import { Colors, Fonts, Radius, Spacing } from "../constants/theme";
-import words from "../data/words.json";
-import { addWordToDictionary } from "../logic/dictionary";
 import { buildQuizOptions } from "../logic/quiz";
 import { getRarityStyle } from "../logic/rarity";
 import PressableScale from "./PressableScale";
 
 type LevelQuizProps = {
-  level: { id: number; words: any[] };
+  level: { id: number; words: any[]; title?: string };
+  allWords: any[];
   livesLeft: number;
   onLoseLife: () => Promise<number>;
   onLevelComplete: () => void;
   onOutOfLives: () => void;
   onExit: () => void;
+  onWordCaught?: (word: any) => void | Promise<void>;
 };
 
 export default function LevelQuiz({
   level,
+  allWords,
   livesLeft,
   onLoseLife,
   onLevelComplete,
   onOutOfLives,
   onExit,
+  onWordCaught,
 }: LevelQuizProps) {
   const [wordIndex, setWordIndex] = useState(0);
   const [selected, setSelected] = useState<string | null>(null);
@@ -31,12 +33,14 @@ export default function LevelQuiz({
 
   const currentWord = level.words[wordIndex];
   const options = useMemo(
-    () => buildQuizOptions(currentWord, words),
+    () => buildQuizOptions(currentWord, allWords),
     [currentWord.word],
   );
   const rarity = getRarityStyle(currentWord.rarity);
   const isCorrect = selected === currentWord.definition;
   const isLastWord = wordIndex === level.words.length - 1;
+  const sessionLabel =
+    level.title !== undefined ? level.title : `Level ${level.id}`;
 
   async function handleSelect(option: string) {
     if (revealed) return;
@@ -45,7 +49,7 @@ export default function LevelQuiz({
 
     if (option === currentWord.definition) {
       Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
-      await addWordToDictionary(currentWord);
+      await onWordCaught?.(currentWord);
     } else {
       Haptics.notificationAsync(Haptics.NotificationFeedbackType.Error);
       const remaining = await onLoseLife();
@@ -71,7 +75,11 @@ export default function LevelQuiz({
   return (
     <View style={styles.container}>
       <View style={styles.topRow}>
-        <Text style={styles.levelLabel}>Level {level.id}</Text>
+        {sessionLabel ? (
+          <Text style={styles.levelLabel}>{sessionLabel}</Text>
+        ) : (
+          <View />
+        )}
         <Text style={styles.livesText}>
           {"❤️".repeat(livesLeft)}
           {"🖤".repeat(Math.max(0, 3 - livesLeft))}
@@ -79,7 +87,7 @@ export default function LevelQuiz({
       </View>
 
       <Text style={styles.progressText}>
-        Word {wordIndex + 1} of {level.words.length}
+        {wordIndex + 1} of {level.words.length}
       </Text>
 
       <Text style={styles.word}>{currentWord.word}</Text>
@@ -94,7 +102,7 @@ export default function LevelQuiz({
 
       {!revealed && (
         <>
-          <Text style={styles.prompt}>What does this word mean?</Text>
+          <Text style={styles.prompt}>What does this mean?</Text>
           {options.map((option, i) => (
             <PressableScale
               key={i}
@@ -125,7 +133,7 @@ export default function LevelQuiz({
               onPress={handleContinue}
             >
               <Text style={styles.continueButtonText}>
-                {isLastWord ? "Finish Level" : "Next Word"}
+                {isLastWord ? "Finish Level" : "Next"}
               </Text>
             </PressableScale>
           )}
@@ -162,7 +170,7 @@ const styles = StyleSheet.create({
   },
   word: {
     fontFamily: Fonts.displayBold,
-    fontSize: 36,
+    fontSize: 32,
     color: Colors.ink,
     textAlign: "center",
     marginBottom: Spacing.xs,

@@ -1,21 +1,73 @@
+import AsyncStorage from "@react-native-async-storage/async-storage";
 import { useFocusEffect } from "expo-router";
 import { useCallback, useEffect, useState } from "react";
 import { Modal, SafeAreaView, StyleSheet, Text, View } from "react-native";
 import { Colors, Fonts, Radius, Spacing } from "../constants/theme";
-import words from "../data/words.json";
-import { addWordToDictionary, getDictionary } from "../logic/dictionary";
+import idioms from "../data/idioms.json";
 import {
-  generateAdventureSession,
-  getSessionsCompletedCount,
-  incrementSessionsCompleted,
-} from "../logic/levels";
+    addIdiomToDictionary,
+    getIdiomDictionary,
+} from "../logic/idiomDictionary";
 import { getLives, loseLife, MAX_LIVES } from "../logic/lives";
 import LevelQuiz from "./LevelQuiz";
 import PressableScale from "./PressableScale";
 
+// The original module ../logic/idiomSessions may be missing in some setups.
+// Try to dynamically import it; if unavailable, fall back to local implementations
+// using AsyncStorage so the component continues to work.
+async function tryImportIdiomSessions() {
+  try {
+    // eslint-disable-next-line @typescript-eslint/no-var-requires
+    return await import("../logic/idiomSessions");
+  } catch (e) {
+    return null;
+  }
+}
+
+async function generateIdiomSession(
+  allWords: any[],
+  dictionary: any,
+  count: number,
+) {
+  const mod = await tryImportIdiomSessions();
+  if (mod?.generateIdiomSession)
+    return mod.generateIdiomSession(allWords, dictionary, count);
+
+  const dictSet = new Set(
+    Array.isArray(dictionary) ? dictionary : Object.keys(dictionary || {}),
+  );
+  const available = allWords.filter((w) => {
+    const id = w.id ?? w.word ?? JSON.stringify(w);
+    return !dictSet.has(id);
+  });
+  return available.slice(0, count);
+}
+
+const SESSIONS_KEY = "idiomSessionsCompleted";
+
+async function getIdiomSessionsCompletedCount() {
+  const mod = await tryImportIdiomSessions();
+  if (mod?.getIdiomSessionsCompletedCount)
+    return mod.getIdiomSessionsCompletedCount();
+
+  const v = await AsyncStorage.getItem(SESSIONS_KEY);
+  return v ? Number(v) : 0;
+}
+
+async function incrementIdiomSessionsCompleted() {
+  const mod = await tryImportIdiomSessions();
+  if (mod?.incrementIdiomSessionsCompleted)
+    return mod.incrementIdiomSessionsCompleted();
+
+  const cur = await getIdiomSessionsCompletedCount();
+  const next = cur + 1;
+  await AsyncStorage.setItem(SESSIONS_KEY, String(next));
+  return next;
+}
+
 type Session = { id: number; words: any[] };
 
-export default function WordAdventureCard() {
+export default function IdiomAdventureCard() {
   const [lives, setLives] = useState<number | null>(null);
   const [sessionsCompleted, setSessionsCompleted] = useState<number | null>(
     null,
@@ -29,7 +81,7 @@ export default function WordAdventureCard() {
   useFocusEffect(
     useCallback(() => {
       getLives().then(setLives);
-      getSessionsCompletedCount().then(setSessionsCompleted);
+      getIdiomSessionsCompletedCount().then(setSessionsCompleted);
     }, []),
   );
 
@@ -41,8 +93,8 @@ export default function WordAdventureCard() {
 
   async function handlePlay() {
     if (lives === 0) return;
-    const dictionary = await getDictionary();
-    const sessionWords = generateAdventureSession(words, dictionary, 3);
+    const dictionary = await getIdiomDictionary();
+    const sessionWords = await generateIdiomSession(idioms, dictionary, 3);
 
     if (sessionWords.length === 0) {
       setPoolExhausted(true);
@@ -63,7 +115,7 @@ export default function WordAdventureCard() {
   }
 
   async function handleSessionComplete() {
-    const newCount = await incrementSessionsCompleted();
+    const newCount = await incrementIdiomSessionsCompleted();
     setSessionsCompleted(newCount);
     setActiveSession(null);
     setModalVisible(false);
@@ -83,9 +135,9 @@ export default function WordAdventureCard() {
 
   return (
     <View style={styles.card}>
-      <Text style={styles.label}>Word Adventure</Text>
+      <Text style={styles.label}>Idiom Practice</Text>
       <Text style={styles.subtitle}>
-        Quick rounds of words you haven't learned.
+        Quick rounds of idioms you haven't caught yet.
       </Text>
       <Text style={styles.levelBadge}>
         Level {(sessionsCompleted ?? 0) + 1}
@@ -101,14 +153,14 @@ export default function WordAdventureCard() {
 
       {(outOfLives || lives === 0) && (
         <Text style={styles.bannerTextError}>
-          Out of lives — come back tomorrow for 3 more!
+          Out of lives — come back tomorrow for 3 more! ❤️
         </Text>
       )}
 
       {poolExhausted && (
         <Text style={styles.bannerTextMuted}>
-          You've caught every practice word! 🎉 New rounds unlock as you add
-          more words.
+          You've caught every practice idiom! 🎉 New rounds unlock as more get
+          added.
         </Text>
       )}
 
@@ -137,13 +189,13 @@ export default function WordAdventureCard() {
           {activeSession && (
             <LevelQuiz
               level={activeSession}
-              allWords={words}
+              allWords={idioms}
               livesLeft={lives ?? 0}
               onLoseLife={handleLoseLife}
               onLevelComplete={handleSessionComplete}
               onOutOfLives={handleOutOfLives}
               onExit={handleExit}
-              onWordCaught={addWordToDictionary}
+              onWordCaught={addIdiomToDictionary}
             />
           )}
         </SafeAreaView>

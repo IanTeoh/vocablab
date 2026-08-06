@@ -12,14 +12,19 @@ import {
   TextInput,
   View,
 } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
+import {
+  SafeAreaView,
+  useSafeAreaInsets,
+} from "react-native-safe-area-context";
 import BackgroundPattern from "../../components/BackgroundPattern";
 import PressableScale from "../../components/PressableScale";
 import WordDetailModal from "../../components/WordDetailModal";
 import { Colors, Fonts, Radius, Spacing } from "../../constants/theme";
+import idioms from "../../data/idioms.json";
 import words from "../../data/words.json";
 import { getCategoryProgress } from "../../logic/categories";
 import { getDictionary, getStats, resetAllData } from "../../logic/dictionary";
+import { getIdiomDictionary } from "../../logic/idiomDictionary";
 import { getSessionsCompletedCount } from "../../logic/levels";
 import { getRarityStyle } from "../../logic/rarity";
 
@@ -28,10 +33,13 @@ const { width: SCREEN_WIDTH } = Dimensions.get("window");
 export default function Profile() {
   const [stats, setStats] = useState<any | null>(null);
   const [collectedWords, setCollectedWords] = useState<any[]>([]);
+  const [collectedIdioms, setCollectedIdioms] = useState<any[]>([]);
   const [adventureLevel, setAdventureLevel] = useState<number | null>(null);
   const [selectedCategory, setSelectedCategory] = useState<any | null>(null);
   const [selectedWord, setSelectedWord] = useState<any | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
+  const [statsModalVisible, setStatsModalVisible] = useState(false);
+  const insets = useSafeAreaInsets();
   const slideAnim = useRef(new Animated.Value(SCREEN_WIDTH)).current;
 
   function openCategory(item: any) {
@@ -56,12 +64,26 @@ export default function Profile() {
     useCallback(() => {
       getStats(words.length).then(setStats);
       getDictionary().then(setCollectedWords);
+      getIdiomDictionary().then(setCollectedIdioms);
       getSessionsCompletedCount().then((count) => setAdventureLevel(count + 1));
     }, []),
   );
 
   const collectedSet = new Set(collectedWords.map((w) => w.word));
+  const idiomCollectedSet = new Set(collectedIdioms.map((w) => w.word));
+
   const categoryProgress = getCategoryProgress(words, collectedWords);
+
+  const idiomSection = {
+    category: "Idioms",
+    words: idioms,
+    caught: idiomCollectedSet.size,
+    total: idioms.length,
+    percent: Math.round((idiomCollectedSet.size / idioms.length) * 100),
+    isIdiom: true,
+  };
+
+  const sections = [...categoryProgress, idiomSection];
 
   const isSearching = searchQuery.trim().length > 0;
   const filteredWords = isSearching
@@ -87,6 +109,7 @@ export default function Profile() {
           await resetAllData();
           setStats(await getStats(words.length));
           setCollectedWords([]);
+          setCollectedIdioms([]);
           setAdventureLevel(1);
         },
       },
@@ -112,6 +135,49 @@ export default function Profile() {
         <Text
           style={[styles.tileText, caught && { color: rarity.color }]}
           numberOfLines={1}
+        >
+          {caught ? w.word : "?????"}
+        </Text>
+      </>
+    );
+
+    if (!caught) {
+      return (
+        <View key={w.word} style={tileStyle}>
+          {content}
+        </View>
+      );
+    }
+
+    return (
+      <PressableScale
+        key={w.word}
+        style={tileStyle}
+        onPress={() => setSelectedWord(w)}
+      >
+        {content}
+      </PressableScale>
+    );
+  }
+
+  function renderIdiomTile(w: any) {
+    const caught = idiomCollectedSet.has(w.word);
+    const tileStyle = [
+      styles.wordTile,
+      caught
+        ? {
+            backgroundColor: Colors.surface,
+            borderWidth: 2,
+            borderColor: Colors.secondary,
+          }
+        : styles.tileLocked,
+    ];
+    const content = (
+      <>
+        <Text style={styles.tileEmoji}>{caught ? w.icon || "💬" : "🔒"}</Text>
+        <Text
+          style={[styles.tileText, caught && { color: Colors.secondary }]}
+          numberOfLines={2}
         >
           {caught ? w.word : "?????"}
         </Text>
@@ -185,9 +251,14 @@ export default function Profile() {
   }
 
   function renderCategorySection(item: any) {
+    const isIdiom = !!item.isIdiom;
+    const relevantSet = isIdiom ? idiomCollectedSet : collectedSet;
+    const tileRenderer = isIdiom ? renderIdiomTile : renderWordTile;
+
     const sortedWords = [...item.words].sort((a: any, b: any) => {
       const scoreOf = (w: any) =>
-        (collectedSet.has(w.word) ? 2 : 0) + (w.rarity === "legendary" ? 1 : 0);
+        (relevantSet.has(w.word) ? 2 : 0) +
+        (!isIdiom && w.rarity === "legendary" ? 1 : 0);
       return scoreOf(b) - scoreOf(a);
     });
     const previewWords = sortedWords.slice(0, 3);
@@ -217,7 +288,7 @@ export default function Profile() {
           />
         </View>
         <View style={styles.grid}>
-          {previewWords.map((w: any) => renderWordTile(w))}
+          {previewWords.map((w: any) => tileRenderer(w))}
         </View>
       </View>
     );
@@ -232,7 +303,7 @@ export default function Profile() {
 
       <FlatList
         style={styles.container}
-        data={isSearching ? filteredWords : categoryProgress}
+        data={isSearching ? filteredWords : sections}
         keyExtractor={(item: any) => (isSearching ? item.word : item.category)}
         keyboardShouldPersistTaps="handled"
         ListHeaderComponent={
@@ -254,10 +325,13 @@ export default function Profile() {
                   </Text>
                   <Text style={styles.statLabel}>Complete</Text>
                 </View>
-                <View style={styles.statBox}>
-                  <Text style={styles.statNumber}>{adventureLevel ?? "-"}</Text>
-                  <Text style={styles.statLabel}>Adventure Level</Text>
-                </View>
+                <PressableScale
+                  style={[styles.statBox, styles.statBoxAction]}
+                  onPress={() => setStatsModalVisible(true)}
+                >
+                  <Text style={styles.statActionIcon}>📊</Text>
+                  <Text style={styles.statActionLabel}>See Stats</Text>
+                </PressableScale>
               </View>
             )}
 
@@ -324,7 +398,12 @@ export default function Profile() {
             { transform: [{ translateX: slideAnim }] },
           ]}
         >
-          <SafeAreaView style={styles.modalSafeArea} edges={["top", "bottom"]}>
+          <View
+            style={[
+              styles.modalSafeArea,
+              { paddingTop: insets.top, paddingBottom: insets.bottom },
+            ]}
+          >
             <ScrollView
               style={{ flex: 1 }}
               contentContainerStyle={styles.modalContent}
@@ -336,7 +415,11 @@ export default function Profile() {
                 {selectedCategory?.caught}/{selectedCategory?.total} caught
               </Text>
               <View style={styles.grid}>
-                {selectedCategory?.words.map((w: any) => renderWordTile(w))}
+                {selectedCategory?.words.map((w: any) =>
+                  selectedCategory?.isIdiom
+                    ? renderIdiomTile(w)
+                    : renderWordTile(w),
+                )}
               </View>
             </ScrollView>
 
@@ -348,8 +431,75 @@ export default function Profile() {
                 <Text style={styles.closeButtonText}>Close</Text>
               </PressableScale>
             </View>
-          </SafeAreaView>
+          </View>
         </Animated.View>
+      </Modal>
+
+      <Modal
+        visible={statsModalVisible}
+        animationType="slide"
+        onRequestClose={() => setStatsModalVisible(false)}
+      >
+        <View
+          style={[
+            styles.modalSafeArea,
+            { paddingTop: insets.top, paddingBottom: insets.bottom },
+          ]}
+        >
+          <ScrollView
+            style={{ flex: 1 }}
+            contentContainerStyle={styles.modalContent}
+          >
+            <Text style={styles.modalTitle}>Your Stats</Text>
+
+            <Text style={styles.statsSectionLabel}>Vocabulary</Text>
+            <View style={styles.statsGrid}>
+              <View style={styles.statBox}>
+                <Text style={styles.statNumber}>
+                  {stats?.currentStreak ?? "-"}
+                </Text>
+                <Text style={styles.statLabel}>🔥 Streak</Text>
+              </View>
+              <View style={styles.statBox}>
+                <Text style={styles.statNumber}>
+                  {stats?.wordsCollected ?? "-"}
+                </Text>
+                <Text style={styles.statLabel}>Words Caught</Text>
+              </View>
+              <View style={styles.statBox}>
+                <Text style={styles.statNumber}>
+                  {stats?.percentComplete ?? "-"}%
+                </Text>
+                <Text style={styles.statLabel}>Complete</Text>
+              </View>
+              <View style={styles.statBox}>
+                <Text style={styles.statNumber}>{adventureLevel ?? "-"}</Text>
+                <Text style={styles.statLabel}>Adventure Level</Text>
+              </View>
+            </View>
+
+            <Text style={styles.statsSectionLabel}>Idioms</Text>
+            <View style={styles.statsGrid}>
+              <View style={styles.statBox}>
+                <Text style={styles.statNumber}>{idiomSection.caught}</Text>
+                <Text style={styles.statLabel}>💬 Idioms Caught</Text>
+              </View>
+              <View style={styles.statBox}>
+                <Text style={styles.statNumber}>{idiomSection.percent}%</Text>
+                <Text style={styles.statLabel}>Complete</Text>
+              </View>
+            </View>
+          </ScrollView>
+
+          <View style={styles.modalFooter}>
+            <PressableScale
+              style={styles.closeButton}
+              onPress={() => setStatsModalVisible(false)}
+            >
+              <Text style={styles.closeButtonText}>Close</Text>
+            </PressableScale>
+          </View>
+        </View>
       </Modal>
 
       <WordDetailModal
@@ -376,6 +526,20 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
     marginBottom: Spacing.lg,
   },
+  statsGrid: {
+    flexDirection: "row",
+    flexWrap: "wrap",
+    justifyContent: "space-between",
+    marginBottom: Spacing.lg,
+  },
+  statsSectionLabel: {
+    fontFamily: Fonts.bodySemiBold,
+    fontSize: 13,
+    color: Colors.inkMuted,
+    textTransform: "uppercase",
+    letterSpacing: 1,
+    marginBottom: Spacing.sm,
+  },
   statBox: {
     width: "48%",
     backgroundColor: Colors.surface,
@@ -385,6 +549,16 @@ const styles = StyleSheet.create({
     marginBottom: 12,
     borderWidth: 1,
     borderColor: Colors.border,
+  },
+  statBoxAction: {
+    backgroundColor: Colors.surface,
+  },
+  statActionIcon: { fontSize: 22, marginBottom: 2 },
+  statActionLabel: {
+    fontFamily: Fonts.bodySemiBold,
+    fontSize: 13,
+    color: Colors.accent,
+    marginTop: 4,
   },
   statNumber: {
     fontFamily: Fonts.displayBold,
@@ -520,7 +694,12 @@ const styles = StyleSheet.create({
   },
   tileLocked: { backgroundColor: Colors.border },
   tileEmoji: { fontSize: 22, marginBottom: 4 },
-  tileText: { fontFamily: Fonts.bodySemiBold, fontSize: 11, color: Colors.ink },
+  tileText: {
+    fontFamily: Fonts.bodySemiBold,
+    fontSize: 11,
+    color: Colors.ink,
+    textAlign: "center",
+  },
   resetButton: {
     borderWidth: 1,
     borderColor: Colors.error,

@@ -11,7 +11,8 @@
     "lint": "expo lint",
     "check-words": "node scripts/check-words.js",
     "score-words": "node scripts/score-word-frequency.js scripts/candidate-words.txt",
-    "check-new-words": "node scripts/check-new-words.js scripts/candidate-words.txt"
+    "check-new-words": "node scripts/check-new-words.js scripts/candidate-words.txt",
+    "check-idioms": "node scripts/check-idioms.js"
   },
   "dependencies": {
     "@expo-google-fonts/fraunces": "^0.4.1",
