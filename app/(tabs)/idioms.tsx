@@ -5,6 +5,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import BackgroundPattern from "../../components/BackgroundPattern";
 import IdiomOfDayCard from "../../components/IdiomOfDayCard";
 import IdiomojiCard from "../../components/IdiomojiCard";
+import IdiomojiGameScreen from "../../components/IdiomojiGameScreen";
 import IdiomPracticeCard from "../../components/IdiomPracticeCard";
 import IdiomReviewCard from "../../components/IdiomReviewCard";
 import { Colors, Fonts, Radius, Spacing } from "../../constants/theme";
@@ -14,6 +15,8 @@ import { getIdiomStats } from "../../logic/idiomDictionary";
 export default function Idioms() {
   const [stats, setStats] = useState<any | null>(null);
   const [refreshKey, setRefreshKey] = useState(0);
+  const [idiomojiActive, setIdiomojiActive] = useState(false);
+  const [idiomojiRefreshKey, setIdiomojiRefreshKey] = useState(0);
 
   useFocusEffect(
     useCallback(() => {
@@ -30,36 +33,52 @@ export default function Idioms() {
   }
 
   return (
-    <SafeAreaView style={styles.screen} edges={["top"]}>
-      <BackgroundPattern />
-      <ScrollView contentContainerStyle={styles.container}>
-        <Text style={styles.title}>Idioms</Text>
+    <View style={{ flex: 1 }}>
+      <SafeAreaView style={styles.screen} edges={["top"]}>
+        <BackgroundPattern />
+        <ScrollView contentContainerStyle={styles.container}>
+          <Text style={styles.title}>Idioms</Text>
 
-        {stats && (
-          <View style={styles.statsRow}>
-            <View style={styles.statBox}>
-              <Text style={styles.statNumber}>{stats.idiomsCollected}</Text>
-              <Text style={styles.statLabel}>Caught</Text>
+          {stats && (
+            <View style={styles.statsRow}>
+              <View style={styles.statBox}>
+                <Text style={styles.statNumber}>{stats.idiomsCollected}</Text>
+                <Text style={styles.statLabel}>Caught</Text>
+              </View>
+              <View style={styles.statBox}>
+                <Text style={styles.statNumber}>{stats.percentComplete}%</Text>
+                <Text style={styles.statLabel}>Complete</Text>
+              </View>
             </View>
-            <View style={styles.statBox}>
-              <Text style={styles.statNumber}>{stats.percentComplete}%</Text>
-              <Text style={styles.statLabel}>Complete</Text>
-            </View>
-          </View>
-        )}
+          )}
 
-        <IdiomOfDayCard onCaught={handleCaught} />
-        <IdiomojiCard />
-        <IdiomPracticeCard onCaught={handleCaught} />
-        <IdiomReviewCard refreshKey={refreshKey} />
-      </ScrollView>
-    </SafeAreaView>
+          <IdiomOfDayCard onCaught={handleCaught} />
+          <IdiomojiCard
+            onPlay={() => setIdiomojiActive(true)}
+            refreshKey={idiomojiRefreshKey}
+          />
+          <IdiomPracticeCard onCaught={handleCaught} />
+          <IdiomReviewCard refreshKey={refreshKey} />
+        </ScrollView>
+      </SafeAreaView>
+
+      <IdiomojiGameScreen
+        visible={idiomojiActive}
+        onClose={() => setIdiomojiActive(false)}
+        onGameEnd={() => setIdiomojiRefreshKey((k) => k + 1)}
+      />
+    </View>
   );
 }
 
 const styles = StyleSheet.create({
   screen: { flex: 1, backgroundColor: Colors.background },
-  container: { padding: Spacing.md, paddingTop: Spacing.lg, flexGrow: 1 },
+  container: {
+    padding: Spacing.md,
+    paddingTop: Spacing.lg,
+    paddingBottom: 100,
+    flexGrow: 1,
+  },
   title: {
     fontFamily: Fonts.displayBold,
     fontSize: 26,

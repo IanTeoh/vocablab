@@ -1,0 +1,362 @@
+[
+  {
+    "root": "Bio",
+    "origin": "Greek",
+    "meaning": "life",
+    "icon": "🧬",
+    "example": "Biology is the study of living organisms.",
+    "derivatives": [
+      "biology",
+      "biography",
+      "biopsy",
+      "antibiotic",
+      "biodegradable",
+      "biosphere",
+      "symbiosis",
+      "autobiography",
+      "biotech",
+      "biochemistry",
+      "bioluminescence",
+      "biodiversity"
+    ]
+  },
+  {
+    "root": "Graph",
+    "origin": "Greek",
+    "meaning": "writing or drawing",
+    "icon": "✍️",
+    "example": "A photograph captures a moment in an image.",
+    "derivatives": [
+      "photograph",
+      "autograph",
+      "biography",
+      "graphic",
+      "paragraph",
+      "telegraph",
+      "geography",
+      "calligraphy",
+      "graphite",
+      "choreography",
+      "cartography",
+      "seismograph"
+    ]
+  },
+  {
+    "root": "Tele",
+    "origin": "Greek",
+    "meaning": "far or distant",
+    "icon": "📡",
+    "example": "A telescope lets us see distant stars.",
+    "derivatives": [
+      "telephone",
+      "television",
+      "telescope",
+      "telepathy",
+      "telegraph",
+      "teleport",
+      "telecommute",
+      "telecast"
+    ]
+  },
+  {
+    "root": "Phon",
+    "origin": "Greek",
+    "meaning": "sound",
+    "icon": "🔊",
+    "example": "The telephone carries sound across long distances.",
+    "derivatives": [
+      "telephone",
+      "microphone",
+      "symphony",
+      "phonics",
+      "saxophone",
+      "megaphone",
+      "homophone",
+      "xylophone",
+      "phonograph"
+    ]
+  },
+  {
+    "root": "Chrono",
+    "origin": "Greek",
+    "meaning": "time",
+    "icon": "⏳",
+    "example": "A chronology lists events in the order they happened.",
+    "derivatives": [
+      "chronology",
+      "chronic",
+      "synchronize",
+      "chronicle",
+      "anachronism",
+      "chronometer"
+    ]
+  },
+  {
+    "root": "Photo",
+    "origin": "Greek",
+    "meaning": "light",
+    "icon": "💡",
+    "example": "Photosynthesis converts light into energy for plants.",
+    "derivatives": [
+      "photograph",
+      "photosynthesis",
+      "photocopy",
+      "photon",
+      "photogenic"
+    ]
+  },
+  {
+    "root": "Auto",
+    "origin": "Greek",
+    "meaning": "self",
+    "icon": "🤖",
+    "example": "An autobiography is a story someone writes about themselves.",
+    "derivatives": [
+      "automobile",
+      "autograph",
+      "automatic",
+      "autobiography",
+      "autonomy",
+      "autopilot",
+      "autoimmune"
+    ]
+  },
+  {
+    "root": "Geo",
+    "origin": "Greek",
+    "meaning": "earth",
+    "icon": "🌍",
+    "example": "Geography is the study of the earth's surface.",
+    "derivatives": [
+      "geography",
+      "geology",
+      "geometry",
+      "geothermal",
+      "geopolitics"
+    ]
+  },
+  {
+    "root": "Therm",
+    "origin": "Greek",
+    "meaning": "heat",
+    "icon": "🌡️",
+    "example": "A thermometer measures temperature.",
+    "derivatives": [
+      "thermometer",
+      "thermal",
+      "thermos",
+      "thermostat",
+      "hypothermia",
+      "thermodynamics"
+    ]
+  },
+  {
+    "root": "Path",
+    "origin": "Greek",
+    "meaning": "feeling or suffering",
+    "icon": "💗",
+    "example": "Sympathy means sharing in someone else's feelings.",
+    "derivatives": [
+      "sympathy",
+      "empathy",
+      "pathetic",
+      "pathology",
+      "apathy",
+      "telepathy",
+      "antipathy"
+    ]
+  },
+  {
+    "root": "Scope",
+    "origin": "Greek",
+    "meaning": "to look or see",
+    "icon": "🔭",
+    "example": "A microscope lets scientists see tiny objects.",
+    "derivatives": [
+      "telescope",
+      "microscope",
+      "periscope",
+      "horoscope",
+      "stethoscope",
+      "kaleidoscope"
+    ]
+  },
+  {
+    "root": "Dict",
+    "origin": "Latin",
+    "meaning": "to say or speak",
+    "icon": "🗣️",
+    "example": "A dictionary lists the meanings of words.",
+    "derivatives": [
+      "dictionary",
+      "predict",
+      "dictate",
+      "contradict",
+      "verdict",
+      "diction",
+      "dictator"
+    ]
+  },
+  {
+    "root": "Port",
+    "origin": "Latin",
+    "meaning": "to carry",
+    "icon": "📦",
+    "example": "Companies import and export goods across borders.",
+    "derivatives": [
+      "transport",
+      "import",
+      "export",
+      "portable",
+      "report",
+      "deport",
+      "support"
+    ]
+  },
+  {
+    "root": "Spect",
+    "origin": "Latin",
+    "meaning": "to look or watch",
+    "icon": "👀",
+    "example": "The inspector will inspect the building carefully.",
+    "derivatives": [
+      "spectator",
+      "inspect",
+      "respect",
+      "spectacle",
+      "prospect",
+      "suspect",
+      "spectacular"
+    ]
+  },
+  {
+    "root": "Rupt",
+    "origin": "Latin",
+    "meaning": "to break",
+    "icon": "💥",
+    "example": "The volcano could erupt at any moment.",
+    "derivatives": [
+      "interrupt",
+      "disrupt",
+      "erupt",
+      "corrupt",
+      "bankrupt",
+      "rupture"
+    ]
+  },
+  {
+    "root": "Scrib",
+    "origin": "Latin",
+    "meaning": "to write",
+    "icon": "📝",
+    "example": "You can subscribe to receive new articles by email.",
+    "derivatives": [
+      "describe",
+      "subscribe",
+      "manuscript",
+      "script",
+      "prescription",
+      "inscription",
+      "transcript"
+    ]
+  },
+  {
+    "root": "Vis",
+    "origin": "Latin",
+    "meaning": "to see",
+    "icon": "👁️",
+    "example": "Television lets us see events from far away.",
+    "derivatives": [
+      "television",
+      "vision",
+      "invisible",
+      "supervise",
+      "visible",
+      "revise",
+      "visual"
+    ]
+  },
+  {
+    "root": "Aqua",
+    "origin": "Latin",
+    "meaning": "water",
+    "icon": "💧",
+    "example": "The aquarium is home to hundreds of fish.",
+    "derivatives": ["aquarium", "aquatic", "aqueduct", "aquamarine"]
+  },
+  {
+    "root": "Bene",
+    "origin": "Latin",
+    "meaning": "good or well",
+    "icon": "🌟",
+    "example": "Volunteering benefits the whole community.",
+    "derivatives": [
+      "benefit",
+      "benevolent",
+      "benefactor",
+      "benign",
+      "beneficial"
+    ]
+  },
+  {
+    "root": "Mal",
+    "origin": "Latin",
+    "meaning": "bad",
+    "icon": "⚠️",
+    "example": "A computer virus is a type of malware.",
+    "derivatives": [
+      "malfunction",
+      "malice",
+      "malignant",
+      "malware",
+      "malnutrition",
+      "malpractice"
+    ]
+  },
+  {
+    "root": "Mono",
+    "origin": "Greek",
+    "meaning": "one or single",
+    "icon": "1️⃣",
+    "example": "A monologue is a speech given by just one person.",
+    "derivatives": ["monologue", "monopoly", "monotone", "monorail", "monogamy"]
+  },
+  {
+    "root": "Poly",
+    "origin": "Greek",
+    "meaning": "many",
+    "icon": "🔢",
+    "example": "A polygon is a shape with many sides.",
+    "derivatives": ["polygon", "polygamy", "polyglot", "polymer", "polytechnic"]
+  },
+  {
+    "root": "Terra",
+    "origin": "Latin",
+    "meaning": "earth or land",
+    "icon": "🏞️",
+    "example": "The mountainous terrain made hiking difficult.",
+    "derivatives": ["terrain", "territory", "terrestrial", "terrarium"]
+  },
+  {
+    "root": "Cred",
+    "origin": "Latin",
+    "meaning": "to believe",
+    "icon": "🤝",
+    "example": "Her credentials make her a credible expert.",
+    "derivatives": [
+      "credible",
+      "credit",
+      "credential",
+      "incredible",
+      "discredit"
+    ]
+  },
+  {
+    "root": "Mort",
+    "origin": "Latin",
+    "meaning": "death",
+    "icon": "⚰️",
+    "example": "The story explores the theme of mortality.",
+    "derivatives": ["mortal", "immortal", "mortgage", "mortuary", "mortality"]
+  }
+]

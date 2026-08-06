@@ -21,5 +21,10 @@ export default function Index() {
 
 const styles = StyleSheet.create({
   screen: { flex: 1, backgroundColor: Colors.background },
-  container: { padding: Spacing.md, paddingTop: Spacing.lg, flexGrow: 1 },
+  container: {
+    padding: Spacing.md,
+    paddingTop: Spacing.lg,
+    paddingBottom: 100,
+    flexGrow: 1,
+  },
 });

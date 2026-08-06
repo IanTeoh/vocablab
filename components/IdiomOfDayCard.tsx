@@ -1,19 +1,19 @@
 import * as Haptics from "expo-haptics";
 import { useEffect, useMemo, useRef, useState } from "react";
 import {
-    ActivityIndicator,
-    Animated,
-    Modal,
-    SafeAreaView,
-    StyleSheet,
-    Text,
-    View,
+  ActivityIndicator,
+  Animated,
+  Modal,
+  SafeAreaView,
+  StyleSheet,
+  Text,
+  View,
 } from "react-native";
 import { Colors, Fonts, Radius, Spacing } from "../constants/theme";
 import idioms from "../data/idioms.json";
 import {
-    addIdiomToDictionary,
-    isTodayIdiomCompleted,
+  addIdiomToDictionary,
+  isTodayIdiomCompleted,
 } from "../logic/idiomDictionary";
 import { getIdiomOfTheDay } from "../logic/idiomOfDay";
 import { buildQuizOptions } from "../logic/quiz";
@@ -201,8 +201,8 @@ const styles = StyleSheet.create({
     borderRadius: Radius.lg,
     padding: Spacing.lg,
     width: "100%",
-    borderWidth: 1,
-    borderColor: Colors.border,
+    borderWidth: 1.5,
+    borderColor: Colors.accent,
     shadowColor: Colors.ink,
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.06,

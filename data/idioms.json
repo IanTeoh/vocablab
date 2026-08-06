@@ -5,7 +5,12 @@
     "example": "He told a joke to break the ice at the start of the meeting.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\uddca",
-    "emojiClue": ["\ud83d\udc94", "\ud83e\uddca", "\ud83c\udfc1"]
+    "emojiClue": [
+      "\ud83e\uddca",
+      "\ud83d\udc94",
+      "\ud83e\udd76",
+      "\ud83d\ude05"
+    ]
   },
   {
     "word": "Piece of cake",
@@ -37,7 +42,12 @@
     "example": "That designer bag cost an arm and a leg.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udcb8",
-    "emojiClue": ["\ud83d\udcb8", "\ud83d\udcaa", "\ud83e\uddb5"]
+    "emojiClue": [
+      "\ud83d\udcb8",
+      "\ud83d\udcaa",
+      "\ud83e\uddb5",
+      "\ud83d\ude31"
+    ]
   },
   {
     "word": "Hit the sack",
@@ -45,7 +55,7 @@
     "example": "It's late, I'm going to hit the sack.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udecc",
-    "emojiClue": ["\ud83d\udecc", "\ud83d\udca5", "\ud83d\udecd\ufe0f"]
+    "emojiClue": ["\ud83d\udecf\ufe0f", "\ud83d\udc4a", "\ud83d\ude34"]
   },
   {
     "word": "On the ball",
@@ -53,7 +63,7 @@
     "example": "The new intern is really on the ball.",
     "category": "Idioms & Expressions",
     "icon": "\u26bd",
-    "emojiClue": ["\u26bd", "\u26a1", "\ud83d\udca1"]
+    "emojiClue": ["\u26bd", "\ud83d\udc40", "\u26a1", "\u2705"]
   },
   {
     "word": "Bite the bullet",
@@ -61,7 +71,12 @@
     "example": "She decided to bite the bullet and ask for a raise.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\uddb7",
-    "emojiClue": ["\ud83e\uddb7", "\ud83c\udfaf", "\ud83d\ude13"]
+    "emojiClue": [
+      "\ud83e\uddb7",
+      "\ud83c\udfaf",
+      "\ud83d\ude2c",
+      "\ud83d\udcaa"
+    ]
   },
   {
     "word": "Let the cat out of the bag",
@@ -69,7 +84,12 @@
     "example": "He let the cat out of the bag about the surprise party.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udc08",
-    "emojiClue": ["\ud83d\udc08", "\ud83c\udd97", "\ud83d\udc31"]
+    "emojiClue": [
+      "\ud83d\udc08",
+      "\ud83d\udc5c",
+      "\ud83e\udd2b",
+      "\ud83c\udf89"
+    ]
   },
   {
     "word": "Spill the beans",
@@ -77,7 +97,12 @@
     "example": "Come on, spill the beans about what happened at the meeting.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\uded8",
-    "emojiClue": ["\ud83d\udca7", "\ud83e\uded8", "\ud83c\udf89"]
+    "emojiClue": [
+      "\ud83e\uded8",
+      "\ud83d\udca7",
+      "\ud83e\udd10",
+      "\ud83d\udde3\ufe0f"
+    ]
   },
   {
     "word": "Burn the midnight oil",
@@ -85,7 +110,12 @@
     "example": "She burned the midnight oil finishing the report before the deadline.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udd6f\ufe0f",
-    "emojiClue": ["\ud83d\udd6f\ufe0f", "\ud83d\udd25", "\ud83d\udcbc"]
+    "emojiClue": [
+      "\ud83d\udd6f\ufe0f",
+      "\ud83c\udf19",
+      "\ud83d\udcbc",
+      "\ud83d\ude34"
+    ]
   },
   {
     "word": "Beat around the bush",
@@ -93,7 +123,7 @@
     "example": "Stop beating around the bush and just tell me what happened.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udf33",
-    "emojiClue": ["\ud83c\udf33", "\ud83e\udd41", "\u261d\ufe0f"]
+    "emojiClue": ["\ud83c\udf33", "\ud83e\udd41", "\ud83d\udd04", "\u2753"]
   },
   {
     "word": "Jump on the bandwagon",
@@ -101,7 +131,12 @@
     "example": "Once the app went viral, every brand jumped on the bandwagon.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\ude8b",
-    "emojiClue": ["\ud83d\ude8b", "\ud83e\udd38", "\ud83e\udd1d"]
+    "emojiClue": [
+      "\ud83d\ude8b",
+      "\ud83e\udd38",
+      "\ud83d\udc65",
+      "\ud83d\udcc8"
+    ]
   },
   {
     "word": "Kill two birds with one stone",
@@ -109,7 +144,12 @@
     "example": "By walking to work, he kills two birds with one stone.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udc26",
-    "emojiClue": ["\ud83d\udc26", "\ud83e\udea8", "\ud83c\udfc6"]
+    "emojiClue": [
+      "\ud83d\udc26",
+      "\ud83d\udc26",
+      "\ud83e\udea8",
+      "\u270c\ufe0f"
+    ]
   },
   {
     "word": "Cut corners",
@@ -125,7 +165,7 @@
     "example": "Bringing up old arguments just added fuel to the fire.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udd25",
-    "emojiClue": ["\u2795", "\ud83d\udd25", "\ud83d\udd28"]
+    "emojiClue": ["\u2795", "\u26fd", "\ud83d\udd25", "\ud83d\udcc8"]
   },
   {
     "word": "Go the extra mile",
@@ -133,7 +173,12 @@
     "example": "The waiter went the extra mile to make our anniversary dinner special.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udfc3",
-    "emojiClue": ["\ud83c\udfc3", "\u27a1\ufe0f", "\ud83d\udd28"]
+    "emojiClue": [
+      "\ud83c\udfc3",
+      "\u2795",
+      "\ud83d\udee3\ufe0f",
+      "\ud83d\udcaa"
+    ]
   },
   {
     "word": "Read between the lines",
@@ -141,7 +186,7 @@
     "example": "You have to read between the lines to see what she's really asking for.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udd0d",
-    "emojiClue": ["\ud83d\udd0d", "\ud83d\udcd6", "\ud83d\udca1"]
+    "emojiClue": ["\ud83d\udcd6", "\ud83d\udd0d", "\u2796", "\ud83d\udca1"]
   },
   {
     "word": "Bury the hatchet",
@@ -149,7 +194,12 @@
     "example": "After years of feuding, the two families finally buried the hatchet.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\ude93",
-    "emojiClue": ["\ud83e\ude93", "\ud83d\udd28", "\ud83d\udd4a\ufe0f"]
+    "emojiClue": [
+      "\ud83e\ude93",
+      "\u26b0\ufe0f",
+      "\ud83e\udd1d",
+      "\ud83d\udd4a\ufe0f"
+    ]
   },
   {
     "word": "Throw in the towel",
@@ -157,7 +207,12 @@
     "example": "After three failed attempts, he threw in the towel and moved on.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udff3\ufe0f",
-    "emojiClue": ["\ud83c\udff3\ufe0f", "\ud83c\udfaf", "\ud83e\uddfb"]
+    "emojiClue": [
+      "\ud83c\udff3\ufe0f",
+      "\ud83e\uddfb",
+      "\ud83d\ude14",
+      "\ud83c\udfaf"
+    ]
   },
   {
     "word": "Cross that bridge when you come to it",
@@ -165,7 +220,7 @@
     "example": "We don't need to worry about that yet, we'll cross that bridge when we come to it.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udf09",
-    "emojiClue": ["\u2795", "\ud83c\udf09", "\u27a1\ufe0f"]
+    "emojiClue": ["\ud83c\udf09", "\u23f3", "\ud83e\udd37", "\u27a1\ufe0f"]
   },
   {
     "word": "Barking up the wrong tree",
@@ -173,7 +228,7 @@
     "example": "If you think I took your charger, you're barking up the wrong tree.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udc15",
-    "emojiClue": ["\ud83d\udc15", "\u274c", "\ud83c\udf33"]
+    "emojiClue": ["\ud83d\udc15", "\ud83c\udf33", "\u274c", "\ud83e\udd26"]
   },
   {
     "word": "A blessing in disguise",
@@ -181,7 +236,7 @@
     "example": "Losing that job turned out to be a blessing in disguise.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udfad",
-    "emojiClue": ["\ud83c\udfad", "\ud83d\udc4e", "1\ufe0f\u20e3"]
+    "emojiClue": ["\ud83c\udfad", "\ud83d\ude4f", "\ud83d\udc4e", "\u2728"]
   },
   {
     "word": "Cross the Rubicon",
@@ -189,7 +244,7 @@
     "example": "Signing the contract meant they had officially crossed the Rubicon.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udf0a",
-    "emojiClue": ["\ud83c\udf0a", "\u2795", "\ud83e\udd32"]
+    "emojiClue": ["\ud83c\udf0a", "\u27a1\ufe0f", "\ud83d\udd12"]
   },
   {
     "word": "Cut from the same cloth",
@@ -197,7 +252,12 @@
     "example": "The two brothers are cut from the same cloth, both stubborn and generous.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\uddf5",
-    "emojiClue": ["\ud83e\uddf5", "\u2702\ufe0f", "\ud83d\udff0"]
+    "emojiClue": [
+      "\u2702\ufe0f",
+      "\ud83e\uddf5",
+      "\ud83d\udc6f",
+      "\ud83d\udff0"
+    ]
   },
   {
     "word": "Actions speak louder than words",
@@ -213,7 +273,7 @@
     "example": "Cheap plastic toys like that are a dime a dozen at the market.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\ude99",
-    "emojiClue": ["\ud83e\ude99", "\u2705", "\ud83d\udd0d"]
+    "emojiClue": ["\ud83e\ude99", "\ud83d\udd1f", "\ud83d\udd01"]
   },
   {
     "word": "A picture is worth a thousand words",
@@ -221,7 +281,7 @@
     "example": "She didn't need to explain the damage; the photo said it all \u2014 a picture is worth a thousand words.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\uddbc\ufe0f",
-    "emojiClue": ["\ud83d\uddbc\ufe0f", "\ud83d\udc8e", "\ud83d\udde3\ufe0f"]
+    "emojiClue": ["\ud83d\uddbc\ufe0f", "\ud83d\udcb0", "\ud83d\udde3\ufe0f"]
   },
   {
     "word": "Back to the drawing board",
@@ -229,7 +289,12 @@
     "example": "The prototype didn't work, so it was back to the drawing board.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udcd0",
-    "emojiClue": ["\ud83d\udcd0", "\u270f\ufe0f", "\ud83c\udfc1"]
+    "emojiClue": [
+      "\ud83d\udd19",
+      "\ud83d\udcd0",
+      "\u270f\ufe0f",
+      "\ud83d\udd04"
+    ]
   },
   {
     "word": "The ball is in your court",
@@ -237,7 +302,7 @@
     "example": "I've sent my proposal, so the ball is in your court now.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udfbe",
-    "emojiClue": ["\ud83c\udfbe", "\u26bd", "\ud83d\udd28"]
+    "emojiClue": ["\u26bd", "\ud83c\udfbe", "\ud83d\udc49"]
   },
   {
     "word": "Best of both worlds",
@@ -245,7 +310,7 @@
     "example": "Working remotely part-time gave her the best of both worlds.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udf17",
-    "emojiClue": ["\ud83c\udf17", "\ud83e\udd47", "\ud83c\udf0d"]
+    "emojiClue": ["\ud83e\udd47", "\ud83c\udf0d", "\ud83c\udf0d", "\u2795"]
   },
   {
     "word": "Better late than never",
@@ -261,7 +326,12 @@
     "example": "He bit off more than he could chew when he agreed to plan the entire event alone.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udf54",
-    "emojiClue": ["\ud83c\udf54", "\ud83e\uddb7", "\ud83e\udd32"]
+    "emojiClue": [
+      "\ud83e\uddb7",
+      "\ud83c\udf54",
+      "\ud83d\ude2c",
+      "\ud83d\udcc8"
+    ]
   },
   {
     "word": "Break a leg",
@@ -269,7 +339,12 @@
     "example": "Break a leg out there tonight!",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udf40",
-    "emojiClue": ["\ud83c\udf40", "\ud83d\udc94", "\ud83e\uddb5"]
+    "emojiClue": [
+      "\ud83d\udc94",
+      "\ud83e\uddb5",
+      "\ud83c\udf40",
+      "\ud83c\udfad"
+    ]
   },
   {
     "word": "By the skin of your teeth",
@@ -285,7 +360,7 @@
     "example": "We've made good progress, let's call it a day.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udf07",
-    "emojiClue": ["\ud83c\udf07", "\u2600\ufe0f", "\ud83d\uded1"]
+    "emojiClue": ["\ud83d\udcde", "\ud83c\udf07", "\u2705"]
   },
   {
     "word": "Costs a fortune",
@@ -301,7 +376,7 @@
     "example": "Don't go poking around in his desk \u2014 curiosity killed the cat.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udc31",
-    "emojiClue": ["\ud83d\udc31", "\ud83e\udd32", "\ud83d\ude16"]
+    "emojiClue": ["\ud83d\udc31", "\ud83d\udc80", "\u2753"]
   },
   {
     "word": "Cut to the chase",
@@ -309,7 +384,7 @@
     "example": "Let's cut to the chase: are you in or out?",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udfac",
-    "emojiClue": ["\ud83c\udfac", "\u2702\ufe0f", "\ud83c\udfc3"]
+    "emojiClue": ["\u2702\ufe0f", "\ud83c\udfc3", "\ud83c\udfaf"]
   },
   {
     "word": "Play devil's advocate",
@@ -317,7 +392,12 @@
     "example": "I'll play devil's advocate for a moment: what if the plan fails?",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\ude08",
-    "emojiClue": ["\ud83c\udfae", "\ud83d\ude08", "\ud83d\uddef\ufe0f"]
+    "emojiClue": [
+      "\ud83d\ude08",
+      "\ud83c\udfae",
+      "\ud83d\udde3\ufe0f",
+      "\u2696\ufe0f"
+    ]
   },
   {
     "word": "Don't count your chickens before they hatch",
@@ -325,7 +405,12 @@
     "example": "We haven't won the contract yet, so don't count your chickens before they hatch.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udc14",
-    "emojiClue": ["\ud83d\udd22", "\ud83d\udc14", "\ud83d\udc23"]
+    "emojiClue": [
+      "\ud83d\udc14",
+      "\ud83d\udd22",
+      "\ud83d\udeab",
+      "\ud83e\udd5a"
+    ]
   },
   {
     "word": "Don't cry over spilled milk",
@@ -333,7 +418,7 @@
     "example": "The vase is broken now, no use crying over spilled milk.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udd5b",
-    "emojiClue": ["\ud83d\ude22", "\ud83d\udca7", "\ud83e\udd5b"]
+    "emojiClue": ["\ud83d\ude22", "\ud83e\udd5b", "\ud83d\udeab"]
   },
   {
     "word": "Don't judge a book by its cover",
@@ -341,7 +426,12 @@
     "example": "He looked unfriendly at first, but don't judge a book by its cover.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udcda",
-    "emojiClue": ["\ud83d\udcda", "\u2696\ufe0f", "\ud83d\udcd6"]
+    "emojiClue": [
+      "\ud83d\udcd6",
+      "\ud83d\udc40",
+      "\ud83d\udeab",
+      "\u2696\ufe0f"
+    ]
   },
   {
     "word": "The elephant in the room",
@@ -349,7 +439,7 @@
     "example": "Nobody wanted to mention the elephant in the room: the company was losing money.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udc18",
-    "emojiClue": ["\ud83d\udc18", "\ud83d\udc40", "\u2757"]
+    "emojiClue": ["\ud83d\udc18", "\ud83c\udfe0", "\ud83d\ude36"]
   },
   {
     "word": "Every cloud has a silver lining",
@@ -365,7 +455,7 @@
     "example": "He finally decided to face the music and admit his mistake.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udfb6",
-    "emojiClue": ["\ud83c\udfb6", "\ud83c\udfb5", "\ud83e\udd1d"]
+    "emojiClue": ["\ud83d\ude10", "\ud83c\udfb5", "\ud83d\udcaa"]
   },
   {
     "word": "Fit as a fiddle",
@@ -381,7 +471,12 @@
     "example": "The party got out of hand once word spread on social media.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udf00",
-    "emojiClue": ["\ud83c\udf00", "\ud83e\udd32", "\u270b"]
+    "emojiClue": [
+      "\ud83e\udd32",
+      "\u27a1\ufe0f",
+      "\ud83d\ude35",
+      "\ud83c\udf00"
+    ]
   },
   {
     "word": "Get your act together",
@@ -389,7 +484,7 @@
     "example": "You need to get your act together before the deadline hits.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\uddc2\ufe0f",
-    "emojiClue": ["\ud83d\uddc2\ufe0f", "\ud83e\udd32", "\ud83c\udfad"]
+    "emojiClue": ["\ud83c\udfad", "\ud83e\udd32", "\ud83d\udd17"]
   },
   {
     "word": "Give someone the cold shoulder",
@@ -397,7 +492,7 @@
     "example": "She gave him the cold shoulder after their argument.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udd76",
-    "emojiClue": ["\ud83c\udf81", "\ud83e\udd76", "\ud83e\udd37"]
+    "emojiClue": ["\ud83e\udd76", "\ud83e\udd37", "\u2744\ufe0f"]
   },
   {
     "word": "Back to square one",
@@ -405,7 +500,7 @@
     "example": "The funding fell through, so we're back to square one.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udd01",
-    "emojiClue": ["\ud83d\udd01", "\u2b1b", "\ud83c\udfc1"]
+    "emojiClue": ["\ud83d\udd19", "\u2b1b", "1\ufe0f\u20e3", "\ud83d\udd04"]
   },
   {
     "word": "Go cold turkey",
@@ -413,7 +508,7 @@
     "example": "He decided to go cold turkey and stop drinking coffee overnight.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udd83",
-    "emojiClue": ["\u27a1\ufe0f", "\ud83e\udd76", "\ud83e\udd83"]
+    "emojiClue": ["\ud83e\udd76", "\ud83e\udd83", "\ud83d\uded1"]
   },
   {
     "word": "Hang in there",
@@ -421,7 +516,7 @@
     "example": "I know it's tough right now, just hang in there.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udea2",
-    "emojiClue": ["\ud83e\udea2", "\ud83e\udd32", "\ud83e\udd1e"]
+    "emojiClue": ["\ud83e\udea2", "\ud83d\udcaa", "\u23f3"]
   },
   {
     "word": "Head over heels",
@@ -429,7 +524,12 @@
     "example": "They fell head over heels for each other within a week.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udc98",
-    "emojiClue": ["\ud83d\udc98", "\ud83d\udc60", "\u2764\ufe0f"]
+    "emojiClue": [
+      "\ud83e\uddd1",
+      "\ud83d\udd04",
+      "\u2764\ufe0f",
+      "\ud83d\udc98"
+    ]
   },
   {
     "word": "Hit the nail on the head",
@@ -437,7 +537,7 @@
     "example": "Her explanation hit the nail on the head.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udd28",
-    "emojiClue": ["\ud83d\udd28", "\ud83d\udca5", "\ud83d\udc85"]
+    "emojiClue": ["\ud83d\udd28", "\ud83d\udd29", "\ud83c\udfaf"]
   },
   {
     "word": "Hold your horses",
@@ -445,7 +545,7 @@
     "example": "Hold your horses, we haven't even confirmed the date yet.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udc34",
-    "emojiClue": ["\ud83d\udc34", "\u270b", "\u23f3"]
+    "emojiClue": ["\u270b", "\ud83d\udc34", "\ud83d\uded1"]
   },
   {
     "word": "In hot water",
@@ -453,7 +553,7 @@
     "example": "He's in hot water with his boss after missing the deadline.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udf21\ufe0f",
-    "emojiClue": ["\ud83c\udf21\ufe0f", "\ud83e\udd75", "\ud83d\udca7"]
+    "emojiClue": ["\ud83e\udd75", "\ud83d\udca7", "\ud83d\ude30"]
   },
   {
     "word": "In the heat of the moment",
@@ -461,7 +561,7 @@
     "example": "She said something she regretted in the heat of the moment.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udd25",
-    "emojiClue": ["\ud83d\udd25", "\u23f1\ufe0f", "\ud83c\udfad"]
+    "emojiClue": ["\ud83d\udd25", "\u23f1\ufe0f", "\ud83d\ude21"]
   },
   {
     "word": "It takes two to tango",
@@ -469,7 +569,7 @@
     "example": "Don't blame only him for the argument, it takes two to tango.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udc83",
-    "emojiClue": ["\ud83d\udc83", "\ud83e\udd1d", "\ud83c\udfaf"]
+    "emojiClue": ["2\ufe0f\u20e3", "\ud83d\udc83", "\ud83e\udd1d"]
   },
   {
     "word": "Jump the gun",
@@ -477,7 +577,7 @@
     "example": "He jumped the gun and announced the news before it was official.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udfc1",
-    "emojiClue": ["\ud83c\udfc1", "\ud83e\udd38", "\ud83c\udfad"]
+    "emojiClue": ["\ud83e\udd38", "\ud83c\udfc1", "\u23f0", "\u274c"]
   },
   {
     "word": "Keep an eye on",
@@ -493,7 +593,7 @@
     "example": "It's been a rough week, but keep your chin up.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\ude42",
-    "emojiClue": ["\ud83d\ude42", "\ud83e\udd32", "\ud83e\uddd1"]
+    "emojiClue": ["\ud83e\udd32", "\ud83e\uddd1", "\ud83d\ude0a"]
   },
   {
     "word": "Kick the bucket",
@@ -501,7 +601,7 @@
     "example": "The old car finally kicked the bucket after years of use.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udea3",
-    "emojiClue": ["\ud83e\uddb5", "\ud83e\udea3", "\ud83d\udde3\ufe0f"]
+    "emojiClue": ["\ud83e\uddb5", "\ud83e\udea3", "\ud83d\udc80"]
   },
   {
     "word": "The last straw",
@@ -509,7 +609,7 @@
     "example": "Being late again was the last straw for his patience.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udd64",
-    "emojiClue": ["\ud83e\udd64", "\ud83d\udd1a", "\u2757"]
+    "emojiClue": ["\ud83e\udd64", "\ud83d\udd1a", "\ud83d\ude24"]
   },
   {
     "word": "Let sleeping dogs lie",
@@ -517,7 +617,7 @@
     "example": "It's an old disagreement, best to let sleeping dogs lie.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udca4",
-    "emojiClue": ["\ud83d\udca4", "\ud83c\udd97", "\ud83d\ude34"]
+    "emojiClue": ["\ud83d\udca4", "\ud83d\udc15", "\ud83d\udeab"]
   },
   {
     "word": "Make a long story short",
@@ -525,7 +625,7 @@
     "example": "To make a long story short, we missed the flight.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udcdd",
-    "emojiClue": ["\ud83d\udcdd", "\ud83d\udd28", "\ud83d\udccf"]
+    "emojiClue": ["\ud83d\udd28", "\ud83d\udccf", "\u2702\ufe0f"]
   },
   {
     "word": "Miss the boat",
@@ -557,7 +657,12 @@
     "example": "He got scammed once and refuses to buy online again \u2014 once bitten, twice shy.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udc0d",
-    "emojiClue": ["\ud83d\udc0d", "\ud83d\ude33", "\ud83d\udc4e"]
+    "emojiClue": [
+      "1\ufe0f\u20e3",
+      "\ud83e\uddb7",
+      "2\ufe0f\u20e3",
+      "\ud83d\ude33"
+    ]
   },
   {
     "word": "Out of the blue",
@@ -573,7 +678,12 @@
     "example": "Quitting that job to take this one felt like jumping out of the frying pan into the fire.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udf73",
-    "emojiClue": ["\ud83c\udf73", "\ud83d\udd25", "\u27a1\ufe0f"]
+    "emojiClue": [
+      "\ud83c\udf73",
+      "\u27a1\ufe0f",
+      "\ud83d\udd25",
+      "\ud83d\ude31"
+    ]
   },
   {
     "word": "Get a piece of the pie",
@@ -581,7 +691,7 @@
     "example": "Everyone on the team wanted a piece of the pie once the company succeeded.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udd67",
-    "emojiClue": ["\ud83e\udd32", "\ud83e\udd67", "\ud83e\udd1d"]
+    "emojiClue": ["\ud83e\udd32", "\ud83c\udf70", "\ud83d\udcb0"]
   },
   {
     "word": "Pull someone's leg",
@@ -597,7 +707,7 @@
     "example": "Take a breath and pull yourself together before the interview.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\uddd8",
-    "emojiClue": ["\ud83e\uddd8", "\u2194\ufe0f", "\ud83e\udd1d"]
+    "emojiClue": ["\u2194\ufe0f", "\ud83e\uddcd", "\ud83d\udd17"]
   },
   {
     "word": "Put all your eggs in one basket",
@@ -605,7 +715,12 @@
     "example": "Applying to only one university is putting all your eggs in one basket.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\uddfa",
-    "emojiClue": ["\ud83d\udce5", "\ud83e\udd5a", "\ud83e\uddfa"]
+    "emojiClue": [
+      "\ud83d\udce5",
+      "\ud83e\udd5a",
+      "\ud83e\uddfa",
+      "\u26a0\ufe0f"
+    ]
   },
   {
     "word": "Rain on someone's parade",
@@ -637,7 +752,7 @@
     "example": "He kept sitting on the fence instead of choosing a plan.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udea7",
-    "emojiClue": ["\ud83e\ude91", "\ud83d\udea7", "\ud83e\udd14"]
+    "emojiClue": ["\ud83e\ude91", "\ud83d\udea7", "\ud83e\udd37"]
   },
   {
     "word": "Speak of the devil",
@@ -645,7 +760,7 @@
     "example": "Speak of the devil, here she comes now.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udc7b",
-    "emojiClue": ["\ud83d\udc7b", "\ud83d\udde3\ufe0f", "\ud83d\ude08"]
+    "emojiClue": ["\ud83d\udde3\ufe0f", "\ud83d\ude08", "\ud83d\udc7b"]
   },
   {
     "word": "Steal someone's thunder",
@@ -653,7 +768,7 @@
     "example": "He stole her thunder by announcing the news before she could.",
     "category": "Idioms & Expressions",
     "icon": "\u26a1",
-    "emojiClue": ["\ud83d\udd75\ufe0f", "\u26a1", "\ud83e\udd32"]
+    "emojiClue": ["\ud83d\udd75\ufe0f", "\u26a1", "\ud83d\ude24"]
   },
   {
     "word": "Take it with a grain of salt",
@@ -669,7 +784,7 @@
     "example": "After all the pranks he pulled, he finally got a taste of his own medicine.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udc8a",
-    "emojiClue": ["\ud83d\udc45", "\ud83d\udc8a", "\ud83c\udf93"]
+    "emojiClue": ["\ud83d\udc45", "\ud83d\udc8a", "\ud83d\udd04"]
   },
   {
     "word": "Time flies",
@@ -677,7 +792,7 @@
     "example": "I can't believe it's already December, time flies.",
     "category": "Idioms & Expressions",
     "icon": "\u23f3",
-    "emojiClue": ["\u23f3", "\u23f0", "\ud83e\udeb0"]
+    "emojiClue": ["\u23f0", "\ud83e\udeb0", "\ud83d\udca8"]
   },
   {
     "word": "Turn a blind eye",
@@ -685,7 +800,7 @@
     "example": "The manager turned a blind eye to the small mistakes.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\ude48",
-    "emojiClue": ["\ud83d\udc41\ufe0f", "\ud83d\ude48", "\u274c"]
+    "emojiClue": ["\ud83d\udd04", "\ud83d\ude48", "\ud83d\udc41\ufe0f"]
   },
   {
     "word": "Under the radar",
@@ -717,7 +832,7 @@
     "example": "He'll clean his room when pigs fly.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udc37",
-    "emojiClue": ["\ud83d\udc37", "\ud83e\udeb0", "\ud83d\udde3\ufe0f"]
+    "emojiClue": ["\ud83d\udc37", "\u2708\ufe0f", "\ud83d\udeab"]
   },
   {
     "word": "Wrap your head around it",
@@ -733,7 +848,7 @@
     "example": "You want to save money and travel every month? You can't have your cake and eat it too.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udf82",
-    "emojiClue": ["\ud83c\udf82", "\ud83c\udf70", "\ud83c\udf7d\ufe0f"]
+    "emojiClue": ["\ud83d\udeab", "\ud83c\udf70", "\ud83c\udf7d\ufe0f"]
   },
   {
     "word": "A penny for your thoughts",
@@ -757,7 +872,7 @@
     "example": "We'll be there to support you, come rain or shine.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udf26\ufe0f",
-    "emojiClue": ["\ud83c\udf26\ufe0f", "\u27a1\ufe0f", "\ud83c\udf27\ufe0f"]
+    "emojiClue": ["\ud83c\udf27\ufe0f", "\u2600\ufe0f", "\u27a1\ufe0f"]
   },
   {
     "word": "Down to earth",
@@ -773,7 +888,7 @@
     "example": "He got cold feet right before the wedding.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\uddb6",
-    "emojiClue": ["\ud83e\uddb6", "\ud83e\udd32", "\ud83e\udd76"]
+    "emojiClue": ["\ud83e\udd76", "\ud83e\uddb6", "\ud83d\ude30"]
   },
   {
     "word": "Go down in flames",
@@ -781,7 +896,7 @@
     "example": "The project went down in flames after the budget was cut.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udca5",
-    "emojiClue": ["\ud83d\udca5", "\u27a1\ufe0f", "\u274c"]
+    "emojiClue": ["\u2b07\ufe0f", "\ud83d\udd25", "\ud83d\udca5"]
   },
   {
     "word": "Hit the ground running",
@@ -789,7 +904,7 @@
     "example": "The new manager hit the ground running on her first day.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\ude80",
-    "emojiClue": ["\ud83d\ude80", "\ud83d\udca5", "\ud83c\udfc1"]
+    "emojiClue": ["\ud83d\udca5", "\ud83c\udfc3", "\u26a1"]
   },
   {
     "word": "In the same boat",
@@ -797,7 +912,7 @@
     "example": "Don't worry, we're all in the same boat with this deadline.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udea3",
-    "emojiClue": ["\ud83d\udea3", "\ud83d\udff0", "\u26f5"]
+    "emojiClue": ["\u26f5", "\ud83d\udff0", "\ud83e\udd1d"]
   },
   {
     "word": "Left out in the cold",
@@ -813,7 +928,7 @@
     "example": "After his last mistake, he's on thin ice with his boss.",
     "category": "Idioms & Expressions",
     "icon": "\u26a0\ufe0f",
-    "emojiClue": ["\u26a0\ufe0f", "\ud83e\uddca", "\ud83d\udd12"]
+    "emojiClue": ["\u26a0\ufe0f", "\ud83e\uddca", "\ud83d\ude2c"]
   },
   {
     "word": "Show your true colors",
@@ -821,7 +936,7 @@
     "example": "He finally showed his true colors when things got difficult.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udfa8",
-    "emojiClue": ["\u2705", "\ud83c\udfa8", "\ud83c\udf89"]
+    "emojiClue": ["\ud83c\udfa8", "\ud83d\ude08", "\ud83d\udc40"]
   },
   {
     "word": "Sit tight",
@@ -837,7 +952,7 @@
     "example": "After months of saving, they took the plunge and bought a house.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udfca",
-    "emojiClue": ["\ud83c\udfca", "\ud83e\udd32", "\ud83e\udd14"]
+    "emojiClue": ["\ud83c\udfca", "\ud83e\udd32", "\ud83d\udca6"]
   },
   {
     "word": "Ahead of the curve",
@@ -853,7 +968,7 @@
     "example": "Don't worry about his yelling, he's all bark and no bite.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udc15",
-    "emojiClue": ["\ud83d\udc15", "\ud83e\uddb7", "\ud83d\udc63"]
+    "emojiClue": ["\ud83d\udc15", "\ud83d\udeab", "\ud83e\uddb7"]
   },
   {
     "word": "All ears",
@@ -861,7 +976,7 @@
     "example": "Go ahead, I'm all ears.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udc42",
-    "emojiClue": ["\ud83d\udc42", "\ud83d\udcb5", "\ud83d\udc40"]
+    "emojiClue": ["\ud83d\udc42", "\ud83d\udc42", "\ud83d\udc42"]
   },
   {
     "word": "All in a day's work",
@@ -869,7 +984,7 @@
     "example": "Fixing three computers before lunch? All in a day's work for her.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\uddd3\ufe0f",
-    "emojiClue": ["\ud83d\uddd3\ufe0f", "\u2600\ufe0f", "\ud83d\udcbc"]
+    "emojiClue": ["\ud83d\uddd3\ufe0f", "\ud83d\udcbc", "\u2705"]
   },
   {
     "word": "Apple of my eye",
@@ -909,7 +1024,12 @@
     "example": "We've discussed this five times already, we're beating a dead horse.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udc0e",
-    "emojiClue": ["\ud83d\udc0e", "\ud83e\udd41", "\ud83d\udc34"]
+    "emojiClue": [
+      "\ud83d\udc34",
+      "\ud83d\udc80",
+      "\ud83e\udd41",
+      "\ud83d\udd01"
+    ]
   },
   {
     "word": "Bend over backwards",
@@ -917,7 +1037,7 @@
     "example": "The staff bent over backwards to make our stay comfortable.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udd38",
-    "emojiClue": ["\ud83e\udd38", "\ud83d\udd28", "\ud83d\udcaa"]
+    "emojiClue": ["\ud83e\udd38", "\u21a9\ufe0f", "\ud83e\udd1d"]
   },
   {
     "word": "Best thing since sliced bread",
@@ -925,7 +1045,7 @@
     "example": "He thinks this new app is the best thing since sliced bread.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udf5e",
-    "emojiClue": ["\ud83e\udd47", "\ud83c\udf5e", "\u2728"]
+    "emojiClue": ["\ud83c\udf5e", "\ud83e\udd47", "\u2728"]
   },
   {
     "word": "Between a rock and a hard place",
@@ -933,7 +1053,7 @@
     "example": "She was between a rock and a hard place, choosing between two job offers with real downsides.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udea8",
-    "emojiClue": ["\ud83e\udea8", "\ud83d\ude13", "\ud83e\udd14"]
+    "emojiClue": ["\ud83e\udea8", "\u2194\ufe0f", "\ud83d\ude16"]
   },
   {
     "word": "Bite the dust",
@@ -941,7 +1061,7 @@
     "example": "Another one of my houseplants has bitten the dust.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udf35",
-    "emojiClue": ["\ud83c\udf35", "\ud83e\uddb7", "\u274c"]
+    "emojiClue": ["\ud83e\uddb7", "\ud83c\udf35", "\ud83d\udc80"]
   },
   {
     "word": "Blow off steam",
@@ -965,7 +1085,7 @@
     "example": "Both parents work full-time to bring home the bacon.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udd53",
-    "emojiClue": ["\ud83c\udfe1", "\ud83e\udd53", "\ud83d\udcb0"]
+    "emojiClue": ["\ud83e\udd32", "\ud83c\udfe1", "\ud83e\udd53"]
   },
   {
     "word": "Burn bridges",
@@ -973,7 +1093,7 @@
     "example": "He quit without notice and burned bridges with his old employer.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udf09",
-    "emojiClue": ["\ud83c\udf09", "\ud83d\udd25", "\ud83d\udd27"]
+    "emojiClue": ["\ud83d\udd25", "\ud83c\udf09", "\ud83d\udc94"]
   },
   {
     "word": "Burst your bubble",
@@ -981,7 +1101,7 @@
     "example": "I hate to burst your bubble, but the show was cancelled.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udee7",
-    "emojiClue": ["\ud83e\udee7", "\ud83d\ude0a", "\ud83d\udca1"]
+    "emojiClue": ["\ud83d\udca5", "\ud83e\udee7", "\ud83d\ude22"]
   },
   {
     "word": "Butterflies in my stomach",
@@ -989,7 +1109,7 @@
     "example": "She had butterflies in her stomach before the interview.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udd8b",
-    "emojiClue": ["\ud83e\udd8b", "\ud83e\udd32", "\u2757"]
+    "emojiClue": ["\ud83e\udd8b", "\ud83d\ude30", "\ud83e\udd22"]
   },
   {
     "word": "Buy time",
@@ -997,7 +1117,7 @@
     "example": "He asked for an extension just to buy time.",
     "category": "Idioms & Expressions",
     "icon": "\u23f1\ufe0f",
-    "emojiClue": ["\u23f1\ufe0f", "\ud83d\uded2", "\u23f0"]
+    "emojiClue": ["\ud83d\udcb5", "\u23f0", "\ud83d\udecd\ufe0f"]
   },
   {
     "word": "By a long shot",
@@ -1013,7 +1133,7 @@
     "example": "The office was oddly quiet, the calm before the storm of deadline week.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udf2a\ufe0f",
-    "emojiClue": ["\ud83c\udf2a\ufe0f", "\ud83d\ude0c", "\u26c8\ufe0f"]
+    "emojiClue": ["\ud83d\ude0c", "\u27a1\ufe0f", "\u26c8\ufe0f"]
   },
   {
     "word": "Caught red-handed",
@@ -1021,7 +1141,7 @@
     "example": "He was caught red-handed sneaking a cookie before dinner.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udd90\ufe0f",
-    "emojiClue": ["\ud83d\udd90\ufe0f", "\ud83c\udfad", "\u274c"]
+    "emojiClue": ["\ud83d\udd90\ufe0f", "\ud83d\udd34", "\ud83d\ude32"]
   },
   {
     "word": "Change of heart",
@@ -1029,7 +1149,7 @@
     "example": "She had a change of heart and decided to stay in the city.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udc97",
-    "emojiClue": ["\ud83d\udc97", "\ud83d\udd04", "\u2764\ufe0f"]
+    "emojiClue": ["\ud83d\udd04", "\u2764\ufe0f"]
   },
   {
     "word": "Chip on your shoulder",
@@ -1037,7 +1157,7 @@
     "example": "He's had a chip on his shoulder since being passed over for the promotion.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udeb5",
-    "emojiClue": ["\ud83e\udeb5", "\ud83e\udd37", "\ud83e\udd32"]
+    "emojiClue": ["\ud83e\udeb5", "\ud83e\udd37", "\ud83d\ude20"]
   },
   {
     "word": "Clean slate",
@@ -1045,7 +1165,7 @@
     "example": "Moving to a new city gave her a clean slate.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\uddfd",
-    "emojiClue": ["\ud83e\uddfd", "\ud83e\uddf9", "\ud83c\udfc1"]
+    "emojiClue": ["\ud83e\uddfd", "\ud83d\udccb", "\u2728"]
   },
   {
     "word": "Close call",
@@ -1069,7 +1189,7 @@
     "example": "I'm crossing my fingers that the weather holds for the wedding.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udd1e",
-    "emojiClue": ["\u2795", "\u261d\ufe0f", "\ud83e\udd1e"]
+    "emojiClue": ["\ud83e\udd1e", "\ud83c\udf40"]
   },
   {
     "word": "Cry wolf",
@@ -1125,7 +1245,7 @@
     "example": "He's been down in the dumps since losing his job.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udf27\ufe0f",
-    "emojiClue": ["\ud83c\udf27\ufe0f", "\ud83e\udd32", "\ud83d\ude22"]
+    "emojiClue": ["\u2b07\ufe0f", "\ud83d\uddd1\ufe0f", "\ud83d\ude1e"]
   },
   {
     "word": "Draw a blank",
@@ -1149,7 +1269,7 @@
     "example": "The donation was generous, but it's a drop in the bucket for the whole project.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udea3",
-    "emojiClue": ["\u2b07\ufe0f", "\ud83e\udea3", "\ud83e\udd0f"]
+    "emojiClue": ["\ud83d\udca7", "\ud83e\udea3", "\ud83e\udd0f"]
   },
   {
     "word": "Eat your heart out",
@@ -1157,7 +1277,7 @@
     "example": "I got the last ticket, eat your heart out!",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\ude0f",
-    "emojiClue": ["\ud83d\ude0f", "\ud83c\udf7d\ufe0f", "\u2764\ufe0f"]
+    "emojiClue": ["\ud83c\udf7d\ufe0f", "\u2764\ufe0f", "\ud83d\ude0f"]
   },
   {
     "word": "Egg on your face",
@@ -1165,7 +1285,7 @@
     "example": "He predicted they'd lose, and now he's got egg on his face.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udd5a",
-    "emojiClue": ["\ud83e\udd5a", "\ud83e\udd2a", "\u274c"]
+    "emojiClue": ["\ud83e\udd5a", "\ud83d\ude33", "\ud83d\udc4e"]
   },
   {
     "word": "Fall for it",
@@ -1181,7 +1301,12 @@
     "example": "He felt like a fish out of water at his first big conference.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udc1f",
-    "emojiClue": ["\ud83d\udc1f", "\ud83d\udca7", "\ud83e\udd32"]
+    "emojiClue": [
+      "\ud83d\udc1f",
+      "\ud83d\udeab",
+      "\ud83d\udca7",
+      "\ud83d\ude16"
+    ]
   },
   {
     "word": "Flash in the pan",
@@ -1189,7 +1314,7 @@
     "example": "The band's hit song turned out to be a flash in the pan.",
     "category": "Idioms & Expressions",
     "icon": "\u2728",
-    "emojiClue": ["\u2728", "\ud83c\udf73", "\ud83c\udf1f"]
+    "emojiClue": ["\u26a1", "\ud83c\udf73", "\ud83d\udca8"]
   },
   {
     "word": "Fly by the seat of your pants",
@@ -1197,7 +1322,7 @@
     "example": "We had no itinerary, we just flew by the seat of our pants.",
     "category": "Idioms & Expressions",
     "icon": "\u2708\ufe0f",
-    "emojiClue": ["\u2708\ufe0f", "\ud83e\udeb0", "\u2705"]
+    "emojiClue": ["\ud83e\udeb0", "\ud83d\udc56", "\ud83e\udd37"]
   },
   {
     "word": "Fly on the wall",
@@ -1213,7 +1338,7 @@
     "example": "She got the antique table for a song at the flea market.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udfb5",
-    "emojiClue": ["\ud83c\udfb5", "\u2b07\ufe0f", "\ud83d\udcb8"]
+    "emojiClue": ["\ud83c\udfb5", "\ud83d\udcb0", "\ud83e\ude99"]
   },
   {
     "word": "From scratch",
@@ -1221,11 +1346,7 @@
     "example": "She baked the cake from scratch.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\uddd1\u200d\ud83c\udf73",
-    "emojiClue": [
-      "\ud83e\uddd1\u200d\ud83c\udf73",
-      "\ud83c\udfc1",
-      "\ud83d\udd30"
-    ]
+    "emojiClue": ["\ud83d\udc3e", "0\ufe0f\u20e3", "\ud83c\udd95"]
   },
   {
     "word": "Get a grip",
@@ -1233,7 +1354,7 @@
     "example": "Take a deep breath and get a grip before the presentation.",
     "category": "Idioms & Expressions",
     "icon": "\u270b",
-    "emojiClue": ["\u270b", "\ud83e\udd32", "\ud83c\udfae"]
+    "emojiClue": ["\ud83e\udd32", "\u270a", "\ud83d\udcaa"]
   },
   {
     "word": "Get the ball rolling",
@@ -1241,7 +1362,7 @@
     "example": "Let's get the ball rolling on the new project today.",
     "category": "Idioms & Expressions",
     "icon": "\u26bd",
-    "emojiClue": ["\ud83e\udd32", "\u26bd", "\ud83c\udfb3"]
+    "emojiClue": ["\ud83e\udd32", "\u26bd", "\ud83d\udd04"]
   },
   {
     "word": "Get the hang of it",
@@ -1249,7 +1370,7 @@
     "example": "It took a while, but she finally got the hang of the new software.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udfa3",
-    "emojiClue": ["\ud83c\udfa3", "\ud83e\udd32", "\ud83e\udea2"]
+    "emojiClue": ["\ud83e\udd32", "\ud83e\udea2", "\u2705"]
   },
   {
     "word": "Give it a shot",
@@ -1257,7 +1378,7 @@
     "example": "I've never done pottery before, but I'll give it a shot.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udfaf",
-    "emojiClue": ["\ud83c\udfaf", "\ud83c\udf81", "\ud83e\udd1e"]
+    "emojiClue": ["\ud83c\udf81", "\ud83c\udfaf", "\ud83e\udd1e"]
   },
   {
     "word": "Go all out",
@@ -1265,7 +1386,7 @@
     "example": "The team went all out to finish the project on time.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\ude80",
-    "emojiClue": ["\ud83d\ude80", "\u27a1\ufe0f", "\ud83d\udd28"]
+    "emojiClue": ["\u27a1\ufe0f", "\ud83d\udcaf", "\ud83d\udd25"]
   },
   {
     "word": "Go with the flow",
@@ -1281,7 +1402,7 @@
     "example": "He was grasping at straws trying to explain the mistake.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udd64",
-    "emojiClue": ["\ud83e\udd64", "\ud83e\udd1e", "\ud83d\udca1"]
+    "emojiClue": ["\ud83e\udd32", "\ud83e\udd64", "\ud83d\ude2c"]
   },
   {
     "word": "Green light",
@@ -1297,7 +1418,7 @@
     "example": "The kids had a ball at the amusement park.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udf89",
-    "emojiClue": ["\ud83c\udf89", "\u26bd", "\u23f0"]
+    "emojiClue": ["\ud83c\udf89", "\u26bd", "\ud83d\ude04"]
   },
   {
     "word": "Have your head in the clouds",
@@ -1313,7 +1434,7 @@
     "example": "The company went bankrupt, leaving investors high and dry.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udfdc\ufe0f",
-    "emojiClue": ["\ud83c\udfdc\ufe0f", "\u2b06\ufe0f", "\ud83e\udd1d"]
+    "emojiClue": ["\u2b06\ufe0f", "\ud83c\udfdc\ufe0f", "\ud83d\ude1f"]
   },
   {
     "word": "Hit a snag",
@@ -1321,7 +1442,7 @@
     "example": "The renovation hit a snag when they found old wiring.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\ude9d",
-    "emojiClue": ["\ud83e\ude9d", "\ud83d\udca5", "\u2757"]
+    "emojiClue": ["\ud83d\udca5", "\ud83e\ude9d", "\ud83d\ude16"]
   },
   {
     "word": "Hit or miss",
@@ -1329,7 +1450,7 @@
     "example": "The quality of the food there is hit or miss.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udfaf",
-    "emojiClue": ["\ud83c\udfaf", "\ud83d\udca5", "\ud83d\udd00"]
+    "emojiClue": ["\ud83d\udca5", "\u2753", "\ud83c\udfaf"]
   },
   {
     "word": "Hit the books",
@@ -1345,7 +1466,7 @@
     "example": "It's midnight, I should hit the hay.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udecf\ufe0f",
-    "emojiClue": ["\ud83d\udca5", "\u27a1\ufe0f", "\ud83d\udecf\ufe0f"]
+    "emojiClue": ["\ud83d\udca5", "\ud83c\udf3e", "\ud83d\ude34"]
   },
   {
     "word": "Hit the jackpot",
@@ -1353,7 +1474,7 @@
     "example": "They hit the jackpot when they found their dream house at that price.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udfb0",
-    "emojiClue": ["\ud83c\udfb0", "\ud83d\udca5", "\ud83c\udf40"]
+    "emojiClue": ["\ud83d\udca5", "\ud83c\udfb0", "\ud83e\udd11"]
   },
   {
     "word": "Hit the road",
@@ -1361,7 +1482,7 @@
     "example": "We should hit the road early to beat traffic.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udee3\ufe0f",
-    "emojiClue": ["\ud83d\udca5", "\ud83d\udee3\ufe0f", "\ud83d\udeb6"]
+    "emojiClue": ["\ud83d\udca5", "\ud83d\udee3\ufe0f", "\ud83d\ude97"]
   },
   {
     "word": "Hold your tongue",
@@ -1369,7 +1490,7 @@
     "example": "She wanted to argue but decided to hold her tongue.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udd10",
-    "emojiClue": ["\ud83e\udd10", "\u270b", "\ud83d\udc45"]
+    "emojiClue": ["\u270b", "\ud83d\udc45", "\ud83e\udd10"]
   },
   {
     "word": "In a nutshell",
@@ -1393,7 +1514,7 @@
     "example": "He said he was fine, then in the same breath admitted he was exhausted.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udca8",
-    "emojiClue": ["\ud83d\udca8", "\ud83d\udff0", "\ud83d\udde3\ufe0f"]
+    "emojiClue": ["\ud83d\udca8", "\ud83d\udff0", "\u26a1"]
   },
   {
     "word": "In your shoes",
@@ -1425,7 +1546,7 @@
     "example": "Keep your fingers crossed that the weather stays nice for the picnic.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udd1e",
-    "emojiClue": ["\ud83e\udd1e", "\ud83e\udd32", "\u261d\ufe0f"]
+    "emojiClue": ["\ud83e\udd32", "\ud83e\udd1e", "\ud83c\udf40"]
   },
   {
     "word": "Kick back",
@@ -1433,7 +1554,7 @@
     "example": "After the exam, I just want to kick back and watch a movie.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udecb\ufe0f",
-    "emojiClue": ["\ud83d\udecb\ufe0f", "\ud83e\uddb5", "\ud83d\ude0c"]
+    "emojiClue": ["\ud83e\uddb5", "\u21a9\ufe0f", "\ud83d\ude0c"]
   },
   {
     "word": "Know the ropes",
@@ -1441,7 +1562,7 @@
     "example": "It took him a month to know the ropes at his new job.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udea2",
-    "emojiClue": ["\ud83e\udea2", "\ud83d\udca1", "\ud83c\udf93"]
+    "emojiClue": ["\ud83e\udde0", "\ud83e\udea2", "\u2705"]
   },
   {
     "word": "Let the chips fall where they may",
@@ -1449,7 +1570,7 @@
     "example": "I've done my best, now I'll let the chips fall where they may.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udf5f",
-    "emojiClue": ["\ud83c\udf5f", "\ud83c\udd97", "\u2b07\ufe0f"]
+    "emojiClue": ["\ud83c\udd97", "\ud83c\udf5f", "\u2b07\ufe0f"]
   },
   {
     "word": "Long shot",
@@ -1457,7 +1578,7 @@
     "example": "Winning the scholarship is a long shot, but she's applying anyway.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udfaf",
-    "emojiClue": ["\ud83c\udfaf", "\ud83d\udccf", "\ud83c\udf1f"]
+    "emojiClue": ["\ud83d\udccf", "\ud83c\udfaf", "\u274c"]
   },
   {
     "word": "Loose ends",
@@ -1465,7 +1586,7 @@
     "example": "We just need to tie up a few loose ends before the launch.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\uddf5",
-    "emojiClue": ["\ud83e\uddf5", "\ud83d\udd1a", "\ud83d\uddfa\ufe0f"]
+    "emojiClue": ["\ud83e\uddf5", "\u3030\ufe0f"]
   },
   {
     "word": "Lose your touch",
@@ -1473,7 +1594,7 @@
     "example": "I think I've lost my touch, I used to be great at chess.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udfa8",
-    "emojiClue": ["\ud83c\udfa8", "\ud83d\ude1e", "\ud83d\udc46"]
+    "emojiClue": ["\u274c", "\ud83d\udc46", "\ud83c\udfa8"]
   },
   {
     "word": "Make ends meet",
@@ -1481,7 +1602,7 @@
     "example": "They took a second job to make ends meet.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udcb5",
-    "emojiClue": ["\ud83d\udcb5", "\ud83d\udd28", "\ud83d\udd1a"]
+    "emojiClue": ["\ud83d\udd28", "\u3030\ufe0f", "\ud83e\udd1d"]
   },
   {
     "word": "Method to the madness",
@@ -1497,7 +1618,7 @@
     "example": "I'd love to give you a refund, but my hands are tied by company policy.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\ude45",
-    "emojiClue": ["\ud83d\ude45", "\u270b", "\ud83e\udd1d"]
+    "emojiClue": ["\ud83d\ude4b", "\u26d3\ufe0f", "\ud83d\ude29"]
   },
   {
     "word": "No pain no gain",
@@ -1513,7 +1634,7 @@
     "example": "Horror movies are just not my cup of tea.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udf75",
-    "emojiClue": ["\u2615", "\ud83c\udf75", "\ud83d\udc45"]
+    "emojiClue": ["\ud83d\udeab", "\u2615"]
   },
   {
     "word": "Off the hook",
@@ -1537,7 +1658,7 @@
     "example": "Let's make sure we're on the same page before the client meeting.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udcc4",
-    "emojiClue": ["\ud83d\udcc4", "\ud83d\udff0", "\ud83e\udd1d"]
+    "emojiClue": ["\ud83d\udcc4", "\ud83d\udff0", "\u2705"]
   },
   {
     "word": "On the spot",
@@ -1561,7 +1682,7 @@
     "example": "The patient is recovering well, but she's not out of the woods yet.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udf32",
-    "emojiClue": ["\ud83c\udf32", "\ud83e\udeb5", "\u23ee\ufe0f"]
+    "emojiClue": ["\ud83c\udf32", "\ud83d\udeaa", "\u2705"]
   },
   {
     "word": "Over the moon",
@@ -1569,7 +1690,7 @@
     "example": "He was over the moon when he got the job offer.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udf1d",
-    "emojiClue": ["\ud83c\udf1d", "\ud83c\udf15", "\ud83d\ude0a"]
+    "emojiClue": ["\u2b06\ufe0f", "\ud83c\udf15", "\ud83d\ude0d"]
   },
   {
     "word": "Pull the plug",
@@ -1577,7 +1698,7 @@
     "example": "The studio pulled the plug on the project after the budget ran out.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udd0c",
-    "emojiClue": ["\ud83d\udd0c", "\u2194\ufe0f", "\ud83d\uded1"]
+    "emojiClue": ["\u2194\ufe0f", "\ud83d\udd0c", "\ud83d\uded1"]
   },
   {
     "word": "Pull through",
@@ -1585,7 +1706,7 @@
     "example": "The doctors are confident she'll pull through.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udcaa",
-    "emojiClue": ["\ud83d\udcaa", "\u2194\ufe0f", "\ud83d\ude13"]
+    "emojiClue": ["\u2194\ufe0f", "\u27a1\ufe0f", "\ud83d\udcaa"]
   },
   {
     "word": "Push the envelope",
@@ -1593,7 +1714,7 @@
     "example": "The design team loves to push the envelope with bold new ideas.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udce9",
-    "emojiClue": ["\u2194\ufe0f", "\ud83d\udce9", "\u27a1\ufe0f"]
+    "emojiClue": ["\u2194\ufe0f", "\ud83d\udce9", "\ud83d\udcc8"]
   },
   {
     "word": "Put the cart before the horse",
@@ -1601,7 +1722,12 @@
     "example": "Buying furniture before signing the lease is putting the cart before the horse.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udc0e",
-    "emojiClue": ["\ud83d\udc0e", "\ud83d\udce5", "\ud83d\udc34"]
+    "emojiClue": [
+      "\ud83d\udce5",
+      "\ud83d\uded2",
+      "\ud83d\udc0e",
+      "\ud83d\udd00"
+    ]
   },
   {
     "word": "Raining cats and dogs",
@@ -1625,7 +1751,7 @@
     "example": "After years of practice, playing the piano is second nature to her.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udfb9",
-    "emojiClue": ["\ud83c\udfb9", "\ud83e\uddf0", "\ud83d\udcd6"]
+    "emojiClue": ["2\ufe0f\u20e3", "\ud83c\udf3f", "\ud83e\udde0"]
   },
   {
     "word": "Sixth sense",
@@ -1641,7 +1767,7 @@
     "example": "He didn't rush his studying, slow and steady wins the race.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udc22",
-    "emojiClue": ["\ud83d\udc22", "\ud83d\udc0c", "\ud83c\udfc6"]
+    "emojiClue": ["\ud83d\udc22", "\ud83c\udfc1", "\ud83c\udfc6"]
   },
   {
     "word": "Add insult to injury",
@@ -1649,7 +1775,7 @@
     "example": "Losing the game was bad enough, but the injury added insult to injury.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udd15",
-    "emojiClue": ["\ud83e\udd15", "\u2795", "\ud83d\ude20"]
+    "emojiClue": ["\u2795", "\ud83d\ude24", "\ud83e\udd15"]
   },
   {
     "word": "Against the clock",
@@ -1657,7 +1783,7 @@
     "example": "The team worked against the clock to launch on time.",
     "category": "Idioms & Expressions",
     "icon": "\u23f1\ufe0f",
-    "emojiClue": ["\u23f1\ufe0f", "\u2694\ufe0f", "\u23f0"]
+    "emojiClue": ["\u2694\ufe0f", "\u23f0", "\ud83c\udfc3"]
   },
   {
     "word": "All talk and no action",
@@ -1689,7 +1815,7 @@
     "example": "With the deadline tomorrow, she had her back against the wall.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\uddf1",
-    "emojiClue": ["\u2694\ufe0f", "\ud83e\uddf1", "\ud83d\ude13"]
+    "emojiClue": ["\ud83d\udd19", "\ud83e\uddf1", "\ud83d\ude30"]
   },
   {
     "word": "His bark is worse than his bite",
@@ -1697,7 +1823,7 @@
     "example": "Don't worry about the coach yelling, his bark is worse than his bite.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udc15",
-    "emojiClue": ["\ud83d\udc15", "\ud83e\uddb7", "\u26a0\ufe0f"]
+    "emojiClue": ["\ud83d\udc15", "\ud83d\udce2", "\ud83e\uddb7"]
   },
   {
     "word": "Bated breath",
@@ -1713,7 +1839,7 @@
     "example": "When the alarm went off, they beat a hasty retreat.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udfc3",
-    "emojiClue": ["\ud83c\udfc3", "\ud83e\udd41", "\ud83d\udeb6"]
+    "emojiClue": ["\ud83e\udd41", "\ud83c\udfc3", "\ud83d\udca8"]
   },
   {
     "word": "Bells and whistles",
@@ -1729,7 +1855,7 @@
     "example": "That comment about his family was below the belt.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udd4a",
-    "emojiClue": ["\ud83e\udd4a", "\ud83d\udc56", "\ud83d\uddef\ufe0f"]
+    "emojiClue": ["\u2b07\ufe0f", "\ud83d\udc56", "\ud83e\udd4a"]
   },
   {
     "word": "Best foot forward",
@@ -1737,7 +1863,7 @@
     "example": "Put your best foot forward at the interview.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udc63",
-    "emojiClue": ["\ud83d\udc63", "\ud83e\udd47", "\ud83e\uddb6"]
+    "emojiClue": ["\ud83e\udd47", "\ud83e\uddb6", "\u27a1\ufe0f"]
   },
   {
     "word": "Big fish in a small pond",
@@ -1745,7 +1871,7 @@
     "example": "He was a big fish in a small pond at his old company.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udc1f",
-    "emojiClue": ["\ud83d\udcc8", "\ud83d\udc1f", "\ud83e\udd0f"]
+    "emojiClue": ["\ud83d\udc0b", "\ud83d\udc1f", "\ud83c\udfde\ufe0f"]
   },
   {
     "word": "Bird's eye view",
@@ -1753,7 +1879,7 @@
     "example": "The rooftop gave us a bird's eye view of the whole city.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udd85",
-    "emojiClue": ["\ud83e\udd85", "\ud83d\udc26", "\ud83d\udc41\ufe0f"]
+    "emojiClue": ["\ud83e\udd85", "\ud83d\udc41\ufe0f", "\ud83d\uddfa\ufe0f"]
   },
   {
     "word": "Bite your tongue",
@@ -1761,7 +1887,7 @@
     "example": "I wanted to argue, but I bit my tongue.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udc45",
-    "emojiClue": ["\ud83e\uddb7", "\ud83d\udc45", "\ud83d\uded1"]
+    "emojiClue": ["\ud83e\uddb7", "\ud83d\udc45", "\ud83e\udd10"]
   },
   {
     "word": "Blow a fuse",
@@ -1793,7 +1919,7 @@
     "example": "He was born with a silver spoon in his mouth and never had to work.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udd44",
-    "emojiClue": ["\ud83e\udd44", "\ud83d\udc44", "\ud83d\udcb0"]
+    "emojiClue": ["\ud83d\udc76", "\ud83e\udd48", "\ud83e\udd44"]
   },
   {
     "word": "Bottom line",
@@ -1809,7 +1935,7 @@
     "example": "Her research broke new ground in the field.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udf31",
-    "emojiClue": ["\ud83c\udf31", "\ud83d\udc94", "\u2728"]
+    "emojiClue": ["\ud83d\udc94", "\u2728", "\ud83c\udf0d"]
   },
   {
     "word": "Break the mold",
@@ -1833,7 +1959,7 @@
     "example": "She brings a lot of experience to the table.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udf7d\ufe0f",
-    "emojiClue": ["\ud83c\udf7d\ufe0f", "\ud83e\uddf0", "\ud83d\udca1"]
+    "emojiClue": ["\ud83e\udd32", "\ud83c\udf7d\ufe0f", "\u2795"]
   },
   {
     "word": "Burn the candle at both ends",
@@ -1841,7 +1967,12 @@
     "example": "He's been burning the candle at both ends studying for finals.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udd6f\ufe0f",
-    "emojiClue": ["\ud83d\udd25", "\ud83d\udd6f\ufe0f", "\ud83d\udd1a"]
+    "emojiClue": [
+      "\ud83d\udd6f\ufe0f",
+      "\ud83d\udd25",
+      "\ud83d\udd25",
+      "\ud83d\ude34"
+    ]
   },
   {
     "word": "Bury your head in the sand",
@@ -1849,7 +1980,7 @@
     "example": "Ignoring the bills won't help, don't bury your head in the sand.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udfd6\ufe0f",
-    "emojiClue": ["\ud83c\udfd6\ufe0f", "\ud83d\ude48", "\u2757"]
+    "emojiClue": ["\u26b0\ufe0f", "\ud83c\udfd6\ufe0f", "\ud83d\ude48"]
   },
   {
     "word": "Cast the first stone",
@@ -1857,7 +1988,7 @@
     "example": "None of us are perfect, so let's not be the first to cast a stone.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udea8",
-    "emojiClue": ["1\ufe0f\u20e3", "\ud83e\udea8", "\ud83d\udc4e"]
+    "emojiClue": ["\ud83c\udfa3", "1\ufe0f\u20e3", "\ud83e\udea8"]
   },
   {
     "word": "Catch someone off guard",
@@ -1873,7 +2004,7 @@
     "example": "I've been chasing my tail all week with small tasks.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udc15",
-    "emojiClue": ["\ud83d\udc15", "\ud83c\udfc3", "\ud83c\udfc6"]
+    "emojiClue": ["\ud83c\udfc3", "\ud83d\udc15", "\ud83d\udd04"]
   },
   {
     "word": "Chew the fat",
@@ -1889,7 +2020,7 @@
     "example": "He's a real chip off the old block, just as stubborn as his dad.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udeb5",
-    "emojiClue": ["\ud83e\udeb5", "\ud83d\udc74", "\ud83d\udea7"]
+    "emojiClue": ["\ud83e\udeb5", "\ud83d\udc74", "\ud83d\udff0"]
   },
   {
     "word": "Clear the air",
@@ -1905,7 +2036,7 @@
     "example": "She's climbing the ladder quickly at her new job.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\ude9c",
-    "emojiClue": ["\ud83e\uddd7", "\ud83e\ude9c", "\ud83d\udcbc"]
+    "emojiClue": ["\ud83e\ude9c", "\ud83e\uddd7", "\ud83d\udcc8"]
   },
   {
     "word": "Come out of your shell",
@@ -1913,7 +2044,7 @@
     "example": "He really came out of his shell after joining the drama club.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udc22",
-    "emojiClue": ["\ud83d\udc22", "\u27a1\ufe0f", "\ud83d\udc1a"]
+    "emojiClue": ["\ud83d\udc22", "\ud83d\udc23", "\ud83c\udf1e"]
   },
   {
     "word": "Come to terms with",
@@ -1921,7 +2052,7 @@
     "example": "It took time for him to come to terms with the news.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udd1d",
-    "emojiClue": ["\u27a1\ufe0f", "\ud83e\udd1d", "\ud83d\ude13"]
+    "emojiClue": ["\ud83e\udd1d", "\u2705", "\ud83d\ude0c"]
   },
   {
     "word": "Cost a pretty penny",
@@ -1929,7 +2060,7 @@
     "example": "That watch must have cost a pretty penny.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udcb0",
-    "emojiClue": ["\ud83d\udcb0", "\ud83d\udcb8", "\ud83e\ude99"]
+    "emojiClue": ["\ud83e\ude99", "\ud83d\udc85", "\ud83d\udcb8"]
   },
   {
     "word": "Crack under pressure",
@@ -1937,7 +2068,7 @@
     "example": "He's known for staying calm and never cracking under pressure.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udd5a",
-    "emojiClue": ["\ud83e\udd5a", "\u274c", "\ud83c\udfad"]
+    "emojiClue": ["\ud83e\udd5a", "\ud83d\udca5", "\ud83d\ude30"]
   },
   {
     "word": "Cut and dried",
@@ -1945,7 +2076,7 @@
     "example": "The case seemed cut and dried, but new evidence changed everything.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udccb",
-    "emojiClue": ["\ud83d\udccb", "\u2702\ufe0f", "\u2705"]
+    "emojiClue": ["\u2702\ufe0f", "\u2600\ufe0f", "\ud83d\udccb"]
   },
   {
     "word": "Cut the mustard",
@@ -1953,7 +2084,7 @@
     "example": "His work just didn't cut the mustard this quarter.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udf2d",
-    "emojiClue": ["\u2702\ufe0f", "\ud83c\udf2d", "\ud83c\udfad"]
+    "emojiClue": ["\u2702\ufe0f", "\ud83c\udf2d", "\u274c"]
   },
   {
     "word": "Dead in the water",
@@ -1961,7 +2092,7 @@
     "example": "The project has been dead in the water since funding was cut.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udea4",
-    "emojiClue": ["\ud83d\udea4", "\ud83d\udca7", "\ud83d\udcbc"]
+    "emojiClue": ["\ud83d\udc80", "\ud83c\udf0a", "\ud83d\uded1"]
   },
   {
     "word": "The devil is in the details",
@@ -1969,7 +2100,7 @@
     "example": "The plan looks great, but the devil is in the details.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\ude08",
-    "emojiClue": ["\ud83d\ude08", "\ud83e\udd0f", "\u2757"]
+    "emojiClue": ["\ud83d\ude08", "\ud83d\udd0d", "\ud83d\udccb"]
   },
   {
     "word": "Dig your heels in",
@@ -1977,7 +2108,7 @@
     "example": "She dug her heels in and refused to compromise.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udc60",
-    "emojiClue": ["\ud83d\udc60", "\ud83d\ude45", "\ud83d\udd04"]
+    "emojiClue": ["\u26cf\ufe0f", "\ud83d\udc60", "\ud83d\udeab"]
   },
   {
     "word": "Down to the wire",
@@ -1985,7 +2116,7 @@
     "example": "The vote came down to the wire.",
     "category": "Idioms & Expressions",
     "icon": "\u23f3",
-    "emojiClue": ["\u23f3", "\ud83d\udd1a", "\u23f1\ufe0f"]
+    "emojiClue": ["\u2b07\ufe0f", "\ud83d\udd0c", "\u23f3"]
   },
   {
     "word": "Drag your feet",
@@ -2017,7 +2148,7 @@
     "example": "The team dropped the ball on the deadline.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udfc0",
-    "emojiClue": ["\ud83c\udfc0", "\u2b07\ufe0f", "\u26bd"]
+    "emojiClue": ["\u2b07\ufe0f", "\u26bd", "\ud83d\ude2c"]
   },
   {
     "word": "Dry run",
@@ -2025,7 +2156,7 @@
     "example": "We did a dry run of the presentation before the client meeting.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udfc3",
-    "emojiClue": ["\ud83c\udfc3", "\ud83c\udfaf", "\ud83e\udd1e"]
+    "emojiClue": ["\ud83c\udfdc\ufe0f", "\ud83c\udfc3", "\ud83e\uddea"]
   },
   {
     "word": "Duck out",
@@ -2049,7 +2180,7 @@
     "example": "She got there before anyone else, the early bird catches the worm.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udc26",
-    "emojiClue": ["\ud83d\udc26", "\ud83e\udde4", "\ud83e\udeb1"]
+    "emojiClue": ["\ud83c\udf05", "\ud83d\udc26", "\ud83e\udeb1"]
   },
   {
     "word": "Easier said than done",
@@ -2057,7 +2188,7 @@
     "example": "Losing weight is easier said than done.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udde3\ufe0f",
-    "emojiClue": ["\ud83d\udde3\ufe0f", "\u2705", "\ud83d\ude13"]
+    "emojiClue": ["\ud83d\udde3\ufe0f", "\u2705", "\u274c"]
   },
   {
     "word": "Elbow grease",
@@ -2065,7 +2196,7 @@
     "example": "This floor just needs some elbow grease to shine again.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udcaa",
-    "emojiClue": ["\ud83d\udcaa", "\ud83d\ude13", "\ud83d\udcbc"]
+    "emojiClue": ["\ud83d\udcaa", "\ud83d\udee2\ufe0f", "\u2728"]
   },
   {
     "word": "Face value",
@@ -2105,7 +2236,7 @@
     "example": "Many families are feeling the pinch with rising prices.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udcb8",
-    "emojiClue": ["\ud83d\udcb8", "\ud83e\udd32", "\ud83c\udf93"]
+    "emojiClue": ["\ud83e\udd0f", "\ud83d\ude16", "\ud83d\udcb8"]
   },
   {
     "word": "Fight tooth and nail",
@@ -2113,7 +2244,7 @@
     "example": "They fought tooth and nail to save the local park.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\uddb7",
-    "emojiClue": ["\u2694\ufe0f", "\ud83e\uddb7", "\ud83d\udc85"]
+    "emojiClue": ["\ud83e\udd4a", "\ud83e\uddb7", "\ud83d\udc85"]
   },
   {
     "word": "Fine line",
@@ -2129,7 +2260,7 @@
     "example": "She has a finger in every pie around the office.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udd67",
-    "emojiClue": ["\u261d\ufe0f", "\ud83e\udd67", "\ud83d\udd00"]
+    "emojiClue": ["\u261d\ufe0f", "\ud83e\udd67", "\ud83d\udd01"]
   },
   {
     "word": "Fired up",
@@ -2145,7 +2276,7 @@
     "example": "Tickets are first come first served.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udf9f\ufe0f",
-    "emojiClue": ["\ud83c\udf9f\ufe0f", "1\ufe0f\u20e3", "\u27a1\ufe0f"]
+    "emojiClue": ["1\ufe0f\u20e3", "\ud83c\udfc3", "\ud83c\udf7d\ufe0f"]
   },
   {
     "word": "Food for thought",
@@ -2169,7 +2300,7 @@
     "example": "He always gets the short end of the stick when tasks are divided.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udd62",
-    "emojiClue": ["\ud83e\udd62", "\ud83e\udd32", "\u2702\ufe0f"]
+    "emojiClue": ["\ud83e\udd32", "\ud83d\udccf", "\ud83d\ude24"]
   },
   {
     "word": "Get wind of",
@@ -2177,7 +2308,7 @@
     "example": "She got wind of the surprise party.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udf2c\ufe0f",
-    "emojiClue": ["\ud83c\udf2c\ufe0f", "\ud83e\udd32", "\ud83c\udf43"]
+    "emojiClue": ["\ud83e\udd32", "\ud83d\udca8", "\ud83d\udc42"]
   },
   {
     "word": "Give the benefit of the doubt",
@@ -2185,7 +2316,7 @@
     "example": "I'll give him the benefit of the doubt this time.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udd14",
-    "emojiClue": ["\ud83c\udf81", "\u2705", "\ud83e\udd14"]
+    "emojiClue": ["\ud83c\udf81", "\ud83e\udd14", "\u2705"]
   },
   {
     "word": "Go against the grain",
@@ -2193,7 +2324,7 @@
     "example": "Her approach goes against the grain of traditional teaching.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udeb5",
-    "emojiClue": ["\ud83e\udeb5", "\u27a1\ufe0f", "\u2694\ufe0f"]
+    "emojiClue": ["\u27a1\ufe0f", "\ud83c\udf3e", "\ud83d\udd04"]
   },
   {
     "word": "Go back on your word",
@@ -2201,7 +2332,7 @@
     "example": "He went back on his word and cancelled last minute.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udd19",
-    "emojiClue": ["\ud83d\udd19", "\u27a1\ufe0f", "\ud83d\udc94"]
+    "emojiClue": ["\ud83d\udd19", "\ud83d\udde3\ufe0f", "\u274c"]
   },
   {
     "word": "Go belly up",
@@ -2209,7 +2340,7 @@
     "example": "The startup went belly up after two years.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udc1f",
-    "emojiClue": ["\ud83d\udc1f", "\u27a1\ufe0f", "\u274c"]
+    "emojiClue": ["\u27a1\ufe0f", "\ud83d\udc1f", "\ud83d\udc80"]
   },
   {
     "word": "Go for broke",
@@ -2217,7 +2348,7 @@
     "example": "They decided to go for broke and invest their savings.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udfb0",
-    "emojiClue": ["\u27a1\ufe0f", "\ud83c\udfb0", "\ud83c\udfb2"]
+    "emojiClue": ["\u27a1\ufe0f", "\ud83d\udcb8", "\ud83c\udfb0"]
   },
   {
     "word": "Go out on a limb",
@@ -2225,7 +2356,7 @@
     "example": "I'll go out on a limb and say we'll win this year.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udf33",
-    "emojiClue": ["\ud83c\udf33", "\u27a1\ufe0f", "\ud83e\udd32"]
+    "emojiClue": ["\u27a1\ufe0f", "\ud83c\udf33", "\u26a0\ufe0f"]
   },
   {
     "word": "Go the distance",
@@ -2233,7 +2364,7 @@
     "example": "The runner had the determination to go the distance.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udfc3",
-    "emojiClue": ["\ud83c\udfc3", "\u27a1\ufe0f", "\ud83c\udfc1"]
+    "emojiClue": ["\u27a1\ufe0f", "\ud83d\udccf", "\ud83c\udfc1"]
   },
   {
     "word": "Goes without saying",
@@ -2241,7 +2372,7 @@
     "example": "It goes without saying that safety comes first.",
     "category": "Idioms & Expressions",
     "icon": "\u2714\ufe0f",
-    "emojiClue": ["\u2714\ufe0f", "\ud83d\udde3\ufe0f", "\ud83d\udc40"]
+    "emojiClue": ["\u2705", "\ud83e\udd10"]
   },
   {
     "word": "Golden opportunity",
@@ -2257,7 +2388,7 @@
     "example": "She waited two years for the promotion, good things come to those who wait.",
     "category": "Idioms & Expressions",
     "icon": "\u23f3",
-    "emojiClue": ["\ud83d\udc4d", "\u27a1\ufe0f", "\u23f3"]
+    "emojiClue": ["\ud83d\udc4d", "\u23f3", "\ud83c\udf81"]
   },
   {
     "word": "Grease someone's palm",
@@ -2297,7 +2428,7 @@
     "example": "That math question was a hard nut to crack.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udd5c",
-    "emojiClue": ["\ud83d\ude13", "\ud83e\udd5c", "\u2757"]
+    "emojiClue": ["\ud83e\udd5c", "\ud83d\udca5", "\ud83d\ude24"]
   },
   {
     "word": "Have a heart",
@@ -2425,7 +2556,7 @@
     "example": "They kept the new product under wraps until launch day.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udd10",
-    "emojiClue": ["\ud83e\udd10", "\ud83e\udd32", "\ud83e\udd2b"]
+    "emojiClue": ["\ud83e\udd32", "\ud83c\udf81", "\ud83e\udd2b"]
   },
   {
     "word": "Keep something at bay",
@@ -2441,7 +2572,7 @@
     "example": "He finally kicked the habit of smoking.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udead",
-    "emojiClue": ["\ud83d\udead", "\ud83e\uddb5", "\ud83d\uded1"]
+    "emojiClue": ["\ud83e\uddb5", "\ud83d\udd01", "\ud83d\udead"]
   },
   {
     "word": "Kill the messenger",
@@ -2449,7 +2580,7 @@
     "example": "Don't kill the messenger, I'm just telling you what the report said.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udce8",
-    "emojiClue": ["\ud83d\udce8", "\ud83d\udc49", "\ud83d\udc4e"]
+    "emojiClue": ["\ud83d\udc80", "\ud83d\udce8", "\ud83d\ude20"]
   },
   {
     "word": "Killer instinct",
@@ -2457,7 +2588,7 @@
     "example": "She has the killer instinct needed to close big deals.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udfaf",
-    "emojiClue": ["\ud83c\udfaf", "\ud83d\udcaa", "\ud83c\udfc6"]
+    "emojiClue": ["\ud83c\udfaf", "\ud83e\udde0", "\ud83d\udd25"]
   },
   {
     "word": "Knock on wood",
@@ -2465,7 +2596,7 @@
     "example": "We haven't had any issues so far, knock on wood.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udeb5",
-    "emojiClue": ["\ud83e\udeb5", "\ud83d\udc4e", "\ud83c\udf40"]
+    "emojiClue": ["\u270a", "\ud83e\udeb5", "\ud83c\udf40"]
   },
   {
     "word": "Know something like the back of your hand",
@@ -2489,7 +2620,7 @@
     "example": "After the scandal, the celebrity decided to lay low for a while.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udd2b",
-    "emojiClue": ["\ud83e\udd2b", "\u2b07\ufe0f", "\ud83d\udccd"]
+    "emojiClue": ["\ud83d\udecc", "\u2b07\ufe0f", "\ud83e\udd2b"]
   },
   {
     "word": "Leave no stone unturned",
@@ -2497,7 +2628,7 @@
     "example": "The detectives left no stone unturned in the investigation.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udea8",
-    "emojiClue": ["\ud83d\udeb6", "\ud83e\udea8", "\ud83e\udd1e"]
+    "emojiClue": ["\ud83d\udeaa", "\ud83e\udea8", "\ud83d\udd0d"]
   },
   {
     "word": "Let bygones be bygones",
@@ -2505,7 +2636,7 @@
     "example": "It's time we let bygones be bygones and start fresh.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udd1d",
-    "emojiClue": ["\ud83e\udd1d", "\ud83c\udd97", "\u23ee\ufe0f"]
+    "emojiClue": ["\ud83c\udd97", "\u23ee\ufe0f", "\ud83e\udd1d"]
   },
   {
     "word": "Level playing field",
@@ -2513,7 +2644,7 @@
     "example": "The new rules created a level playing field for small businesses.",
     "category": "Idioms & Expressions",
     "icon": "\u2696\ufe0f",
-    "emojiClue": ["\u2696\ufe0f", "\ud83c\udfae", "\ud83c\udf3e"]
+    "emojiClue": ["\u2696\ufe0f", "\u26bd", "\ud83d\udff0"]
   },
   {
     "word": "Lick your wounds",
@@ -2529,7 +2660,7 @@
     "example": "After months of hard work, she could finally see the light at the end of the tunnel.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udd73\ufe0f",
-    "emojiClue": ["\ud83d\udd73\ufe0f", "\ud83d\udca1", "\ud83d\udd1a"]
+    "emojiClue": ["\ud83d\udca1", "\ud83d\udd73\ufe0f", "\u2728"]
   },
   {
     "word": "Like father like son",
@@ -2537,11 +2668,7 @@
     "example": "He's just as stubborn as his dad, like father like son.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udc68\u200d\ud83d\udc66",
-    "emojiClue": [
-      "\ud83d\udc68\u200d\ud83d\udc66",
-      "\ud83e\uddd2",
-      "\ud83e\uddd1\u200d\ud83c\udf7c"
-    ]
+    "emojiClue": ["\ud83d\udc68", "\ud83d\udc66", "\ud83d\udff0"]
   },
   {
     "word": "Like pulling teeth",
@@ -2549,7 +2676,7 @@
     "example": "Getting him to clean his room is like pulling teeth.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\uddb7",
-    "emojiClue": ["\ud83e\uddb7", "\u2194\ufe0f", "\ud83d\ude13"]
+    "emojiClue": ["\ud83e\uddb7", "\u2194\ufe0f", "\ud83d\ude29"]
   },
   {
     "word": "Live and learn",
@@ -2565,7 +2692,7 @@
     "example": "During those early years, they lived from hand to mouth.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udc5b",
-    "emojiClue": ["\ud83d\udc5b", "\u270b", "\ud83d\udc44"]
+    "emojiClue": ["\ud83d\udd90\ufe0f", "\ud83d\udc44", "\ud83d\udcb5"]
   },
   {
     "word": "Lock, stock, and barrel",
@@ -2589,7 +2716,7 @@
     "example": "Have you lost your marbles? That's a terrible idea.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udd2e",
-    "emojiClue": ["\ud83d\udd2e", "\ud83d\ude1e", "\u27a1\ufe0f"]
+    "emojiClue": ["\u274c", "\ud83d\udd2e", "\ud83d\ude35"]
   },
   {
     "word": "Low blow",
@@ -2605,7 +2732,7 @@
     "example": "It's just a scratch, don't make a mountain out of a molehill.",
     "category": "Idioms & Expressions",
     "icon": "\u26f0\ufe0f",
-    "emojiClue": ["\ud83d\udd28", "\u26f0\ufe0f", "\ud83e\udd0f"]
+    "emojiClue": ["\ud83d\udd28", "\u26f0\ufe0f", "\ud83d\udc2d"]
   },
   {
     "word": "Make no bones about it",
@@ -2613,7 +2740,7 @@
     "example": "She made no bones about her disappointment with the results.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\uddb4",
-    "emojiClue": ["\ud83e\uddb4", "\ud83d\udd28", "\ud83d\udde3\ufe0f"]
+    "emojiClue": ["\ud83d\udd28", "\ud83d\udeab", "\ud83e\uddb4"]
   },
   {
     "word": "Make waves",
@@ -2621,7 +2748,7 @@
     "example": "The new policy is making waves across the industry.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udf0a",
-    "emojiClue": ["\ud83c\udf0a", "\ud83d\udd28", "\ud83d\ude16"]
+    "emojiClue": ["\ud83d\udd28", "\ud83c\udf0a", "\ud83d\udce2"]
   },
   {
     "word": "Man of his word",
@@ -2645,7 +2772,7 @@
     "example": "The ad campaign missed the mark with younger audiences.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udfaf",
-    "emojiClue": ["\u274c", "\ud83c\udfc6", "\ud83c\udfaf"]
+    "emojiClue": ["\u274c", "\ud83c\udfaf"]
   },
   {
     "word": "Money doesn't grow on trees",
@@ -2653,7 +2780,7 @@
     "example": "We can't buy everything, money doesn't grow on trees.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udf33",
-    "emojiClue": ["\ud83c\udf33", "\ud83d\udcb0", "\ud83c\udf31"]
+    "emojiClue": ["\ud83d\udcb0", "\ud83d\udeab", "\ud83c\udf33"]
   },
   {
     "word": "Move the goalposts",
@@ -2661,7 +2788,7 @@
     "example": "Every time I meet the target, they move the goalposts.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udd45",
-    "emojiClue": ["\ud83e\udd45", "\ud83d\udeb6", "\ud83d\udd04"]
+    "emojiClue": ["\u2194\ufe0f", "\ud83e\udd45", "\ud83d\ude24"]
   },
   {
     "word": "Music to my ears",
@@ -2669,7 +2796,7 @@
     "example": "Hearing the project was approved was music to my ears.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udfb5",
-    "emojiClue": ["\ud83c\udfb5", "\ud83d\udc42", "\u2728"]
+    "emojiClue": ["\ud83c\udfb5", "\ud83d\udc42", "\ud83d\ude0a"]
   },
   {
     "word": "Nail-biter",
@@ -2693,7 +2820,7 @@
     "example": "The manager nipped the conflict in the bud before it escalated.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udf31",
-    "emojiClue": ["\ud83d\uded1", "\u2757", "\ud83c\udf31"]
+    "emojiClue": ["\u2702\ufe0f", "\ud83c\udf31", "\ud83d\uded1"]
   },
   {
     "word": "No love lost",
@@ -2717,7 +2844,7 @@
     "example": "They found a charming caf\u00e9 off the beaten path.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udd7e",
-    "emojiClue": ["\ud83e\udd7e", "\u2753", "\ud83d\udeaa"]
+    "emojiClue": ["\ud83d\udeab", "\ud83e\udd7e", "\ud83d\udee4\ufe0f"]
   },
   {
     "word": "Off the wall",
@@ -2757,7 +2884,7 @@
     "example": "The waiter said dessert was on the house.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udfe0",
-    "emojiClue": ["\ud83c\udfe0", "\ud83c\udd93", "\ud83d\udcbc"]
+    "emojiClue": ["\ud83c\udfe0", "\ud83c\udf81"]
   },
   {
     "word": "On the nose",
@@ -2773,7 +2900,7 @@
     "example": "He jokes that he's got one foot in the grave, but he's healthier than most.",
     "category": "Idioms & Expressions",
     "icon": "\u26b0\ufe0f",
-    "emojiClue": ["\ud83e\uddb6", "\u26b0\ufe0f", "\ud83d\udc74"]
+    "emojiClue": ["1\ufe0f\u20e3", "\ud83e\uddb6", "\u26b0\ufe0f"]
   },
   {
     "word": "Out of order",
@@ -2781,7 +2908,7 @@
     "example": "The elevator is out of order again.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udeab",
-    "emojiClue": ["\ud83d\udeab", "\ud83d\udcbc", "\ud83d\udc63"]
+    "emojiClue": ["\ud83d\udeab", "\ud83d\udd22"]
   },
   {
     "word": "Out of sight out of mind",
@@ -2805,7 +2932,7 @@
     "example": "He jokes about being over the hill now that he's turned fifty.",
     "category": "Idioms & Expressions",
     "icon": "\u26f0\ufe0f",
-    "emojiClue": ["\u26f0\ufe0f", "\ud83d\udc74", "\u23ee\ufe0f"]
+    "emojiClue": ["\u2b06\ufe0f", "\u26f0\ufe0f", "\ud83d\udc74"]
   },
   {
     "word": "Par for the course",
@@ -2821,7 +2948,7 @@
     "example": "Stop passing the buck and admit your mistake.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udd04",
-    "emojiClue": ["\ud83d\udd04", "\ud83c\udfaf", "\ud83d\udc49"]
+    "emojiClue": ["\u27a1\ufe0f", "\ud83e\udd8c", "\ud83d\udcb8"]
   },
   {
     "word": "Pay through the nose",
@@ -2829,7 +2956,7 @@
     "example": "We paid through the nose for parking downtown.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udcb8",
-    "emojiClue": ["\ud83d\udcb8", "\ud83d\udcb5", "\ud83d\udc43"]
+    "emojiClue": ["\ud83d\udcb0", "\ud83d\udc43", "\ud83d\ude16"]
   },
   {
     "word": "Piece of work",
@@ -2837,7 +2964,7 @@
     "example": "That client is quite a piece of work.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udfad",
-    "emojiClue": ["\ud83c\udfad", "\ud83d\udcbc", "\ud83d\ude13"]
+    "emojiClue": ["\ud83e\udde9", "\ud83d\ude24"]
   },
   {
     "word": "Pie in the sky",
@@ -2845,7 +2972,7 @@
     "example": "His idea of retiring at thirty is pie in the sky.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udd67",
-    "emojiClue": ["\ud83e\udd67", "\ud83c\udf0c", "\ud83e\udd1e"]
+    "emojiClue": ["\ud83e\udd67", "\u2601\ufe0f", "\ud83c\udf0c"]
   },
   {
     "word": "Pin your hopes on",
@@ -2853,7 +2980,7 @@
     "example": "She pinned her hopes on getting into her top choice school.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udccc",
-    "emojiClue": ["\ud83d\udccc", "\ud83e\udd1d", "\ud83c\udf1f"]
+    "emojiClue": ["\ud83d\udccc", "\ud83e\udd1e"]
   },
   {
     "word": "Play by ear",
@@ -2861,7 +2988,7 @@
     "example": "We don't have a strict schedule, we're just playing it by ear.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udc42",
-    "emojiClue": ["\ud83c\udfae", "\ud83d\udc42", "\ud83d\udd27"]
+    "emojiClue": ["\ud83c\udfae", "\ud83d\udc42"]
   },
   {
     "word": "Play hardball",
@@ -2869,7 +2996,7 @@
     "example": "The company decided to play hardball during contract talks.",
     "category": "Idioms & Expressions",
     "icon": "\u26be",
-    "emojiClue": ["\u26be", "\ud83c\udfae", "\ud83c\udfad"]
+    "emojiClue": ["\ud83c\udfae", "\u26be", "\ud83d\udcaa"]
   },
   {
     "word": "Play it safe",
@@ -2877,7 +3004,7 @@
     "example": "Given the uncertainty, they decided to play it safe.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udedf",
-    "emojiClue": ["\ud83d\udedf", "\ud83c\udfae", "\ud83d\udee1\ufe0f"]
+    "emojiClue": ["\ud83c\udfae", "\ud83d\udee1\ufe0f", "\u2705"]
   },
   {
     "word": "Point blank",
@@ -2917,7 +3044,7 @@
     "example": "Keep rehearsing, practice makes perfect.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udfaf",
-    "emojiClue": ["\ud83c\udfaf", "\ud83d\udcaf", "\ud83d\udd01"]
+    "emojiClue": ["\ud83d\udd01", "\ud83c\udfaf", "\ud83d\udcaf"]
   },
   {
     "word": "Preach to the choir",
@@ -2925,7 +3052,7 @@
     "example": "You don't need to convince me, you're preaching to the choir.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udfa4",
-    "emojiClue": ["\ud83c\udfa4", "\ud83e\udd1e", "\ud83d\udde3\ufe0f"]
+    "emojiClue": ["\ud83d\udde3\ufe0f", "\ud83c\udfa4", "\u2705"]
   },
   {
     "word": "Pull rank",
@@ -2933,7 +3060,7 @@
     "example": "The manager pulled rank to override the team's decision.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udf96\ufe0f",
-    "emojiClue": ["\ud83c\udf96\ufe0f", "\u2194\ufe0f", "\ud83e\udd32"]
+    "emojiClue": ["\u2194\ufe0f", "\ud83c\udf96\ufe0f"]
   },
   {
     "word": "Pull the rug out from under",
@@ -2941,7 +3068,7 @@
     "example": "The funding cut pulled the rug out from under the whole project.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\uddf9",
-    "emojiClue": ["\ud83e\uddf9", "\u2194\ufe0f", "\ud83e\udd1d"]
+    "emojiClue": ["\u2194\ufe0f", "\ud83e\uddf9", "\u26a0\ufe0f"]
   },
   {
     "word": "Pull your weight",
@@ -2949,7 +3076,7 @@
     "example": "Everyone needs to pull their weight for this to succeed.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udfcb\ufe0f",
-    "emojiClue": ["\ud83c\udfcb\ufe0f", "\u2194\ufe0f", "\ud83e\udd1d"]
+    "emojiClue": ["\u2194\ufe0f", "\u2696\ufe0f", "\ud83d\udcaa"]
   },
   {
     "word": "Put a sock in it",
@@ -2957,7 +3084,7 @@
     "example": "He told his brother to put a sock in it during the movie.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udde6",
-    "emojiClue": ["\ud83d\udce5", "\ud83e\udde6", "\ud83e\udd2b"]
+    "emojiClue": ["\ud83d\udce5", "\ud83e\udde6", "\ud83e\udd10"]
   },
   {
     "word": "Put on hold",
@@ -2965,7 +3092,7 @@
     "example": "The renovation was put on hold due to weather.",
     "category": "Idioms & Expressions",
     "icon": "\u23f8\ufe0f",
-    "emojiClue": ["\ud83d\udce5", "\u270b", "\u23f8\ufe0f"]
+    "emojiClue": ["\ud83d\udce5", "\u23f8\ufe0f"]
   },
   {
     "word": "Put the pieces together",
@@ -2973,7 +3100,7 @@
     "example": "Once she saw the receipt, she put the pieces together.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udde9",
-    "emojiClue": ["\ud83e\udde9", "\ud83d\udce5", "\ud83e\udd1d"]
+    "emojiClue": ["\ud83d\udce5", "\ud83e\udde9", "\u2705"]
   },
   {
     "word": "Put your foot down",
@@ -2981,7 +3108,7 @@
     "example": "He finally put his foot down about the messy kitchen.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\uddb6",
-    "emojiClue": ["\ud83d\udce5", "\ud83e\uddb6", "\ud83e\udd32"]
+    "emojiClue": ["\ud83d\udce5", "\ud83e\uddb6", "\ud83d\uded1"]
   },
   {
     "word": "Put your foot in your mouth",
@@ -2989,7 +3116,12 @@
     "example": "I really put my foot in my mouth at dinner last night.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udc44",
-    "emojiClue": ["\ud83d\udce5", "\ud83e\uddb6", "\ud83d\udc44"]
+    "emojiClue": [
+      "\ud83d\udce5",
+      "\ud83e\uddb6",
+      "\ud83d\udc44",
+      "\ud83d\ude33"
+    ]
   },
   {
     "word": "Quick on the draw",
@@ -3005,7 +3137,7 @@
     "example": "Can I take a rain check on dinner this week?",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udf27\ufe0f",
-    "emojiClue": ["\ud83c\udf27\ufe0f", "\u2705", "\ud83d\uddfa\ufe0f"]
+    "emojiClue": ["\ud83c\udf27\ufe0f", "\u2705", "\u23f3"]
   },
   {
     "word": "Read someone like a book",
@@ -3013,7 +3145,7 @@
     "example": "His mom can read him like a book.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udcd6",
-    "emojiClue": ["\ud83d\udcd6", "\ud83d\udca1", "\ud83e\udd32"]
+    "emojiClue": ["\ud83d\udcd6", "\ud83e\udde0", "\ud83d\udc64"]
   },
   {
     "word": "Reap what you sow",
@@ -3029,7 +3161,7 @@
     "example": "She impressed the interviewer right off the bat.",
     "category": "Idioms & Expressions",
     "icon": "\u26be",
-    "emojiClue": ["\u26be", "\u2705", "\ud83c\udfc1"]
+    "emojiClue": ["\u2705", "\ud83c\udfcf", "\u26a1"]
   },
   {
     "word": "Rob Peter to pay Paul",
@@ -3037,7 +3169,7 @@
     "example": "Using one credit card to pay another is robbing Peter to pay Paul.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udcb3",
-    "emojiClue": ["\ud83d\udcb3", "\ud83d\udd75\ufe0f", "\ud83d\udcb5"]
+    "emojiClue": ["\ud83d\udd75\ufe0f", "\ud83d\udc64", "\ud83d\udcb0"]
   },
   {
     "word": "Rock the boat",
@@ -3045,7 +3177,7 @@
     "example": "Everything's working fine, let's not rock the boat.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udea3",
-    "emojiClue": ["\ud83d\udea3", "\ud83e\udea8", "\u26f5"]
+    "emojiClue": ["\ud83c\udf00", "\u26f5", "\u26a0\ufe0f"]
   },
   {
     "word": "Roll with the punches",
@@ -3053,7 +3185,7 @@
     "example": "She's learned to roll with the punches after years in the industry.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udd4a",
-    "emojiClue": ["\ud83c\udfb3", "\ud83e\udd4a", "\u27a1\ufe0f"]
+    "emojiClue": ["\ud83c\udfb3", "\ud83e\udd4a", "\ud83d\ude0c"]
   },
   {
     "word": "Rome wasn't built in a day",
@@ -3061,7 +3193,7 @@
     "example": "Don't get discouraged, Rome wasn't built in a day.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udfdb\ufe0f",
-    "emojiClue": ["\ud83c\udfdb\ufe0f", "\u2600\ufe0f", "\u2757"]
+    "emojiClue": ["\ud83c\udfdb\ufe0f", "\ud83d\udeab", "\ud83d\udcc5"]
   },
   {
     "word": "Run in the family",
@@ -3077,7 +3209,7 @@
     "example": "By the third hour of the meeting, everyone had run out of steam.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\ude82",
-    "emojiClue": ["\ud83d\ude82", "\ud83c\udfc3", "\ud83d\udca8"]
+    "emojiClue": ["\ud83c\udfc3", "\ud83d\udca8", "\ud83d\udd0b"]
   },
   {
     "word": "Save face",
@@ -3093,7 +3225,7 @@
     "example": "They've been saving for a rainy day since they got married.",
     "category": "Idioms & Expressions",
     "icon": "\u2614",
-    "emojiClue": ["\u2614", "\ud83d\udcb0", "\u2600\ufe0f"]
+    "emojiClue": ["\ud83d\udcb0", "\ud83c\udf27\ufe0f", "\ud83d\udcc5"]
   },
   {
     "word": "Sell like hotcakes",
@@ -3101,7 +3233,7 @@
     "example": "The new sneakers are selling like hotcakes.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udd5e",
-    "emojiClue": ["\ud83c\udff7\ufe0f", "\ud83e\udd5e", "\ud83d\udcc8"]
+    "emojiClue": ["\ud83c\udff7\ufe0f", "\ud83e\udd5e", "\ud83d\udd25"]
   },
   {
     "word": "Set in stone",
@@ -3117,7 +3249,7 @@
     "example": "Shake a leg, we're going to be late!",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\uddb5",
-    "emojiClue": ["\ud83e\udd1d", "\ud83e\uddb5", "\ud83c\udfc3"]
+    "emojiClue": ["\ud83e\udd1d", "\ud83e\uddb5", "\u23f0"]
   },
   {
     "word": "Shape up or ship out",
@@ -3125,7 +3257,7 @@
     "example": "The coach warned the team to shape up or ship out.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udea2",
-    "emojiClue": ["\ud83d\udea2", "\ud83d\udcc8", "\ud83d\udeb6"]
+    "emojiClue": ["\ud83d\udcd0", "\u2705", "\ud83d\udea2"]
   },
   {
     "word": "Shed light on",
@@ -3141,7 +3273,7 @@
     "example": "He tends to shoot from the hip in meetings.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udfaf",
-    "emojiClue": ["\ud83c\udfaf", "\ud83d\udde3\ufe0f", "\ud83c\udfad"]
+    "emojiClue": ["\ud83c\udfaf", "\ud83d\udcaa", "\ud83d\udde3\ufe0f"]
   },
   {
     "word": "Shoot yourself in the foot",
@@ -3149,7 +3281,7 @@
     "example": "By skipping the interview, he shot himself in the foot.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\uddb6",
-    "emojiClue": ["\ud83c\udfaf", "\ud83e\uddb6", "\u2757"]
+    "emojiClue": ["\ud83c\udfaf", "\ud83e\uddb6", "\ud83d\ude16"]
   },
   {
     "word": "Sink or swim",
@@ -3157,7 +3289,7 @@
     "example": "It's sink or swim in your first year of business.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udfca",
-    "emojiClue": ["\ud83c\udfca", "\ud83c\udf1f", "\ud83d\udcaa"]
+    "emojiClue": ["\u2b07\ufe0f", "\ud83c\udfca", "\u2753"]
   },
   {
     "word": "Skeleton in the closet",
@@ -3165,7 +3297,7 @@
     "example": "Every family has a skeleton in the closet.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udc80",
-    "emojiClue": ["\ud83d\udc80", "\ud83d\ude48", "\ud83e\udd2b"]
+    "emojiClue": ["\ud83d\udc80", "\ud83d\udeaa", "\ud83e\udd2b"]
   },
   {
     "word": "Sleep on it",
@@ -3173,7 +3305,7 @@
     "example": "Let's sleep on it before we sign the contract.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\ude34",
-    "emojiClue": ["\ud83d\ude34", "\u23f8\ufe0f", "\ud83e\udd14"]
+    "emojiClue": ["\ud83d\ude34", "\ud83e\udd14", "\ud83d\udcc5"]
   },
   {
     "word": "Small talk",
@@ -3181,7 +3313,7 @@
     "example": "They made small talk while waiting for the meeting to start.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udcac",
-    "emojiClue": ["\ud83d\udcac", "\ud83e\udd0f", "\ud83d\udde3\ufe0f"]
+    "emojiClue": ["\ud83e\udd0f", "\ud83d\udde3\ufe0f", "\u2615"]
   },
   {
     "word": "Smooth sailing",
@@ -3213,7 +3345,7 @@
     "example": "Come on, spill the tea, what happened at the party?",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udf75",
-    "emojiClue": ["\ud83d\udca7", "\ud83c\udf75", "\ud83e\udd1d"]
+    "emojiClue": ["\ud83d\udca7", "\ud83c\udf75", "\ud83d\udde3\ufe0f"]
   },
   {
     "word": "Spread yourself too thin",
@@ -3221,7 +3353,7 @@
     "example": "Between work and school, he's spreading himself too thin.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\uddc8",
-    "emojiClue": ["\ud83e\uddc8", "\u2194\ufe0f", "\ud83e\udd32"]
+    "emojiClue": ["\u2194\ufe0f", "\ud83e\uddc8", "\ud83d\ude29"]
   },
   {
     "word": "Stab in the back",
@@ -3229,7 +3361,7 @@
     "example": "She felt he stabbed her in the back by taking credit for her work.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\ude14",
-    "emojiClue": ["\ud83d\ude14", "\ud83d\udd2a", "\ud83e\udd1d"]
+    "emojiClue": ["\ud83d\ude14", "\ud83d\udd19", "\ud83d\udc94"]
   },
   {
     "word": "Stand your ground",
@@ -3245,7 +3377,7 @@
     "example": "He decided to take a back seat and let his partner run the company.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\ude97",
-    "emojiClue": ["\ud83d\ude97", "\ud83e\udd32", "\u2757"]
+    "emojiClue": ["\ud83e\udd32", "\ud83e\ude91", "\ud83d\udd19"]
   },
   {
     "word": "Take it easy",
@@ -3261,7 +3393,7 @@
     "example": "He took the tough feedback on the chin and kept working.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udd4a",
-    "emojiClue": ["\ud83e\udd4a", "\ud83e\udd32", "\ud83e\uddd1"]
+    "emojiClue": ["\ud83e\udd32", "\ud83e\udd4a", "\ud83e\uddd1"]
   },
   {
     "word": "Take my word for it",
@@ -3277,7 +3409,7 @@
     "example": "She decided to take the bull by the horns and confront her boss.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udc02",
-    "emojiClue": ["\ud83e\udd32", "\ud83d\udc02", "\ud83d\ude13"]
+    "emojiClue": ["\ud83e\udd32", "\ud83d\udc02", "\ud83c\udfaf"]
   },
   {
     "word": "Take the edge off",
@@ -3285,7 +3417,7 @@
     "example": "A short walk helped take the edge off her stress.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udf3f",
-    "emojiClue": ["\ud83c\udf3f", "\ud83e\udd32", "\ud83d\udd28"]
+    "emojiClue": ["\ud83e\udd32", "\u2796", "\ud83d\ude0c"]
   },
   {
     "word": "Take the high road",
@@ -3301,7 +3433,7 @@
     "example": "He took the initiative and started the project early.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\ude80",
-    "emojiClue": ["\ud83d\ude80", "\ud83e\udd32", "1\ufe0f\u20e3"]
+    "emojiClue": ["\ud83e\udd32", "\ud83d\ude80"]
   },
   {
     "word": "Take the wind out of someone's sails",
@@ -3309,7 +3441,7 @@
     "example": "The harsh review really took the wind out of her sails.",
     "category": "Idioms & Expressions",
     "icon": "\u26f5",
-    "emojiClue": ["\u26f5", "\ud83e\udd32", "\ud83c\udf43"]
+    "emojiClue": ["\ud83e\udd32", "\ud83d\udca8", "\u26f5", "\ud83d\ude14"]
   },
   {
     "word": "Talk is cheap",
@@ -3317,7 +3449,7 @@
     "example": "He keeps promising changes, but talk is cheap.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udde3\ufe0f",
-    "emojiClue": ["\ud83d\udde3\ufe0f", "\ud83e\ude99", "\u2705"]
+    "emojiClue": ["\ud83d\udde3\ufe0f", "\ud83e\ude99"]
   },
   {
     "word": "Talk someone's ear off",
@@ -3325,7 +3457,7 @@
     "example": "My neighbor talked my ear off about his garden.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udc42",
-    "emojiClue": ["\ud83d\udde3\ufe0f", "\ud83d\udc42", "\ud83d\udccf"]
+    "emojiClue": ["\ud83d\udde3\ufe0f", "\ud83d\udc42", "\ud83d\ude29"]
   },
   {
     "word": "Teach an old dog new tricks",
@@ -3335,8 +3467,8 @@
     "icon": "\ud83d\udc15",
     "emojiClue": [
       "\ud83e\uddd1\u200d\ud83c\udfeb",
-      "\ud83d\udc74",
-      "\ud83d\udc15"
+      "\ud83d\udc15",
+      "\ud83c\udd95"
     ]
   },
   {
@@ -3361,7 +3493,12 @@
     "example": "She's just as creative as her mother, the apple doesn't fall far from the tree.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udf4e",
-    "emojiClue": ["\ud83c\udf4e", "\u2b07\ufe0f", "\ud83d\udef0\ufe0f"]
+    "emojiClue": [
+      "\ud83c\udf4e",
+      "\ud83c\udf33",
+      "\ud83d\udccf",
+      "\ud83d\udff0"
+    ]
   },
   {
     "word": "The bigger they are the harder they fall",
@@ -3369,7 +3506,7 @@
     "example": "The company dominated the market for years, but the bigger they are, the harder they fall.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udcc9",
-    "emojiClue": ["\ud83d\udcc9", "\u2b07\ufe0f", "\u274c"]
+    "emojiClue": ["\ud83d\udcc8", "\u2b07\ufe0f", "\ud83d\udca5"]
   },
   {
     "word": "The buck stops here",
@@ -3377,7 +3514,7 @@
     "example": "As the manager, the buck stops here.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udfaf",
-    "emojiClue": ["\ud83d\uded1", "\ud83c\udfaf", "\ud83d\udecb\ufe0f"]
+    "emojiClue": ["\ud83e\udd8c", "\ud83d\uded1", "\ud83d\udccd"]
   },
   {
     "word": "The cream of the crop",
@@ -3385,7 +3522,7 @@
     "example": "These students are the cream of the crop this year.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udd5b",
-    "emojiClue": ["\ud83e\udd5b", "\ud83e\udd47", "\ud83d\udc65"]
+    "emojiClue": ["\ud83e\udd5b", "\ud83e\udd47", "\ud83c\udf3e"]
   },
   {
     "word": "The die is cast",
@@ -3401,7 +3538,7 @@
     "example": "Most days he's on time, so today's delay is the exception that proves the rule.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udccf",
-    "emojiClue": ["\ud83d\udccf", "\u2753", "\u2705"]
+    "emojiClue": ["\u2757", "\ud83d\udccf", "\u2705"]
   },
   {
     "word": "The grass is always greener on the other side",
@@ -3409,7 +3546,12 @@
     "example": "He envies his friend's job, but the grass is always greener on the other side.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udf31",
-    "emojiClue": ["\ud83c\udf31", "\ud83c\udf3f", "\ud83d\udd01"]
+    "emojiClue": [
+      "\ud83c\udf3f",
+      "\u2194\ufe0f",
+      "\ud83c\udf3f",
+      "\ud83d\ude12"
+    ]
   },
   {
     "word": "The icing on the cake",
@@ -3417,7 +3559,7 @@
     "example": "The bonus was the icing on the cake after a great year.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udf82",
-    "emojiClue": ["\ud83c\udf82", "\ud83c\udf70", "\ud83d\udc4d"]
+    "emojiClue": ["\ud83c\udf82", "\u2728", "\u2795"]
   },
   {
     "word": "The jury is still out",
@@ -3425,7 +3567,7 @@
     "example": "The jury is still out on whether the new policy will work.",
     "category": "Idioms & Expressions",
     "icon": "\u2696\ufe0f",
-    "emojiClue": ["\u2696\ufe0f", "\ud83e\udd14", "\ud83d\uddef\ufe0f"]
+    "emojiClue": ["\u2696\ufe0f", "\u23f3", "\u2753"]
   },
   {
     "word": "The lion's share",
@@ -3441,7 +3583,7 @@
     "example": "He claims it works, but the proof is in the pudding.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udf6e",
-    "emojiClue": ["\ud83c\udf6e", "\ud83d\udc8e", "\ud83e\uddea"]
+    "emojiClue": ["\u2705", "\ud83c\udf6e", "\ud83d\udd0d"]
   },
   {
     "word": "The sky's the limit",
@@ -3457,7 +3599,7 @@
     "example": "The missed meeting was the straw that broke the camel's back.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udc2b",
-    "emojiClue": ["\ud83d\udc2b", "\ud83e\udd0f", "\u2757"]
+    "emojiClue": ["\ud83e\udd64", "\ud83d\udc2b", "\ud83d\udca5"]
   },
   {
     "word": "The whole nine yards",
@@ -3489,7 +3631,7 @@
     "example": "He threw caution to the wind and quit his job to travel.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udf43",
-    "emojiClue": ["\ud83c\udfaf", "\ud83c\udf43", "\ud83c\udfad"]
+    "emojiClue": ["\ud83c\udfaf", "\u26a0\ufe0f", "\ud83d\udca8"]
   },
   {
     "word": "Throw someone under the bus",
@@ -3497,7 +3639,7 @@
     "example": "He threw his coworker under the bus during the meeting.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\ude8c",
-    "emojiClue": ["\ud83c\udfaf", "\ud83d\ude8c", "\ud83d\udc49"]
+    "emojiClue": ["\ud83c\udfaf", "\ud83d\udc64", "\ud83d\ude8c"]
   },
   {
     "word": "Tie the knot",
@@ -3505,7 +3647,7 @@
     "example": "They finally tied the knot last summer.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udc8d",
-    "emojiClue": ["\ud83d\udc8d", "\ud83e\udea2", "\ud83e\udd32"]
+    "emojiClue": ["\ud83e\udea2", "\ud83d\udc8d"]
   },
   {
     "word": "Tighten your belt",
@@ -3513,7 +3655,7 @@
     "example": "With prices rising, they had to tighten their belts.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udc56",
-    "emojiClue": ["\ud83d\udc56", "\ud83d\udcb8", "\ud83d\udcb0"]
+    "emojiClue": ["\ud83d\udc56", "\ud83d\udcb0", "\ud83d\udcc9"]
   },
   {
     "word": "Time heals all wounds",
@@ -3521,7 +3663,7 @@
     "example": "It's been hard since the breakup, but time heals all wounds.",
     "category": "Idioms & Expressions",
     "icon": "\u23f3",
-    "emojiClue": ["\u23f3", "\u23f0", "\ud83e\ude79"]
+    "emojiClue": ["\u23f0", "\ud83e\ude79", "\ud83d\udc9a"]
   },
   {
     "word": "Time is money",
@@ -3571,8 +3713,9 @@
     "icon": "\ud83d\udc68\u200d\ud83c\udf73",
     "emojiClue": [
       "\ud83d\udc68\u200d\ud83c\udf73",
-      "\ud83c\udf73",
-      "\ud83e\udd1e"
+      "\ud83d\udc68\u200d\ud83c\udf73",
+      "\ud83c\udf72",
+      "\ud83d\ude24"
     ]
   },
   {
@@ -3581,7 +3724,7 @@
     "example": "The surgery was touch and go for a while.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udf21\ufe0f",
-    "emojiClue": ["\ud83c\udf21\ufe0f", "\ud83d\udc46", "\u27a1\ufe0f"]
+    "emojiClue": ["\ud83d\udc46", "\u27a1\ufe0f", "\u2753"]
   },
   {
     "word": "Tough it out",
@@ -3597,7 +3740,7 @@
     "example": "The company has just been treading water this quarter.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udfca",
-    "emojiClue": ["\ud83c\udfca", "\ud83d\udca7", "\ud83d\udccd"]
+    "emojiClue": ["\ud83d\udeb6", "\ud83c\udf0a", "\ud83d\ude13"]
   },
   {
     "word": "Trial and error",
@@ -3605,7 +3748,7 @@
     "example": "He learned to cook mostly through trial and error.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udd01",
-    "emojiClue": ["\u274c", "\ud83d\udcd6", "\ud83d\udd01"]
+    "emojiClue": ["\ud83e\uddea", "\u274c", "\ud83d\udd01"]
   },
   {
     "word": "Turn over a new leaf",
@@ -3613,7 +3756,7 @@
     "example": "After the wake-up call, he decided to turn over a new leaf.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udf43",
-    "emojiClue": ["\u2728", "\ud83c\udf43", "\ud83c\udfc1"]
+    "emojiClue": ["\ud83d\udd04", "\ud83c\udf43", "\u2728"]
   },
   {
     "word": "Turn the tables",
@@ -3637,7 +3780,7 @@
     "example": "Those two are like two peas in a pod.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udedb",
-    "emojiClue": ["\ud83e\udedb", "\ud83d\udd01", "\ud83e\udd1d"]
+    "emojiClue": ["\ud83e\udedb", "2\ufe0f\u20e3", "\ud83d\udff0"]
   },
   {
     "word": "Under your nose",
@@ -3653,7 +3796,12 @@
     "example": "Without a backup plan, we're up a creek without a paddle.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udef6",
-    "emojiClue": ["\ud83d\udef6", "\ud83d\ude13", "\u2705"]
+    "emojiClue": [
+      "\ud83c\udfde\ufe0f",
+      "\ud83d\udeab",
+      "\ud83d\udef6",
+      "\ud83d\ude30"
+    ]
   },
   {
     "word": "Up for grabs",
@@ -3669,7 +3817,7 @@
     "example": "His work hasn't been up to par lately.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udccf",
-    "emojiClue": ["\ud83d\udccf", "\ud83d\uddd3\ufe0f", "\ud83e\udd14"]
+    "emojiClue": ["\u2b06\ufe0f", "\u26f3", "\u2705"]
   },
   {
     "word": "Up to speed",
@@ -3685,7 +3833,7 @@
     "example": "Convincing the board was an uphill battle.",
     "category": "Idioms & Expressions",
     "icon": "\u26f0\ufe0f",
-    "emojiClue": ["\u26f0\ufe0f", "\u2694\ufe0f", "\ud83d\ude13"]
+    "emojiClue": ["\u26f0\ufe0f", "\u2694\ufe0f", "\ud83d\ude24"]
   },
   {
     "word": "Water under the bridge",
@@ -3709,7 +3857,7 @@
     "example": "As a small business owner, she wears two hats: manager and accountant.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udfa9",
-    "emojiClue": ["\ud83d\udc55", "\ud83c\udfa9", "\ud83d\udd00"]
+    "emojiClue": ["\ud83d\udc55", "\ud83c\udfa9", "\ud83c\udfa9"]
   },
   {
     "word": "Weather the storm",
@@ -3733,7 +3881,7 @@
     "example": "He's always wheeling and dealing to close a sale.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udd1d",
-    "emojiClue": ["\ud83c\udfa1", "\ud83e\udd1d", "\ud83d\udcbc"]
+    "emojiClue": ["\ud83c\udfa1", "\ud83e\udd1d"]
   },
   {
     "word": "When in Rome",
@@ -3773,7 +3921,7 @@
     "example": "We spent all day on a wild goose chase looking for the missing file.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udebf",
-    "emojiClue": ["\ud83e\udebf", "\ud83c\udfc3", "\ud83d\udd0d"]
+    "emojiClue": ["\ud83e\udda2", "\ud83c\udfc3", "\u2753"]
   },
   {
     "word": "Word for word",
@@ -3789,7 +3937,7 @@
     "example": "The restaurant became popular through word of mouth.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udcac",
-    "emojiClue": ["\ud83d\udcac", "\ud83d\udc44", "\u2194\ufe0f"]
+    "emojiClue": ["\ud83d\udde3\ufe0f", "\ud83d\udc44", "\ud83d\udce2"]
   },
   {
     "word": "Work like a dog",
@@ -3813,7 +3961,7 @@
     "example": "He tried to wriggle out of doing the dishes.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udc1b",
-    "emojiClue": ["\ud83d\udc1b", "\ud83c\udfaf", "\ud83e\udde0"]
+    "emojiClue": ["\ud83d\udc1b", "\u2194\ufe0f", "\ud83d\udeaa"]
   },
   {
     "word": "Write off",
@@ -3829,7 +3977,7 @@
     "example": "The tickets sold out fast, you snooze you lose.",
     "category": "Idioms & Expressions",
     "icon": "\u23f0",
-    "emojiClue": ["\u23f0", "\ud83d\ude1e", "\ud83d\udc0c"]
+    "emojiClue": ["\ud83d\ude34", "\u274c", "\ud83c\udfc6"]
   },
   {
     "word": "Your guess is as good as mine",
@@ -3845,7 +3993,7 @@
     "example": "He was told to zip his lip during the negotiation.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udd10",
-    "emojiClue": ["\ud83e\udd10", "\ud83d\udc44", "\ud83d\uded1"]
+    "emojiClue": ["\ud83e\udd10", "\ud83d\udc44"]
   },
   {
     "word": "A leopard can't change its spots",
@@ -3861,7 +4009,7 @@
     "example": "A little bird told me you got the promotion.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udc26",
-    "emojiClue": ["\ud83e\udd0f", "\ud83d\udc26", "\ud83c\udf89"]
+    "emojiClue": ["\ud83d\udc26", "\ud83e\udd0f", "\ud83d\udde3\ufe0f"]
   },
   {
     "word": "A rolling stone gathers no moss",
@@ -3869,7 +4017,12 @@
     "example": "He never stays in one job long, a rolling stone gathers no moss.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\udea8",
-    "emojiClue": ["\ud83c\udfb3", "\ud83e\udea8", "\ud83e\udd1d"]
+    "emojiClue": [
+      "\ud83e\udea8",
+      "\ud83d\udd04",
+      "\ud83d\udeab",
+      "\ud83c\udf3f"
+    ]
   },
   {
     "word": "A stitch in time saves nine",
@@ -3877,7 +4030,7 @@
     "example": "Get that leak checked now, a stitch in time saves nine.",
     "category": "Idioms & Expressions",
     "icon": "\ud83e\uddf5",
-    "emojiClue": ["\ud83e\uddf5", "\u23f0", "\ud83d\udd27"]
+    "emojiClue": ["\ud83e\uddf5", "\u23f0", "9\ufe0f\u20e3"]
   },
   {
     "word": "A watched pot never boils",
@@ -3893,7 +4046,7 @@
     "example": "She always has an ace up her sleeve for tough negotiations.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udccf",
-    "emojiClue": ["\ud83c\udccf", "\ud83d\ude48", "\u2705"]
+    "emojiClue": ["\ud83c\udccf", "\ud83d\udc55", "\ud83c\udfa9"]
   },
   {
     "word": "Act your age",
@@ -3909,7 +4062,7 @@
     "example": "Against all odds, the small team won the championship.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udfb2",
-    "emojiClue": ["\u2694\ufe0f", "\ud83c\udfb2", "\u2b07\ufe0f"]
+    "emojiClue": ["\u2694\ufe0f", "\ud83c\udfb2", "\ud83d\ude24"]
   },
   {
     "word": "Air your dirty laundry",
@@ -3925,7 +4078,7 @@
     "example": "It's crunch time, we need all hands on deck.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\ude4c",
-    "emojiClue": ["\ud83d\ude4c", "\u270b", "\ud83e\udd1d"]
+    "emojiClue": ["\ud83d\ude4c", "\ud83d\udea2"]
   },
   {
     "word": "All in good time",
@@ -3933,7 +4086,7 @@
     "example": "Don't rush, the results will come all in good time.",
     "category": "Idioms & Expressions",
     "icon": "\u23f3",
-    "emojiClue": ["\u23f3", "\ud83d\udc4d", "\u23f0"]
+    "emojiClue": ["\ud83d\udcaf", "\u23f3"]
   },
   {
     "word": "All is fair in love and war",
@@ -3973,7 +4126,7 @@
     "example": "It wasn't the hotel we wanted, but any port in a storm.",
     "category": "Idioms & Expressions",
     "icon": "\u26f5",
-    "emojiClue": ["\u26f5", "\u26c8\ufe0f", "\ud83d\udca1"]
+    "emojiClue": ["\u2693", "\u26c8\ufe0f", "\ud83e\udd37"]
   },
   {
     "word": "Ask for the moon",
@@ -3989,7 +4142,7 @@
     "example": "She's at a crossroads in her career.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udea6",
-    "emojiClue": ["\ud83d\udea6", "\u261d\ufe0f", "\u2757"]
+    "emojiClue": ["\ud83d\udea6", "\u2795", "\ud83e\udd14"]
   },
   {
     "word": "At the end of the day",
@@ -3997,7 +4150,7 @@
     "example": "At the end of the day, all that matters is that everyone is safe.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udf07",
-    "emojiClue": ["\ud83c\udf07", "\ud83d\udd1a", "\u2600\ufe0f"]
+    "emojiClue": ["\ud83c\udf07", "\ud83d\udd1a"]
   },
   {
     "word": "At the eleventh hour",
@@ -4005,7 +4158,7 @@
     "example": "They reached a deal at the eleventh hour.",
     "category": "Idioms & Expressions",
     "icon": "\u23f0",
-    "emojiClue": ["\u23f0", "\ud83d\udd1a", "\u23f1\ufe0f"]
+    "emojiClue": ["1\ufe0f\u20e31\ufe0f\u20e3", "\u23f0", "\ud83d\ude30"]
   },
   {
     "word": "Back on your feet",
@@ -4029,7 +4182,7 @@
     "example": "One bad apple can spoil the whole team's morale.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udf4e",
-    "emojiClue": ["\ud83d\udc4e", "\ud83c\udf4e", "\ud83d\udc65"]
+    "emojiClue": ["\ud83c\udf4e", "\ud83e\udd22"]
   },
   {
     "word": "Bad blood",
@@ -4037,7 +4190,7 @@
     "example": "There's been bad blood between the two families for years.",
     "category": "Idioms & Expressions",
     "icon": "\ud83d\udca2",
-    "emojiClue": ["\ud83d\udca2", "\ud83d\udc4e", "\ud83e\ude78"]
+    "emojiClue": ["\ud83e\ude78", "\ud83d\udc4e", "\ud83d\udc94"]
   },
   {
     "word": "Beat the odds",
@@ -4045,7 +4198,7 @@
     "example": "The small startup beat the odds and became profitable.",
     "category": "Idioms & Expressions",
     "icon": "\ud83c\udfb2",
-    "emojiClue": ["\ud83e\udd41", "\ud83c\udfb2", "\ud83c\udf1f"]
+    "emojiClue": ["\ud83e\udd41", "\ud83c\udfb2", "\ud83c\udfc6"]
   },
   {
     "word": "Behind closed doors",

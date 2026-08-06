@@ -20,8 +20,11 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    padding: Spacing.lg,
+    padding: Spacing.md,
+    paddingTop: Spacing.lg,
+    paddingBottom: 100,
     backgroundColor: Colors.background,
+    flexGrow: 1,
   },
   emoji: { fontSize: 48, marginBottom: Spacing.sm },
   title: {

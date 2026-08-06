@@ -148,6 +148,9 @@ export default function IdiomPracticeCard({
                   </Text>
                 </View>
 
+                {currentIdiom.icon && (
+                  <Text style={styles.icon}>{currentIdiom.icon}</Text>
+                )}
                 <Text style={styles.word}>{currentIdiom.word}</Text>
 
                 {!revealed && (
@@ -275,6 +278,7 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
     marginBottom: Spacing.lg,
   },
+  icon: { fontSize: 40, textAlign: "center", marginBottom: Spacing.xs },
   word: {
     fontFamily: Fonts.displayBold,
     fontSize: 30,

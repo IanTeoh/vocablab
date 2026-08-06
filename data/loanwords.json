@@ -1,0 +1,152 @@
+[
+  {
+    "word": "Kindergarten",
+    "origin": "German",
+    "icon": "🧒",
+    "reason": "Literally means \"children's garden.\" Coined by educator Friedrich Fröbel in the 1840s to describe his new approach to early childhood education."
+  },
+  {
+    "word": "Ballet",
+    "origin": "French",
+    "icon": "🩰",
+    "reason": "Borrowed from French \"ballet,\" itself from Italian \"balletto,\" a diminutive of \"ballo\" meaning \"dance.\" Ballet as an art form developed in the Italian and French royal courts."
+  },
+  {
+    "word": "Sushi",
+    "origin": "Japanese",
+    "icon": "🍣",
+    "reason": "A direct borrowing of the Japanese word for the dish, which traditionally refers to vinegared rice rather than the raw fish itself."
+  },
+  {
+    "word": "Piano",
+    "origin": "Italian",
+    "icon": "🎹",
+    "reason": "Short for \"pianoforte,\" Italian for \"soft-loud,\" describing the instrument's ability to play both quiet and loud notes, unlike the harpsichord."
+  },
+  {
+    "word": "Robot",
+    "origin": "Czech",
+    "icon": "🤖",
+    "reason": "Coined by Czech writer Karel Čapek in his 1920 play R.U.R., from the Czech word \"robota\" meaning forced labor or drudgery."
+  },
+  {
+    "word": "Tsunami",
+    "origin": "Japanese",
+    "icon": "🌊",
+    "reason": "Literally \"harbor wave,\" combining \"tsu\" (harbor) and \"nami\" (wave), describing how the waves become dangerous specifically near the coast."
+  },
+  {
+    "word": "Yoga",
+    "origin": "Sanskrit",
+    "icon": "🧘",
+    "reason": "From Sanskrit \"yoga,\" meaning union or discipline, related to the practice of joining body and mind in ancient Indian philosophy."
+  },
+  {
+    "word": "Karaoke",
+    "origin": "Japanese",
+    "icon": "🎤",
+    "reason": "A blend of Japanese \"kara\" (empty) and \"okesutora\" (orchestra), literally meaning \"empty orchestra\" — music without the original vocals."
+  },
+  {
+    "word": "Alcohol",
+    "origin": "Arabic",
+    "icon": "🧪",
+    "reason": "From Arabic \"al-kuhl,\" originally referring to a fine powder used as eye makeup, later applied to distilled substances by European alchemists."
+  },
+  {
+    "word": "Ketchup",
+    "origin": "Chinese (Hokkien)",
+    "icon": "🍅",
+    "reason": "Believed to come from Hokkien Chinese \"kê-tsiap,\" a fermented fish sauce, which spread through Southeast Asia before European traders adapted it into the tomato-based sauce known today."
+  },
+  {
+    "word": "Cookie",
+    "origin": "Dutch",
+    "icon": "🍪",
+    "reason": "From Dutch \"koekje,\" meaning \"little cake,\" brought to America by Dutch settlers in New York."
+  },
+  {
+    "word": "Boss",
+    "origin": "Dutch",
+    "icon": "🧑‍💼",
+    "reason": "From Dutch \"baas,\" meaning master or foreman, adopted into American English partly because \"master\" carried unwanted associations with slavery."
+  },
+  {
+    "word": "Avatar",
+    "origin": "Sanskrit",
+    "icon": "🧑‍🎨",
+    "reason": "From Sanskrit \"avatara,\" meaning \"descent,\" originally referring to the earthly incarnation of a Hindu deity, later adapted to mean a digital representation of a person."
+  },
+  {
+    "word": "Tycoon",
+    "origin": "Japanese",
+    "icon": "💼",
+    "reason": "From Japanese \"taikun,\" meaning \"great lord,\" a title used for the shogun. It entered English through American diplomats in the 1850s and 60s."
+  },
+  {
+    "word": "Coach",
+    "origin": "Hungarian",
+    "icon": "🚂",
+    "reason": "From the Hungarian town of Kocs, famous for building horse-drawn carriages in the 15th century. The meaning later extended to \"someone who guides you,\" giving us the modern sense of a sports coach."
+  },
+  {
+    "word": "Mosquito",
+    "origin": "Spanish",
+    "icon": "🦟",
+    "reason": "Literally \"little fly\" in Spanish, a diminutive of \"mosca\" (fly)."
+  },
+  {
+    "word": "Chocolate",
+    "origin": "Nahuatl (Aztec)",
+    "icon": "🍫",
+    "reason": "From Nahuatl \"xocolatl,\" a bitter drink made from cacao beans consumed by the Aztecs long before sugar was added by Europeans."
+  },
+  {
+    "word": "Tomato",
+    "origin": "Nahuatl (Aztec)",
+    "icon": "🍅",
+    "reason": "From Nahuatl \"tomatl,\" the Aztec word for the fruit, which spread to Europe after Spanish colonization of the Americas."
+  },
+  {
+    "word": "Guru",
+    "origin": "Sanskrit",
+    "icon": "🧙",
+    "reason": "From Sanskrit \"guru,\" meaning teacher or spiritual guide, literally translating to something close to \"weighty\" or \"venerable.\""
+  },
+  {
+    "word": "Shampoo",
+    "origin": "Hindi",
+    "icon": "🧴",
+    "reason": "From Hindi \"champo,\" meaning \"to massage,\" introduced to English speakers in colonial India before becoming associated specifically with hair washing."
+  },
+  {
+    "word": "Bungalow",
+    "origin": "Hindi/Gujarati",
+    "icon": "🏡",
+    "reason": "From \"bangla,\" meaning \"of Bengal,\" describing a style of low, single-story house common in that region of India."
+  },
+  {
+    "word": "Pajamas",
+    "origin": "Hindi/Urdu",
+    "icon": "👖",
+    "reason": "From \"pajama,\" a loose-fitting leg garment tied at the waist, adopted by British colonists in India before becoming standard English sleepwear."
+  },
+  {
+    "word": "Karate",
+    "origin": "Japanese",
+    "icon": "🥋",
+    "reason": "Literally \"empty hand,\" reflecting that the martial art is practiced without weapons."
+  },
+  {
+    "word": "Igloo",
+    "origin": "Inuktitut",
+    "icon": "🧊",
+    "reason": "From Inuktitut \"iglu,\" which actually just means \"house\" in general, not specifically a snow dwelling."
+  },
+  {
+    "word": "Safari",
+    "origin": "Swahili",
+    "icon": "🦁",
+    "reason": "From Swahili \"safari,\" meaning journey, which itself comes from the Arabic word \"safar\" for travel."
+  }
+]

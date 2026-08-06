@@ -388,7 +388,7 @@ export default function Profile() {
             </PressableScale>
           ) : null
         }
-        contentContainerStyle={{ padding: Spacing.lg }}
+        contentContainerStyle={{ padding: Spacing.lg, paddingBottom: 100 }}
       />
 
       <Modal
