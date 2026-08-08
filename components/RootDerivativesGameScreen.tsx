@@ -1,17 +1,17 @@
 import * as Haptics from "expo-haptics";
 import { useEffect, useRef, useState } from "react";
 import {
-    Animated,
-    BackHandler,
-    Dimensions,
-    Keyboard,
-    KeyboardAvoidingView,
-    Platform,
-    SafeAreaView,
-    StyleSheet,
-    Text,
-    TextInput,
-    View,
+  Animated,
+  BackHandler,
+  Dimensions,
+  Keyboard,
+  KeyboardAvoidingView,
+  Platform,
+  SafeAreaView,
+  StyleSheet,
+  Text,
+  TextInput,
+  View,
 } from "react-native";
 import { Colors, Fonts, Radius, Spacing } from "../constants/theme";
 import { checkDerivative } from "../logic/derivativesGame";
@@ -19,7 +19,7 @@ import { recordDerivativesScore } from "../logic/rootDerivativesHighScore";
 import PressableScale from "./PressableScale";
 
 const ROUND_DURATION = 60;
-const MAX_HINTS = 3;
+const MAX_HINTS = 1;
 const { height: SCREEN_HEIGHT } = Dimensions.get("window");
 
 type Phase = "playing" | "results";

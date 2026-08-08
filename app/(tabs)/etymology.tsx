@@ -2,6 +2,7 @@ import { useFocusEffect } from "expo-router";
 import { useCallback, useEffect, useState } from "react";
 import { ScrollView, StyleSheet, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
+import AchievementToast from "../../components/AchievementToast";
 import BackgroundPattern from "../../components/BackgroundPattern";
 import LoanwordGuessCard from "../../components/LoanwordGuessCard";
 import RootDerivativesCard from "../../components/RootDerivativesCard";
@@ -10,6 +11,7 @@ import RootOfDayCard from "../../components/RootOfDayCard";
 import RootPracticeCard from "../../components/RootPracticeCard";
 import { Colors, Fonts, Radius, Spacing } from "../../constants/theme";
 import roots from "../../data/roots.json";
+import { checkForNewAchievements } from "../../logic/achievements";
 import { getRootStats } from "../../logic/rootDictionary";
 
 export default function Etymology() {
@@ -18,10 +20,12 @@ export default function Etymology() {
   const [activeDerivativesRoot, setActiveDerivativesRoot] = useState<
     any | null
   >(null);
+  const [newAchievements, setNewAchievements] = useState<any[]>([]);
 
   useFocusEffect(
     useCallback(() => {
       getRootStats(roots.length).then(setStats);
+      checkForNewAchievements().then(setNewAchievements);
     }, []),
   );
 
@@ -31,6 +35,7 @@ export default function Etymology() {
 
   function handleCaught() {
     setRefreshKey((k) => k + 1);
+    checkForNewAchievements().then(setNewAchievements);
   }
 
   return (
@@ -57,6 +62,7 @@ export default function Etymology() {
           <RootPracticeCard onCaught={handleCaught} />
           <RootDerivativesCard
             onStart={(root) => setActiveDerivativesRoot(root)}
+            refreshKey={refreshKey}
           />
           <LoanwordGuessCard />
         </ScrollView>
@@ -65,6 +71,12 @@ export default function Etymology() {
       <RootDerivativesGameScreen
         root={activeDerivativesRoot}
         onClose={() => setActiveDerivativesRoot(null)}
+        onRoundEnd={() => checkForNewAchievements().then(setNewAchievements)}
+      />
+
+      <AchievementToast
+        achievements={newAchievements}
+        onDismiss={() => setNewAchievements([])}
       />
     </View>
   );

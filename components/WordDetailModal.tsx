@@ -8,12 +8,14 @@ type WordDetailModalProps = {
   visible: boolean;
   word: any | null;
   onClose: () => void;
+  standalone?: boolean;
 };
 
 export default function WordDetailModal({
   visible,
   word,
   onClose,
+  standalone = true,
 }: WordDetailModalProps) {
   const fadeAnim = useRef(new Animated.Value(0)).current;
   const scaleAnim = useRef(new Animated.Value(0.95)).current;
@@ -37,8 +39,50 @@ export default function WordDetailModal({
     }
   }, [visible]);
 
-  if (!word) return null;
+  if (!word || !visible) return null;
   const rarity = word.rarity ? getRarityStyle(word.rarity) : null;
+
+  const content = (
+    <Pressable style={styles.overlay} onPress={onClose}>
+      <Animated.View
+        style={[
+          styles.card,
+          { opacity: fadeAnim, transform: [{ scale: scaleAnim }] },
+        ]}
+      >
+        <Pressable onPress={() => {}}>
+          {rarity && (
+            <Text
+              style={[
+                styles.rarityBadge,
+                { color: rarity.color, borderColor: rarity.color },
+              ]}
+            >
+              {rarity.label}
+            </Text>
+          )}
+          {word.icon && <Text style={styles.icon}>{word.icon}</Text>}
+          <Text style={styles.word}>{word.word}</Text>
+          <Text style={styles.definition}>{word.definition}</Text>
+          {word.example && <Text style={styles.example}>"{word.example}"</Text>}
+          <PressableScale style={styles.closeButton} onPress={onClose}>
+            <Text style={styles.closeButtonText}>Close</Text>
+          </PressableScale>
+        </Pressable>
+      </Animated.View>
+    </Pressable>
+  );
+
+  if (!standalone) {
+    // Rendered inside another already-open Modal — no nested Modal
+    // wrapper, just an absolutely-positioned overlay in the same
+    // native window, so touches route correctly.
+    return (
+      <Animated.View style={StyleSheet.absoluteFillObject}>
+        {content}
+      </Animated.View>
+    );
+  }
 
   return (
     <Modal
@@ -47,36 +91,7 @@ export default function WordDetailModal({
       animationType="none"
       onRequestClose={onClose}
     >
-      <Pressable style={styles.overlay} onPress={onClose}>
-        <Animated.View
-          style={[
-            styles.card,
-            { opacity: fadeAnim, transform: [{ scale: scaleAnim }] },
-          ]}
-        >
-          <Pressable onPress={() => {}}>
-            {rarity && (
-              <Text
-                style={[
-                  styles.rarityBadge,
-                  { color: rarity.color, borderColor: rarity.color },
-                ]}
-              >
-                {rarity.label}
-              </Text>
-            )}
-            {word.icon && <Text style={styles.icon}>{word.icon}</Text>}
-            <Text style={styles.word}>{word.word}</Text>
-            <Text style={styles.definition}>{word.definition}</Text>
-            {word.example && (
-              <Text style={styles.example}>"{word.example}"</Text>
-            )}
-            <PressableScale style={styles.closeButton} onPress={onClose}>
-              <Text style={styles.closeButtonText}>Close</Text>
-            </PressableScale>
-          </Pressable>
-        </Animated.View>
-      </Pressable>
+      {content}
     </Modal>
   );
 }

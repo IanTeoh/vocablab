@@ -16,6 +16,8 @@ import {
   SafeAreaView,
   useSafeAreaInsets,
 } from "react-native-safe-area-context";
+import AchievementsModal from "../../components/AchievementsModal";
+import AchievementToast from "../../components/AchievementToast";
 import BackgroundPattern from "../../components/BackgroundPattern";
 import PressableScale from "../../components/PressableScale";
 import WordDetailModal from "../../components/WordDetailModal";
@@ -23,6 +25,7 @@ import { Colors, Fonts, Radius, Spacing } from "../../constants/theme";
 import idioms from "../../data/idioms.json";
 import roots from "../../data/roots.json";
 import words from "../../data/words.json";
+import { checkForNewAchievements } from "../../logic/achievements";
 import { getCategoryProgress } from "../../logic/categories";
 import { learnEverything } from "../../logic/devTools";
 import { getDictionary, getStats, resetAllData } from "../../logic/dictionary";
@@ -35,6 +38,14 @@ import { getOverallDerivativesHighScore } from "../../logic/rootDerivativesHighS
 import { getRootDictionary } from "../../logic/rootDictionary";
 
 const { width: SCREEN_WIDTH } = Dimensions.get("window");
+
+function chunkArray(arr: any[], size: number) {
+  const chunks = [];
+  for (let i = 0; i < arr.length; i += size) {
+    chunks.push(arr.slice(i, i + size));
+  }
+  return chunks;
+}
 
 export default function Profile() {
   const [stats, setStats] = useState<any | null>(null);
@@ -55,11 +66,25 @@ export default function Profile() {
   const [selectedWord, setSelectedWord] = useState<any | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
   const [statsModalVisible, setStatsModalVisible] = useState(false);
+  const [achievementsModalVisible, setAchievementsModalVisible] =
+    useState(false);
+  const [newAchievements, setNewAchievements] = useState<any[]>([]);
   const insets = useSafeAreaInsets();
   const slideAnim = useRef(new Animated.Value(SCREEN_WIDTH)).current;
 
+  const RARITY_ORDER: Record<string, number> = {
+    common: 0,
+    rare: 1,
+    epic: 2,
+    legendary: 3,
+  };
+
   function openCategory(item: any) {
-    setSelectedCategory(item);
+    const sortedWords = [...item.words].sort(
+      (a: any, b: any) =>
+        (RARITY_ORDER[a.rarity] ?? 0) - (RARITY_ORDER[b.rarity] ?? 0),
+    );
+    setSelectedCategory({ ...item, words: sortedWords });
     slideAnim.setValue(SCREEN_WIDTH);
     Animated.timing(slideAnim, {
       toValue: 0,
@@ -87,6 +112,7 @@ export default function Profile() {
       );
       getLoanwordHighScore().then(setLoanwordHighScore);
       getIdiomojiHighScore().then(setIdiomojiHighScore);
+      checkForNewAchievements().then(setNewAchievements);
       getSessionsCompletedCount().then((count) => setAdventureLevel(count + 1));
     }, []),
   );
@@ -117,17 +143,30 @@ export default function Profile() {
 
   const sections = [...categoryProgress, idiomSection, rootSection];
 
+  const searchPool = [
+    ...(words as any[]).map((w) => ({ ...w, _type: "word", _name: w.word })),
+    ...(idioms as any[]).map((w) => ({ ...w, _type: "idiom", _name: w.word })),
+    ...(roots as any[]).map((r) => ({ ...r, _type: "root", _name: r.root })),
+  ];
+
   const isSearching = searchQuery.trim().length > 0;
   const filteredWords = isSearching
-    ? (words as any[])
-        .filter((w) =>
-          w.word.toLowerCase().includes(searchQuery.trim().toLowerCase()),
+    ? searchPool
+        .filter((item) =>
+          item._name.toLowerCase().includes(searchQuery.trim().toLowerCase()),
         )
         .sort((a, b) => {
-          const aCaught = collectedSet.has(a.word) ? 1 : 0;
-          const bCaught = collectedSet.has(b.word) ? 1 : 0;
+          const caughtOf = (item: any) => {
+            if (item._type === "word")
+              return collectedSet.has(item._name) ? 1 : 0;
+            if (item._type === "idiom")
+              return idiomCollectedSet.has(item._name) ? 1 : 0;
+            return rootCollectedSet.has(item._name) ? 1 : 0;
+          };
+          const aCaught = caughtOf(a);
+          const bCaught = caughtOf(b);
           if (aCaught !== bCaught) return bCaught - aCaught;
-          return a.word.localeCompare(b.word);
+          return a._name.localeCompare(b._name);
         })
     : [];
 
@@ -309,12 +348,37 @@ export default function Profile() {
     );
   }
 
-  function renderSearchResultRow(w: any) {
-    const caught = collectedSet.has(w.word);
-    const rarity = getRarityStyle(w.rarity);
+  function renderSearchResultRow(item: any) {
+    const type = item._type;
+    const caught =
+      type === "word"
+        ? collectedSet.has(item._name)
+        : type === "idiom"
+          ? idiomCollectedSet.has(item._name)
+          : rootCollectedSet.has(item._name);
+
+    const rarity = type === "word" ? getRarityStyle(item.rarity) : null;
+    const accentColor =
+      type === "idiom"
+        ? Colors.secondary
+        : type === "root"
+          ? Colors.primary
+          : rarity!.color;
+    const lockedIcon = "🔒";
+    const caughtIcon =
+      type === "word"
+        ? "📖"
+        : type === "root"
+          ? item.icon || "🌱"
+          : item.icon || "💬";
+    const typeLabel =
+      type === "word" ? "Word" : type === "idiom" ? "Idiom" : "Root";
+
     const content = (
       <>
-        <Text style={styles.resultEmoji}>{caught ? "📖" : "🔒"}</Text>
+        <Text style={styles.resultEmoji}>
+          {caught ? caughtIcon : lockedIcon}
+        </Text>
         <View style={{ flex: 1 }}>
           <Text
             style={[
@@ -322,24 +386,37 @@ export default function Profile() {
               caught ? { color: Colors.ink } : { color: Colors.inkMuted },
             ]}
           >
-            {caught ? w.word : "?????"}
+            {caught ? item._name : "?????"}
           </Text>
           <Text style={styles.resultSubtext}>
-            {w.category}
-            {caught ? ` · ${rarity.label}` : ""}
+            {typeLabel}
+            {type === "word" && caught ? ` · ${rarity!.label}` : ""}
           </Text>
         </View>
         {caught && (
           <View
-            style={[styles.resultRarityDot, { backgroundColor: rarity.color }]}
+            style={[styles.resultRarityDot, { backgroundColor: accentColor }]}
           />
         )}
       </>
     );
 
+    const handlePress = () => {
+      if (type === "root") {
+        setSelectedWord({
+          word: item.root,
+          definition: `${item.meaning} (${item.origin})`,
+          example: item.example,
+          icon: item.icon,
+        });
+      } else {
+        setSelectedWord(item);
+      }
+    };
+
     if (!caught) {
       return (
-        <View key={w.word} style={styles.resultRow}>
+        <View key={`${type}-${item._name}`} style={styles.resultRow}>
           {content}
         </View>
       );
@@ -347,9 +424,9 @@ export default function Profile() {
 
     return (
       <PressableScale
-        key={w.word}
+        key={`${type}-${item._name}`}
         style={styles.resultRow}
-        onPress={() => setSelectedWord(w)}
+        onPress={handlePress}
       >
         {content}
       </PressableScale>
@@ -420,7 +497,9 @@ export default function Profile() {
       <FlatList
         style={styles.container}
         data={isSearching ? filteredWords : sections}
-        keyExtractor={(item: any) => (isSearching ? item.word : item.category)}
+        keyExtractor={(item: any) =>
+          isSearching ? `${item._type}-${item._name}` : item.category
+        }
         keyboardShouldPersistTaps="handled"
         ListHeaderComponent={
           <>
@@ -451,11 +530,25 @@ export default function Profile() {
               </View>
             )}
 
+            <PressableScale
+              style={styles.achievementsButton}
+              onPress={() => setAchievementsModalVisible(true)}
+            >
+              <Text style={styles.achievementsButtonIcon}>🏆</Text>
+              <View style={{ flex: 1 }}>
+                <Text style={styles.achievementsButtonTitle}>Achievements</Text>
+                <Text style={styles.achievementsButtonSubtitle}>
+                  View your unlocked badges
+                </Text>
+              </View>
+              <Text style={styles.achievementsButtonArrow}>→</Text>
+            </PressableScale>
+
             <View style={styles.searchBar}>
               <Text style={styles.searchIcon}>🔍</Text>
               <TextInput
                 style={styles.searchInput}
-                placeholder="Search words..."
+                placeholder="Search words, idioms, roots..."
                 placeholderTextColor={Colors.inkMuted}
                 value={searchQuery}
                 onChangeText={setSearchQuery}
@@ -533,16 +626,13 @@ export default function Profile() {
             <FlatList
               style={{ flex: 1 }}
               contentContainerStyle={styles.modalContent}
-              data={selectedCategory?.words ?? []}
-              keyExtractor={(w: any) =>
-                selectedCategory?.isRoot ? w.root : w.word
+              data={chunkArray(selectedCategory?.words ?? [], 3)}
+              keyExtractor={(row: any[], index: number) =>
+                `row-${index}-${selectedCategory?.isRoot ? row[0]?.root : row[0]?.word}`
               }
-              numColumns={3}
-              columnWrapperStyle={{ justifyContent: "flex-start" }}
-              initialNumToRender={30}
+              initialNumToRender={12}
               windowSize={5}
-              maxToRenderPerBatch={30}
-              removeClippedSubviews
+              maxToRenderPerBatch={12}
               ListHeaderComponent={
                 <>
                   <Text style={styles.modalTitle}>
@@ -553,13 +643,17 @@ export default function Profile() {
                   </Text>
                 </>
               }
-              renderItem={({ item: w }: { item: any }) =>
-                selectedCategory?.isRoot
-                  ? renderRootTile(w)
-                  : selectedCategory?.isIdiom
-                    ? renderIdiomTile(w)
-                    : renderWordTile(w)
-              }
+              renderItem={({ item: row }: { item: any[] }) => (
+                <View style={styles.grid}>
+                  {row.map((w: any) =>
+                    selectedCategory?.isRoot
+                      ? renderRootTile(w)
+                      : selectedCategory?.isIdiom
+                        ? renderIdiomTile(w)
+                        : renderWordTile(w),
+                  )}
+                </View>
+              )}
             />
 
             <View style={styles.modalFooter}>
@@ -570,6 +664,13 @@ export default function Profile() {
                 <Text style={styles.closeButtonText}>Close</Text>
               </PressableScale>
             </View>
+
+            <WordDetailModal
+              visible={!!selectedWord}
+              word={selectedWord}
+              onClose={() => setSelectedWord(null)}
+              standalone={false}
+            />
           </View>
         </Animated.View>
       </Modal>
@@ -672,6 +773,16 @@ export default function Profile() {
         word={selectedWord}
         onClose={() => setSelectedWord(null)}
       />
+
+      <AchievementsModal
+        visible={achievementsModalVisible}
+        onClose={() => setAchievementsModalVisible(false)}
+      />
+
+      <AchievementToast
+        achievements={newAchievements}
+        onDismiss={() => setNewAchievements([])}
+      />
     </SafeAreaView>
   );
 }
@@ -717,6 +828,34 @@ const styles = StyleSheet.create({
   },
   statBoxAction: {
     backgroundColor: Colors.surface,
+  },
+  achievementsButton: {
+    flexDirection: "row",
+    alignItems: "center",
+    backgroundColor: Colors.surface,
+    borderRadius: Radius.md,
+    borderWidth: 1,
+    borderColor: Colors.accent,
+    padding: Spacing.md,
+    marginTop: Spacing.sm,
+    marginBottom: Spacing.md,
+  },
+  achievementsButtonIcon: { fontSize: 28, marginRight: Spacing.sm },
+  achievementsButtonTitle: {
+    fontFamily: Fonts.bodySemiBold,
+    fontSize: 16,
+    color: Colors.ink,
+  },
+  achievementsButtonSubtitle: {
+    fontFamily: Fonts.body,
+    fontSize: 12,
+    color: Colors.inkMuted,
+    marginTop: 2,
+  },
+  achievementsButtonArrow: {
+    fontFamily: Fonts.bodySemiBold,
+    fontSize: 20,
+    color: Colors.accent,
   },
   statActionIcon: { fontSize: 22, marginBottom: 2 },
   statActionLabel: {

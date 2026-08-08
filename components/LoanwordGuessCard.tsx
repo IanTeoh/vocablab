@@ -13,6 +13,14 @@ import {
   pickRandomLoanword,
 } from "../logic/loanwordQuiz";
 import PressableScale from "./PressableScale";
+import RulesModal from "./RulesModal";
+
+const RULES = [
+  "📖 Learn: unlimited practice, no pressure. Guess the origin language, see the real answer and the story behind it, then move to the next word.",
+  "🎮 Play: 60 seconds and 3 lives. A wrong guess costs a life — the round ends when time or lives run out.",
+  "Both modes pull from the same pool of real English words borrowed from other languages.",
+  "Your best Play score is saved and shown right on the card.",
+];
 
 const PLAY_DURATION = 60;
 const PLAY_LIVES = 3;
@@ -37,6 +45,7 @@ export default function LoanwordGuessCard() {
   const [lives, setLives] = useState(PLAY_LIVES);
   const [timeLeft, setTimeLeft] = useState(PLAY_DURATION);
   const [isNewRecord, setIsNewRecord] = useState(false);
+  const [rulesVisible, setRulesVisible] = useState(false);
 
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const feedbackTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -164,6 +173,12 @@ export default function LoanwordGuessCard() {
   return (
     <View style={styles.card}>
       <View style={styles.accentStripe} />
+      <PressableScale
+        style={styles.helpButton}
+        onPress={() => setRulesVisible(true)}
+      >
+        <Text style={styles.helpButtonText}>?</Text>
+      </PressableScale>
       <View style={styles.content}>
         <Text style={styles.gameIcon}>🌍</Text>
         <Text style={styles.title}>Guess the Origin</Text>
@@ -344,6 +359,13 @@ export default function LoanwordGuessCard() {
           </View>
         </SafeAreaView>
       </Modal>
+
+      <RulesModal
+        visible={rulesVisible}
+        onClose={() => setRulesVisible(false)}
+        title="🌍 Guess the Origin Rules"
+        rules={RULES}
+      />
     </View>
   );
 }
@@ -366,6 +388,25 @@ const styles = StyleSheet.create({
   accentStripe: {
     height: 5,
     backgroundColor: Colors.accent,
+  },
+  helpButton: {
+    position: "absolute",
+    top: 13,
+    right: 12,
+    width: 24,
+    height: 24,
+    borderRadius: 12,
+    borderWidth: 1,
+    borderColor: Colors.border,
+    backgroundColor: Colors.surface,
+    alignItems: "center",
+    justifyContent: "center",
+    zIndex: 10,
+  },
+  helpButtonText: {
+    fontFamily: Fonts.bodySemiBold,
+    fontSize: 13,
+    color: Colors.inkMuted,
   },
   content: {
     padding: Spacing.lg,

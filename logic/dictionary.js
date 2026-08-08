@@ -64,5 +64,7 @@ export async function resetAllData() {
     "vocablab_root_derivatives_scores",
     "vocablab_loanword_play_high_score",
     "vocablab_idiomoji_high_score",
+    "vocablab_achievements_seen",
+    "vocablab_longest_streak",
   ]);
 }

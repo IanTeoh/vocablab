@@ -1198,5 +1198,305 @@
     "origin": "Russian",
     "icon": "\ud83e\uddd5",
     "reason": "Russian for \"grandmother,\" which in English came to describe the type of headscarf traditionally worn by older Russian women."
+  },
+  {
+    "word": "Wiki",
+    "origin": "Hawaiian",
+    "icon": "\ud83d\udcbb",
+    "reason": "From Hawaiian \"wiki wiki,\" meaning \"quick,\" chosen by the creator of the first wiki software because a shuttle bus with that name was fast."
+  },
+  {
+    "word": "Ukulele",
+    "origin": "Hawaiian",
+    "icon": "\ud83c\udfb8",
+    "reason": "Hawaiian for \"jumping flea,\" possibly describing the quick finger movements used to play the small stringed instrument."
+  },
+  {
+    "word": "Lei",
+    "origin": "Hawaiian",
+    "icon": "\ud83c\udf3a",
+    "reason": "Hawaiian for a garland, traditionally made of flowers, leaves, or shells, given as a symbol of welcome or celebration."
+  },
+  {
+    "word": "Aloha",
+    "origin": "Hawaiian",
+    "icon": "\ud83e\udd19",
+    "reason": "A Hawaiian greeting meaning both \"hello\" and \"goodbye,\" rooted in a deeper concept of love, peace, and compassion."
+  },
+  {
+    "word": "Hula",
+    "origin": "Hawaiian",
+    "icon": "\ud83d\udc83",
+    "reason": "Hawaiian for the traditional dance form that uses movement and chant to tell stories."
+  },
+  {
+    "word": "Luau",
+    "origin": "Hawaiian",
+    "icon": "\ud83c\udf4d",
+    "reason": "Named after a Hawaiian dish of taro leaves, the word came to describe the entire traditional feast."
+  },
+  {
+    "word": "Vanilla",
+    "origin": "Spanish",
+    "icon": "\ud83c\udf31",
+    "reason": "From Spanish \"vainilla,\" a diminutive of \"vaina\" (pod or sheath), describing the plant's slender seed pod."
+  },
+  {
+    "word": "Guitar",
+    "origin": "Spanish",
+    "icon": "\ud83c\udfb8",
+    "reason": "From Spanish \"guitarra,\" which traces back through Arabic to the ancient Greek \"kithara,\" an early stringed instrument."
+  },
+  {
+    "word": "Rodeo",
+    "origin": "Spanish",
+    "icon": "\ud83e\udd20",
+    "reason": "From Spanish \"rodear,\" meaning \"to go around\" or \"to round up,\" describing the herding and competitive events of ranch life."
+  },
+  {
+    "word": "Ranch",
+    "origin": "Spanish",
+    "icon": "\ud83d\udc04",
+    "reason": "From Spanish \"rancho,\" originally describing a small farm or group of farm laborers before broadening to mean any large cattle-raising property."
+  },
+  {
+    "word": "Patio",
+    "origin": "Spanish",
+    "icon": "\ud83c\udfe1",
+    "reason": "Spanish for an inner courtyard, borrowed directly to describe an outdoor paved area attached to a house."
+  },
+  {
+    "word": "Plaza",
+    "origin": "Spanish",
+    "icon": "\ud83c\udfdb\ufe0f",
+    "reason": "Spanish for a public square, borrowed to describe an open urban gathering space."
+  },
+  {
+    "word": "Fiesta",
+    "origin": "Spanish",
+    "icon": "\ud83c\udf89",
+    "reason": "Spanish for \"party\" or \"celebration,\" often specifically referring to a festival tied to a religious holiday."
+  },
+  {
+    "word": "Siesta",
+    "origin": "Spanish",
+    "icon": "\ud83d\ude34",
+    "reason": "From Latin \"sexta\" (sixth hour), referring to the midday rest traditionally taken around noon in Spanish-speaking countries."
+  },
+  {
+    "word": "Armada",
+    "origin": "Spanish",
+    "icon": "\u2693",
+    "reason": "Spanish for \"armed force,\" most famously associated with the Spanish Armada, the naval fleet sent against England in 1588."
+  },
+  {
+    "word": "Cargo",
+    "origin": "Spanish",
+    "icon": "\ud83d\udce6",
+    "reason": "From Spanish \"cargar,\" meaning \"to load,\" describing goods carried by a ship or vehicle."
+  },
+  {
+    "word": "Embargo",
+    "origin": "Spanish",
+    "icon": "\ud83d\udeab",
+    "reason": "From Spanish \"embargar,\" meaning \"to seize\" or \"to restrict,\" describing an official ban on trade with a country."
+  },
+  {
+    "word": "Cigar",
+    "origin": "Spanish",
+    "icon": "\ud83d\udeac",
+    "reason": "From Spanish \"cigarro,\" possibly related to a Mayan word for smoking, reflecting the origins of tobacco use in the Americas."
+  },
+  {
+    "word": "Cafeteria",
+    "origin": "Spanish",
+    "icon": "\ud83c\udf7d\ufe0f",
+    "reason": "From Spanish \"cafeter\u00eda,\" meaning \"coffee shop,\" though the American self-serve dining concept it now describes developed separately."
+  },
+  {
+    "word": "Alligator",
+    "origin": "Spanish",
+    "icon": "\ud83d\udc0a",
+    "reason": "From Spanish \"el lagarto,\" meaning \"the lizard,\" used by early Spanish explorers in the Americas to describe the large reptile."
+  },
+  {
+    "word": "Tornado",
+    "origin": "Spanish",
+    "icon": "\ud83c\udf2a\ufe0f",
+    "reason": "Likely from Spanish \"tronada\" (thunderstorm), blended with \"tornar\" (to turn), describing the storm's violent rotation."
+  },
+  {
+    "word": "Guerrilla",
+    "origin": "Spanish",
+    "icon": "\ud83c\udf96\ufe0f",
+    "reason": "A diminutive of Spanish \"guerra\" (war), literally meaning \"little war,\" describing small-scale, irregular combat tactics."
+  },
+  {
+    "word": "Macho",
+    "origin": "Spanish",
+    "icon": "\ud83d\udcaa",
+    "reason": "Spanish for \"male,\" adopted into English to describe an exaggerated sense of masculine pride or toughness."
+  },
+  {
+    "word": "Vigilante",
+    "origin": "Spanish",
+    "icon": "\ud83d\udd75\ufe0f",
+    "reason": "From Spanish \"vigilante,\" meaning \"watchman\" or \"vigilant,\" describing someone who takes law enforcement into their own hands."
+  },
+  {
+    "word": "Adobe",
+    "origin": "Spanish",
+    "icon": "\ud83e\uddf1",
+    "reason": "From Spanish \"adobar\" (to plaster), itself from Arabic \"al-tub\" (the brick), describing sun-dried mud brick construction."
+  },
+  {
+    "word": "Canyon",
+    "origin": "Spanish",
+    "icon": "\ud83c\udfdc\ufe0f",
+    "reason": "From Spanish \"ca\u00f1\u00f3n,\" meaning \"tube\" or \"pipe,\" describing the deep, narrow valleys carved by rivers."
+  },
+  {
+    "word": "Amigo",
+    "origin": "Spanish",
+    "icon": "\ud83e\udd1d",
+    "reason": "Spanish for \"friend,\" borrowed directly into casual English usage, especially in the American Southwest."
+  },
+  {
+    "word": "Junta",
+    "origin": "Spanish",
+    "icon": "\ud83c\udfdb\ufe0f",
+    "reason": "Spanish for \"council\" or \"meeting,\" adopted into English specifically to describe a military group ruling a country after seizing power."
+  },
+  {
+    "word": "Loco",
+    "origin": "Spanish",
+    "icon": "\ud83c\udf00",
+    "reason": "Spanish for \"crazy\" or \"insane,\" borrowed largely unchanged into informal American English."
+  },
+  {
+    "word": "Poncho",
+    "origin": "Araucanian (via Spanish)",
+    "icon": "\ud83e\udde5",
+    "reason": "From an indigenous Araucanian language of Chile and Argentina, describing a blanket-like garment with a hole for the head, adopted into Spanish and then English."
+  },
+  {
+    "word": "Mustang",
+    "origin": "Spanish",
+    "icon": "\ud83d\udc0e",
+    "reason": "From Spanish \"mestengo\" or \"meste\u00f1o,\" meaning \"wild\" or \"stray,\" describing the feral horses descended from Spanish stock in the Americas."
+  },
+  {
+    "word": "Bronco",
+    "origin": "Spanish",
+    "icon": "\ud83d\udc34",
+    "reason": "Spanish for \"rough\" or \"rude,\" applied in the American West to describe an unbroken or wild horse."
+  },
+  {
+    "word": "Cocoa",
+    "origin": "Nahuatl (via Spanish)",
+    "icon": "\ud83c\udf6b",
+    "reason": "From Nahuatl \"cacahuatl,\" adapted by Spanish colonizers as \"cacao,\" which later shifted in English to \"cocoa.\""
+  },
+  {
+    "word": "Avocado",
+    "origin": "Nahuatl (via Spanish)",
+    "icon": "\ud83e\udd51",
+    "reason": "From Nahuatl \"ahuacatl,\" adapted by Spanish as \"aguacate,\" and later reshaped in English into \"avocado.\""
+  },
+  {
+    "word": "Chili",
+    "origin": "Nahuatl",
+    "icon": "\ud83c\udf36\ufe0f",
+    "reason": "From Nahuatl \"chilli,\" the name for the pepper, adopted largely unchanged as it spread through Spanish and into English."
+  },
+  {
+    "word": "Coyote",
+    "origin": "Nahuatl",
+    "icon": "\ud83d\udc3a",
+    "reason": "From Nahuatl \"coyotl,\" the name for the wild canine native to North America, adopted into Spanish and then English."
+  },
+  {
+    "word": "Violin",
+    "origin": "Italian",
+    "icon": "\ud83c\udfbb",
+    "reason": "From Italian \"violino,\" a diminutive of \"viola,\" describing the smaller, higher-pitched instrument in the string family."
+  },
+  {
+    "word": "Trombone",
+    "origin": "Italian",
+    "icon": "\ud83c\udfba",
+    "reason": "From Italian \"tromba\" (trumpet) with the augmentative suffix \"-one,\" literally meaning \"big trumpet.\""
+  },
+  {
+    "word": "Torso",
+    "origin": "Italian",
+    "icon": "\ud83d\uddff",
+    "reason": "From Italian \"torso,\" originally describing a stalk or stump, later applied to ancient statues found without their limbs and head."
+  },
+  {
+    "word": "Diva",
+    "origin": "Italian",
+    "icon": "\ud83c\udfa4",
+    "reason": "Italian for \"goddess,\" originally used to describe celebrated female opera singers before broadening to describe any high-profile, demanding performer."
+  },
+  {
+    "word": "Motif",
+    "origin": "French",
+    "icon": "\ud83c\udfa8",
+    "reason": "From French \"motif,\" meaning \"motive\" or \"theme,\" describing a recurring idea or pattern in art, music, or literature."
+  },
+  {
+    "word": "Genre",
+    "origin": "French",
+    "icon": "\ud83c\udfac",
+    "reason": "French for \"kind\" or \"type,\" borrowed to describe categories of art, music, film, and literature."
+  },
+  {
+    "word": "Brunette",
+    "origin": "French",
+    "icon": "\ud83d\udc87",
+    "reason": "A diminutive of French \"brun\" (brown), describing someone with brown hair."
+  },
+  {
+    "word": "Blonde",
+    "origin": "French",
+    "icon": "\ud83d\udc87",
+    "reason": "From French \"blond,\" describing fair or golden-colored hair; English retains the French feminine spelling \"blonde\" for women."
+  },
+  {
+    "word": "Cul-de-sac",
+    "origin": "French",
+    "icon": "\ud83d\udee3\ufe0f",
+    "reason": "Literally \"bottom of the bag\" in French, describing a street closed at one end."
+  },
+  {
+    "word": "D\u00e9j\u00e0 Vu",
+    "origin": "French",
+    "icon": "\ud83d\udd04",
+    "reason": "Literally \"already seen\" in French, describing the eerie feeling of having already experienced a current situation."
+  },
+  {
+    "word": "Ghetto",
+    "origin": "Italian",
+    "icon": "\ud83c\udfd9\ufe0f",
+    "reason": "Believed to come from a Venetian word for a foundry district, since Venice's segregated Jewish quarter in the 1500s was located near an old iron foundry."
+  },
+  {
+    "word": "Motto",
+    "origin": "Italian",
+    "icon": "\ud83d\udcdc",
+    "reason": "From Italian \"motto,\" meaning \"word\" or \"saying,\" describing a short phrase expressing a guiding principle."
+  },
+  {
+    "word": "Kimono",
+    "origin": "Japanese",
+    "icon": "\ud83d\udc58",
+    "reason": "From \"ki\" (to wear) and \"mono\" (thing), literally meaning \"a thing to wear,\" describing the traditional Japanese garment."
+  },
+  {
+    "word": "Marmalade",
+    "origin": "Portuguese",
+    "icon": "\ud83c\udf4a",
+    "reason": "From Portuguese \"marmelada,\" a preserve originally made from quince (\"marmelo\"), later applied in English specifically to citrus preserves."
   }
 ]

@@ -2,6 +2,7 @@ import { useFocusEffect } from "expo-router";
 import { useCallback, useEffect, useState } from "react";
 import { ScrollView, StyleSheet, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
+import AchievementToast from "../../components/AchievementToast";
 import BackgroundPattern from "../../components/BackgroundPattern";
 import IdiomOfDayCard from "../../components/IdiomOfDayCard";
 import IdiomojiCard from "../../components/IdiomojiCard";
@@ -10,6 +11,7 @@ import IdiomPracticeCard from "../../components/IdiomPracticeCard";
 import IdiomReviewCard from "../../components/IdiomReviewCard";
 import { Colors, Fonts, Radius, Spacing } from "../../constants/theme";
 import idioms from "../../data/idioms.json";
+import { checkForNewAchievements } from "../../logic/achievements";
 import { getIdiomStats } from "../../logic/idiomDictionary";
 
 export default function Idioms() {
@@ -17,10 +19,12 @@ export default function Idioms() {
   const [refreshKey, setRefreshKey] = useState(0);
   const [idiomojiActive, setIdiomojiActive] = useState(false);
   const [idiomojiRefreshKey, setIdiomojiRefreshKey] = useState(0);
+  const [newAchievements, setNewAchievements] = useState<any[]>([]);
 
   useFocusEffect(
     useCallback(() => {
       getIdiomStats(idioms.length).then(setStats);
+      checkForNewAchievements().then(setNewAchievements);
     }, []),
   );
 
@@ -30,6 +34,7 @@ export default function Idioms() {
 
   function handleCaught() {
     setRefreshKey((k) => k + 1);
+    checkForNewAchievements().then(setNewAchievements);
   }
 
   return (
@@ -65,7 +70,15 @@ export default function Idioms() {
       <IdiomojiGameScreen
         visible={idiomojiActive}
         onClose={() => setIdiomojiActive(false)}
-        onGameEnd={() => setIdiomojiRefreshKey((k) => k + 1)}
+        onGameEnd={() => {
+          setIdiomojiRefreshKey((k) => k + 1);
+          checkForNewAchievements().then(setNewAchievements);
+        }}
+      />
+
+      <AchievementToast
+        achievements={newAchievements}
+        onDismiss={() => setNewAchievements([])}
       />
     </View>
   );

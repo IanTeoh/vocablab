@@ -1,507 +1,1077 @@
 [
   {
-    "word": "Affable",
-    "frequency": 0.584648,
+    "word": "guile",
+    "frequency": 0.549369,
     "suggestedRarity": "epic"
   },
   {
-    "word": "Belligerent",
-    "frequency": 1.311278,
+    "word": "artifice",
+    "frequency": 1.036377,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "ruse",
+    "frequency": 0.952579,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "wile",
+    "frequency": 0.192193,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "stratagem",
+    "frequency": 0.602887,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "ploy",
+    "frequency": 0.865665,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "feint",
+    "frequency": 0.270849,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "decoy",
+    "frequency": 0.470217,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "sagacious",
+    "frequency": 0.360998,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "prescient",
+    "frequency": 0.31213,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "omniscient",
+    "frequency": 0.913415,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "discerning",
+    "frequency": 1.279404,
     "suggestedRarity": "rare"
   },
   {
-    "word": "Brazen",
-    "frequency": 0.857056,
-    "suggestedRarity": "epic"
-  },
-  {
-    "word": "Callous",
-    "frequency": 0.868293,
-    "suggestedRarity": "epic"
-  },
-  {
-    "word": "Deferential",
-    "frequency": 0.529656,
-    "suggestedRarity": "epic"
-  },
-  {
-    "word": "Docile",
-    "frequency": 1.069655,
-    "suggestedRarity": "epic"
-  },
-  {
-    "word": "Earnest",
-    "frequency": 6.08662,
-    "suggestedRarity": "common"
-  },
-  {
-    "word": "Flippant",
-    "frequency": 0.333373,
-    "suggestedRarity": "epic"
-  },
-  {
-    "word": "Forthright",
-    "frequency": 0.875028,
-    "suggestedRarity": "epic"
-  },
-  {
-    "word": "Impetuous",
-    "frequency": 0.811613,
-    "suggestedRarity": "epic"
-  },
-  {
-    "word": "Insolent",
-    "frequency": 0.94041,
-    "suggestedRarity": "epic"
-  },
-  {
-    "word": "Meek",
-    "frequency": 1.567552,
-    "suggestedRarity": "rare"
-  },
-  {
-    "word": "Obstinate",
-    "frequency": 1.497667,
-    "suggestedRarity": "rare"
-  },
-  {
-    "word": "Placid",
-    "frequency": 1.229838,
-    "suggestedRarity": "rare"
-  },
-  {
-    "word": "Rambunctious",
-    "frequency": 0.138215,
-    "suggestedRarity": "legendary"
-  },
-  {
-    "word": "Reticent",
-    "frequency": 0.758381,
-    "suggestedRarity": "epic"
-  },
-  {
-    "word": "Sanguine",
-    "frequency": 1.113698,
-    "suggestedRarity": "epic"
-  },
-  {
-    "word": "Taciturn",
-    "frequency": 0.421983,
-    "suggestedRarity": "epic"
-  },
-  {
-    "word": "Timid",
-    "frequency": 2.561229,
-    "suggestedRarity": "rare"
-  },
-  {
-    "word": "Zealous",
-    "frequency": 1.671031,
-    "suggestedRarity": "rare"
-  },
-  {
-    "word": "Benevolent",
-    "frequency": 3.232094,
-    "suggestedRarity": "rare"
-  },
-  {
-    "word": "Contrite",
-    "frequency": 0.372553,
-    "suggestedRarity": "epic"
-  },
-  {
-    "word": "Demure",
-    "frequency": 0.332794,
-    "suggestedRarity": "epic"
-  },
-  {
-    "word": "Garrulous",
-    "frequency": 0.2868,
-    "suggestedRarity": "epic"
-  },
-  {
-    "word": "Pensive",
-    "frequency": 0.662461,
-    "suggestedRarity": "epic"
-  },
-  {
-    "word": "Anomaly",
-    "frequency": 3.230346,
-    "suggestedRarity": "rare"
-  },
-  {
-    "word": "Axiom",
-    "frequency": 2.029246,
-    "suggestedRarity": "rare"
-  },
-  {
-    "word": "Cogent",
+    "word": "cogent",
     "frequency": 0.961312,
     "suggestedRarity": "epic"
   },
   {
-    "word": "Corollary",
-    "frequency": 2.627431,
-    "suggestedRarity": "rare"
-  },
-  {
-    "word": "Discrepancy",
-    "frequency": 4.46967,
-    "suggestedRarity": "rare"
-  },
-  {
-    "word": "Elucidate",
-    "frequency": 1.430593,
-    "suggestedRarity": "rare"
-  },
-  {
-    "word": "Extrapolate",
-    "frequency": 0.542753,
+    "word": "incisive",
+    "frequency": 0.842615,
     "suggestedRarity": "epic"
   },
   {
-    "word": "Fallacy",
-    "frequency": 2.40939,
-    "suggestedRarity": "rare"
-  },
-  {
-    "word": "Heuristic",
-    "frequency": 2.476028,
-    "suggestedRarity": "rare"
-  },
-  {
-    "word": "Hypothetical",
-    "frequency": 5.898463,
-    "suggestedRarity": "rare"
-  },
-  {
-    "word": "Illogical",
-    "frequency": 1.160501,
+    "word": "trenchant",
+    "frequency": 0.381242,
     "suggestedRarity": "epic"
   },
   {
-    "word": "Inductive",
-    "frequency": 3.306668,
-    "suggestedRarity": "rare"
-  },
-  {
-    "word": "Innate",
-    "frequency": 4.551637,
-    "suggestedRarity": "rare"
-  },
-  {
-    "word": "Intrinsic",
-    "frequency": 10.377298,
-    "suggestedRarity": "common"
-  },
-  {
-    "word": "Lucid",
-    "frequency": 1.691382,
-    "suggestedRarity": "rare"
-  },
-  {
-    "word": "Metaphorical",
-    "frequency": 2.272344,
-    "suggestedRarity": "rare"
-  },
-  {
-    "word": "Paradox",
-    "frequency": 7.062971,
-    "suggestedRarity": "common"
-  },
-  {
-    "word": "Premise",
-    "frequency": 5.320692,
-    "suggestedRarity": "rare"
-  },
-  {
-    "word": "Rhetorical",
-    "frequency": 6.220709,
-    "suggestedRarity": "common"
-  },
-  {
-    "word": "Subjective",
-    "frequency": 14.258367,
-    "suggestedRarity": "common"
-  },
-  {
-    "word": "Synthesis",
-    "frequency": 24.688445,
-    "suggestedRarity": "common"
-  },
-  {
-    "word": "Tangential",
-    "frequency": 1.643303,
-    "suggestedRarity": "rare"
-  },
-  {
-    "word": "Theorem",
-    "frequency": 9.753232,
-    "suggestedRarity": "common"
-  },
-  {
-    "word": "Vernacular",
-    "frequency": 3.389411,
-    "suggestedRarity": "rare"
-  },
-  {
-    "word": "Cognition",
-    "frequency": 7.613387,
-    "suggestedRarity": "common"
-  },
-  {
-    "word": "Acquisition",
-    "frequency": 17.151625,
-    "suggestedRarity": "common"
-  },
-  {
-    "word": "Allocate",
-    "frequency": 2.439195,
-    "suggestedRarity": "rare"
-  },
-  {
-    "word": "Arbitrate",
-    "frequency": 0.402068,
+    "word": "canny",
+    "frequency": 0.407198,
     "suggestedRarity": "epic"
   },
   {
-    "word": "Capitalize",
-    "frequency": 1.259881,
+    "word": "savvy",
+    "frequency": 0.847059,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "strident",
+    "frequency": 0.810388,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "shrill",
+    "frequency": 1.682459,
     "suggestedRarity": "rare"
   },
   {
-    "word": "Collateral",
-    "frequency": 4.180764,
-    "suggestedRarity": "rare"
+    "word": "raucous",
+    "frequency": 0.625112,
+    "suggestedRarity": "epic"
   },
   {
-    "word": "Contingency",
-    "frequency": 4.23982,
-    "suggestedRarity": "rare"
+    "word": "guttural",
+    "frequency": 0.408327,
+    "suggestedRarity": "epic"
   },
   {
-    "word": "Deficit",
-    "frequency": 10.843118,
-    "suggestedRarity": "common"
-  },
-  {
-    "word": "Disburse",
-    "frequency": 0.13466,
+    "word": "dulcet",
+    "frequency": 0.080682,
     "suggestedRarity": "legendary"
   },
   {
-    "word": "Equity",
-    "frequency": 13.738902,
-    "suggestedRarity": "common"
-  },
-  {
-    "word": "Expedite",
-    "frequency": 0.790358,
+    "word": "reverberate",
+    "frequency": 0.252163,
     "suggestedRarity": "epic"
   },
   {
-    "word": "Franchise",
-    "frequency": 4.056264,
-    "suggestedRarity": "rare"
+    "word": "phosphorescent",
+    "frequency": 0.255085,
+    "suggestedRarity": "epic"
   },
   {
-    "word": "Incentivize",
-    "frequency": 0.008071,
+    "word": "lustrous",
+    "frequency": 0.590115,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "resplendent",
+    "frequency": 0.668676,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "scintillating",
+    "frequency": 0.245266,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "coruscating",
+    "frequency": 0.029936,
     "suggestedRarity": "legendary"
   },
   {
-    "word": "Indemnify",
-    "frequency": 0.206578,
-    "suggestedRarity": "epic"
-  },
-  {
-    "word": "Insolvent",
-    "frequency": 0.627483,
-    "suggestedRarity": "epic"
-  },
-  {
-    "word": "Liaison",
-    "frequency": 3.648972,
+    "word": "viscous",
+    "frequency": 2.643505,
     "suggestedRarity": "rare"
   },
   {
-    "word": "Liquidity",
-    "frequency": 2.680362,
-    "suggestedRarity": "rare"
-  },
-  {
-    "word": "Mandate",
-    "frequency": 5.438378,
-    "suggestedRarity": "rare"
-  },
-  {
-    "word": "Mediate",
-    "frequency": 2.744523,
-    "suggestedRarity": "rare"
-  },
-  {
-    "word": "Merger",
-    "frequency": 4.546321,
-    "suggestedRarity": "rare"
-  },
-  {
-    "word": "Portfolio",
-    "frequency": 7.539443,
-    "suggestedRarity": "common"
-  },
-  {
-    "word": "Procure",
-    "frequency": 2.245111,
-    "suggestedRarity": "rare"
-  },
-  {
-    "word": "Revenue",
-    "frequency": 22.230512,
-    "suggestedRarity": "common"
-  },
-  {
-    "word": "Solvency",
-    "frequency": 0.530604,
+    "word": "gelatinous",
+    "frequency": 0.493454,
     "suggestedRarity": "epic"
   },
   {
-    "word": "Stakeholder",
-    "frequency": 1.118847,
-    "suggestedRarity": "epic"
-  },
-  {
-    "word": "Surplus",
-    "frequency": 11.755749,
-    "suggestedRarity": "common"
-  },
-  {
-    "word": "Austere",
-    "frequency": 1.631899,
+    "word": "amorphous",
+    "frequency": 3.345519,
     "suggestedRarity": "rare"
   },
   {
-    "word": "Cacophony",
-    "frequency": 0.358925,
+    "word": "filmy",
+    "frequency": 0.206055,
     "suggestedRarity": "epic"
   },
   {
-    "word": "Cavernous",
-    "frequency": 1.211874,
+    "word": "translucent",
+    "frequency": 1.602443,
     "suggestedRarity": "rare"
   },
   {
-    "word": "Desolate",
-    "frequency": 2.176194,
-    "suggestedRarity": "rare"
-  },
-  {
-    "word": "Diaphanous",
-    "frequency": 0.166843,
-    "suggestedRarity": "epic"
-  },
-  {
-    "word": "Ebullient",
-    "frequency": 0.276637,
-    "suggestedRarity": "epic"
-  },
-  {
-    "word": "Effulgent",
-    "frequency": 0.091492,
-    "suggestedRarity": "legendary"
-  },
-  {
-    "word": "Gossamer",
-    "frequency": 0.260674,
-    "suggestedRarity": "epic"
-  },
-  {
-    "word": "Labyrinthine",
-    "frequency": 0.468199,
-    "suggestedRarity": "epic"
-  },
-  {
-    "word": "Languid",
+    "word": "languid",
     "frequency": 0.68676,
     "suggestedRarity": "epic"
   },
   {
-    "word": "Opulent",
-    "frequency": 0.622576,
+    "word": "lethargic",
+    "frequency": 0.533236,
     "suggestedRarity": "epic"
   },
   {
-    "word": "Pristine",
-    "frequency": 1.197496,
+    "word": "torpid",
+    "frequency": 0.218636,
     "suggestedRarity": "epic"
   },
   {
-    "word": "Resonant",
-    "frequency": 2.789502,
+    "word": "indolent",
+    "frequency": 0.81306,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "listless",
+    "frequency": 0.582504,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "sluggish",
+    "frequency": 1.467743,
     "suggestedRarity": "rare"
   },
   {
-    "word": "Sepulchral",
-    "frequency": 0.256924,
-    "suggestedRarity": "epic"
-  },
-  {
-    "word": "Somber",
-    "frequency": 1.252536,
+    "word": "inert",
+    "frequency": 3.366551,
     "suggestedRarity": "rare"
   },
   {
-    "word": "Sprawling",
-    "frequency": 1.243593,
+    "word": "kinetic",
+    "frequency": 6.31347,
+    "suggestedRarity": "common"
+  },
+  {
+    "word": "frenetic",
+    "frequency": 0.398342,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "colossal",
+    "frequency": 1.618536,
     "suggestedRarity": "rare"
   },
   {
-    "word": "Tumultuous",
-    "frequency": 1.001486,
+    "word": "gargantuan",
+    "frequency": 0.279483,
     "suggestedRarity": "epic"
   },
   {
-    "word": "Turbulent",
-    "frequency": 5.235118,
+    "word": "prodigious",
+    "frequency": 1.57563,
     "suggestedRarity": "rare"
   },
   {
-    "word": "Verdant",
-    "frequency": 0.425028,
+    "word": "immense",
+    "frequency": 10.092967,
+    "suggestedRarity": "common"
+  },
+  {
+    "word": "vast",
+    "frequency": 27.623749,
+    "suggestedRarity": "common"
+  },
+  {
+    "word": "minuscule",
+    "frequency": 0.565221,
     "suggestedRarity": "epic"
   },
   {
-    "word": "Vibrant",
-    "frequency": 1.798607,
+    "word": "infinitesimal",
+    "frequency": 0.992905,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "diminutive",
+    "frequency": 1.09814,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "negligible",
+    "frequency": 6.094556,
+    "suggestedRarity": "common"
+  },
+  {
+    "word": "trepidation",
+    "frequency": 0.693915,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "apprehension",
+    "frequency": 4.744115,
     "suggestedRarity": "rare"
   },
   {
-    "word": "Vivacious",
-    "frequency": 0.482097,
+    "word": "consternation",
+    "frequency": 1.389578,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "perturbation",
+    "frequency": 2.343695,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "disquiet",
+    "frequency": 0.501445,
     "suggestedRarity": "epic"
   },
   {
-    "word": "Winsome",
-    "frequency": 0.212417,
+    "word": "unease",
+    "frequency": 0.838251,
     "suggestedRarity": "epic"
   },
   {
-    "word": "Zestful",
-    "frequency": 0.057973,
+    "word": "foreboding",
+    "frequency": 0.802464,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "ominous",
+    "frequency": 2.691556,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "portentous",
+    "frequency": 0.430795,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "auspicious",
+    "frequency": 1.410306,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "inauspicious",
+    "frequency": 0.342478,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "propitious",
+    "frequency": 0.83749,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "convivial",
+    "frequency": 0.343509,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "amicable",
+    "frequency": 0.68169,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "congenial",
+    "frequency": 1.920974,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "genial",
+    "frequency": 1.300492,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "sociable",
+    "frequency": 0.894868,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "reclusive",
+    "frequency": 0.210268,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "cerebral",
+    "frequency": 14.769999,
+    "suggestedRarity": "common"
+  },
+  {
+    "word": "analytical",
+    "frequency": 13.446901,
+    "suggestedRarity": "common"
+  },
+  {
+    "word": "methodical",
+    "frequency": 1.113349,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "pragmatic",
+    "frequency": 5.890511,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "dogmatic",
+    "frequency": 2.295818,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "doctrinaire",
+    "frequency": 0.548695,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "ideological",
+    "frequency": 14.687295,
+    "suggestedRarity": "common"
+  },
+  {
+    "word": "compelling",
+    "frequency": 6.248346,
+    "suggestedRarity": "common"
+  },
+  {
+    "word": "specious",
+    "frequency": 0.603604,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "spurious",
+    "frequency": 2.117738,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "fallacious",
+    "frequency": 0.745898,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "tenable",
+    "frequency": 0.788447,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "untenable",
+    "frequency": 1.458531,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "defensible",
+    "frequency": 0.982241,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "indefensible",
+    "frequency": 0.463228,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "metamorphosis",
+    "frequency": 1.977191,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "permutation",
+    "frequency": 0.740008,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "transmutation",
+    "frequency": 0.552184,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "vicissitude",
+    "frequency": 0.081019,
     "suggestedRarity": "legendary"
   },
   {
-    "word": "Melodic",
-    "frequency": 1.708237,
-    "suggestedRarity": "rare"
-  },
-  {
-    "word": "Plaintive",
-    "frequency": 0.668518,
+    "word": "mutability",
+    "frequency": 0.325885,
     "suggestedRarity": "epic"
   },
   {
-    "word": "Candid",
-    "frequency": 1.667765,
+    "word": "fleeting",
+    "frequency": 2.21248,
     "suggestedRarity": "rare"
+  },
+  {
+    "word": "transitory",
+    "frequency": 1.915928,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "momentary",
+    "frequency": 2.915385,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "protracted",
+    "frequency": 2.59832,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "prolonged",
+    "frequency": 14.072311,
+    "suggestedRarity": "common"
+  },
+  {
+    "word": "interminable",
+    "frequency": 1.105497,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "perennial",
+    "frequency": 3.262474,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "incessant",
+    "frequency": 1.720592,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "ceaseless",
+    "frequency": 1.003163,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "unremitting",
+    "frequency": 0.615591,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "unrelenting",
+    "frequency": 0.832784,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "hegemony",
+    "frequency": 3.408633,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "dominion",
+    "frequency": 4.722971,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "sovereignty",
+    "frequency": 10.303013,
+    "suggestedRarity": "common"
+  },
+  {
+    "word": "subjugation",
+    "frequency": 0.99868,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "subjugate",
+    "frequency": 0.332168,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "oppression",
+    "frequency": 7.348202,
+    "suggestedRarity": "common"
+  },
+  {
+    "word": "tyranny",
+    "frequency": 4.458864,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "despotism",
+    "frequency": 1.60731,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "autocracy",
+    "frequency": 0.948163,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "plutocracy",
+    "frequency": 0.156287,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "theocracy",
+    "frequency": 0.395393,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "meritocracy",
+    "frequency": 0.23756,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "bountiful",
+    "frequency": 0.69644,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "copious",
+    "frequency": 1.482232,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "ample",
+    "frequency": 6.951798,
+    "suggestedRarity": "common"
+  },
+  {
+    "word": "meager",
+    "frequency": 2.077047,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "threadbare",
+    "frequency": 0.441605,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "spartan",
+    "frequency": 1.372648,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "palatable",
+    "frequency": 0.999857,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "unpalatable",
+    "frequency": 0.510978,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "savory",
+    "frequency": 0.487206,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "piquant",
+    "frequency": 0.283705,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "pungent",
+    "frequency": 1.041475,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "astringent",
+    "frequency": 0.477843,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "insipid",
+    "frequency": 0.45622,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "bland",
+    "frequency": 2.164104,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "delectable",
+    "frequency": 0.414801,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "sumptuous",
+    "frequency": 1.003207,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "lexicon",
+    "frequency": 2.175548,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "colloquialism",
+    "frequency": 0.099143,
+    "suggestedRarity": "legendary"
+  },
+  {
+    "word": "idiomatic",
+    "frequency": 0.558034,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "syntax",
+    "frequency": 7.54602,
+    "suggestedRarity": "common"
+  },
+  {
+    "word": "semantics",
+    "frequency": 5.137137,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "prose",
+    "frequency": 11.340738,
+    "suggestedRarity": "common"
+  },
+  {
+    "word": "verse",
+    "frequency": 19.624617,
+    "suggestedRarity": "common"
+  },
+  {
+    "word": "allegory",
+    "frequency": 2.560599,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "allusion",
+    "frequency": 2.954177,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "motif",
+    "frequency": 4.839729,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "virtuous",
+    "frequency": 4.041316,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "righteous",
+    "frequency": 5.079557,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "sanctimonious",
+    "frequency": 0.195487,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "moralistic",
+    "frequency": 0.73298,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "ethical",
+    "frequency": 20.370606,
+    "suggestedRarity": "common"
+  },
+  {
+    "word": "unethical",
+    "frequency": 1.166788,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "immoral",
+    "frequency": 2.999623,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "amoral",
+    "frequency": 0.495503,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "culpable",
+    "frequency": 0.567809,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "blameless",
+    "frequency": 0.628327,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "exonerate",
+    "frequency": 0.222438,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "absolve",
+    "frequency": 0.457952,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "vindicate",
+    "frequency": 0.694874,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "arbitrate",
+    "frequency": 0.402068,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "reconcile",
+    "frequency": 3.926897,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "mollify",
+    "frequency": 0.213649,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "conciliate",
+    "frequency": 0.390866,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "pacify",
+    "frequency": 0.595898,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "multitude",
+    "frequency": 5.674218,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "throng",
+    "frequency": 1.425186,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "horde",
+    "frequency": 0.945214,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "legion",
+    "frequency": 3.33455,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "contingent",
+    "frequency": 6.833462,
+    "suggestedRarity": "common"
+  },
+  {
+    "word": "cohort",
+    "frequency": 3.479968,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "retinue",
+    "frequency": 0.840478,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "entourage",
+    "frequency": 1.222176,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "edifice",
+    "frequency": 1.765429,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "citadel",
+    "frequency": 1.868698,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "bastion",
+    "frequency": 0.903133,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "sanctuary",
+    "frequency": 5.02227,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "enclave",
+    "frequency": 0.955754,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "precinct",
+    "frequency": 1.409077,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "environs",
+    "frequency": 1.169217,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "vicinity",
+    "frequency": 7.168092,
+    "suggestedRarity": "common"
+  },
+  {
+    "word": "locale",
+    "frequency": 1.504798,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "dilapidated",
+    "frequency": 0.97029,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "decrepit",
+    "frequency": 0.507922,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "ramshackle",
+    "frequency": 0.357355,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "derelict",
+    "frequency": 0.672866,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "moribund",
+    "frequency": 0.574687,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "defunct",
+    "frequency": 0.759919,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "archaic",
+    "frequency": 3.622365,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "antiquated",
+    "frequency": 0.887899,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "anachronistic",
+    "frequency": 0.715293,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "nascent",
+    "frequency": 1.261003,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "incipient",
+    "frequency": 1.681508,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "embryonic",
+    "frequency": 3.772841,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "fledgling",
+    "frequency": 0.848034,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "burgeoning",
+    "frequency": 1.263861,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "germinal",
+    "frequency": 0.964209,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "byzantine",
+    "frequency": 4.262636,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "convoluted",
+    "frequency": 0.96719,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "tortuous",
+    "frequency": 1.025742,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "circuitous",
+    "frequency": 0.479925,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "transparent",
+    "frequency": 7.68827,
+    "suggestedRarity": "common"
+  },
+  {
+    "word": "unequivocal",
+    "frequency": 1.549341,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "unambiguous",
+    "frequency": 1.880055,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "overt",
+    "frequency": 5.477336,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "patent",
+    "frequency": 13.200307,
+    "suggestedRarity": "common"
+  },
+  {
+    "word": "manifest",
+    "frequency": 11.15482,
+    "suggestedRarity": "common"
+  },
+  {
+    "word": "palpable",
+    "frequency": 2.665668,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "indelible",
+    "frequency": 0.761758,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "ineradicable",
+    "frequency": 0.224697,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "irrevocable",
+    "frequency": 0.997963,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "immutable",
+    "frequency": 1.507208,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "inexorable",
+    "frequency": 1.148296,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "implacable",
+    "frequency": 0.947937,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "inscrutable",
+    "frequency": 0.813179,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "impenetrable",
+    "frequency": 1.366916,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "unfathomable",
+    "frequency": 0.608515,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "imponderable",
+    "frequency": 0.153817,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "stoic",
+    "frequency": 1.759245,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "stoicism",
+    "frequency": 0.722733,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "epicurean",
+    "frequency": 0.491701,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "hedonistic",
+    "frequency": 0.416687,
+    "suggestedRarity": "epic"
+  },
+  {
+    "word": "ascetic",
+    "frequency": 2.058124,
+    "suggestedRarity": "rare"
+  },
+  {
+    "word": "puritanical",
+    "frequency": 0.528261,
+    "suggestedRarity": "epic"
   }
 ]

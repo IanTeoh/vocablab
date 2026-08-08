@@ -1,5 +1,6 @@
 import * as Haptics from "expo-haptics";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useFocusEffect } from "expo-router";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import {
   ActivityIndicator,
   Animated,
@@ -13,7 +14,7 @@ import { Colors, Fonts, Radius, Spacing } from "../constants/theme";
 import idioms from "../data/idioms.json";
 import {
   addIdiomToDictionary,
-  isTodayIdiomCompleted,
+  getIdiomDictionary,
 } from "../logic/idiomDictionary";
 import { getIdiomOfTheDay } from "../logic/idiomOfDay";
 import { buildQuizOptions } from "../logic/quiz";
@@ -26,7 +27,7 @@ export default function IdiomOfDayCard({
   onCaught?: () => void;
 }) {
   const [today, setToday] = useState<any | null>(null);
-  const [completedToday, setCompletedToday] = useState<boolean | null>(null);
+  const [alreadyCaught, setAlreadyCaught] = useState<boolean | null>(null);
   const [modalVisible, setModalVisible] = useState(false);
   const [selected, setSelected] = useState<string | null>(null);
   const [revealed, setRevealed] = useState(false);
@@ -35,10 +36,18 @@ export default function IdiomOfDayCard({
 
   const fadeAnim = useRef(new Animated.Value(0)).current;
 
+  useFocusEffect(
+    useCallback(() => {
+      getIdiomOfTheDay(idioms).then(setToday);
+    }, []),
+  );
+
   useEffect(() => {
-    getIdiomOfTheDay(idioms).then(setToday);
-    isTodayIdiomCompleted().then(setCompletedToday);
-  }, []);
+    if (!today) return;
+    getIdiomDictionary().then((dict: any[]) => {
+      setAlreadyCaught(dict.some((i) => i.word === today.word));
+    });
+  }, [today]);
 
   const options = useMemo(
     () => (today ? buildQuizOptions(today, idioms) : []),
@@ -73,7 +82,7 @@ export default function IdiomOfDayCard({
   async function handleAddToDictionary() {
     await addIdiomToDictionary(today);
     setAdded(true);
-    setCompletedToday(true);
+    setAlreadyCaught(true);
     onCaught?.();
     Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
     setTimeout(() => setModalVisible(false), 900);
@@ -93,14 +102,16 @@ export default function IdiomOfDayCard({
     <View style={styles.card}>
       <Text style={styles.label}>Idiom of the Day</Text>
 
-      {completedToday ? (
+      {alreadyCaught ? (
         <PressableScale
           style={styles.completedContainer}
           onPress={() => setDetailVisible(true)}
         >
           {today.icon && <Text style={styles.icon}>{today.icon}</Text>}
           <Text style={styles.word}>{today.word}</Text>
-          <Text style={styles.completedBadge}>✅ Completed for today</Text>
+          <Text style={styles.completedBadge}>
+            ✅ Already in your collection
+          </Text>
           <Text style={styles.tapHint}>Tap to view meaning</Text>
         </PressableScale>
       ) : (

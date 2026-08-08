@@ -2050,5 +2050,421 @@
     "icon": "\ud83c\udf10",
     "example": "Xenophobia is an irrational fear of foreigners.",
     "derivatives": ["xenophobia", "xenon"]
+  },
+  {
+    "root": "Agri",
+    "origin": "Latin",
+    "meaning": "field",
+    "icon": "\ud83c\udf3e",
+    "example": "Agriculture is the practice of farming a field of crops.",
+    "derivatives": ["agriculture", "agronomy", "agrarian"]
+  },
+  {
+    "root": "Alt",
+    "origin": "Latin",
+    "meaning": "high",
+    "icon": "\u26f0\ufe0f",
+    "example": "The plane's altitude increased as it began to exalt over the clouds.",
+    "derivatives": ["altitude", "exalt", "altimeter"]
+  },
+  {
+    "root": "Ambul",
+    "origin": "Latin",
+    "meaning": "to walk",
+    "icon": "\ud83d\udeb6",
+    "example": "The ambulance rushed the patient who could no longer amble on her own.",
+    "derivatives": ["ambulance", "amble", "perambulate"]
+  },
+  {
+    "root": "Apt",
+    "origin": "Latin",
+    "meaning": "fit",
+    "icon": "\u2705",
+    "example": "She had a natural aptitude, but it took time to adapt fully.",
+    "derivatives": ["adapt", "aptitude", "inept"]
+  },
+  {
+    "root": "Arm",
+    "origin": "Latin",
+    "meaning": "weapon",
+    "icon": "\ud83d\udee1\ufe0f",
+    "example": "The army was ordered to disarm before the treaty was signed.",
+    "derivatives": ["army", "armor", "disarm", "armament"]
+  },
+  {
+    "root": "Art",
+    "origin": "Latin",
+    "meaning": "skill",
+    "icon": "\ud83c\udfa8",
+    "example": "The artisan used great skill to craft the artificial flower.",
+    "derivatives": ["artificial", "artisan", "artifact"]
+  },
+  {
+    "root": "Aug",
+    "origin": "Latin",
+    "meaning": "to increase",
+    "icon": "\ud83d\udcc8",
+    "example": "The company hoped to augment its sales this quarter.",
+    "derivatives": ["augment", "august"]
+  },
+  {
+    "root": "Bar",
+    "origin": "Greek",
+    "meaning": "weight or pressure",
+    "icon": "\ud83c\udf21\ufe0f",
+    "example": "A barometer measures the weight of air pressure.",
+    "derivatives": ["barometer", "isobar"]
+  },
+  {
+    "root": "Bibl",
+    "origin": "Greek",
+    "meaning": "book",
+    "icon": "\ud83d\udcda",
+    "example": "A bibliophile loves collecting books, and a bibliography lists them.",
+    "derivatives": ["bibliography", "bibliophile", "bibliophobia"]
+  },
+  {
+    "root": "Brev",
+    "origin": "Latin",
+    "meaning": "short",
+    "icon": "\u2702\ufe0f",
+    "example": "In the interest of brevity, please keep your answer brief.",
+    "derivatives": ["brief", "abbreviate", "brevity"]
+  },
+  {
+    "root": "Cad",
+    "origin": "Latin",
+    "meaning": "to fall",
+    "icon": "\u2b07\ufe0f",
+    "example": "It was no accident that the story ended in a decadent fall.",
+    "derivatives": ["accident", "decadent", "coincide", "cascade"]
+  },
+  {
+    "root": "Calor",
+    "origin": "Latin",
+    "meaning": "heat",
+    "icon": "\ud83d\udd25",
+    "example": "A calorie is technically a unit of heat energy.",
+    "derivatives": ["calorie", "calorific"]
+  },
+  {
+    "root": "Camp",
+    "origin": "Latin",
+    "meaning": "field",
+    "icon": "\ud83c\udfd5\ufe0f",
+    "example": "Students gathered on the campus for the political campaign.",
+    "derivatives": ["campus", "campaign", "encampment"]
+  },
+  {
+    "root": "Capit",
+    "origin": "Latin",
+    "meaning": "head",
+    "icon": "\ud83d\uddfd",
+    "example": "The captain led the capital city's defense.",
+    "derivatives": ["captain", "capital", "decapitate", "capitalize"]
+  },
+  {
+    "root": "Carn",
+    "origin": "Latin",
+    "meaning": "flesh",
+    "icon": "\ud83c\udf56",
+    "example": "A carnivore eats flesh, and Carnival was once a farewell to meat before fasting.",
+    "derivatives": ["carnivore", "carnal", "incarnate", "carnival"]
+  },
+  {
+    "root": "Ced",
+    "origin": "Latin",
+    "meaning": "to go or yield",
+    "icon": "\u27a1\ufe0f",
+    "example": "The team decided to proceed once they had access to the building.",
+    "derivatives": ["proceed", "recede", "access", "concede"]
+  },
+  {
+    "root": "Cide",
+    "origin": "Latin",
+    "meaning": "to kill",
+    "icon": "\u2620\ufe0f",
+    "example": "The detective investigated the homicide using evidence about the pesticide.",
+    "derivatives": ["homicide", "suicide", "pesticide", "insecticide"]
+  },
+  {
+    "root": "Cit",
+    "origin": "Latin",
+    "meaning": "to call or summon",
+    "icon": "\ud83d\udce3",
+    "example": "The professor was often cited for citing sources that would excite her students.",
+    "derivatives": ["cite", "excite", "incite", "citation"]
+  },
+  {
+    "root": "Clam",
+    "origin": "Latin",
+    "meaning": "to shout",
+    "icon": "\ud83d\udce2",
+    "example": "She had to exclaim loudly over the clamor of the crowd.",
+    "derivatives": ["exclaim", "proclaim", "clamor", "acclaim"]
+  },
+  {
+    "root": "Clar",
+    "origin": "Latin",
+    "meaning": "clear",
+    "icon": "\ud83d\udd0d",
+    "example": "Please clarify your statement so we have more clarity.",
+    "derivatives": ["clarify", "declare", "clarity"]
+  },
+  {
+    "root": "Clud",
+    "origin": "Latin",
+    "meaning": "to close",
+    "icon": "\ud83d\udeaa",
+    "example": "She had to conclude the meeting after they decided to exclude the topic.",
+    "derivatives": ["conclude", "exclude", "claustrophobia", "include"]
+  },
+  {
+    "root": "Cord",
+    "origin": "Latin",
+    "meaning": "heart",
+    "icon": "\u2764\ufe0f",
+    "example": "Their cordial relationship helped them reach an accord after the discord.",
+    "derivatives": ["cordial", "accord", "discord"]
+  },
+  {
+    "root": "Crea",
+    "origin": "Latin",
+    "meaning": "to make",
+    "icon": "\u2728",
+    "example": "Artists create things that seem to recreate the world.",
+    "derivatives": ["create", "creature", "recreate", "creativity"]
+  },
+  {
+    "root": "Crypt",
+    "origin": "Greek",
+    "meaning": "hidden",
+    "icon": "\ud83d\udd10",
+    "example": "The cryptic message needed to be decrypted before anyone could read it.",
+    "derivatives": ["cryptic", "encrypt", "cryptography", "decrypt"]
+  },
+  {
+    "root": "Cub",
+    "origin": "Latin",
+    "meaning": "to lie down",
+    "icon": "\ud83d\udecf\ufe0f",
+    "example": "The eggs were kept warm in the incubator until they were ready to hatch.",
+    "derivatives": ["cubicle", "incubate"]
+  },
+  {
+    "root": "Curs",
+    "origin": "Latin",
+    "meaning": "to run",
+    "icon": "\ud83c\udfc3",
+    "example": "The current flowed quickly past where the cursor blinked on screen.",
+    "derivatives": ["current", "cursor", "occur", "excursion"]
+  },
+  {
+    "root": "Dent",
+    "origin": "Latin",
+    "meaning": "tooth",
+    "icon": "\ud83e\uddb7",
+    "example": "The dentist checked her dental records for any indentation.",
+    "derivatives": ["dental", "dentist", "indent", "denture"]
+  },
+  {
+    "root": "Doct",
+    "origin": "Latin",
+    "meaning": "to teach",
+    "icon": "\ud83c\udf93",
+    "example": "The doctor had to document every lesson before she could indoctrinate new students.",
+    "derivatives": ["doctor", "document", "indoctrinate", "doctrine"]
+  },
+  {
+    "root": "Dom",
+    "origin": "Latin",
+    "meaning": "home",
+    "icon": "\ud83c\udfe0",
+    "example": "The domestic cat made its home under the dome of the porch.",
+    "derivatives": ["domestic", "domicile", "dome"]
+  },
+  {
+    "root": "Err",
+    "origin": "Latin",
+    "meaning": "to wander or mistake",
+    "icon": "\u274c",
+    "example": "The error was caused by an erratic mistake in the calculation.",
+    "derivatives": ["error", "erratic", "erroneous"]
+  },
+  {
+    "root": "Fab",
+    "origin": "Latin",
+    "meaning": "to speak or tale",
+    "icon": "\ud83d\udcd6",
+    "example": "The fable was such a fabulous story that everyone found her affable.",
+    "derivatives": ["fable", "fabulous", "affable"]
+  },
+  {
+    "root": "Fig",
+    "origin": "Latin",
+    "meaning": "to shape",
+    "icon": "\ud83d\udd37",
+    "example": "You can configure the figure until it's no longer disfigured.",
+    "derivatives": ["figure", "configure", "disfigure"]
+  },
+  {
+    "root": "Flor",
+    "origin": "Latin",
+    "meaning": "flower",
+    "icon": "\ud83c\udf38",
+    "example": "The florist arranged the floral display so the business could flourish.",
+    "derivatives": ["floral", "flourish", "florist"]
+  },
+  {
+    "root": "Flu",
+    "origin": "Latin",
+    "meaning": "to flow",
+    "icon": "\ud83c\udf0a",
+    "example": "A fluent speaker lets ideas flow with influence and ease.",
+    "derivatives": ["fluent", "influence", "flux", "fluid"]
+  },
+  {
+    "root": "Fort",
+    "origin": "Latin",
+    "meaning": "strong",
+    "icon": "\ud83d\udcaa",
+    "example": "It took great effort and fortitude to defend the fortress.",
+    "derivatives": ["fortress", "fortitude", "effort", "fortify"]
+  },
+  {
+    "root": "Frig",
+    "origin": "Latin",
+    "meaning": "cold",
+    "icon": "\u2744\ufe0f",
+    "example": "You should refrigerate anything that shouldn't be left in a frigid room.",
+    "derivatives": ["refrigerate", "frigid"]
+  },
+  {
+    "root": "Fund",
+    "origin": "Latin",
+    "meaning": "bottom or base",
+    "icon": "\ud83c\udfd7\ufe0f",
+    "example": "The foundation was built on a fundamental understanding of the ground.",
+    "derivatives": ["foundation", "fundamental", "refund"]
+  },
+  {
+    "root": "Gastro",
+    "origin": "Greek",
+    "meaning": "stomach",
+    "icon": "\ud83c\udf7d\ufe0f",
+    "example": "A gastric issue kept her from enjoying the gastronomy tour.",
+    "derivatives": ["gastric", "gastronomy", "gastritis"]
+  },
+  {
+    "root": "Glob",
+    "origin": "Latin",
+    "meaning": "ball or sphere",
+    "icon": "\ud83c\udf10",
+    "example": "The globe is a global symbol shaped like a globular ball.",
+    "derivatives": ["global", "globe", "globular"]
+  },
+  {
+    "root": "Grand",
+    "origin": "Latin",
+    "meaning": "great",
+    "icon": "\ud83c\udff0",
+    "example": "The grandiose ballroom was known for its sheer grandeur.",
+    "derivatives": ["grandiose", "grandeur", "aggrandize"]
+  },
+  {
+    "root": "Habit",
+    "origin": "Latin",
+    "meaning": "to have or live",
+    "icon": "\ud83c\udfe1",
+    "example": "Animals inhabit their natural habitat out of habitual instinct.",
+    "derivatives": ["habitat", "inhabit", "habitual", "cohabit"]
+  },
+  {
+    "root": "Helio",
+    "origin": "Greek",
+    "meaning": "sun",
+    "icon": "\u2600\ufe0f",
+    "example": "A heliocentric model places the sun, not the earth, at the center.",
+    "derivatives": ["heliocentric", "helium"]
+  },
+  {
+    "root": "Acu",
+    "origin": "Latin",
+    "meaning": "sharp or needle",
+    "icon": "\ud83d\udccd",
+    "example": "Acupuncture uses sharp, acute needles.",
+    "derivatives": ["acute", "acupuncture", "acuity"]
+  },
+  {
+    "root": "Merg",
+    "origin": "Latin",
+    "meaning": "to dip or sink",
+    "icon": "\ud83c\udf0a",
+    "example": "The submarine had to submerge and emerge without being detected.",
+    "derivatives": ["submerge", "emerge", "merger", "immerse"]
+  },
+  {
+    "root": "Norm",
+    "origin": "Latin",
+    "meaning": "rule or standard",
+    "icon": "\ud83d\udccf",
+    "example": "It's not normal to abnormally ignore every norm.",
+    "derivatives": ["normal", "abnormal", "enormous"]
+  },
+  {
+    "root": "Ora",
+    "origin": "Latin",
+    "meaning": "to speak",
+    "icon": "\ud83d\udde3\ufe0f",
+    "example": "The orator gave an eloquent oration to the crowd.",
+    "derivatives": ["orator", "oration", "oral", "adore"]
+  },
+  {
+    "root": "Pater",
+    "origin": "Latin",
+    "meaning": "father",
+    "icon": "\ud83d\udc68",
+    "example": "The patriarch was seen as a paternal figure to everyone.",
+    "derivatives": ["paternal", "patriarch", "patriot"]
+  },
+  {
+    "root": "Pict",
+    "origin": "Latin",
+    "meaning": "to paint or picture",
+    "icon": "\ud83c\udfa8",
+    "example": "The artist tried to depict the scene as picturesque as possible.",
+    "derivatives": ["picture", "depict", "picturesque", "pictorial"]
+  },
+  {
+    "root": "Sanct",
+    "origin": "Latin",
+    "meaning": "holy",
+    "icon": "\u26ea",
+    "example": "The sanctuary was considered a sacred and sanctioned place.",
+    "derivatives": ["sanctuary", "sanction", "sacred", "sanctify"]
+  },
+  {
+    "root": "Tempor",
+    "origin": "Latin",
+    "meaning": "time",
+    "icon": "\u23f3",
+    "example": "The temporary shelter was only meant to last a short time.",
+    "derivatives": ["temporary", "contemporary", "temporal"]
+  },
+  {
+    "root": "Vert",
+    "origin": "Latin",
+    "meaning": "to turn",
+    "icon": "\ud83d\udd04",
+    "example": "She had to convert the plan after the situation took an unexpected turn.",
+    "derivatives": ["convert", "invert", "avert", "vertigo"]
+  },
+  {
+    "root": "Vig",
+    "origin": "Latin",
+    "meaning": "lively or awake",
+    "icon": "\ud83d\udc41\ufe0f",
+    "example": "A vigilant guard stays awake and alert through the night.",
+    "derivatives": ["vigilant", "vigor", "invigorate", "vigilante"]
   }
 ]

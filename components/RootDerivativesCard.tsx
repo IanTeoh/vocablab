@@ -1,9 +1,9 @@
 import { useFocusEffect } from "expo-router";
-import { useCallback, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import {
+  FlatList,
   Modal,
   SafeAreaView,
-  ScrollView,
   StyleSheet,
   Text,
   TextInput,
@@ -17,14 +17,33 @@ import {
 } from "../logic/rootDerivativesHighScore";
 import { getRootDictionary } from "../logic/rootDictionary";
 import PressableScale from "./PressableScale";
+import RulesModal from "./RulesModal";
+
+const RULES = [
+  "Pick a root you've already caught in Root of the Day — tap a root to see your personal best with it first.",
+  "You get 60 seconds to type as many real words derived from that root as you can.",
+  "Wrong or duplicate guesses cost nothing — just try again.",
+  "You get 1 hint per round, revealing a word you haven't found yet.",
+  "Your best score is saved both per-root and as an overall record.",
+];
 
 const MIN_ROOTS_TO_UNLOCK = 1;
 const SEARCH_THRESHOLD = 20;
 
+function chunkArray(arr: any[], size: number) {
+  const chunks = [];
+  for (let i = 0; i < arr.length; i += size) {
+    chunks.push(arr.slice(i, i + size));
+  }
+  return chunks;
+}
+
 export default function RootDerivativesCard({
   onStart,
+  refreshKey,
 }: {
   onStart: (root: any) => void;
+  refreshKey?: number;
 }) {
   const [caughtRoots, setCaughtRoots] = useState<any[]>([]);
   const [highScore, setHighScore] = useState<{
@@ -37,6 +56,7 @@ export default function RootDerivativesCard({
     null,
   );
   const [rootSearch, setRootSearch] = useState("");
+  const [rulesVisible, setRulesVisible] = useState(false);
 
   useFocusEffect(
     useCallback(() => {
@@ -45,13 +65,17 @@ export default function RootDerivativesCard({
     }, []),
   );
 
+  // Refresh when a root is actually caught elsewhere on this tab —
+  // not on every tap, so opening the picker never has to wait on
+  // AsyncStorage.
+  useEffect(() => {
+    getRootDictionary().then(setCaughtRoots);
+  }, [refreshKey]);
+
   function openPicker() {
-    getRootDictionary().then((dict) => {
-      setCaughtRoots(dict);
-      setSelectedRoot(null);
-      setRootSearch("");
-      setModalVisible(true);
-    });
+    setSelectedRoot(null);
+    setRootSearch("");
+    setModalVisible(true);
   }
 
   function handleChipPress(root: any) {
@@ -78,6 +102,12 @@ export default function RootDerivativesCard({
   return (
     <View style={styles.card}>
       <View style={styles.accentStripe} />
+      <PressableScale
+        style={styles.helpButton}
+        onPress={() => setRulesVisible(true)}
+      >
+        <Text style={styles.helpButtonText}>?</Text>
+      </PressableScale>
       <View style={styles.content}>
         <Text style={styles.gameIcon}>🧩</Text>
         <Text style={styles.title}>Root Derivatives</Text>
@@ -138,44 +168,38 @@ export default function RootDerivativesCard({
                   />
                 )}
 
-                {caughtRoots.length >= SEARCH_THRESHOLD ? (
-                  <ScrollView
-                    style={styles.rootScroll}
-                    keyboardShouldPersistTaps="handled"
-                  >
+                <FlatList
+                  style={styles.rootScroll}
+                  keyboardShouldPersistTaps="handled"
+                  data={chunkArray(
+                    caughtRoots.filter((r) =>
+                      r.root
+                        .toLowerCase()
+                        .includes(rootSearch.trim().toLowerCase()),
+                    ),
+                    3,
+                  )}
+                  keyExtractor={(row: any[], index: number) =>
+                    `row-${index}-${row[0]?.root}`
+                  }
+                  initialNumToRender={10}
+                  windowSize={5}
+                  maxToRenderPerBatch={10}
+                  renderItem={({ item: row }: { item: any[] }) => (
                     <View style={styles.rootGrid}>
-                      {caughtRoots
-                        .filter((r) =>
-                          r.root
-                            .toLowerCase()
-                            .includes(rootSearch.trim().toLowerCase()),
-                        )
-                        .map((r) => (
-                          <PressableScale
-                            key={r.root}
-                            style={styles.rootChip}
-                            onPress={() => handleChipPress(r)}
-                          >
-                            <Text style={styles.rootChipIcon}>{r.icon}</Text>
-                            <Text style={styles.rootChipText}>{r.root}</Text>
-                          </PressableScale>
-                        ))}
+                      {row.map((r) => (
+                        <PressableScale
+                          key={r.root}
+                          style={styles.rootChip}
+                          onPress={() => handleChipPress(r)}
+                        >
+                          <Text style={styles.rootChipIcon}>{r.icon}</Text>
+                          <Text style={styles.rootChipText}>{r.root}</Text>
+                        </PressableScale>
+                      ))}
                     </View>
-                  </ScrollView>
-                ) : (
-                  <View style={styles.rootGrid}>
-                    {caughtRoots.map((r) => (
-                      <PressableScale
-                        key={r.root}
-                        style={styles.rootChip}
-                        onPress={() => handleChipPress(r)}
-                      >
-                        <Text style={styles.rootChipIcon}>{r.icon}</Text>
-                        <Text style={styles.rootChipText}>{r.root}</Text>
-                      </PressableScale>
-                    ))}
-                  </View>
-                )}
+                  )}
+                />
 
                 <PressableScale
                   style={styles.cancelButton}
@@ -218,6 +242,13 @@ export default function RootDerivativesCard({
           </View>
         </SafeAreaView>
       </Modal>
+
+      <RulesModal
+        visible={rulesVisible}
+        onClose={() => setRulesVisible(false)}
+        title="🧩 Root Derivatives Rules"
+        rules={RULES}
+      />
     </View>
   );
 }
@@ -240,6 +271,25 @@ const styles = StyleSheet.create({
   accentStripe: {
     height: 5,
     backgroundColor: Colors.accent,
+  },
+  helpButton: {
+    position: "absolute",
+    top: 13,
+    right: 12,
+    width: 24,
+    height: 24,
+    borderRadius: 12,
+    borderWidth: 1,
+    borderColor: Colors.border,
+    backgroundColor: Colors.surface,
+    alignItems: "center",
+    justifyContent: "center",
+    zIndex: 10,
+  },
+  helpButtonText: {
+    fontFamily: Fonts.bodySemiBold,
+    fontSize: 13,
+    color: Colors.inkMuted,
   },
   content: {
     padding: Spacing.lg,

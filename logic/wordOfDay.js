@@ -11,21 +11,21 @@ function getTodayDateString(date = new Date()) {
 
 export async function getWordOfTheDay(wordList) {
   const today = getTodayDateString();
-
-  // Word of the Day is drawn exclusively from Legendary words —
-  // Word Adventure never touches this tier.
-  const legendaryWords = wordList.filter((w) => w.rarity === "legendary");
-  const pool = legendaryWords.length > 0 ? legendaryWords : wordList;
-
   const raw = await AsyncStorage.getItem(WORD_OF_DAY_KEY);
   const saved = raw ? JSON.parse(raw) : null;
 
   if (saved && saved.date === today) {
-    const word = pool.find((w) => w.word === saved.word);
+    const word = wordList.find((w) => w.word === saved.word);
     if (word) return word;
   }
 
+  // Pull from Epic and Legendary together — Legendary alone is too
+  // small a pool now to avoid feeling repetitive day to day.
+  const pool = wordList.filter(
+    (w) => w.rarity === "epic" || w.rarity === "legendary",
+  );
   const randomWord = pool[Math.floor(Math.random() * pool.length)];
+
   await AsyncStorage.setItem(
     WORD_OF_DAY_KEY,
     JSON.stringify({ date: today, word: randomWord.word }),
