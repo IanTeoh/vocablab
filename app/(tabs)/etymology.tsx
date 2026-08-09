@@ -1,41 +1,27 @@
-import { useFocusEffect } from "expo-router";
-import { useCallback, useEffect, useState } from "react";
+import { useState } from "react";
 import { ScrollView, StyleSheet, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import AchievementToast from "../../components/AchievementToast";
 import BackgroundPattern from "../../components/BackgroundPattern";
+import FadeInView from "../../components/FadeInView";
 import LoanwordGuessCard from "../../components/LoanwordGuessCard";
 import RootDerivativesCard from "../../components/RootDerivativesCard";
 import RootDerivativesGameScreen from "../../components/RootDerivativesGameScreen";
 import RootOfDayCard from "../../components/RootOfDayCard";
 import RootPracticeCard from "../../components/RootPracticeCard";
+import SegmentedTabs from "../../components/SegmentedTabs";
 import { Colors, Fonts, Radius, Spacing } from "../../constants/theme";
-import roots from "../../data/roots.json";
-import { checkForNewAchievements } from "../../logic/achievements";
-import { getRootStats } from "../../logic/rootDictionary";
+
+const SEGMENTS = ["Learn", "Games"];
 
 export default function Etymology() {
-  const [stats, setStats] = useState<any | null>(null);
   const [refreshKey, setRefreshKey] = useState(0);
   const [activeDerivativesRoot, setActiveDerivativesRoot] = useState<
     any | null
   >(null);
-  const [newAchievements, setNewAchievements] = useState<any[]>([]);
-
-  useFocusEffect(
-    useCallback(() => {
-      getRootStats(roots.length).then(setStats);
-      checkForNewAchievements().then(setNewAchievements);
-    }, []),
-  );
-
-  useEffect(() => {
-    getRootStats(roots.length).then(setStats);
-  }, [refreshKey]);
+  const [segment, setSegment] = useState("Learn");
 
   function handleCaught() {
     setRefreshKey((k) => k + 1);
-    checkForNewAchievements().then(setNewAchievements);
   }
 
   return (
@@ -45,38 +31,42 @@ export default function Etymology() {
         <ScrollView contentContainerStyle={styles.container}>
           <Text style={styles.title}>Etymology</Text>
 
-          {stats && (
-            <View style={styles.statsRow}>
-              <View style={styles.statBox}>
-                <Text style={styles.statNumber}>{stats.rootsCollected}</Text>
-                <Text style={styles.statLabel}>Roots Caught</Text>
-              </View>
-              <View style={styles.statBox}>
-                <Text style={styles.statNumber}>{stats.percentComplete}%</Text>
-                <Text style={styles.statLabel}>Complete</Text>
-              </View>
-            </View>
+          <SegmentedTabs
+            segments={SEGMENTS}
+            active={segment}
+            onChange={setSegment}
+          />
+
+          {segment === "Learn" && (
+            <>
+              <FadeInView delay={0}>
+                <RootOfDayCard onCaught={handleCaught} />
+              </FadeInView>
+              <FadeInView delay={80}>
+                <RootPracticeCard onCaught={handleCaught} />
+              </FadeInView>
+            </>
           )}
 
-          <RootOfDayCard onCaught={handleCaught} />
-          <RootPracticeCard onCaught={handleCaught} />
-          <RootDerivativesCard
-            onStart={(root) => setActiveDerivativesRoot(root)}
-            refreshKey={refreshKey}
-          />
-          <LoanwordGuessCard />
+          {segment === "Games" && (
+            <>
+              <FadeInView delay={0}>
+                <RootDerivativesCard
+                  onStart={(root) => setActiveDerivativesRoot(root)}
+                  refreshKey={refreshKey}
+                />
+              </FadeInView>
+              <FadeInView delay={80}>
+                <LoanwordGuessCard />
+              </FadeInView>
+            </>
+          )}
         </ScrollView>
       </SafeAreaView>
 
       <RootDerivativesGameScreen
         root={activeDerivativesRoot}
         onClose={() => setActiveDerivativesRoot(null)}
-        onRoundEnd={() => checkForNewAchievements().then(setNewAchievements)}
-      />
-
-      <AchievementToast
-        achievements={newAchievements}
-        onDismiss={() => setNewAchievements([])}
       />
     </View>
   );

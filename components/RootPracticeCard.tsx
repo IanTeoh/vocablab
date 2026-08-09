@@ -6,8 +6,8 @@ import { Colors, Fonts, Radius, Spacing } from "../constants/theme";
 import allRoots from "../data/roots.json";
 import { getLives, loseLife, MAX_LIVES } from "../logic/lives";
 import {
-    addRootToDictionary,
-    getRootDictionary,
+  addRootToDictionary,
+  getRootDictionary,
 } from "../logic/rootDictionary";
 import { pickUncaughtRoot } from "../logic/rootPracticeHelpers";
 import { buildRootQuizOptions } from "../logic/rootQuiz";

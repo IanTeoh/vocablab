@@ -17,7 +17,6 @@ import {
   useSafeAreaInsets,
 } from "react-native-safe-area-context";
 import AchievementsModal from "../../components/AchievementsModal";
-import AchievementToast from "../../components/AchievementToast";
 import BackgroundPattern from "../../components/BackgroundPattern";
 import PressableScale from "../../components/PressableScale";
 import WordDetailModal from "../../components/WordDetailModal";
@@ -25,8 +24,8 @@ import { Colors, Fonts, Radius, Spacing } from "../../constants/theme";
 import idioms from "../../data/idioms.json";
 import roots from "../../data/roots.json";
 import words from "../../data/words.json";
-import { checkForNewAchievements } from "../../logic/achievements";
 import { getCategoryProgress } from "../../logic/categories";
+import { getContextQuizHighScore } from "../../logic/contextQuizHighScore";
 import { learnEverything } from "../../logic/devTools";
 import { getDictionary, getStats, resetAllData } from "../../logic/dictionary";
 import { getIdiomDictionary } from "../../logic/idiomDictionary";
@@ -36,6 +35,7 @@ import { getLoanwordHighScore } from "../../logic/loanwordHighScore";
 import { getRarityStyle } from "../../logic/rarity";
 import { getOverallDerivativesHighScore } from "../../logic/rootDerivativesHighScore";
 import { getRootDictionary } from "../../logic/rootDictionary";
+import { getUnscrambleHighScore } from "../../logic/unscrambleHighScore";
 
 const { width: SCREEN_WIDTH } = Dimensions.get("window");
 
@@ -61,6 +61,12 @@ export default function Profile() {
   const [idiomojiHighScore, setIdiomojiHighScore] = useState<number | null>(
     null,
   );
+  const [unscrambleHighScore, setUnscrambleHighScore] = useState<number | null>(
+    null,
+  );
+  const [contextQuizHighScore, setContextQuizHighScore] = useState<
+    number | null
+  >(null);
   const [adventureLevel, setAdventureLevel] = useState<number | null>(null);
   const [selectedCategory, setSelectedCategory] = useState<any | null>(null);
   const [selectedWord, setSelectedWord] = useState<any | null>(null);
@@ -68,7 +74,6 @@ export default function Profile() {
   const [statsModalVisible, setStatsModalVisible] = useState(false);
   const [achievementsModalVisible, setAchievementsModalVisible] =
     useState(false);
-  const [newAchievements, setNewAchievements] = useState<any[]>([]);
   const insets = useSafeAreaInsets();
   const slideAnim = useRef(new Animated.Value(SCREEN_WIDTH)).current;
 
@@ -112,7 +117,8 @@ export default function Profile() {
       );
       getLoanwordHighScore().then(setLoanwordHighScore);
       getIdiomojiHighScore().then(setIdiomojiHighScore);
-      checkForNewAchievements().then(setNewAchievements);
+      getUnscrambleHighScore().then(setUnscrambleHighScore);
+      getContextQuizHighScore().then(setContextQuizHighScore);
       getSessionsCompletedCount().then((count) => setAdventureLevel(count + 1));
     }, []),
   );
@@ -716,6 +722,18 @@ export default function Profile() {
                 <Text style={styles.statNumber}>{adventureLevel ?? "-"}</Text>
                 <Text style={styles.statLabel}>Adventure Level</Text>
               </View>
+              <View style={styles.statBox}>
+                <Text style={styles.statNumber}>
+                  {unscrambleHighScore ?? 0}
+                </Text>
+                <Text style={styles.statLabel}>🔤 Unscramble Best</Text>
+              </View>
+              <View style={styles.statBox}>
+                <Text style={styles.statNumber}>
+                  {contextQuizHighScore ?? 0}
+                </Text>
+                <Text style={styles.statLabel}>📝 Context Clues Best</Text>
+              </View>
             </View>
 
             <Text style={styles.statsSectionLabel}>Idioms</Text>
@@ -777,11 +795,6 @@ export default function Profile() {
       <AchievementsModal
         visible={achievementsModalVisible}
         onClose={() => setAchievementsModalVisible(false)}
-      />
-
-      <AchievementToast
-        achievements={newAchievements}
-        onDismiss={() => setNewAchievements([])}
       />
     </SafeAreaView>
   );

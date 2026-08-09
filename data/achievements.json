@@ -3,7 +3,7 @@
     "id": "words_1",
     "title": "First Catch",
     "description": "Catch your first word.",
-    "icon": "📖",
+    "icon": "\ud83d\udcd6",
     "type": "words_total",
     "threshold": 1
   },
@@ -11,7 +11,7 @@
     "id": "words_10",
     "title": "Getting Started",
     "description": "Catch 10 words.",
-    "icon": "📗",
+    "icon": "\ud83d\udcd7",
     "type": "words_total",
     "threshold": 10
   },
@@ -19,7 +19,7 @@
     "id": "words_25",
     "title": "Building a Bank",
     "description": "Catch 25 words.",
-    "icon": "📘",
+    "icon": "\ud83d\udcd8",
     "type": "words_total",
     "threshold": 25
   },
@@ -27,7 +27,7 @@
     "id": "words_50",
     "title": "Word Collector",
     "description": "Catch 50 words.",
-    "icon": "📙",
+    "icon": "\ud83d\udcd9",
     "type": "words_total",
     "threshold": 50
   },
@@ -35,7 +35,7 @@
     "id": "words_100",
     "title": "Centurion",
     "description": "Catch 100 words.",
-    "icon": "💯",
+    "icon": "\ud83d\udcaf",
     "type": "words_total",
     "threshold": 100
   },
@@ -43,7 +43,7 @@
     "id": "words_250",
     "title": "Lexicon Builder",
     "description": "Catch 250 words.",
-    "icon": "📚",
+    "icon": "\ud83d\udcda",
     "type": "words_total",
     "threshold": 250
   },
@@ -51,16 +51,15 @@
     "id": "words_500",
     "title": "Wordsmith",
     "description": "Catch 500 words.",
-    "icon": "🏛️",
+    "icon": "\ud83c\udfdb\ufe0f",
     "type": "words_total",
     "threshold": 500
   },
-
   {
     "id": "rare_5",
     "title": "Rare Finds",
     "description": "Catch 5 rare words.",
-    "icon": "🔷",
+    "icon": "\ud83d\udd37",
     "type": "words_rarity",
     "rarity": "rare",
     "threshold": 5
@@ -69,7 +68,7 @@
     "id": "epic_5",
     "title": "Epic Hunter",
     "description": "Catch 5 epic words.",
-    "icon": "🟣",
+    "icon": "\ud83d\udfe3",
     "type": "words_rarity",
     "rarity": "epic",
     "threshold": 5
@@ -78,7 +77,7 @@
     "id": "legendary_3",
     "title": "Legend in the Making",
     "description": "Catch 3 legendary words.",
-    "icon": "🌟",
+    "icon": "\ud83c\udf1f",
     "type": "words_rarity",
     "rarity": "legendary",
     "threshold": 3
@@ -87,17 +86,16 @@
     "id": "legendary_10",
     "title": "Legendary Collector",
     "description": "Catch 10 legendary words.",
-    "icon": "👑",
+    "icon": "\ud83d\udc51",
     "type": "words_rarity",
     "rarity": "legendary",
     "threshold": 10
   },
-
   {
     "id": "idioms_1",
     "title": "Speaking in Idioms",
     "description": "Catch your first idiom.",
-    "icon": "💬",
+    "icon": "\ud83d\udcac",
     "type": "idioms_total",
     "threshold": 1
   },
@@ -105,7 +103,7 @@
     "id": "idioms_10",
     "title": "Idiom Enthusiast",
     "description": "Catch 10 idioms.",
-    "icon": "🗨️",
+    "icon": "\ud83d\udde8\ufe0f",
     "type": "idioms_total",
     "threshold": 10
   },
@@ -113,7 +111,7 @@
     "id": "idioms_50",
     "title": "Fluent in Phrases",
     "description": "Catch 50 idioms.",
-    "icon": "🎭",
+    "icon": "\ud83c\udfad",
     "type": "idioms_total",
     "threshold": 50
   },
@@ -121,7 +119,7 @@
     "id": "idioms_100",
     "title": "Idiom Scholar",
     "description": "Catch 100 idioms.",
-    "icon": "📜",
+    "icon": "\ud83d\udcdc",
     "type": "idioms_total",
     "threshold": 100
   },
@@ -129,16 +127,15 @@
     "id": "idioms_250",
     "title": "Idiom Master",
     "description": "Catch 250 idioms.",
-    "icon": "🏆",
+    "icon": "\ud83c\udfc6",
     "type": "idioms_total",
     "threshold": 250
   },
-
   {
     "id": "roots_1",
     "title": "Digging In",
     "description": "Catch your first root.",
-    "icon": "🌱",
+    "icon": "\ud83c\udf31",
     "type": "roots_total",
     "threshold": 1
   },
@@ -146,7 +143,7 @@
     "id": "roots_10",
     "title": "Growing Strong",
     "description": "Catch 10 roots.",
-    "icon": "🌿",
+    "icon": "\ud83c\udf3f",
     "type": "roots_total",
     "threshold": 10
   },
@@ -154,7 +151,7 @@
     "id": "roots_50",
     "title": "Etymologist",
     "description": "Catch 50 roots.",
-    "icon": "🌳",
+    "icon": "\ud83c\udf33",
     "type": "roots_total",
     "threshold": 50
   },
@@ -162,7 +159,7 @@
     "id": "roots_100",
     "title": "Root Authority",
     "description": "Catch 100 roots.",
-    "icon": "🪵",
+    "icon": "\ud83e\udeb5",
     "type": "roots_total",
     "threshold": 100
   },
@@ -170,16 +167,15 @@
     "id": "roots_200",
     "title": "Master of Origins",
     "description": "Catch 200 roots.",
-    "icon": "🏺",
+    "icon": "\ud83c\udffa",
     "type": "roots_total",
     "threshold": 200
   },
-
   {
     "id": "streak_3",
     "title": "On a Roll",
     "description": "Reach a 3-day streak.",
-    "icon": "🔥",
+    "icon": "\ud83d\udd25",
     "type": "streak_longest",
     "threshold": 3
   },
@@ -187,7 +183,7 @@
     "id": "streak_7",
     "title": "One Week Strong",
     "description": "Reach a 7-day streak.",
-    "icon": "🔥",
+    "icon": "\ud83d\udd25",
     "type": "streak_longest",
     "threshold": 7
   },
@@ -195,7 +191,7 @@
     "id": "streak_14",
     "title": "Two Weeks Deep",
     "description": "Reach a 14-day streak.",
-    "icon": "🔥",
+    "icon": "\ud83d\udd25",
     "type": "streak_longest",
     "threshold": 14
   },
@@ -203,7 +199,7 @@
     "id": "streak_30",
     "title": "Monthly Habit",
     "description": "Reach a 30-day streak.",
-    "icon": "🔥",
+    "icon": "\ud83d\udd25",
     "type": "streak_longest",
     "threshold": 30
   },
@@ -211,16 +207,15 @@
     "id": "streak_60",
     "title": "Unstoppable",
     "description": "Reach a 60-day streak.",
-    "icon": "🔥",
+    "icon": "\ud83d\udd25",
     "type": "streak_longest",
     "threshold": 60
   },
-
   {
     "id": "idiomoji_10",
     "title": "Emoji Novice",
     "description": "Score 10 or more in a single Idiomoji game.",
-    "icon": "🎮",
+    "icon": "\ud83c\udfae",
     "type": "idiomoji_score",
     "threshold": 10
   },
@@ -228,7 +223,7 @@
     "id": "idiomoji_20",
     "title": "Emoji Decoder",
     "description": "Score 20 or more in a single Idiomoji game.",
-    "icon": "🕹️",
+    "icon": "\ud83d\udd79\ufe0f",
     "type": "idiomoji_score",
     "threshold": 20
   },
@@ -236,16 +231,15 @@
     "id": "idiomoji_35",
     "title": "Emoji Virtuoso",
     "description": "Score 35 or more in a single Idiomoji game.",
-    "icon": "🏅",
+    "icon": "\ud83c\udfc5",
     "type": "idiomoji_score",
     "threshold": 35
   },
-
   {
     "id": "derivatives_5",
     "title": "Branching Out",
     "description": "Find 5 or more derivatives in a single round.",
-    "icon": "🧩",
+    "icon": "\ud83e\udde9",
     "type": "derivatives_score",
     "threshold": 5
   },
@@ -253,7 +247,7 @@
     "id": "derivatives_10",
     "title": "Word Family Tree",
     "description": "Find 10 or more derivatives in a single round.",
-    "icon": "🌲",
+    "icon": "\ud83c\udf32",
     "type": "derivatives_score",
     "threshold": 10
   },
@@ -261,16 +255,15 @@
     "id": "derivatives_15",
     "title": "Derivative Genius",
     "description": "Find 15 or more derivatives in a single round.",
-    "icon": "🧠",
+    "icon": "\ud83e\udde0",
     "type": "derivatives_score",
     "threshold": 15
   },
-
   {
     "id": "loanword_10",
     "title": "World Traveler",
     "description": "Score 10 or more in Guess the Origin Play mode.",
-    "icon": "🌍",
+    "icon": "\ud83c\udf0d",
     "type": "loanword_score",
     "threshold": 10
   },
@@ -278,7 +271,7 @@
     "id": "loanword_20",
     "title": "Globe Trotter",
     "description": "Score 20 or more in Guess the Origin Play mode.",
-    "icon": "🧭",
+    "icon": "\ud83e\udded",
     "type": "loanword_score",
     "threshold": 20
   },
@@ -286,16 +279,15 @@
     "id": "loanword_30",
     "title": "Language Historian",
     "description": "Score 30 or more in Guess the Origin Play mode.",
-    "icon": "🗺️",
+    "icon": "\ud83d\uddfa\ufe0f",
     "type": "loanword_score",
     "threshold": 30
   },
-
   {
     "id": "complete_character",
     "title": "Character Complete",
     "description": "Catch every word in Character & Everyday.",
-    "icon": "🎯",
+    "icon": "\ud83c\udfaf",
     "type": "category_complete",
     "category": "Character & Everyday"
   },
@@ -303,7 +295,7 @@
     "id": "complete_mind",
     "title": "Mind Complete",
     "description": "Catch every word in Mind & Academia.",
-    "icon": "🎯",
+    "icon": "\ud83c\udfaf",
     "type": "category_complete",
     "category": "Mind & Academia"
   },
@@ -311,7 +303,7 @@
     "id": "complete_business",
     "title": "Business Complete",
     "description": "Catch every word in Business & Professional.",
-    "icon": "🎯",
+    "icon": "\ud83c\udfaf",
     "type": "category_complete",
     "category": "Business & Professional"
   },
@@ -319,7 +311,7 @@
     "id": "complete_expressive",
     "title": "Expressive Complete",
     "description": "Catch every word in Expressive & Descriptive.",
-    "icon": "🎯",
+    "icon": "\ud83c\udfaf",
     "type": "category_complete",
     "category": "Expressive & Descriptive"
   },
@@ -327,21 +319,69 @@
     "id": "complete_idioms",
     "title": "Idiom Completionist",
     "description": "Catch every idiom in the collection.",
-    "icon": "💯",
+    "icon": "\ud83d\udcaf",
     "type": "idioms_complete"
   },
   {
     "id": "complete_roots",
     "title": "Root Completionist",
     "description": "Catch every root in the collection.",
-    "icon": "💯",
+    "icon": "\ud83d\udcaf",
     "type": "roots_complete"
   },
   {
     "id": "complete_everything",
     "title": "VocabLab Champion",
     "description": "Catch every word, idiom, and root in the entire app.",
-    "icon": "👑",
+    "icon": "\ud83d\udc51",
     "type": "all_complete"
+  },
+  {
+    "id": "unscramble_10",
+    "title": "Letter Shuffler",
+    "description": "Score 10 or more in a single Word Unscramble game.",
+    "icon": "\ud83d\udd24",
+    "type": "unscramble_score",
+    "threshold": 10
+  },
+  {
+    "id": "unscramble_20",
+    "title": "Anagram Ace",
+    "description": "Score 20 or more in a single Word Unscramble game.",
+    "icon": "\ud83e\udde9",
+    "type": "unscramble_score",
+    "threshold": 20
+  },
+  {
+    "id": "unscramble_35",
+    "title": "Unscramble Master",
+    "description": "Score 35 or more in a single Word Unscramble game.",
+    "icon": "\ud83c\udfc5",
+    "type": "unscramble_score",
+    "threshold": 35
+  },
+  {
+    "id": "context_10",
+    "title": "In Context",
+    "description": "Score 10 or more in a single Context Clues game.",
+    "icon": "\ud83d\udcdd",
+    "type": "context_score",
+    "threshold": 10
+  },
+  {
+    "id": "context_20",
+    "title": "Reading Between the Lines",
+    "description": "Score 20 or more in a single Context Clues game.",
+    "icon": "\ud83d\udd0d",
+    "type": "context_score",
+    "threshold": 20
+  },
+  {
+    "id": "context_35",
+    "title": "Context Clues Champion",
+    "description": "Score 35 or more in a single Context Clues game.",
+    "icon": "\ud83c\udfc6",
+    "type": "context_score",
+    "threshold": 35
   }
 ]

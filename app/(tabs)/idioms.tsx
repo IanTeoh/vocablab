@@ -1,40 +1,26 @@
-import { useFocusEffect } from "expo-router";
-import { useCallback, useEffect, useState } from "react";
+import { useState } from "react";
 import { ScrollView, StyleSheet, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import AchievementToast from "../../components/AchievementToast";
 import BackgroundPattern from "../../components/BackgroundPattern";
+import FadeInView from "../../components/FadeInView";
 import IdiomOfDayCard from "../../components/IdiomOfDayCard";
 import IdiomojiCard from "../../components/IdiomojiCard";
 import IdiomojiGameScreen from "../../components/IdiomojiGameScreen";
 import IdiomPracticeCard from "../../components/IdiomPracticeCard";
 import IdiomReviewCard from "../../components/IdiomReviewCard";
-import { Colors, Fonts, Radius, Spacing } from "../../constants/theme";
-import idioms from "../../data/idioms.json";
-import { checkForNewAchievements } from "../../logic/achievements";
-import { getIdiomStats } from "../../logic/idiomDictionary";
+import SegmentedTabs from "../../components/SegmentedTabs";
+import { Colors, Fonts, Spacing } from "../../constants/theme";
+
+const SEGMENTS = ["Learn", "Games"];
 
 export default function Idioms() {
-  const [stats, setStats] = useState<any | null>(null);
   const [refreshKey, setRefreshKey] = useState(0);
   const [idiomojiActive, setIdiomojiActive] = useState(false);
   const [idiomojiRefreshKey, setIdiomojiRefreshKey] = useState(0);
-  const [newAchievements, setNewAchievements] = useState<any[]>([]);
-
-  useFocusEffect(
-    useCallback(() => {
-      getIdiomStats(idioms.length).then(setStats);
-      checkForNewAchievements().then(setNewAchievements);
-    }, []),
-  );
-
-  useEffect(() => {
-    getIdiomStats(idioms.length).then(setStats);
-  }, [refreshKey]);
+  const [segment, setSegment] = useState("Learn");
 
   function handleCaught() {
     setRefreshKey((k) => k + 1);
-    checkForNewAchievements().then(setNewAchievements);
   }
 
   return (
@@ -44,41 +30,41 @@ export default function Idioms() {
         <ScrollView contentContainerStyle={styles.container}>
           <Text style={styles.title}>Idioms</Text>
 
-          {stats && (
-            <View style={styles.statsRow}>
-              <View style={styles.statBox}>
-                <Text style={styles.statNumber}>{stats.idiomsCollected}</Text>
-                <Text style={styles.statLabel}>Caught</Text>
-              </View>
-              <View style={styles.statBox}>
-                <Text style={styles.statNumber}>{stats.percentComplete}%</Text>
-                <Text style={styles.statLabel}>Complete</Text>
-              </View>
-            </View>
+          <SegmentedTabs
+            segments={SEGMENTS}
+            active={segment}
+            onChange={setSegment}
+          />
+
+          {segment === "Learn" && (
+            <>
+              <FadeInView delay={0}>
+                <IdiomOfDayCard onCaught={handleCaught} />
+              </FadeInView>
+              <FadeInView delay={80}>
+                <IdiomPracticeCard onCaught={handleCaught} />
+              </FadeInView>
+              <FadeInView delay={160}>
+                <IdiomReviewCard refreshKey={refreshKey} />
+              </FadeInView>
+            </>
           )}
 
-          <IdiomOfDayCard onCaught={handleCaught} />
-          <IdiomojiCard
-            onPlay={() => setIdiomojiActive(true)}
-            refreshKey={idiomojiRefreshKey}
-          />
-          <IdiomPracticeCard onCaught={handleCaught} />
-          <IdiomReviewCard refreshKey={refreshKey} />
+          {segment === "Games" && (
+            <FadeInView delay={0}>
+              <IdiomojiCard
+                onPlay={() => setIdiomojiActive(true)}
+                refreshKey={idiomojiRefreshKey}
+              />
+            </FadeInView>
+          )}
         </ScrollView>
       </SafeAreaView>
 
       <IdiomojiGameScreen
         visible={idiomojiActive}
         onClose={() => setIdiomojiActive(false)}
-        onGameEnd={() => {
-          setIdiomojiRefreshKey((k) => k + 1);
-          checkForNewAchievements().then(setNewAchievements);
-        }}
-      />
-
-      <AchievementToast
-        achievements={newAchievements}
-        onDismiss={() => setNewAchievements([])}
+        onGameEnd={() => setIdiomojiRefreshKey((k) => k + 1)}
       />
     </View>
   );
@@ -97,27 +83,5 @@ const styles = StyleSheet.create({
     fontSize: 26,
     color: Colors.ink,
     marginBottom: Spacing.md,
-  },
-  statsRow: { flexDirection: "row", marginBottom: Spacing.md },
-  statBox: {
-    flex: 1,
-    backgroundColor: Colors.surface,
-    borderRadius: Radius.md,
-    padding: 14,
-    alignItems: "center",
-    marginHorizontal: 4,
-    borderWidth: 1,
-    borderColor: Colors.border,
-  },
-  statNumber: {
-    fontFamily: Fonts.displayBold,
-    fontSize: 20,
-    color: Colors.accent,
-  },
-  statLabel: {
-    fontFamily: Fonts.body,
-    fontSize: 12,
-    color: Colors.inkMuted,
-    marginTop: 4,
   },
 });

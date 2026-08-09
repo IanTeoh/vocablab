@@ -1,6 +1,7 @@
 import * as Haptics from "expo-haptics";
 import { useEffect, useRef, useState } from "react";
 import { Animated, PanResponder, StyleSheet, Text, View } from "react-native";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { Colors, Fonts, Radius, Spacing } from "../constants/theme";
 
 type Achievement = {
@@ -17,6 +18,9 @@ export default function AchievementToast({
   achievements: Achievement[];
   onDismiss: () => void;
 }) {
+  const insets = useSafeAreaInsets();
+  const restingTop = insets.top + 8;
+
   const [index, setIndex] = useState(0);
   const slideAnim = useRef(new Animated.Value(-120)).current;
   const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -44,14 +48,14 @@ export default function AchievementToast({
     PanResponder.create({
       onMoveShouldSetPanResponder: (_, gesture) => gesture.dy < -6,
       onPanResponderMove: (_, gesture) => {
-        if (gesture.dy < 0) slideAnim.setValue(gesture.dy);
+        if (gesture.dy < 0) slideAnim.setValue(restingTop + gesture.dy);
       },
       onPanResponderRelease: (_, gesture) => {
         if (gesture.dy < -30 || gesture.vy < -0.5) {
-          dismissCurrent(gesture.dy - 100);
+          dismissCurrent(restingTop + gesture.dy - 100);
         } else {
           Animated.spring(slideAnim, {
-            toValue: 0,
+            toValue: restingTop,
             useNativeDriver: true,
             speed: 14,
           }).start();
@@ -71,7 +75,7 @@ export default function AchievementToast({
     Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
     slideAnim.setValue(-120);
     Animated.spring(slideAnim, {
-      toValue: 0,
+      toValue: restingTop,
       useNativeDriver: true,
       speed: 14,
     }).start();

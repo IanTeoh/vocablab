@@ -1,14 +1,14 @@
 import { StyleSheet, View } from "react-native";
 import Svg, {
-    Circle,
-    Defs,
-    Ellipse,
-    LinearGradient,
-    Path,
-    Polygon,
-    RadialGradient,
-    Rect,
-    Stop,
+  Circle,
+  Defs,
+  Ellipse,
+  LinearGradient,
+  Path,
+  Polygon,
+  RadialGradient,
+  Rect,
+  Stop,
 } from "react-native-svg";
 import { Colors } from "../constants/theme";
 

@@ -1,18 +1,18 @@
 import * as Haptics from "expo-haptics";
 import { useEffect, useMemo, useState } from "react";
 import {
-    ActivityIndicator,
-    Modal,
-    SafeAreaView,
-    StyleSheet,
-    Text,
-    View,
+  ActivityIndicator,
+  Modal,
+  SafeAreaView,
+  StyleSheet,
+  Text,
+  View,
 } from "react-native";
 import { Colors, Fonts, Radius, Spacing } from "../constants/theme";
 import allRoots from "../data/roots.json";
 import {
-    addRootToDictionary,
-    getRootDictionary,
+  addRootToDictionary,
+  getRootDictionary,
 } from "../logic/rootDictionary";
 import { getRootOfTheDay } from "../logic/rootOfDay";
 import { buildRootQuizOptions } from "../logic/rootQuiz";

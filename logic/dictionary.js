@@ -66,5 +66,16 @@ export async function resetAllData() {
     "vocablab_idiomoji_high_score",
     "vocablab_achievements_seen",
     "vocablab_longest_streak",
+    "vocablab_garden_plots",
+    "vocablab_garden_companion",
+    "vocablab_garden_seed_inventory",
+    "vocablab_garden_last_seen",
+    "vocablab_garden_unlocked_companions",
+    "vocablab_greenhouse_logbook",
+    "vocablab_garden_decorations",
+    "vocablab_unscramble_high_score",
+    "vocablab_context_quiz_high_score",
+    "vocablab_coins",
+    "vocablab_ambient_sound",
   ]);
 }

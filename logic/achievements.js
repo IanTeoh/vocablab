@@ -3,6 +3,7 @@ import achievementsList from "../data/achievements.json";
 import idioms from "../data/idioms.json";
 import roots from "../data/roots.json";
 import words from "../data/words.json";
+import { getContextQuizHighScore } from "./contextQuizHighScore";
 import { getDictionary } from "./dictionary";
 import { getIdiomDictionary } from "./idiomDictionary";
 import { getIdiomojiHighScore } from "./idiomojiHighScore";
@@ -10,6 +11,7 @@ import { getLoanwordHighScore } from "./loanwordHighScore";
 import { getOverallDerivativesHighScore } from "./rootDerivativesHighScore";
 import { getRootDictionary } from "./rootDictionary";
 import { getLongestStreak } from "./streaks";
+import { getUnscrambleHighScore } from "./unscrambleHighScore";
 
 const SEEN_KEY = "vocablab_achievements_seen";
 
@@ -23,6 +25,8 @@ export async function gatherAchievementStats() {
     idiomojiHighScore,
     derivativesHighScore,
     loanwordHighScore,
+    unscrambleHighScore,
+    contextQuizHighScore,
   ] = await Promise.all([
     getDictionary(),
     getIdiomDictionary(),
@@ -31,6 +35,8 @@ export async function gatherAchievementStats() {
     getIdiomojiHighScore(),
     getOverallDerivativesHighScore(),
     getLoanwordHighScore(),
+    getUnscrambleHighScore(),
+    getContextQuizHighScore(),
   ]);
 
   const rarityCounts = { common: 0, rare: 0, epic: 0, legendary: 0 };
@@ -61,6 +67,8 @@ export async function gatherAchievementStats() {
     idiomojiHighScore: idiomojiHighScore || 0,
     derivativesHighScore: derivativesHighScore?.score || 0,
     loanwordHighScore: loanwordHighScore || 0,
+    unscrambleHighScore: unscrambleHighScore || 0,
+    contextQuizHighScore: contextQuizHighScore || 0,
     categoryTotals,
     categoryCaught,
     wordsFullTotal: words.length,
@@ -87,6 +95,10 @@ function isUnlocked(achievement, stats) {
       return stats.derivativesHighScore >= achievement.threshold;
     case "loanword_score":
       return stats.loanwordHighScore >= achievement.threshold;
+    case "unscramble_score":
+      return stats.unscrambleHighScore >= achievement.threshold;
+    case "context_score":
+      return stats.contextQuizHighScore >= achievement.threshold;
     case "category_complete":
       return (
         stats.categoryTotals[achievement.category] > 0 &&

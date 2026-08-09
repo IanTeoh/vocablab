@@ -24,6 +24,8 @@ const GROUP_LABELS: Record<string, string> = {
   idiomoji_score: "Idiomoji",
   derivatives_score: "Root Derivatives",
   loanword_score: "Guess the Origin",
+  unscramble_score: "Word Unscramble",
+  context_score: "Context Clues",
   category_complete: "Completion",
   idioms_complete: "Completion",
   roots_complete: "Completion",
@@ -38,6 +40,8 @@ const GROUP_ORDER = [
   "Idiomoji",
   "Root Derivatives",
   "Guess the Origin",
+  "Word Unscramble",
+  "Context Clues",
   "Completion",
 ];
 
