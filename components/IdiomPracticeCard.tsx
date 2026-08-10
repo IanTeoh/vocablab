@@ -123,10 +123,7 @@ export default function IdiomPracticeCard({
       )}
 
       <PressableScale
-        style={[
-          styles.playButton,
-          ...(lives === 0 ? [styles.playButtonDisabled] : []),
-        ]}
+        style={[styles.playButton, lives === 0 && styles.playButtonDisabled]}
         onPress={handlePlay}
       >
         <Text style={styles.playButtonText}>

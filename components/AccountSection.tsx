@@ -9,6 +9,7 @@ import AddFriendsModal from "./AddFriendsModal";
 import AuthModal from "./AuthModal";
 import Avatar from "./Avatar";
 import FriendProfileModal from "./FriendProfileModal";
+import LeaderboardModal from "./LeaderboardModal";
 import PressableScale from "./PressableScale";
 import ProfileAndFriendsModal from "./ProfileAndFriendsModal";
 import SettingsModal from "./SettingsModal";
@@ -60,6 +61,7 @@ export default function AccountSection() {
   const [addFriendsVisible, setAddFriendsVisible] = useState(false);
   const [selectedFriend, setSelectedFriend] = useState<any | null>(null);
   const [settingsVisible, setSettingsVisible] = useState(false);
+  const [leaderboardVisible, setLeaderboardVisible] = useState(false);
 
   useEffect(() => {
     const unsubscribe = subscribeToAuthState(setUser);
@@ -104,9 +106,14 @@ export default function AccountSection() {
         </View>
 
         <View style={styles.friendsSection}>
-          <Text style={styles.friendsLabel}>
-            Friends {friends.length > 0 ? `(${friends.length})` : ""}
-          </Text>
+          <View style={styles.friendsHeaderRow}>
+            <Text style={styles.friendsLabel}>
+              Friends {friends.length > 0 ? `(${friends.length})` : ""}
+            </Text>
+            <PressableScale onPress={() => setLeaderboardVisible(true)}>
+              <Text style={styles.leaderboardLink}>🏆 Leaderboard</Text>
+            </PressableScale>
+          </View>
           {friends.length === 0 ? (
             <Text style={styles.noFriendsText}>
               No friends yet — tap Add Friends to search for someone.
@@ -159,6 +166,10 @@ export default function AccountSection() {
         <SettingsModal
           visible={settingsVisible}
           onClose={() => setSettingsVisible(false)}
+        />
+        <LeaderboardModal
+          visible={leaderboardVisible}
+          onClose={() => setLeaderboardVisible(false)}
         />
       </HeroCardShell>
     );
@@ -249,13 +260,23 @@ const styles = StyleSheet.create({
     color: Colors.ink,
   },
   friendsSection: { width: "100%", marginTop: Spacing.lg },
+  friendsHeaderRow: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    marginBottom: Spacing.sm,
+  },
+  leaderboardLink: {
+    fontFamily: Fonts.bodySemiBold,
+    fontSize: 12,
+    color: Colors.accent,
+  },
   friendsLabel: {
     fontFamily: Fonts.bodySemiBold,
     fontSize: 12,
     color: Colors.inkMuted,
     textTransform: "uppercase",
     letterSpacing: 1,
-    marginBottom: Spacing.sm,
   },
   noFriendsText: {
     fontFamily: Fonts.body,

@@ -222,6 +222,7 @@ const styles = StyleSheet.create({
   },
   startContainer: { alignItems: "center", paddingVertical: Spacing.sm },
   icon: { fontSize: 34, marginBottom: Spacing.xs },
+  wordRow: { flexDirection: "row", alignItems: "center", gap: 6 },
   word: {
     fontFamily: Fonts.displayBold,
     fontSize: 28,

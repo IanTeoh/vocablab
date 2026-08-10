@@ -273,6 +273,7 @@ const styles = StyleSheet.create({
   },
   startContainer: { alignItems: "center", paddingVertical: Spacing.sm },
   completedContainer: { alignItems: "center", paddingVertical: Spacing.sm },
+  wordRow: { flexDirection: "row", alignItems: "center", gap: 6 },
   word: {
     fontFamily: Fonts.displayBold,
     fontSize: 34,

@@ -25,7 +25,7 @@ import PopIn from "./PopIn";
 import PressableScale from "./PressableScale";
 
 const ROUND_DURATION = 60;
-const HINTS_PER_WORD = 3;
+const HINTS_PER_ROUND = 3;
 const { height: SCREEN_HEIGHT } = Dimensions.get("window");
 
 type Phase = "playing" | "skipReveal" | "results";
@@ -48,7 +48,7 @@ export default function WordUnscrambleGameScreen({
   const [flash, setFlash] = useState<"correct" | "wrong" | null>(null);
   const [isNewRecord, setIsNewRecord] = useState(false);
   const [highScore, setHighScore] = useState(0);
-  const [hintsLeft, setHintsLeft] = useState(HINTS_PER_WORD);
+  const [hintsLeft, setHintsLeft] = useState(HINTS_PER_ROUND);
   const [hintRevealed, setHintRevealed] = useState(false);
 
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
@@ -69,7 +69,6 @@ export default function WordUnscrambleGameScreen({
     setCurrentWord(word);
     setScrambled(word ? scrambleWord(word.word) : []);
     setGuess("");
-    setHintsLeft(HINTS_PER_WORD);
     setHintRevealed(false);
   }
 
@@ -79,6 +78,7 @@ export default function WordUnscrambleGameScreen({
       setScore(0);
       setTimeLeft(ROUND_DURATION);
       setIsNewRecord(false);
+      setHintsLeft(HINTS_PER_ROUND);
       setPhase("playing");
       loadNextWord();
       getUnscrambleHighScore().then(setHighScore);

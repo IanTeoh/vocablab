@@ -235,6 +235,7 @@ const styles = StyleSheet.create({
   completedContainer: { alignItems: "center", paddingVertical: Spacing.sm },
   icon: { fontSize: 34, marginBottom: Spacing.xs },
   modalIcon: { fontSize: 56, textAlign: "center", marginBottom: Spacing.xs },
+  wordRow: { flexDirection: "row", alignItems: "center", gap: 6 },
   word: {
     fontFamily: Fonts.displayBold,
     fontSize: 26,

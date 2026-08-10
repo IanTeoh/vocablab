@@ -28,7 +28,8 @@ const RULES = [
   "A sentence is shown with its key word blanked out, pulled from rare, epic, and legendary words \u2014 not just words you've already caught.",
   "Pick which of the three words correctly fills the blank.",
   "This tests using a word in context, not just its dry definition \u2014 a different skill from your other quizzes.",
-  "You have 60 seconds. Score is how many blanks you fill correctly.",
+  "You have 3 lives \u2014 get it wrong 3 times and the round ends.",
+  "You also have 60 seconds. Score is how many blanks you fill correctly before time or lives run out.",
   "Your best score is saved.",
 ];
 
@@ -43,6 +44,7 @@ export default function ContextQuizCard() {
   const [options, setOptions] = useState<string[]>([]);
   const [selected, setSelected] = useState<string | null>(null);
   const [score, setScore] = useState(0);
+  const [livesLeft, setLivesLeft] = useState(3);
   const [timeLeft, setTimeLeft] = useState(ROUND_DURATION);
   const [isNewRecord, setIsNewRecord] = useState(false);
 
@@ -78,6 +80,7 @@ export default function ContextQuizCard() {
 
   function openGame() {
     setScore(0);
+    setLivesLeft(3);
     setTimeLeft(ROUND_DURATION);
     setIsNewRecord(false);
     loadNextWord();
@@ -111,15 +114,28 @@ export default function ContextQuizCard() {
     if (option === currentWord.word) {
       Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
       setScore((s) => s + 1);
+      setPhase("feedback");
+      feedbackTimeoutRef.current = setTimeout(() => {
+        loadNextWord(currentWord);
+        setPhase("playing");
+      }, 900);
     } else {
       Haptics.notificationAsync(Haptics.NotificationFeedbackType.Error);
-    }
+      const remainingLives = livesLeft - 1;
+      setLivesLeft(remainingLives);
+      setPhase("feedback");
 
-    setPhase("feedback");
-    feedbackTimeoutRef.current = setTimeout(() => {
-      loadNextWord(currentWord);
-      setPhase("playing");
-    }, 900);
+      if (remainingLives <= 0) {
+        feedbackTimeoutRef.current = setTimeout(() => {
+          endGame();
+        }, 1200);
+      } else {
+        feedbackTimeoutRef.current = setTimeout(() => {
+          loadNextWord(currentWord);
+          setPhase("playing");
+        }, 900);
+      }
+    }
   }
 
   function handleClose() {
@@ -146,7 +162,7 @@ export default function ContextQuizCard() {
         <Text style={styles.gameIcon}>📝</Text>
         <Text style={styles.title}>Context Clues</Text>
         <Text style={styles.subtitle}>
-          Fill the blank as many times as you can in 60 seconds
+          Fill the blank before time or your 3 lives run out
         </Text>
 
         <View style={styles.highScorePill}>
@@ -171,6 +187,10 @@ export default function ContextQuizCard() {
               <>
                 <View style={styles.hud}>
                   <Text style={styles.scoreText}>Score: {score}</Text>
+                  <Text style={styles.livesText}>
+                    {"❤️".repeat(livesLeft)}
+                    {"🖤".repeat(Math.max(0, 3 - livesLeft))}
+                  </Text>
                   <Text
                     style={[
                       styles.hudTimer,
@@ -239,7 +259,9 @@ export default function ContextQuizCard() {
 
             {phase === "results" && (
               <PopIn trigger="results" style={styles.resultsBox}>
-                <Text style={styles.resultsTitle}>Time's Up!</Text>
+                <Text style={styles.resultsTitle}>
+                  {livesLeft <= 0 ? "Out of Lives!" : "Time's Up!"}
+                </Text>
                 <AnimatedNumber value={score} style={styles.resultsScore} />
                 <Text style={styles.resultsLabel}>correct</Text>
 
@@ -361,6 +383,7 @@ const styles = StyleSheet.create({
     fontSize: 15,
     color: Colors.inkMuted,
   },
+  livesText: { fontSize: 15 },
   hudTimer: { fontFamily: Fonts.bodySemiBold, fontSize: 18, color: Colors.ink },
   rarityBadge: {
     fontFamily: Fonts.bodySemiBold,

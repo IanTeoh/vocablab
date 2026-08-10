@@ -10,7 +10,7 @@ const RULES = [
   "You'll see the scrambled letters of a real word from your word bank (6\u20138 letters, to keep it fair).",
   "Type your best guess for the unscrambled word and hit Submit.",
   "Wrong guesses cost nothing \u2014 just try again.",
-  "You get 3 hints per word (reveals the definition) and can skip a word if you're stuck \u2014 skipping shows you the answer.",
+  "You get 3 hints per round (reveals the definition) and can skip a word if you're stuck \u2014 skipping shows you the answer.",
   "You have 60 seconds. Score is how many words you unscramble correctly.",
   "Your best score is saved and shown right on the card.",
 ];

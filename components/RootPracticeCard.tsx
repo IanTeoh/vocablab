@@ -126,11 +126,7 @@ export default function RootPracticeCard({
       )}
 
       <PressableScale
-        style={
-          lives === 0
-            ? [styles.playButton, styles.playButtonDisabled]
-            : styles.playButton
-        }
+        style={[styles.playButton, lives === 0 && styles.playButtonDisabled]}
         onPress={handlePlay}
       >
         <Text style={styles.playButtonText}>

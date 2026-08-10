@@ -85,7 +85,7 @@ export default function WordAdventureCard() {
     <View style={styles.card}>
       <Text style={styles.label}>Word Adventure</Text>
       <Text style={styles.subtitle}>
-        Quick rounds of words you haven't learned.
+        Quick rounds of words you haven't caught yet.
       </Text>
       <Text style={styles.levelBadge}>
         Level {(sessionsCompleted ?? 0) + 1}
@@ -101,7 +101,7 @@ export default function WordAdventureCard() {
 
       {(outOfLives || lives === 0) && (
         <Text style={styles.bannerTextError}>
-          Out of lives — come back tomorrow for 3 more!
+          Out of lives — come back tomorrow for 3 more! ❤️
         </Text>
       )}
 
@@ -117,10 +117,7 @@ export default function WordAdventureCard() {
       )}
 
       <PressableScale
-        style={[
-          styles.playButton,
-          ...(lives === 0 ? [styles.playButtonDisabled] : []),
-        ]}
+        style={[styles.playButton, lives === 0 && styles.playButtonDisabled]}
         onPress={handlePlay}
       >
         <Text style={styles.playButtonText}>
