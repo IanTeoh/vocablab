@@ -16,10 +16,19 @@ export default function SegmentedTabs({
       {segments.map((label) => (
         <PressableScale
           key={label}
-          style={[styles.button, active === label && styles.buttonActive]}
+          style={
+            active === label
+              ? [styles.button, styles.buttonActive]
+              : styles.button
+          }
           onPress={() => onChange(label)}
         >
-          <Text style={[styles.text, active === label && styles.textActive]}>
+          <Text
+            style={[
+              styles.text,
+              active === label ? styles.textActive : undefined,
+            ]}
+          >
             {label}
           </Text>
         </PressableScale>

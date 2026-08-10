@@ -9,7 +9,7 @@ import Svg, {
     LinearGradient,
     Path,
     Rect,
-    Stop
+    Stop,
 } from "react-native-svg";
 import { Colors, Fonts, Radius, Spacing } from "../constants/theme";
 import { getCoins, spendCoins } from "../logic/coins";
@@ -27,7 +27,7 @@ import {
     reconcileNewSeeds,
     setSelectedCompanion,
     unlockCompanion,
-    waterPlot
+    waterPlot,
 } from "../logic/garden";
 import { getIdiomDictionary } from "../logic/idiomDictionary";
 import { getRootDictionary } from "../logic/rootDictionary";
@@ -329,7 +329,7 @@ export default function GardenView() {
             {plot ? (
               <PlantSprite
                 cropId={plot.cropId}
-                stage={getPlotGrowth(plot).stage}
+                stage={getPlotGrowth(plot)?.stage ?? 0}
                 tier={plot.tier}
                 size={64}
               />
@@ -339,7 +339,7 @@ export default function GardenView() {
               </View>
             )}
           </PressableScale>
-          {plot && getPlotGrowth(plot).stage === 3 && (
+          {plot && getPlotGrowth(plot)?.stage === 3 && (
             <View style={styles.readyGlow} />
           )}
         </View>
@@ -415,10 +415,11 @@ export default function GardenView() {
                 return (
                   <PressableScale
                     key={key}
-                    style={[
-                      styles.seedChip,
-                      selectedSeedKey === key && styles.seedChipSelected,
-                    ]}
+                    style={
+                      selectedSeedKey === key
+                        ? [styles.seedChip, styles.seedChipSelected]
+                        : styles.seedChip
+                    }
                     onPress={() =>
                       setSelectedSeedKey(selectedSeedKey === key ? null : key)
                     }
@@ -456,10 +457,11 @@ export default function GardenView() {
               return (
                 <PressableScale
                   key={c.id}
-                  style={[
-                    styles.companionOption,
-                    c.id === companion && styles.companionOptionSelected,
-                  ]}
+                  style={
+                    c.id === companion
+                      ? [styles.companionOption, styles.companionOptionSelected]
+                      : styles.companionOption
+                  }
                   onPress={() => handleCompanionSelect(c.id)}
                 >
                   <View style={{ opacity: isUnlocked ? 1 : 0.4 }}>

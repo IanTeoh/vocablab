@@ -16,6 +16,7 @@ import {
   SafeAreaView,
   useSafeAreaInsets,
 } from "react-native-safe-area-context";
+import AccountSection from "../../components/AccountSection";
 import AchievementsModal from "../../components/AchievementsModal";
 import BackgroundPattern from "../../components/BackgroundPattern";
 import PressableScale from "../../components/PressableScale";
@@ -496,7 +497,7 @@ export default function Profile() {
   return (
     <SafeAreaView
       style={{ flex: 1, backgroundColor: Colors.background }}
-      edges={["top"]}
+      edges={[]}
     >
       <BackgroundPattern />
 
@@ -509,7 +510,11 @@ export default function Profile() {
         keyboardShouldPersistTaps="handled"
         ListHeaderComponent={
           <>
+            <AccountSection />
+
+            <View style={styles.dictionaryDivider} />
             <Text style={styles.title}>Your Dictionary</Text>
+
             {stats && (
               <View style={styles.statsRow}>
                 <View style={styles.statBox}>
@@ -802,6 +807,12 @@ export default function Profile() {
 
 const styles = StyleSheet.create({
   container: { flex: 1 },
+  dictionaryDivider: {
+    height: 1,
+    backgroundColor: Colors.border,
+    marginTop: Spacing.md,
+    marginBottom: Spacing.lg,
+  },
   title: {
     fontFamily: Fonts.displayBold,
     fontSize: 26,

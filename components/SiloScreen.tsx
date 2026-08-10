@@ -1,20 +1,20 @@
 import * as Haptics from "expo-haptics";
 import { useEffect, useRef, useState } from "react";
 import {
-    Animated,
-    Dimensions,
-    ScrollView,
-    StyleSheet,
-    Text,
-    View,
+  Animated,
+  Dimensions,
+  ScrollView,
+  StyleSheet,
+  Text,
+  View,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { Colors, Fonts, Radius, Spacing } from "../constants/theme";
 import {
-    getCropStats,
-    getGardenPlots,
-    getSeedInventory,
-    plantSeed,
+  getCropStats,
+  getGardenPlots,
+  getSeedInventory,
+  plantSeed,
 } from "../logic/garden";
 import PlantSprite from "./PlantSprite";
 import PressableScale from "./PressableScale";
@@ -116,7 +116,10 @@ export default function SiloScreen({
               return (
                 <PressableScale
                   key={key}
-                  style={[styles.seedCard, selected && styles.seedCardSelected]}
+                  style={[
+                    styles.seedCard,
+                    selected ? styles.seedCardSelected : {},
+                  ]}
                   onPress={() => setSelectedKey(selected ? null : key)}
                 >
                   <PlantSprite

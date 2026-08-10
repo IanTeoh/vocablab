@@ -107,10 +107,11 @@ export default function PlantDetailModal({
             </PressableScale>
           ) : (
             <PressableScale
-              style={[
-                styles.waterButton,
-                growth.canWater ? undefined : styles.waterButtonDisabled,
-              ]}
+              style={
+                growth.canWater
+                  ? styles.waterButton
+                  : [styles.waterButton, styles.waterButtonDisabled]
+              }
               onPress={onWater}
             >
               <Text style={styles.waterButtonText}>

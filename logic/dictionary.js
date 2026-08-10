@@ -75,6 +75,10 @@ export async function resetAllData() {
     "vocablab_garden_decorations",
     "vocablab_unscramble_high_score",
     "vocablab_context_quiz_high_score",
+    "vocablab_pref_haptics",
+    "vocablab_pref_sound_effects",
+    "vocablab_pref_daily_reminder",
+    "vocablab_pref_share_stats",
     "vocablab_coins",
     "vocablab_ambient_sound",
   ]);

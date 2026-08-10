@@ -93,34 +93,37 @@ export default function GreenhouseScreen({
         <ScrollView contentContainerStyle={{ paddingBottom: 60 }}>
           <Text style={styles.sectionTitle}>Growing</Text>
           <View style={styles.grid}>
-            {plots.map((plot, i) => (
-              <PressableScale
-                key={i}
-                style={styles.plotCard}
-                onPress={() => plot && setSelectedPlot(i)}
-              >
-                {plot ? (
-                  <>
-                    <PlantSprite
-                      cropId={plot.cropId}
-                      stage={getPlotGrowth(plot).stage}
-                      tier={plot.tier}
-                      size={56}
-                    />
-                    <View style={styles.progressTrack}>
-                      <View
-                        style={[
-                          styles.progressFill,
-                          { width: `${getPlotGrowth(plot).progress * 100}%` },
-                        ]}
+            {plots.map((plot, i) => {
+              const growth = plot ? getPlotGrowth(plot) : null;
+              return (
+                <PressableScale
+                  key={i}
+                  style={styles.plotCard}
+                  onPress={() => plot && setSelectedPlot(i)}
+                >
+                  {plot ? (
+                    <>
+                      <PlantSprite
+                        cropId={plot.cropId}
+                        stage={growth?.stage ?? 0}
+                        tier={plot.tier}
+                        size={56}
                       />
-                    </View>
-                  </>
-                ) : (
-                  <Text style={styles.emptyPlot}>+</Text>
-                )}
-              </PressableScale>
-            ))}
+                      <View style={styles.progressTrack}>
+                        <View
+                          style={[
+                            styles.progressFill,
+                            { width: `${(growth?.progress ?? 0) * 100}%` },
+                          ]}
+                        />
+                      </View>
+                    </>
+                  ) : (
+                    <Text style={styles.emptyPlot}>+</Text>
+                  )}
+                </PressableScale>
+              );
+            })}
           </View>
 
           <Text style={styles.sectionTitle}>Logbook</Text>
