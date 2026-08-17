@@ -1,35 +1,39 @@
 import { useEffect, useState } from "react";
 import {
-    ActivityIndicator,
-    Alert,
-    Modal,
-    ScrollView,
-    StyleSheet,
-    Switch,
-    Text,
-    View,
+  ActivityIndicator,
+  Alert,
+  Modal,
+  ScrollView,
+  StyleSheet,
+  Switch,
+  Text,
+  View,
 } from "react-native";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import { Colors, Fonts, Radius, Spacing } from "../constants/theme";
+import { isAppleAuthAvailable, signInWithApple } from "../logic/appleAuth";
 import { getCurrentUser, signOutUser } from "../logic/auth";
 import {
-    pullProgressFromCloud,
-    pushProgressToCloud,
+  clearLocalProgress,
+  pullProgressFromCloud,
+  pushProgressToCloud
 } from "../logic/fullProgressSync";
 import {
-    handleGoogleAuthResponse,
-    useGoogleAuthRequest,
+  handleGoogleAuthResponse,
+  useGoogleAuthRequest,
 } from "../logic/googleAuth";
+import { getBlockedList, unblockUser } from "../logic/moderation";
 import {
-    getDailyReminderEnabled,
-    getHapticsEnabled,
-    getShareStatsEnabled,
-    getSoundEffectsEnabled,
-    setDailyReminderEnabled,
-    setHapticsEnabled,
-    setShareStatsEnabled,
-    setSoundEffectsEnabled,
+  getDailyReminderEnabled,
+  getHapticsEnabled,
+  getShareStatsEnabled,
+  getSoundEffectsEnabled,
+  setDailyReminderEnabled,
+  setHapticsEnabled,
+  setShareStatsEnabled,
+  setSoundEffectsEnabled,
 } from "../logic/preferences";
+import DeleteAccountModal from "./DeleteAccountModal";
 import PressableScale from "./PressableScale";
 import ProfileAndFriendsModal from "./ProfileAndFriendsModal";
 
@@ -113,6 +117,10 @@ export default function SettingsModal({
   const [backingUp, setBackingUp] = useState(false);
   const [restoring, setRestoring] = useState(false);
   const [connectingGoogle, setConnectingGoogle] = useState(false);
+  const [appleAvailable, setAppleAvailable] = useState(false);
+  const [connectingApple, setConnectingApple] = useState(false);
+  const [blockedList, setBlockedList] = useState<any[]>([]);
+  const [deleteAccountVisible, setDeleteAccountVisible] = useState(false);
   const [request, response, promptGoogleAuth] = useGoogleAuthRequest();
 
   useEffect(() => {
@@ -144,7 +152,41 @@ export default function SettingsModal({
     getSoundEffectsEnabled().then(setSound);
     getDailyReminderEnabled().then(setDailyReminder);
     getShareStatsEnabled().then(setShareStats);
+    if (user) getBlockedList().then(setBlockedList);
+    isAppleAuthAvailable().then(setAppleAvailable);
   }, [visible]);
+
+  async function handleConnectApple() {
+    setConnectingApple(true);
+    const result = await signInWithApple();
+    setConnectingApple(false);
+
+    if (result.canceled) return;
+    if (result.success) {
+      Alert.alert(
+        "Connected!",
+        result.linked
+          ? "Your Apple account is now linked — you can sign in with either method."
+          : "Signed in with Apple.",
+      );
+    } else {
+      Alert.alert("Couldn't connect", result.error || "Unknown error");
+    }
+  }
+
+  async function handleUnblock(uid: string) {
+    await unblockUser(uid);
+    setBlockedList((prev) => prev.filter((b) => b.uid !== uid));
+  }
+
+  function handleAccountDeleted() {
+    setDeleteAccountVisible(false);
+    onClose();
+    Alert.alert(
+      "Account deleted",
+      "Your account and its data have been removed.",
+    );
+  }
 
   async function toggleHaptics(v: boolean) {
     setHaptics(v);
@@ -224,6 +266,13 @@ export default function SettingsModal({
         text: "Log Out",
         style: "destructive",
         onPress: async () => {
+          if (user) {
+            // Save whatever's changed since the last sync so nothing
+            // is lost, then clear the device — the next person (or
+            // next login) should never inherit this account's data.
+            await pushProgressToCloud(user.uid);
+            await clearLocalProgress();
+          }
           await signOutUser();
           onClose();
         },
@@ -293,7 +342,27 @@ export default function SettingsModal({
                     onPress={connectingGoogle ? undefined : handleConnectGoogle}
                     badge={connectingGoogle ? "Connecting..." : undefined}
                   />
-                  <NavRow icon="🔗" title="Apple" badge="Coming soon" />
+                  <NavRow
+                    icon="🔗"
+                    title="Apple"
+                    subtitle={
+                      appleAvailable
+                        ? "Link Apple so you can sign in either way"
+                        : "Only available on iOS"
+                    }
+                    onPress={
+                      appleAvailable && !connectingApple
+                        ? handleConnectApple
+                        : undefined
+                    }
+                    badge={
+                      connectingApple
+                        ? "Connecting..."
+                        : !appleAvailable
+                          ? "iOS only"
+                          : undefined
+                    }
+                  />
                 </View>
 
                 <Text style={styles.sectionLabel}>Privacy</Text>
@@ -337,6 +406,36 @@ export default function SettingsModal({
                     <Text style={styles.logOutText}>Log Out</Text>
                   </PressableScale>
                 </View>
+
+                <Text style={styles.sectionLabel}>Blocked Users</Text>
+                <View style={styles.card}>
+                  {blockedList.length === 0 ? (
+                    <Text style={styles.emptyBlockedText}>
+                      No one is blocked.
+                    </Text>
+                  ) : (
+                    blockedList.map((b) => (
+                      <View key={b.uid} style={styles.row}>
+                        <Text style={[styles.rowTitle, { flex: 1 }]}>
+                          {b.username}
+                        </Text>
+                        <PressableScale onPress={() => handleUnblock(b.uid)}>
+                          <Text style={styles.unblockText}>Unblock</Text>
+                        </PressableScale>
+                      </View>
+                    ))
+                  )}
+                </View>
+
+                <Text style={styles.sectionLabel}>Danger Zone</Text>
+                <View style={styles.card}>
+                  <PressableScale
+                    style={styles.deleteAccountRow}
+                    onPress={() => setDeleteAccountVisible(true)}
+                  >
+                    <Text style={styles.deleteAccountText}>Delete Account</Text>
+                  </PressableScale>
+                </View>
               </>
             )}
 
@@ -353,6 +452,11 @@ export default function SettingsModal({
       <ProfileAndFriendsModal
         visible={editProfileVisible}
         onClose={() => setEditProfileVisible(false)}
+      />
+      <DeleteAccountModal
+        visible={deleteAccountVisible}
+        onClose={() => setDeleteAccountVisible(false)}
+        onDeleted={handleAccountDeleted}
       />
     </Modal>
   );
@@ -429,6 +533,24 @@ const styles = StyleSheet.create({
   loadingRow: { padding: Spacing.sm, alignItems: "center" },
   logOutRow: { padding: Spacing.md, alignItems: "center" },
   logOutText: {
+    fontFamily: Fonts.bodySemiBold,
+    fontSize: 14,
+    color: Colors.error,
+  },
+  emptyBlockedText: {
+    fontFamily: Fonts.body,
+    fontSize: 13,
+    color: Colors.inkMuted,
+    fontStyle: "italic",
+    padding: Spacing.md,
+  },
+  unblockText: {
+    fontFamily: Fonts.bodySemiBold,
+    fontSize: 12,
+    color: Colors.accent,
+  },
+  deleteAccountRow: { padding: Spacing.md, alignItems: "center" },
+  deleteAccountText: {
     fontFamily: Fonts.bodySemiBold,
     fontSize: 14,
     color: Colors.error,

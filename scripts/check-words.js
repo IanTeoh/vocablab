@@ -10,7 +10,7 @@ const path = require("path");
 
 const WORDS_PATH = path.join(__dirname, "..", "data", "words.json");
 const VALID_RARITIES = ["common", "rare", "epic", "legendary"];
-const REQUIRED_FIELDS = ["word", "definition", "example", "rarity", "category"];
+const REQUIRED_FIELDS = ["word", "definition", "example", "rarity"];
 
 function loadWords() {
   const raw = fs.readFileSync(WORDS_PATH, "utf8");
@@ -57,11 +57,11 @@ function checkWords(words) {
 
 function printSummary(words) {
   const byRarity = {};
-  const byCategory = {};
+  // const byCategory = {};
 
   for (const w of words) {
     byRarity[w.rarity] = (byRarity[w.rarity] || 0) + 1;
-    byCategory[w.category] = (byCategory[w.category] || 0) + 1;
+    // byCategory[w.category] = (byCategory[w.category] || 0) + 1;
   }
 
   console.log(`\nTotal words: ${words.length}\n`);
@@ -69,11 +69,6 @@ function printSummary(words) {
   console.log("By rarity:");
   for (const tier of VALID_RARITIES) {
     console.log(`  ${tier.padEnd(10)} ${byRarity[tier] || 0}`);
-  }
-
-  console.log("\nBy category:");
-  for (const [cat, count] of Object.entries(byCategory).sort()) {
-    console.log(`  ${cat.padEnd(28)} ${count}`);
   }
 }
 

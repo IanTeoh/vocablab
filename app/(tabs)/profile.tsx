@@ -18,14 +18,15 @@ import {
 } from "react-native-safe-area-context";
 import AccountSection from "../../components/AccountSection";
 import AchievementsModal from "../../components/AchievementsModal";
-import BackgroundPattern from "../../components/BackgroundPattern";
+import FavoriteWordsModal from "../../components/FavoriteWordsModal";
+import GardenBackground from "../../components/GardenBackground";
 import PressableScale from "../../components/PressableScale";
+import SynonymFinderModal from "../../components/SynonymFinderModal";
 import WordDetailModal from "../../components/WordDetailModal";
 import { Colors, Fonts, Radius, Spacing } from "../../constants/theme";
 import idioms from "../../data/idioms.json";
 import roots from "../../data/roots.json";
 import words from "../../data/words.json";
-import { getCategoryProgress } from "../../logic/categories";
 import { getContextQuizHighScore } from "../../logic/contextQuizHighScore";
 import { learnEverything } from "../../logic/devTools";
 import { getDictionary, getStats, resetAllData } from "../../logic/dictionary";
@@ -75,6 +76,8 @@ export default function Profile() {
   const [statsModalVisible, setStatsModalVisible] = useState(false);
   const [achievementsModalVisible, setAchievementsModalVisible] =
     useState(false);
+  const [favoritesModalVisible, setFavoritesModalVisible] = useState(false);
+  const [synonymFinderVisible, setSynonymFinderVisible] = useState(false);
   const insets = useSafeAreaInsets();
   const slideAnim = useRef(new Animated.Value(SCREEN_WIDTH)).current;
 
@@ -128,7 +131,13 @@ export default function Profile() {
   const idiomCollectedSet = new Set(collectedIdioms.map((w) => w.word));
   const rootCollectedSet = new Set(collectedRoots.map((r) => r.root));
 
-  const categoryProgress = getCategoryProgress(words, collectedWords);
+  const wordSection = {
+    category: "Words",
+    words: words,
+    caught: collectedSet.size,
+    total: words.length,
+    percent: Math.round((collectedSet.size / words.length) * 100),
+  };
 
   const idiomSection = {
     category: "Idioms",
@@ -148,7 +157,7 @@ export default function Profile() {
     isRoot: true,
   };
 
-  const sections = [...categoryProgress, idiomSection, rootSection];
+  const sections = [wordSection, idiomSection, rootSection];
 
   const searchPool = [
     ...(words as any[]).map((w) => ({ ...w, _type: "word", _name: w.word })),
@@ -455,10 +464,16 @@ export default function Profile() {
         : renderWordTile;
     const idField = isRoot ? "root" : "word";
 
+    const RARITY_RANK: Record<string, number> = {
+      legendary: 4,
+      epic: 3,
+      rare: 2,
+      common: 1,
+    };
     const sortedWords = [...item.words].sort((a: any, b: any) => {
       const scoreOf = (w: any) =>
-        (relevantSet.has(w[idField]) ? 2 : 0) +
-        (!isIdiom && !isRoot && w.rarity === "legendary" ? 1 : 0);
+        (relevantSet.has(w[idField]) ? 10 : 0) +
+        (!isIdiom && !isRoot ? RARITY_RANK[w.rarity] || 0 : 0);
       return scoreOf(b) - scoreOf(a);
     });
     const previewWords = sortedWords.slice(0, 3);
@@ -499,7 +514,7 @@ export default function Profile() {
       style={{ flex: 1, backgroundColor: Colors.background }}
       edges={[]}
     >
-      <BackgroundPattern />
+      <GardenBackground />
 
       <FlatList
         style={styles.container}
@@ -550,6 +565,38 @@ export default function Profile() {
                 <Text style={styles.achievementsButtonTitle}>Achievements</Text>
                 <Text style={styles.achievementsButtonSubtitle}>
                   View your unlocked badges
+                </Text>
+              </View>
+              <Text style={styles.achievementsButtonArrow}>→</Text>
+            </PressableScale>
+
+            <PressableScale
+              style={styles.achievementsButton}
+              onPress={() => setFavoritesModalVisible(true)}
+            >
+              <Text style={styles.achievementsButtonIcon}>❤️</Text>
+              <View style={{ flex: 1 }}>
+                <Text style={styles.achievementsButtonTitle}>
+                  Favorite Words
+                </Text>
+                <Text style={styles.achievementsButtonSubtitle}>
+                  Words you want to use more
+                </Text>
+              </View>
+              <Text style={styles.achievementsButtonArrow}>→</Text>
+            </PressableScale>
+
+            <PressableScale
+              style={styles.achievementsButton}
+              onPress={() => setSynonymFinderVisible(true)}
+            >
+              <Text style={styles.achievementsButtonIcon}>🎭</Text>
+              <View style={{ flex: 1 }}>
+                <Text style={styles.achievementsButtonTitle}>
+                  Synonyms & Register
+                </Text>
+                <Text style={styles.achievementsButtonSubtitle}>
+                  Find a formal or casual way to say something
                 </Text>
               </View>
               <Text style={styles.achievementsButtonArrow}>→</Text>
@@ -800,6 +847,14 @@ export default function Profile() {
       <AchievementsModal
         visible={achievementsModalVisible}
         onClose={() => setAchievementsModalVisible(false)}
+      />
+      <FavoriteWordsModal
+        visible={favoritesModalVisible}
+        onClose={() => setFavoritesModalVisible(false)}
+      />
+      <SynonymFinderModal
+        visible={synonymFinderVisible}
+        onClose={() => setSynonymFinderVisible(false)}
       />
     </SafeAreaView>
   );

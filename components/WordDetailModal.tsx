@@ -1,7 +1,16 @@
-import { useEffect, useRef } from "react";
-import { Animated, Modal, Pressable, StyleSheet, Text } from "react-native";
+import { useEffect, useRef, useState } from "react";
+import {
+  Animated,
+  Modal,
+  Pressable,
+  StyleSheet,
+  Text,
+  View,
+} from "react-native";
 import { Colors, Fonts, Radius, Spacing } from "../constants/theme";
+import { isFavorite, toggleFavorite } from "../logic/favorites";
 import { getRarityStyle } from "../logic/rarity";
+import { getSynonymsForWord, REGISTER_LABELS } from "../logic/synonyms";
 import PressableScale from "./PressableScale";
 
 type WordDetailModalProps = {
@@ -19,6 +28,7 @@ export default function WordDetailModal({
 }: WordDetailModalProps) {
   const fadeAnim = useRef(new Animated.Value(0)).current;
   const scaleAnim = useRef(new Animated.Value(0.95)).current;
+  const [favorited, setFavorited] = useState(false);
 
   useEffect(() => {
     if (visible) {
@@ -36,11 +46,19 @@ export default function WordDetailModal({
           speed: 20,
         }),
       ]).start();
+      if (word) isFavorite(word.word).then(setFavorited);
     }
-  }, [visible]);
+  }, [visible, word?.word]);
+
+  async function handleToggleFavorite() {
+    if (!word) return;
+    await toggleFavorite(word.word);
+    setFavorited((f) => !f);
+  }
 
   if (!word || !visible) return null;
   const rarity = word.rarity ? getRarityStyle(word.rarity) : null;
+  const synonymData = getSynonymsForWord(word.word);
 
   const content = (
     <Pressable style={styles.overlay} onPress={onClose}>
@@ -51,6 +69,12 @@ export default function WordDetailModal({
         ]}
       >
         <Pressable onPress={() => {}}>
+          <PressableScale
+            style={styles.favoriteButton}
+            onPress={handleToggleFavorite}
+          >
+            <Text style={styles.favoriteIcon}>{favorited ? "❤️" : "🤍"}</Text>
+          </PressableScale>
           {rarity && (
             <Text
               style={[
@@ -65,6 +89,29 @@ export default function WordDetailModal({
           <Text style={styles.word}>{word.word}</Text>
           <Text style={styles.definition}>{word.definition}</Text>
           {word.example && <Text style={styles.example}>"{word.example}"</Text>}
+
+          {synonymData && (
+            <View style={styles.synonymSection}>
+              <Text style={styles.synonymLabel}>Other ways to say this</Text>
+              {synonymData.alternatives.map((alt) => (
+                <View key={alt.word} style={styles.synonymRow}>
+                  <Text style={styles.synonymEmoji}>
+                    {REGISTER_LABELS[alt.register].emoji}
+                  </Text>
+                  <Text style={styles.synonymWord}>{alt.word}</Text>
+                  <Text
+                    style={[
+                      styles.synonymRegister,
+                      { color: REGISTER_LABELS[alt.register].color },
+                    ]}
+                  >
+                    {REGISTER_LABELS[alt.register].label}
+                  </Text>
+                </View>
+              ))}
+            </View>
+          )}
+
           <PressableScale style={styles.closeButton} onPress={onClose}>
             <Text style={styles.closeButtonText}>Close</Text>
           </PressableScale>
@@ -117,6 +164,14 @@ const styles = StyleSheet.create({
     shadowRadius: 16,
     elevation: 6,
   },
+  favoriteButton: {
+    position: "absolute",
+    top: -4,
+    right: -4,
+    zIndex: 10,
+    padding: 6,
+  },
+  favoriteIcon: { fontSize: 20 },
   rarityBadge: {
     fontFamily: Fonts.bodySemiBold,
     fontSize: 12,
@@ -153,6 +208,35 @@ const styles = StyleSheet.create({
     textAlign: "center",
     marginBottom: Spacing.lg,
   },
+  synonymSection: {
+    width: "100%",
+    backgroundColor: Colors.background,
+    borderRadius: Radius.md,
+    padding: Spacing.sm,
+    marginBottom: Spacing.md,
+  },
+  synonymLabel: {
+    fontFamily: Fonts.bodySemiBold,
+    fontSize: 11,
+    color: Colors.inkMuted,
+    textTransform: "uppercase",
+    letterSpacing: 1,
+    marginBottom: Spacing.xs,
+    textAlign: "center",
+  },
+  synonymRow: {
+    flexDirection: "row",
+    alignItems: "center",
+    paddingVertical: 4,
+  },
+  synonymEmoji: { fontSize: 12, marginRight: 6 },
+  synonymWord: {
+    flex: 1,
+    fontFamily: Fonts.bodySemiBold,
+    fontSize: 14,
+    color: Colors.ink,
+  },
+  synonymRegister: { fontFamily: Fonts.bodySemiBold, fontSize: 11 },
   closeButton: {
     paddingVertical: 12,
     paddingHorizontal: 32,

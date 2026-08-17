@@ -177,6 +177,13 @@ export default function RootOfDayCard({ onCaught }: { onCaught?: () => void }) {
                 )}
               </>
             )}
+
+            <PressableScale
+              style={styles.exitButton}
+              onPress={() => setModalVisible(false)}
+            >
+              <Text style={styles.exitButtonText}>Exit</Text>
+            </PressableScale>
           </View>
         </SafeAreaView>
       </Modal>
@@ -253,6 +260,16 @@ const styles = StyleSheet.create({
     fontSize: 16,
   },
   modalContainer: { flex: 1, backgroundColor: Colors.background },
+  exitButton: {
+    paddingVertical: 10,
+    alignItems: "center",
+    marginTop: Spacing.sm,
+  },
+  exitButtonText: {
+    fontFamily: Fonts.bodySemiBold,
+    fontSize: 13,
+    color: Colors.inkMuted,
+  },
   modalContent: { flex: 1, padding: Spacing.lg, justifyContent: "center" },
   modalIcon: { fontSize: 48, textAlign: "center", marginBottom: Spacing.xs },
   modalWord: {

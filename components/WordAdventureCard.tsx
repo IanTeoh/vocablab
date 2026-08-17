@@ -10,7 +10,9 @@ import {
   incrementSessionsCompleted,
 } from "../logic/levels";
 import { getLives, loseLife, MAX_LIVES } from "../logic/lives";
+import { getProficiencyLevel, PROFICIENCY_LEVELS } from "../logic/proficiency";
 import LevelQuiz from "./LevelQuiz";
+import PlacementQuizModal from "./PlacementQuizModal";
 import PressableScale from "./PressableScale";
 
 type Session = { id: number; words: any[] };
@@ -25,11 +27,15 @@ export default function WordAdventureCard() {
   const [outOfLives, setOutOfLives] = useState(false);
   const [poolExhausted, setPoolExhausted] = useState(false);
   const [justCompleted, setJustCompleted] = useState(false);
+  const [proficiencyLevel, setProficiencyLevelState] =
+    useState<string>("intermediate");
+  const [placementQuizVisible, setPlacementQuizVisible] = useState(false);
 
   useFocusEffect(
     useCallback(() => {
       getLives().then(setLives);
       getSessionsCompletedCount().then(setSessionsCompleted);
+      getProficiencyLevel().then(setProficiencyLevelState);
     }, []),
   );
 
@@ -42,7 +48,7 @@ export default function WordAdventureCard() {
   async function handlePlay() {
     if (lives === 0) return;
     const dictionary = await getDictionary();
-    const sessionWords = generateAdventureSession(words, dictionary, 3);
+    const sessionWords = await generateAdventureSession(words, dictionary, 3);
 
     if (sessionWords.length === 0) {
       setPoolExhausted(true);
@@ -125,6 +131,21 @@ export default function WordAdventureCard() {
         </Text>
       </PressableScale>
 
+      <View style={styles.difficultyRow}>
+        <Text style={styles.difficultyText}>
+          Difficulty:{" "}
+          {PROFICIENCY_LEVELS[proficiencyLevel]?.label ?? "Intermediate"}
+        </Text>
+        <PressableScale onPress={() => setPlacementQuizVisible(true)}>
+          <Text style={styles.placementLink}>🎯 Take Placement Quiz</Text>
+        </PressableScale>
+      </View>
+
+      <PlacementQuizModal
+        visible={placementQuizVisible}
+        onClose={() => setPlacementQuizVisible(false)}
+        onLevelSet={setProficiencyLevelState}
+      />
       <Modal
         visible={modalVisible}
         animationType="slide"
@@ -218,6 +239,23 @@ const styles = StyleSheet.create({
   },
   playButtonDisabled: {
     backgroundColor: Colors.border,
+  },
+  difficultyRow: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    width: "100%",
+    marginTop: Spacing.sm,
+  },
+  difficultyText: {
+    fontFamily: Fonts.body,
+    fontSize: 12,
+    color: Colors.inkMuted,
+  },
+  placementLink: {
+    fontFamily: Fonts.bodySemiBold,
+    fontSize: 12,
+    color: Colors.accent,
   },
   playButtonText: {
     fontFamily: Fonts.bodySemiBold,

@@ -1,15 +1,15 @@
 import {
-    addDoc,
-    collection,
-    deleteDoc,
-    doc,
-    getDoc,
-    getDocs,
-    limit,
-    query,
-    setDoc,
-    updateDoc,
-    where,
+  addDoc,
+  collection,
+  deleteDoc,
+  doc,
+  getDoc,
+  getDocs,
+  limit,
+  query,
+  setDoc,
+  updateDoc,
+  where,
 } from "firebase/firestore";
 import { db } from "../firebaseConfig";
 import { getCurrentUser } from "./auth";
@@ -31,9 +31,12 @@ export async function searchUsersByUsername(queryText) {
     limit(15),
   );
   const snapshot = await getDocs(q);
+  const { getBlockedUidSet } = await import("./moderation");
+  const blocked = await getBlockedUidSet();
+
   return snapshot.docs
     .map((d) => ({ uid: d.id, ...d.data() }))
-    .filter((u) => u.uid !== me?.uid);
+    .filter((u) => u.uid !== me?.uid && !blocked.has(u.uid));
 }
 
 // --- Friend requests ---
@@ -74,7 +77,11 @@ export async function getIncomingRequests() {
     where("status", "==", "pending"),
   );
   const snapshot = await getDocs(q);
-  return snapshot.docs.map((d) => ({ id: d.id, ...d.data() }));
+  const { getBlockedUidSet } = await import("./moderation");
+  const blocked = await getBlockedUidSet();
+  return snapshot.docs
+    .map((d) => ({ id: d.id, ...d.data() }))
+    .filter((r) => !blocked.has(r.fromUid));
 }
 
 export async function getOutgoingRequests() {

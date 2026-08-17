@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { ScrollView, StyleSheet, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import BackgroundPattern from "../../components/BackgroundPattern";
 import FadeInView from "../../components/FadeInView";
+import GardenBackground from "../../components/GardenBackground";
 import LoanwordGuessCard from "../../components/LoanwordGuessCard";
 import RootDerivativesCard from "../../components/RootDerivativesCard";
 import RootDerivativesGameScreen from "../../components/RootDerivativesGameScreen";
@@ -27,7 +27,7 @@ export default function Etymology() {
   return (
     <View style={{ flex: 1 }}>
       <SafeAreaView style={styles.screen} edges={["top"]}>
-        <BackgroundPattern />
+        <GardenBackground />
         <ScrollView contentContainerStyle={styles.container}>
           <Text style={styles.title}>Etymology</Text>
 

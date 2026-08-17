@@ -318,6 +318,7 @@ export function getAllLogbookEntries() {
 
 export const DECORATIONS = [
   { id: "pine", name: "Pine Tree", price: 15, category: "tree" },
+  { id: "tallPine", name: "Tall Pine", price: 18, category: "tree" },
   { id: "oak", name: "Oak Tree", price: 20, category: "tree" },
   { id: "bush", name: "Flowering Bush", price: 10, category: "bush" },
   { id: "fence", name: "Fence Section", price: 8, category: "path" },

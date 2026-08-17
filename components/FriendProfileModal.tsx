@@ -1,7 +1,24 @@
-import { Modal, ScrollView, StyleSheet, Text, View } from "react-native";
+import { useState } from "react";
+import {
+  Alert,
+  Modal,
+  ScrollView,
+  StyleSheet,
+  Text,
+  TextInput,
+  View,
+} from "react-native";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import { Colors, Fonts, Radius, Spacing } from "../constants/theme";
+import { blockUser, reportUser } from "../logic/moderation";
 import PressableScale from "./PressableScale";
+
+const REPORT_REASONS = [
+  "Inappropriate username",
+  "Inappropriate photo",
+  "Harassment",
+  "Other",
+];
 
 export default function FriendProfileModal({
   visible,
@@ -14,8 +31,45 @@ export default function FriendProfileModal({
   onClose: () => void;
   onRemove: (uid: string) => void;
 }) {
+  const [reportVisible, setReportVisible] = useState(false);
+  const [reportReason, setReportReason] = useState<string | null>(null);
+  const [reportNote, setReportNote] = useState("");
+
   if (!friend) return null;
   const stats = friend.stats || {};
+
+  async function handleBlock() {
+    Alert.alert(
+      "Block this person?",
+      `You won't see ${friend.username} in search, and they won't be able to send you friend requests. This also removes them as a friend.`,
+      [
+        { text: "Cancel", style: "cancel" },
+        {
+          text: "Block",
+          style: "destructive",
+          onPress: async () => {
+            await blockUser(friend.uid, friend.username);
+            onClose();
+          },
+        },
+      ],
+    );
+  }
+
+  async function handleSubmitReport() {
+    if (!reportReason) return;
+    const reason = reportNote.trim()
+      ? `${reportReason}: ${reportNote.trim()}`
+      : reportReason;
+    const result = await reportUser(friend.uid, friend.username, reason);
+    setReportVisible(false);
+    setReportReason(null);
+    setReportNote("");
+    Alert.alert(
+      result.success ? "Report submitted" : "Couldn't submit report",
+      result.success ? "Thanks for letting us know." : result.error,
+    );
+  }
 
   return (
     <Modal visible={visible} animationType="slide" onRequestClose={onClose}>
@@ -110,6 +164,77 @@ export default function FriendProfileModal({
             >
               <Text style={styles.removeButtonText}>Remove Friend</Text>
             </PressableScale>
+
+            {!reportVisible ? (
+              <View style={styles.safetyRow}>
+                <PressableScale
+                  style={styles.safetyButton}
+                  onPress={() => setReportVisible(true)}
+                >
+                  <Text style={styles.safetyButtonText}>🚩 Report</Text>
+                </PressableScale>
+                <PressableScale
+                  style={styles.safetyButton}
+                  onPress={handleBlock}
+                >
+                  <Text style={styles.safetyButtonText}>🚫 Block</Text>
+                </PressableScale>
+              </View>
+            ) : (
+              <View style={styles.reportBox}>
+                <Text style={styles.reportTitle}>
+                  Why are you reporting {friend.username}?
+                </Text>
+                {REPORT_REASONS.map((reason) => (
+                  <PressableScale
+                    key={reason}
+                    style={[
+                      styles.reasonOption,
+                      reportReason === reason && styles.reasonOptionSelected,
+                    ]}
+                    onPress={() => setReportReason(reason)}
+                  >
+                    <Text
+                      style={[
+                        styles.reasonOptionText,
+                        reportReason === reason &&
+                          styles.reasonOptionTextSelected,
+                      ]}
+                    >
+                      {reason}
+                    </Text>
+                  </PressableScale>
+                ))}
+                <TextInput
+                  style={styles.reportNoteInput}
+                  placeholder="Add details (optional)"
+                  placeholderTextColor={Colors.inkMuted}
+                  value={reportNote}
+                  onChangeText={setReportNote}
+                  multiline
+                />
+                <View style={styles.safetyRow}>
+                  <PressableScale
+                    style={styles.reportCancelButton}
+                    onPress={() => {
+                      setReportVisible(false);
+                      setReportReason(null);
+                    }}
+                  >
+                    <Text style={styles.reportCancelText}>Cancel</Text>
+                  </PressableScale>
+                  <PressableScale
+                    style={[
+                      styles.reportSubmitButton,
+                      !reportReason && { opacity: 0.5 },
+                    ]}
+                    onPress={handleSubmitReport}
+                  >
+                    <Text style={styles.reportSubmitText}>Submit</Text>
+                  </PressableScale>
+                </View>
+              </View>
+            )}
           </ScrollView>
         </SafeAreaView>
       </SafeAreaProvider>
@@ -178,5 +303,83 @@ const styles = StyleSheet.create({
     fontFamily: Fonts.bodySemiBold,
     fontSize: 13,
     color: Colors.error,
+  },
+  safetyRow: {
+    flexDirection: "row",
+    justifyContent: "center",
+    gap: 10,
+    marginBottom: Spacing.lg,
+  },
+  safetyButton: {
+    borderWidth: 1,
+    borderColor: Colors.border,
+    borderRadius: Radius.pill,
+    paddingHorizontal: 16,
+    paddingVertical: 8,
+  },
+  safetyButtonText: {
+    fontFamily: Fonts.bodySemiBold,
+    fontSize: 12,
+    color: Colors.inkMuted,
+  },
+  reportBox: {
+    backgroundColor: Colors.surface,
+    borderRadius: Radius.lg,
+    borderWidth: 1,
+    borderColor: Colors.border,
+    padding: Spacing.md,
+    marginBottom: Spacing.lg,
+  },
+  reportTitle: {
+    fontFamily: Fonts.bodySemiBold,
+    fontSize: 14,
+    color: Colors.ink,
+    marginBottom: Spacing.sm,
+  },
+  reasonOption: {
+    borderWidth: 1,
+    borderColor: Colors.border,
+    borderRadius: Radius.md,
+    padding: 10,
+    marginBottom: 6,
+  },
+  reasonOptionSelected: {
+    borderColor: Colors.error,
+    backgroundColor: Colors.background,
+  },
+  reasonOptionText: { fontFamily: Fonts.body, fontSize: 13, color: Colors.ink },
+  reasonOptionTextSelected: {
+    fontFamily: Fonts.bodySemiBold,
+    color: Colors.error,
+  },
+  reportNoteInput: {
+    fontFamily: Fonts.body,
+    fontSize: 13,
+    color: Colors.ink,
+    borderWidth: 1,
+    borderColor: Colors.border,
+    borderRadius: Radius.md,
+    padding: 10,
+    marginTop: 6,
+    marginBottom: Spacing.sm,
+    minHeight: 60,
+    textAlignVertical: "top",
+  },
+  reportCancelButton: { paddingVertical: 10, paddingHorizontal: 16 },
+  reportCancelText: {
+    fontFamily: Fonts.bodySemiBold,
+    fontSize: 13,
+    color: Colors.inkMuted,
+  },
+  reportSubmitButton: {
+    backgroundColor: Colors.error,
+    borderRadius: Radius.pill,
+    paddingVertical: 10,
+    paddingHorizontal: 20,
+  },
+  reportSubmitText: {
+    fontFamily: Fonts.bodySemiBold,
+    fontSize: 13,
+    color: "#fff",
   },
 });

@@ -20,6 +20,8 @@ export async function addWordToDictionary(word) {
   if (!dictionary.some((w) => w.word === word.word)) {
     dictionary.push({ ...word, addedOn: getTodayDateString() });
     await AsyncStorage.setItem(DICTIONARY_KEY, JSON.stringify(dictionary));
+    const { initializeReviewEntry } = await import("./spacedRepetition");
+    await initializeReviewEntry(word.word);
   }
   await AsyncStorage.setItem(COMPLETED_KEY, getTodayDateString());
 }
@@ -79,6 +81,9 @@ export async function resetAllData() {
     "vocablab_pref_sound_effects",
     "vocablab_pref_daily_reminder",
     "vocablab_pref_share_stats",
+    "vocablab_review_boxes",
+    "vocablab_favorite_words",
+    "vocablab_proficiency_level",
     "vocablab_coins",
     "vocablab_ambient_sound",
   ]);

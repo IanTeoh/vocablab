@@ -1,19 +1,11 @@
 import { useFocusEffect } from "expo-router";
 import { useCallback, useState } from "react";
-import { StyleSheet, Text, View } from "react-native";
-import Svg, {
-    Circle,
-    Defs,
-    Ellipse,
-    LinearGradient,
-    Path,
-    Rect,
-    Stop,
-} from "react-native-svg";
+import { Image, StyleSheet, Text, View } from "react-native";
+import Svg, { Circle, Ellipse, Path, Rect } from "react-native-svg";
 import { Colors, Fonts, Radius, Spacing } from "../constants/theme";
 import { getCoins } from "../logic/coins";
 import { DECORATIONS, getOwnedDecorations } from "../logic/garden";
-import { getTimeOfDayBucket, TIME_OF_DAY_THEMES } from "../logic/timeOfDay";
+import GardenBackground from "./GardenBackground";
 import GreenhouseScreen from "./GreenhouseScreen";
 import PressableScale from "./PressableScale";
 import SiloScreen from "./SiloScreen";
@@ -35,9 +27,6 @@ export default function GardenHub() {
     "silo" | "greenhouse" | "truck" | null
   >(null);
 
-  const bucket = getTimeOfDayBucket();
-  const theme = TIME_OF_DAY_THEMES[bucket];
-
   useFocusEffect(
     useCallback(() => {
       loadEverything();
@@ -51,28 +40,29 @@ export default function GardenHub() {
 
   return (
     <View style={styles.scene}>
-      <Svg
-        width="100%"
-        height="100%"
-        viewBox="0 0 400 600"
-        preserveAspectRatio="xMidYMid slice"
-        style={StyleSheet.absoluteFill}
-      >
-        <Defs>
-          <LinearGradient id="hubSky" x1="0" y1="0" x2="0" y2="1">
-            <Stop offset="0" stopColor={theme.sky[0]} stopOpacity="1" />
-            <Stop offset="1" stopColor={theme.sky[1]} stopOpacity="1" />
-          </LinearGradient>
-        </Defs>
-        <Rect x="0" y="0" width="400" height="280" fill="url(#hubSky)" />
-        {/* bare, flat landscape — deliberately simple for now */}
-        <Rect x="0" y="280" width="400" height="320" fill="#A9C97E" />
-        <Path
-          d="M0 280 Q200 265 400 280 L400 300 L0 300 Z"
-          fill="#97BC6C"
-          opacity="0.6"
-        />
-      </Svg>
+      <GardenBackground />
+
+      {/* fixed landscape scenery — always present, not tied to purchases */}
+      <Image
+        source={require("../assets/images/pine1.png")}
+        style={[styles.sceneryTree, { left: "1%", top: "34%", width: 46, height: 46 }]}
+        resizeMode="contain"
+      />
+      <Image
+        source={require("../assets/images/pine2.png")}
+        style={[styles.sceneryTree, { left: "10%", top: "38%", width: 34, height: 34 }]}
+        resizeMode="contain"
+      />
+      <Image
+        source={require("../assets/images/oak.png")}
+        style={[styles.sceneryTree, { left: "85%", top: "32%", width: 58, height: 58 }]}
+        resizeMode="contain"
+      />
+      <Image
+        source={require("../assets/images/pine1.png")}
+        style={[styles.sceneryTree, { left: "94%", top: "40%", width: 32, height: 32 }]}
+        resizeMode="contain"
+      />
 
       {/* decoration slots, filled in purchase order */}
       {DECORATION_SLOTS.map((slot, i) => {
@@ -81,7 +71,7 @@ export default function GardenHub() {
         if (!dec) return null;
         return (
           <View key={i} style={[styles.decorationSlot, slot as any]}>
-            <DecorationIcon category={dec.category} size={44} />
+            <DecorationIcon id={dec.id} category={dec.category} size={44} />
           </View>
         );
       })}
@@ -103,10 +93,14 @@ export default function GardenHub() {
       </PressableScale>
 
       <PressableScale
-        style={[styles.building, { left: "50%", top: "48%", marginLeft: -40 }]}
+        style={[styles.building, { left: "50%", top: "48%", marginLeft: -48 }]}
         onPress={() => setActiveScreen("greenhouse")}
       >
-        <GreenhouseBuilding />
+        <Image
+          source={require("../assets/images/barn.png")}
+          style={{ width: 96, height: 96 }}
+          resizeMode="contain"
+        />
         <Text style={styles.buildingLabel}>Greenhouse</Text>
       </PressableScale>
 
@@ -190,6 +184,7 @@ function TruckBuilding() {
 
 const styles = StyleSheet.create({
   scene: { flex: 1 },
+  sceneryTree: { position: "absolute" },
   hudTop: { position: "absolute", top: Spacing.sm, right: Spacing.sm },
   coinsPill: {
     flexDirection: "row",

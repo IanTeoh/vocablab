@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
 import {
-    ActivityIndicator,
-    Modal,
-    ScrollView,
-    StyleSheet,
-    Text,
-    View,
+  ActivityIndicator,
+  Modal,
+  ScrollView,
+  StyleSheet,
+  Text,
+  View,
 } from "react-native";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import { Colors, Fonts, Radius, Spacing } from "../constants/theme";
@@ -42,9 +42,9 @@ export default function LeaderboardModal({
     const me = {
       uid: user?.uid,
       username: user?.displayName,
-      avatarType: myProfile?.avatarType,
-      avatarUrl: myProfile?.avatarUrl,
-      avatarId: myProfile?.avatarId,
+      avatarType: (myProfile as any)?.avatarType,
+      avatarUrl: (myProfile as any)?.avatarUrl,
+      avatarId: (myProfile as any)?.avatarId,
       isSelf: true,
       total:
         (myStats.wordsCollected || 0) +
@@ -52,19 +52,21 @@ export default function LeaderboardModal({
         (myStats.rootsCollected || 0),
     };
 
-    const friendEntries = friends.map((f) => ({
-      uid: f.uid,
-      username: f.username,
-      avatarType: f.avatarType,
-      avatarUrl: f.avatarUrl,
-      avatarId: f.avatarId,
-      isSelf: false,
-      total: f.stats
-        ? (f.stats.wordsCollected || 0) +
-          (f.stats.idiomsCollected || 0) +
-          (f.stats.rootsCollected || 0)
-        : 0,
-    }));
+    const friendEntries = friends
+      .filter((f) => f !== null)
+      .map((f: any) => ({
+        uid: f.uid,
+        username: f.username,
+        avatarType: f.avatarType,
+        avatarUrl: f.avatarUrl,
+        avatarId: f.avatarId,
+        isSelf: false,
+        total: f.stats
+          ? (f.stats.wordsCollected || 0) +
+            (f.stats.idiomsCollected || 0) +
+            (f.stats.rootsCollected || 0)
+          : 0,
+      }));
 
     const combined = [me, ...friendEntries].sort((a, b) => b.total - a.total);
     setRanked(combined);

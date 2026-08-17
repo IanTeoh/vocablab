@@ -22,7 +22,7 @@ function getDecoyPool(word, allWords) {
 export function buildQuizOptions(word, allWords) {
   const pool = getDecoyPool(word, allWords);
   const decoys = shuffle(pool)
-    .slice(0, 2)
+    .slice(0, 3)
     .map((w) => w.definition);
   return shuffle([word.definition, ...decoys]);
 }

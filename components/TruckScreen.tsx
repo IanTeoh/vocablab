@@ -1,33 +1,52 @@
 import * as Haptics from "expo-haptics";
 import { useEffect, useRef, useState } from "react";
 import {
-    Animated,
-    Dimensions,
-    ScrollView,
-    StyleSheet,
-    Text,
-    View,
+  Animated,
+  Dimensions,
+  Image,
+  ScrollView,
+  StyleSheet,
+  Text,
+  View,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import Svg, { Circle, Ellipse, Rect } from "react-native-svg";
 import { Colors, Fonts, Radius, Spacing } from "../constants/theme";
 import { getCoins } from "../logic/coins";
 import {
-    DECORATIONS,
-    getOwnedDecorations,
-    purchaseDecoration,
+  DECORATIONS,
+  getOwnedDecorations,
+  purchaseDecoration,
 } from "../logic/garden";
 import PressableScale from "./PressableScale";
 
 const { height: SCREEN_HEIGHT } = Dimensions.get("window");
 
+const TREE_IMAGES: Record<string, any> = {
+  pine: require("../assets/images/pine1.png"),
+  tallPine: require("../assets/images/pine2.png"),
+  oak: require("../assets/images/oak.png"),
+};
+
 export function DecorationIcon({
+  id,
   category,
   size = 44,
 }: {
+  id?: string;
   category: string;
   size?: number;
 }) {
+  if (id && TREE_IMAGES[id]) {
+    return (
+      <Image
+        source={TREE_IMAGES[id]}
+        style={{ width: size, height: size }}
+        resizeMode="contain"
+      />
+    );
+  }
+
   return (
     <Svg width={size} height={size} viewBox="0 0 60 60">
       {category === "tree" && (
@@ -129,7 +148,7 @@ export default function TruckScreen({
     <Animated.View
       style={[styles.overlay, { transform: [{ translateY: slideAnim }] }]}
     >
-      <SafeAreaView style={styles.container} edges={["top"]}>
+      <SafeAreaView style={styles.container} edges={["top", "bottom"]}>
         <View style={styles.header}>
           <Text style={styles.title}>🚚 Truck</Text>
           <View style={styles.coinsPill}>
@@ -152,7 +171,7 @@ export default function TruckScreen({
             const isOwned = owned.includes(dec.id);
             return (
               <View key={dec.id} style={styles.decorationRow}>
-                <DecorationIcon category={dec.category} />
+                <DecorationIcon id={dec.id} category={dec.category} />
                 <View style={{ flex: 1, marginLeft: Spacing.sm }}>
                   <Text style={styles.decorationName}>{dec.name}</Text>
                   <Text style={styles.decorationCategory}>{dec.category}</Text>
@@ -275,10 +294,19 @@ const styles = StyleSheet.create({
     fontSize: 11,
     color: Colors.success,
   },
-  closeButton: { alignItems: "center", paddingVertical: Spacing.md },
+  closeButton: {
+    alignItems: "center",
+    paddingVertical: Spacing.sm,
+    marginHorizontal: Spacing.lg,
+    marginBottom: Spacing.sm,
+    borderWidth: 1,
+    borderColor: Colors.border,
+    borderRadius: Radius.pill,
+    backgroundColor: Colors.surface,
+  },
   closeButtonText: {
     fontFamily: Fonts.bodySemiBold,
-    fontSize: 13,
-    color: Colors.inkMuted,
+    fontSize: 14,
+    color: Colors.ink,
   },
 });

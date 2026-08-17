@@ -74,7 +74,17 @@ export async function pushProgressToCloud(uid) {
 export async function pullProgressFromCloud(uid) {
   try {
     const snapshot = await getDoc(doc(db, "userProgress", uid));
-    if (!snapshot.exists()) return { success: true, found: false };
+
+    // Always clear first — otherwise a key this account never saved
+    // (but a previous account/guest session did) would linger and
+    // make accounts bleed into each other instead of staying
+    // independent.
+    await AsyncStorage.multiRemove(PROGRESS_KEYS);
+
+    if (!snapshot.exists()) {
+      return { success: true, found: false };
+    }
+
     const { data } = snapshot.data();
     await importLocalProgress(data);
     return { success: true, found: true };
@@ -84,6 +94,13 @@ export async function pullProgressFromCloud(uid) {
   }
 }
 
+// Used on logout — after saving to the cloud, the device should go
+// back to a truly clean slate so the next login or signup doesn't
+// inherit this account's leftovers.
+export async function clearLocalProgress() {
+  await AsyncStorage.multiRemove(PROGRESS_KEYS);
+}
+
 export async function hasCloudProgress(uid) {
   try {
     const snapshot = await getDoc(doc(db, "userProgress", uid));
@@ -91,5 +108,19 @@ export async function hasCloudProgress(uid) {
   } catch (error) {
     console.warn("hasCloudProgress failed:", error);
     return false;
+  }
+}
+
+// Used to decide whether logging in should restore automatically
+// (device is empty, nothing to lose) or needs to ask first (device
+// already has real progress that could be overwritten).
+export async function isLocalProgressEmpty() {
+  const raw = await AsyncStorage.getItem("vocablab_dictionary");
+  if (!raw) return true;
+  try {
+    const parsed = JSON.parse(raw);
+    return !Array.isArray(parsed) || parsed.length === 0;
+  } catch {
+    return true;
   }
 }

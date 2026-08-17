@@ -1,10 +1,11 @@
 import { useState } from "react";
 import { ScrollView, StyleSheet, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import BackgroundPattern from "../../components/BackgroundPattern";
 import ContextQuizCard from "../../components/ContextQuizCard";
 import FadeInView from "../../components/FadeInView";
+import GardenBackground from "../../components/GardenBackground";
 import ReviewCard from "../../components/ReviewCard";
+import ReviewGameScreen from "../../components/ReviewGameScreen";
 import SegmentedTabs from "../../components/SegmentedTabs";
 import WordAdventureCard from "../../components/WordAdventureCard";
 import WordOfDayCard from "../../components/WordOfDayCard";
@@ -17,11 +18,13 @@ const SEGMENTS = ["Learn", "Games"];
 export default function Index() {
   const [segment, setSegment] = useState("Learn");
   const [unscrambleActive, setUnscrambleActive] = useState(false);
+  const [reviewQueue, setReviewQueue] = useState<any[] | null>(null);
+  const [reviewRefreshKey, setReviewRefreshKey] = useState(0);
 
   return (
     <View style={{ flex: 1 }}>
       <SafeAreaView style={styles.screen} edges={["top"]}>
-        <BackgroundPattern />
+        <GardenBackground />
         <ScrollView contentContainerStyle={styles.container}>
           <Text style={styles.title}>Home</Text>
 
@@ -40,7 +43,10 @@ export default function Index() {
                 <WordAdventureCard />
               </FadeInView>
               <FadeInView delay={160}>
-                <ReviewCard />
+                <ReviewCard
+                  onPlay={(queue) => setReviewQueue(queue)}
+                  refreshKey={reviewRefreshKey}
+                />
               </FadeInView>
             </>
           )}
@@ -61,6 +67,13 @@ export default function Index() {
       <WordUnscrambleGameScreen
         visible={unscrambleActive}
         onClose={() => setUnscrambleActive(false)}
+      />
+
+      <ReviewGameScreen
+        visible={!!reviewQueue}
+        queue={reviewQueue ?? []}
+        onClose={() => setReviewQueue(null)}
+        onSessionEnd={() => setReviewRefreshKey((k) => k + 1)}
       />
     </View>
   );

@@ -1,13 +1,17 @@
 import { Ionicons } from "@expo/vector-icons";
 import { Tabs } from "expo-router";
 import { useEffect, useState } from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { AppState, StyleSheet, Text, View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import AchievementToast from "../../components/AchievementToast";
 import { Colors, Fonts } from "../../constants/theme";
 import { checkForNewAchievements } from "../../logic/achievements";
+import { getCurrentUser } from "../../logic/auth";
+import { pushProgressToCloud } from "../../logic/fullProgressSync";
+import { syncStatsToCloud } from "../../logic/profileSync";
 
 const CHECK_INTERVAL_MS = 3000;
+const SYNC_INTERVAL_MS = 60000;
 
 function TabIcon({
   iconOutline,
@@ -44,6 +48,30 @@ export default function TabLayout() {
       });
     }, CHECK_INTERVAL_MS);
     return () => clearInterval(interval);
+  }, []);
+
+  useEffect(() => {
+    async function autoSync() {
+      const user = getCurrentUser();
+      if (!user) return;
+      await pushProgressToCloud(user.uid);
+      await syncStatsToCloud(user.uid);
+    }
+
+    const syncInterval = setInterval(autoSync, SYNC_INTERVAL_MS);
+
+    // Also sync right as the app leaves the foreground, so closing
+    // the app doesn't leave a gap until the next periodic tick.
+    const appStateSub = AppState.addEventListener("change", (state) => {
+      if (state === "background" || state === "inactive") {
+        autoSync();
+      }
+    });
+
+    return () => {
+      clearInterval(syncInterval);
+      appStateSub.remove();
+    };
   }, []);
 
   return (

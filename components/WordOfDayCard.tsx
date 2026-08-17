@@ -233,6 +233,13 @@ export default function WordOfDayCard() {
                 )}
               </>
             )}
+
+            <PressableScale
+              style={styles.exitButton}
+              onPress={() => setModalVisible(false)}
+            >
+              <Text style={styles.exitButtonText}>Exit</Text>
+            </PressableScale>
           </Animated.View>
         </SafeAreaView>
       </Modal>
@@ -319,6 +326,16 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   modalContainer: { flex: 1, backgroundColor: Colors.background },
+  exitButton: {
+    paddingVertical: 10,
+    alignItems: "center",
+    marginTop: Spacing.sm,
+  },
+  exitButtonText: {
+    fontFamily: Fonts.bodySemiBold,
+    fontSize: 13,
+    color: Colors.inkMuted,
+  },
   modalContent: { flex: 1, padding: Spacing.lg, justifyContent: "center" },
   modalWord: {
     fontFamily: Fonts.displayBold,

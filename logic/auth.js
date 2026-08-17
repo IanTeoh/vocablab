@@ -1,12 +1,26 @@
 import {
-    createUserWithEmailAndPassword,
-    signOut as firebaseSignOut,
-    onAuthStateChanged,
-    signInWithEmailAndPassword,
-    updateProfile,
+  createUserWithEmailAndPassword,
+  deleteUser,
+  EmailAuthProvider,
+  signOut as firebaseSignOut,
+  onAuthStateChanged,
+  reauthenticateWithCredential,
+  sendPasswordResetEmail,
+  signInWithEmailAndPassword,
+  updateProfile,
 } from "firebase/auth";
-import { doc, setDoc, updateDoc } from "firebase/firestore";
+import {
+  collection,
+  deleteDoc,
+  doc,
+  getDocs,
+  query,
+  setDoc,
+  updateDoc,
+  where,
+} from "firebase/firestore";
 import { auth, db } from "../firebaseConfig";
+import { clearLocalProgress } from "./fullProgressSync";
 
 // Friendly messages for the Firebase error codes people will
 // actually hit, instead of showing raw "auth/invalid-email" strings.
@@ -72,6 +86,29 @@ export function getCurrentUser() {
   return auth.currentUser;
 }
 
+export async function sendPasswordReset(email) {
+  try {
+    await sendPasswordResetEmail(auth, email);
+    return { success: true };
+  } catch (error) {
+    if (error?.code === "auth/user-not-found") {
+      // Deliberately vague — confirming whether an email is
+      // registered is an account-enumeration risk.
+      return { success: true };
+    }
+    if (error?.code === "auth/invalid-email") {
+      return {
+        success: false,
+        error: "That doesn't look like a valid email address.",
+      };
+    }
+    return {
+      success: false,
+      error: "Couldn't send the reset email. Please try again.",
+    };
+  }
+}
+
 export async function updateUsername(newUsername) {
   const user = auth.currentUser;
   if (!user) return { success: false, error: "Not signed in." };
@@ -84,5 +121,71 @@ export async function updateUsername(newUsername) {
     return { success: true };
   } catch (error) {
     return { success: false, error: "Couldn't update username." };
+  }
+}
+
+// Fully removes the account: Firebase Auth user, public profile,
+// full progress backup, friend relationships on both sides, any
+// pending friend requests, and the local device's progress.
+export async function deleteAccount(password) {
+  const user = auth.currentUser;
+  if (!user) return { success: false, error: "Not signed in." };
+
+  try {
+    if (password) {
+      const credential = EmailAuthProvider.credential(user.email, password);
+      await reauthenticateWithCredential(user, credential);
+    }
+
+    const uid = user.uid;
+
+    const friendsSnapshot = await getDocs(
+      collection(db, "users", uid, "friends"),
+    );
+    for (const friendDoc of friendsSnapshot.docs) {
+      await deleteDoc(doc(db, "users", friendDoc.id, "friends", uid)).catch(
+        () => {},
+      );
+      await deleteDoc(doc(db, "users", uid, "friends", friendDoc.id)).catch(
+        () => {},
+      );
+    }
+
+    const outgoing = await getDocs(
+      query(collection(db, "friendRequests"), where("fromUid", "==", uid)),
+    );
+    const incoming = await getDocs(
+      query(collection(db, "friendRequests"), where("toUid", "==", uid)),
+    );
+    for (const d of [...outgoing.docs, ...incoming.docs]) {
+      await deleteDoc(doc(db, "friendRequests", d.id)).catch(() => {});
+    }
+
+    await deleteDoc(doc(db, "users", uid)).catch(() => {});
+    await deleteDoc(doc(db, "userProgress", uid)).catch(() => {});
+
+    await deleteUser(user);
+    await clearLocalProgress();
+
+    return { success: true };
+  } catch (error) {
+    if (error?.code === "auth/requires-recent-login") {
+      return {
+        success: false,
+        requiresReauth: true,
+        error:
+          "For security, please re-enter your password to confirm deletion.",
+      };
+    }
+    if (
+      error?.code === "auth/wrong-password" ||
+      error?.code === "auth/invalid-credential"
+    ) {
+      return { success: false, error: "Incorrect password." };
+    }
+    return {
+      success: false,
+      error: error?.message || "Couldn't delete account.",
+    };
   }
 }

@@ -1,18 +1,17 @@
 import { useEffect, useState } from "react";
 import {
-    ActivityIndicator,
-    Modal,
-    ScrollView,
-    StyleSheet,
-    Text,
-    TextInput,
-    View,
+  ActivityIndicator,
+  Modal,
+  ScrollView,
+  StyleSheet,
+  Text,
+  TextInput,
+  View,
 } from "react-native";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import { Colors, Fonts, Radius, Spacing } from "../constants/theme";
 import { getCurrentUser, updateUsername } from "../logic/auth";
 import { getFriendProfile } from "../logic/friends";
-import { syncStatsToCloud } from "../logic/profileSync";
 import AvatarPicker from "./AvatarPicker";
 import PressableScale from "./PressableScale";
 
@@ -28,8 +27,6 @@ export default function ProfileAndFriendsModal({
   const [username, setUsername] = useState(user?.displayName || "");
   const [savingUsername, setSavingUsername] = useState(false);
   const [usernameSaved, setUsernameSaved] = useState(false);
-  const [syncing, setSyncing] = useState(false);
-  const [lastSynced, setLastSynced] = useState<string | null>(null);
 
   useEffect(() => {
     if (visible) loadProfile();
@@ -51,14 +48,6 @@ export default function ProfileAndFriendsModal({
       setUsernameSaved(true);
       setTimeout(() => setUsernameSaved(false), 1800);
     }
-  }
-
-  async function handleSync() {
-    if (!user) return;
-    setSyncing(true);
-    await syncStatsToCloud(user.uid);
-    setSyncing(false);
-    setLastSynced(new Date().toLocaleTimeString());
   }
 
   if (!user) return null;
@@ -108,24 +97,9 @@ export default function ProfileAndFriendsModal({
               </PressableScale>
             </View>
 
-            <View style={styles.syncRow}>
-              {syncing ? (
-                <ActivityIndicator size="small" color={Colors.accent} />
-              ) : (
-                <Text style={styles.syncText}>
-                  {lastSynced
-                    ? `Stats synced at ${lastSynced}`
-                    : "Tap to sync your latest stats"}
-                </Text>
-              )}
-              <PressableScale
-                style={styles.syncButton}
-                onPress={handleSync}
-                disabled={syncing}
-              >
-                <Text style={styles.syncButtonText}>Sync Now</Text>
-              </PressableScale>
-            </View>
+            <Text style={styles.autoSyncNote}>
+              Your progress and stats sync automatically in the background.
+            </Text>
           </ScrollView>
         </SafeAreaView>
       </SafeAreaProvider>
@@ -183,32 +157,12 @@ const styles = StyleSheet.create({
     fontSize: 13,
     color: "#fff",
   },
-  syncRow: {
-    flexDirection: "row",
-    justifyContent: "space-between",
-    alignItems: "center",
-    backgroundColor: Colors.surface,
-    borderRadius: Radius.md,
-    borderWidth: 1,
-    borderColor: Colors.border,
-    padding: Spacing.sm,
-  },
-  syncText: {
+  autoSyncNote: {
     fontFamily: Fonts.body,
     fontSize: 12,
     color: Colors.inkMuted,
-    flex: 1,
-  },
-  syncButton: {
-    borderWidth: 1,
-    borderColor: Colors.accent,
-    borderRadius: Radius.pill,
-    paddingHorizontal: 12,
-    paddingVertical: 6,
-  },
-  syncButtonText: {
-    fontFamily: Fonts.bodySemiBold,
-    fontSize: 11,
-    color: Colors.accent,
+    fontStyle: "italic",
+    textAlign: "center",
+    marginTop: Spacing.sm,
   },
 });

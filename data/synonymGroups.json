@@ -1,0 +1,5008 @@
+[
+  {
+    "id": "begin",
+    "meaning": "to start doing something",
+    "words": [
+      {
+        "word": "commence",
+        "register": "formal"
+      },
+      {
+        "word": "begin",
+        "register": "neutral"
+      },
+      {
+        "word": "start",
+        "register": "neutral"
+      },
+      {
+        "word": "kick off",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "buy",
+    "meaning": "to get something by paying for it",
+    "words": [
+      {
+        "word": "purchase",
+        "register": "formal"
+      },
+      {
+        "word": "buy",
+        "register": "neutral"
+      },
+      {
+        "word": "pick up",
+        "register": "casual"
+      },
+      {
+        "word": "cop",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "help",
+    "meaning": "to assist someone",
+    "words": [
+      {
+        "word": "assist",
+        "register": "formal"
+      },
+      {
+        "word": "help",
+        "register": "neutral"
+      },
+      {
+        "word": "give a hand",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "big",
+    "meaning": "large in size",
+    "words": [
+      {
+        "word": "substantial",
+        "register": "formal"
+      },
+      {
+        "word": "large",
+        "register": "neutral"
+      },
+      {
+        "word": "big",
+        "register": "neutral"
+      },
+      {
+        "word": "huge",
+        "register": "casual"
+      },
+      {
+        "word": "massive",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "tired",
+    "meaning": "needing rest, low on energy",
+    "words": [
+      {
+        "word": "fatigued",
+        "register": "formal"
+      },
+      {
+        "word": "exhausted",
+        "register": "neutral"
+      },
+      {
+        "word": "tired",
+        "register": "neutral"
+      },
+      {
+        "word": "beat",
+        "register": "casual"
+      },
+      {
+        "word": "knackered",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "happy",
+    "meaning": "feeling pleasure or contentment",
+    "words": [
+      {
+        "word": "delighted",
+        "register": "formal"
+      },
+      {
+        "word": "pleased",
+        "register": "neutral"
+      },
+      {
+        "word": "happy",
+        "register": "neutral"
+      },
+      {
+        "word": "stoked",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "angry",
+    "meaning": "feeling strong displeasure",
+    "words": [
+      {
+        "word": "irate",
+        "register": "formal"
+      },
+      {
+        "word": "furious",
+        "register": "neutral"
+      },
+      {
+        "word": "angry",
+        "register": "neutral"
+      },
+      {
+        "word": "mad",
+        "register": "casual"
+      },
+      {
+        "word": "pissed off",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "ask",
+    "meaning": "to request information",
+    "words": [
+      {
+        "word": "inquire",
+        "register": "formal"
+      },
+      {
+        "word": "ask",
+        "register": "neutral"
+      },
+      {
+        "word": "ask around",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "eat",
+    "meaning": "to consume food",
+    "words": [
+      {
+        "word": "consume",
+        "register": "formal"
+      },
+      {
+        "word": "dine",
+        "register": "literary"
+      },
+      {
+        "word": "eat",
+        "register": "neutral"
+      },
+      {
+        "word": "grab a bite",
+        "register": "casual"
+      },
+      {
+        "word": "scarf down",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "house",
+    "meaning": "a place where someone lives",
+    "words": [
+      {
+        "word": "residence",
+        "register": "formal"
+      },
+      {
+        "word": "dwelling",
+        "register": "literary"
+      },
+      {
+        "word": "home",
+        "register": "neutral"
+      },
+      {
+        "word": "house",
+        "register": "neutral"
+      },
+      {
+        "word": "place",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "friend",
+    "meaning": "someone you know well and like",
+    "words": [
+      {
+        "word": "companion",
+        "register": "formal"
+      },
+      {
+        "word": "friend",
+        "register": "neutral"
+      },
+      {
+        "word": "mate",
+        "register": "casual"
+      },
+      {
+        "word": "buddy",
+        "register": "casual"
+      },
+      {
+        "word": "bestie",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "difficult",
+    "meaning": "hard to do or deal with",
+    "words": [
+      {
+        "word": "arduous",
+        "register": "formal"
+      },
+      {
+        "word": "challenging",
+        "register": "neutral"
+      },
+      {
+        "word": "difficult",
+        "register": "neutral"
+      },
+      {
+        "word": "tough",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "money",
+    "meaning": "currency used to pay for things",
+    "words": [
+      {
+        "word": "funds",
+        "register": "formal"
+      },
+      {
+        "word": "money",
+        "register": "neutral"
+      },
+      {
+        "word": "cash",
+        "register": "neutral"
+      },
+      {
+        "word": "dough",
+        "register": "slang"
+      },
+      {
+        "word": "cheddar",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "job",
+    "meaning": "paid work someone does regularly",
+    "words": [
+      {
+        "word": "occupation",
+        "register": "formal"
+      },
+      {
+        "word": "position",
+        "register": "formal"
+      },
+      {
+        "word": "job",
+        "register": "neutral"
+      },
+      {
+        "word": "gig",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "good",
+    "meaning": "of high quality",
+    "words": [
+      {
+        "word": "excellent",
+        "register": "formal"
+      },
+      {
+        "word": "great",
+        "register": "neutral"
+      },
+      {
+        "word": "good",
+        "register": "neutral"
+      },
+      {
+        "word": "awesome",
+        "register": "casual"
+      },
+      {
+        "word": "lit",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "bad",
+    "meaning": "of low quality",
+    "words": [
+      {
+        "word": "inadequate",
+        "register": "formal"
+      },
+      {
+        "word": "poor",
+        "register": "neutral"
+      },
+      {
+        "word": "bad",
+        "register": "neutral"
+      },
+      {
+        "word": "awful",
+        "register": "casual"
+      },
+      {
+        "word": "crap",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "say",
+    "meaning": "to express something in words",
+    "words": [
+      {
+        "word": "state",
+        "register": "formal"
+      },
+      {
+        "word": "declare",
+        "register": "literary"
+      },
+      {
+        "word": "say",
+        "register": "neutral"
+      },
+      {
+        "word": "mention",
+        "register": "neutral"
+      },
+      {
+        "word": "put it",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "children",
+    "meaning": "young human beings",
+    "words": [
+      {
+        "word": "offspring",
+        "register": "formal"
+      },
+      {
+        "word": "children",
+        "register": "neutral"
+      },
+      {
+        "word": "kids",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "scared",
+    "meaning": "feeling fear",
+    "words": [
+      {
+        "word": "apprehensive",
+        "register": "formal"
+      },
+      {
+        "word": "afraid",
+        "register": "neutral"
+      },
+      {
+        "word": "scared",
+        "register": "neutral"
+      },
+      {
+        "word": "freaked out",
+        "register": "casual"
+      },
+      {
+        "word": "spooked",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "leave",
+    "meaning": "to go away from a place",
+    "words": [
+      {
+        "word": "depart",
+        "register": "formal"
+      },
+      {
+        "word": "leave",
+        "register": "neutral"
+      },
+      {
+        "word": "head out",
+        "register": "casual"
+      },
+      {
+        "word": "take off",
+        "register": "casual"
+      },
+      {
+        "word": "bounce",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "sleep",
+    "meaning": "to rest in an unconscious state",
+    "words": [
+      {
+        "word": "slumber",
+        "register": "literary"
+      },
+      {
+        "word": "sleep",
+        "register": "neutral"
+      },
+      {
+        "word": "doze off",
+        "register": "casual"
+      },
+      {
+        "word": "crash",
+        "register": "slang"
+      },
+      {
+        "word": "hit the hay",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "understand",
+    "meaning": "to grasp the meaning of something",
+    "words": [
+      {
+        "word": "comprehend",
+        "register": "formal"
+      },
+      {
+        "word": "understand",
+        "register": "neutral"
+      },
+      {
+        "word": "get it",
+        "register": "casual"
+      },
+      {
+        "word": "follow",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "look",
+    "meaning": "to direct your eyes toward something",
+    "words": [
+      {
+        "word": "observe",
+        "register": "formal"
+      },
+      {
+        "word": "gaze",
+        "register": "literary"
+      },
+      {
+        "word": "look",
+        "register": "neutral"
+      },
+      {
+        "word": "check out",
+        "register": "casual"
+      },
+      {
+        "word": "peep",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "annoyed",
+    "meaning": "slightly angry or irritated",
+    "words": [
+      {
+        "word": "vexed",
+        "register": "literary"
+      },
+      {
+        "word": "irritated",
+        "register": "neutral"
+      },
+      {
+        "word": "annoyed",
+        "register": "neutral"
+      },
+      {
+        "word": "bugged",
+        "register": "casual"
+      },
+      {
+        "word": "salty",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "beautiful",
+    "meaning": "pleasing to look at",
+    "words": [
+      {
+        "word": "exquisite",
+        "register": "formal"
+      },
+      {
+        "word": "resplendent",
+        "register": "literary"
+      },
+      {
+        "word": "beautiful",
+        "register": "neutral"
+      },
+      {
+        "word": "pretty",
+        "register": "neutral"
+      },
+      {
+        "word": "gorgeous",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "smart",
+    "meaning": "having or showing intelligence",
+    "words": [
+      {
+        "word": "astute",
+        "register": "formal"
+      },
+      {
+        "word": "intelligent",
+        "register": "neutral"
+      },
+      {
+        "word": "smart",
+        "register": "neutral"
+      },
+      {
+        "word": "sharp",
+        "register": "casual"
+      },
+      {
+        "word": "brainy",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "surprised",
+    "meaning": "feeling astonishment",
+    "words": [
+      {
+        "word": "astonished",
+        "register": "formal"
+      },
+      {
+        "word": "amazed",
+        "register": "neutral"
+      },
+      {
+        "word": "surprised",
+        "register": "neutral"
+      },
+      {
+        "word": "shocked",
+        "register": "casual"
+      },
+      {
+        "word": "gobsmacked",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "problem",
+    "meaning": "a difficulty needing to be dealt with",
+    "words": [
+      {
+        "word": "predicament",
+        "register": "formal"
+      },
+      {
+        "word": "issue",
+        "register": "neutral"
+      },
+      {
+        "word": "problem",
+        "register": "neutral"
+      },
+      {
+        "word": "mess",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "think",
+    "meaning": "to consider or believe something",
+    "words": [
+      {
+        "word": "contemplate",
+        "register": "formal"
+      },
+      {
+        "word": "ponder",
+        "register": "literary"
+      },
+      {
+        "word": "think",
+        "register": "neutral"
+      },
+      {
+        "word": "reckon",
+        "register": "casual"
+      },
+      {
+        "word": "figure",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "die",
+    "meaning": "to stop living",
+    "words": [
+      {
+        "word": "perish",
+        "register": "formal"
+      },
+      {
+        "word": "pass away",
+        "register": "neutral"
+      },
+      {
+        "word": "die",
+        "register": "neutral"
+      },
+      {
+        "word": "kick the bucket",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "fire_job",
+    "meaning": "to dismiss someone from a job",
+    "words": [
+      {
+        "word": "terminate",
+        "register": "formal"
+      },
+      {
+        "word": "dismiss",
+        "register": "neutral"
+      },
+      {
+        "word": "fire",
+        "register": "neutral"
+      },
+      {
+        "word": "let go",
+        "register": "casual"
+      },
+      {
+        "word": "sack",
+        "register": "casual"
+      },
+      {
+        "word": "can",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "drunk",
+    "meaning": "affected by too much alcohol",
+    "words": [
+      {
+        "word": "inebriated",
+        "register": "formal"
+      },
+      {
+        "word": "intoxicated",
+        "register": "neutral"
+      },
+      {
+        "word": "drunk",
+        "register": "neutral"
+      },
+      {
+        "word": "tipsy",
+        "register": "casual"
+      },
+      {
+        "word": "wasted",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "crazy",
+    "meaning": "not showing good sense, or wild",
+    "words": [
+      {
+        "word": "irrational",
+        "register": "formal"
+      },
+      {
+        "word": "eccentric",
+        "register": "neutral"
+      },
+      {
+        "word": "crazy",
+        "register": "neutral"
+      },
+      {
+        "word": "wild",
+        "register": "casual"
+      },
+      {
+        "word": "nuts",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "boring",
+    "meaning": "not interesting",
+    "words": [
+      {
+        "word": "tedious",
+        "register": "formal"
+      },
+      {
+        "word": "dull",
+        "register": "neutral"
+      },
+      {
+        "word": "boring",
+        "register": "neutral"
+      },
+      {
+        "word": "lame",
+        "register": "casual"
+      },
+      {
+        "word": "mid",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "fast",
+    "meaning": "moving or happening quickly",
+    "words": [
+      {
+        "word": "expeditious",
+        "register": "formal"
+      },
+      {
+        "word": "rapid",
+        "register": "neutral"
+      },
+      {
+        "word": "fast",
+        "register": "neutral"
+      },
+      {
+        "word": "quick",
+        "register": "neutral"
+      },
+      {
+        "word": "speedy",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "argue",
+    "meaning": "to disagree with someone in words",
+    "words": [
+      {
+        "word": "dispute",
+        "register": "formal"
+      },
+      {
+        "word": "argue",
+        "register": "neutral"
+      },
+      {
+        "word": "fight",
+        "register": "casual"
+      },
+      {
+        "word": "beef",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "guy",
+    "meaning": "a man or person in general",
+    "words": [
+      {
+        "word": "gentleman",
+        "register": "formal"
+      },
+      {
+        "word": "individual",
+        "register": "formal"
+      },
+      {
+        "word": "man",
+        "register": "neutral"
+      },
+      {
+        "word": "guy",
+        "register": "casual"
+      },
+      {
+        "word": "dude",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "steal",
+    "meaning": "to take something without permission",
+    "words": [
+      {
+        "word": "pilfer",
+        "register": "literary"
+      },
+      {
+        "word": "steal",
+        "register": "neutral"
+      },
+      {
+        "word": "take",
+        "register": "neutral"
+      },
+      {
+        "word": "swipe",
+        "register": "casual"
+      },
+      {
+        "word": "jack",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "relax",
+    "meaning": "to rest and reduce tension",
+    "words": [
+      {
+        "word": "unwind",
+        "register": "neutral"
+      },
+      {
+        "word": "relax",
+        "register": "neutral"
+      },
+      {
+        "word": "chill out",
+        "register": "casual"
+      },
+      {
+        "word": "kick back",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "confused",
+    "meaning": "unable to think clearly",
+    "words": [
+      {
+        "word": "perplexed",
+        "register": "formal"
+      },
+      {
+        "word": "bewildered",
+        "register": "literary"
+      },
+      {
+        "word": "confused",
+        "register": "neutral"
+      },
+      {
+        "word": "lost",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "important",
+    "meaning": "of great significance",
+    "words": [
+      {
+        "word": "paramount",
+        "register": "formal"
+      },
+      {
+        "word": "significant",
+        "register": "neutral"
+      },
+      {
+        "word": "important",
+        "register": "neutral"
+      },
+      {
+        "word": "big deal",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "expensive",
+    "meaning": "costing a lot of money",
+    "words": [
+      {
+        "word": "exorbitant",
+        "register": "formal"
+      },
+      {
+        "word": "costly",
+        "register": "neutral"
+      },
+      {
+        "word": "expensive",
+        "register": "neutral"
+      },
+      {
+        "word": "pricey",
+        "register": "casual"
+      },
+      {
+        "word": "steep",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "cheap",
+    "meaning": "costing little money",
+    "words": [
+      {
+        "word": "economical",
+        "register": "formal"
+      },
+      {
+        "word": "inexpensive",
+        "register": "neutral"
+      },
+      {
+        "word": "cheap",
+        "register": "neutral"
+      },
+      {
+        "word": "budget",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "watch",
+    "meaning": "to look at something for a period of time",
+    "words": [
+      {
+        "word": "observe",
+        "register": "formal"
+      },
+      {
+        "word": "watch",
+        "register": "neutral"
+      },
+      {
+        "word": "check out",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "clothes",
+    "meaning": "items worn to cover the body",
+    "words": [
+      {
+        "word": "attire",
+        "register": "formal"
+      },
+      {
+        "word": "garments",
+        "register": "literary"
+      },
+      {
+        "word": "clothes",
+        "register": "neutral"
+      },
+      {
+        "word": "outfit",
+        "register": "neutral"
+      },
+      {
+        "word": "threads",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "car",
+    "meaning": "a road vehicle for personal transport",
+    "words": [
+      {
+        "word": "automobile",
+        "register": "formal"
+      },
+      {
+        "word": "vehicle",
+        "register": "formal"
+      },
+      {
+        "word": "car",
+        "register": "neutral"
+      },
+      {
+        "word": "ride",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "hungry",
+    "meaning": "feeling a need to eat",
+    "words": [
+      {
+        "word": "famished",
+        "register": "literary"
+      },
+      {
+        "word": "hungry",
+        "register": "neutral"
+      },
+      {
+        "word": "starving",
+        "register": "casual"
+      },
+      {
+        "word": "hangry",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "talk",
+    "meaning": "to speak with someone",
+    "words": [
+      {
+        "word": "converse",
+        "register": "formal"
+      },
+      {
+        "word": "speak",
+        "register": "neutral"
+      },
+      {
+        "word": "talk",
+        "register": "neutral"
+      },
+      {
+        "word": "chat",
+        "register": "casual"
+      },
+      {
+        "word": "chew the fat",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "fail",
+    "meaning": "to be unsuccessful",
+    "words": [
+      {
+        "word": "falter",
+        "register": "literary"
+      },
+      {
+        "word": "fail",
+        "register": "neutral"
+      },
+      {
+        "word": "flop",
+        "register": "casual"
+      },
+      {
+        "word": "bomb",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "impressive",
+    "meaning": "causing admiration through skill or size",
+    "words": [
+      {
+        "word": "formidable",
+        "register": "formal"
+      },
+      {
+        "word": "magnificent",
+        "register": "literary"
+      },
+      {
+        "word": "impressive",
+        "register": "neutral"
+      },
+      {
+        "word": "epic",
+        "register": "casual"
+      },
+      {
+        "word": "sick",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "lie",
+    "meaning": "to say something untrue",
+    "words": [
+      {
+        "word": "fabricate",
+        "register": "formal"
+      },
+      {
+        "word": "lie",
+        "register": "neutral"
+      },
+      {
+        "word": "fib",
+        "register": "casual"
+      },
+      {
+        "word": "bs",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "gossip",
+    "meaning": "casual talk about other people's private lives",
+    "words": [
+      {
+        "word": "hearsay",
+        "register": "formal"
+      },
+      {
+        "word": "gossip",
+        "register": "neutral"
+      },
+      {
+        "word": "tea",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "toilet",
+    "meaning": "a fixture used for bodily waste",
+    "words": [
+      {
+        "word": "lavatory",
+        "register": "formal"
+      },
+      {
+        "word": "restroom",
+        "register": "neutral"
+      },
+      {
+        "word": "bathroom",
+        "register": "neutral"
+      },
+      {
+        "word": "toilet",
+        "register": "neutral"
+      },
+      {
+        "word": "loo",
+        "register": "casual"
+      },
+      {
+        "word": "john",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "cry",
+    "meaning": "to shed tears from emotion",
+    "words": [
+      {
+        "word": "weep",
+        "register": "literary"
+      },
+      {
+        "word": "cry",
+        "register": "neutral"
+      },
+      {
+        "word": "tear up",
+        "register": "casual"
+      },
+      {
+        "word": "bawl",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "laugh",
+    "meaning": "to make sounds showing amusement",
+    "words": [
+      {
+        "word": "chuckle",
+        "register": "neutral"
+      },
+      {
+        "word": "laugh",
+        "register": "neutral"
+      },
+      {
+        "word": "crack up",
+        "register": "casual"
+      },
+      {
+        "word": "lose it",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "walk",
+    "meaning": "to move on foot at a normal pace",
+    "words": [
+      {
+        "word": "stroll",
+        "register": "literary"
+      },
+      {
+        "word": "walk",
+        "register": "neutral"
+      },
+      {
+        "word": "stretch the legs",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "run",
+    "meaning": "to move quickly on foot",
+    "words": [
+      {
+        "word": "sprint",
+        "register": "neutral"
+      },
+      {
+        "word": "run",
+        "register": "neutral"
+      },
+      {
+        "word": "book it",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "look_good",
+    "meaning": "attractive in appearance",
+    "words": [
+      {
+        "word": "attractive",
+        "register": "formal"
+      },
+      {
+        "word": "good-looking",
+        "register": "neutral"
+      },
+      {
+        "word": "cute",
+        "register": "casual"
+      },
+      {
+        "word": "fine",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "sad",
+    "meaning": "feeling unhappy",
+    "words": [
+      {
+        "word": "sorrowful",
+        "register": "literary"
+      },
+      {
+        "word": "unhappy",
+        "register": "neutral"
+      },
+      {
+        "word": "sad",
+        "register": "neutral"
+      },
+      {
+        "word": "bummed",
+        "register": "casual"
+      },
+      {
+        "word": "down bad",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "excited",
+    "meaning": "feeling enthusiasm or eagerness",
+    "words": [
+      {
+        "word": "enthusiastic",
+        "register": "formal"
+      },
+      {
+        "word": "excited",
+        "register": "neutral"
+      },
+      {
+        "word": "pumped",
+        "register": "casual"
+      },
+      {
+        "word": "hyped",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "nervous",
+    "meaning": "feeling anxious about something",
+    "words": [
+      {
+        "word": "apprehensive",
+        "register": "formal"
+      },
+      {
+        "word": "nervous",
+        "register": "neutral"
+      },
+      {
+        "word": "on edge",
+        "register": "casual"
+      },
+      {
+        "word": "shook",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "quiet",
+    "meaning": "making little or no sound",
+    "words": [
+      {
+        "word": "silent",
+        "register": "neutral"
+      },
+      {
+        "word": "quiet",
+        "register": "neutral"
+      },
+      {
+        "word": "hushed",
+        "register": "literary"
+      }
+    ]
+  },
+  {
+    "id": "loud",
+    "meaning": "producing a lot of noise",
+    "words": [
+      {
+        "word": "boisterous",
+        "register": "formal"
+      },
+      {
+        "word": "loud",
+        "register": "neutral"
+      },
+      {
+        "word": "noisy",
+        "register": "neutral"
+      }
+    ]
+  },
+  {
+    "id": "strange",
+    "meaning": "unusual or unexpected",
+    "words": [
+      {
+        "word": "peculiar",
+        "register": "formal"
+      },
+      {
+        "word": "strange",
+        "register": "neutral"
+      },
+      {
+        "word": "weird",
+        "register": "casual"
+      },
+      {
+        "word": "sus",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "old_thing",
+    "meaning": "having existed for a long time",
+    "words": [
+      {
+        "word": "aged",
+        "register": "formal"
+      },
+      {
+        "word": "old",
+        "register": "neutral"
+      },
+      {
+        "word": "ancient",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "new",
+    "meaning": "recently made or introduced",
+    "words": [
+      {
+        "word": "novel",
+        "register": "formal"
+      },
+      {
+        "word": "new",
+        "register": "neutral"
+      },
+      {
+        "word": "fresh",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "strong",
+    "meaning": "having great physical power",
+    "words": [
+      {
+        "word": "robust",
+        "register": "formal"
+      },
+      {
+        "word": "strong",
+        "register": "neutral"
+      },
+      {
+        "word": "buff",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "weak",
+    "meaning": "lacking physical strength",
+    "words": [
+      {
+        "word": "frail",
+        "register": "literary"
+      },
+      {
+        "word": "weak",
+        "register": "neutral"
+      },
+      {
+        "word": "feeble",
+        "register": "formal"
+      }
+    ]
+  },
+  {
+    "id": "start_over",
+    "meaning": "to begin again",
+    "words": [
+      {
+        "word": "recommence",
+        "register": "formal"
+      },
+      {
+        "word": "restart",
+        "register": "neutral"
+      },
+      {
+        "word": "start over",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "finish",
+    "meaning": "to bring something to an end",
+    "words": [
+      {
+        "word": "conclude",
+        "register": "formal"
+      },
+      {
+        "word": "finish",
+        "register": "neutral"
+      },
+      {
+        "word": "wrap up",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "improve",
+    "meaning": "to make or become better",
+    "words": [
+      {
+        "word": "enhance",
+        "register": "formal"
+      },
+      {
+        "word": "improve",
+        "register": "neutral"
+      },
+      {
+        "word": "level up",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "worsen",
+    "meaning": "to make or become worse",
+    "words": [
+      {
+        "word": "deteriorate",
+        "register": "formal"
+      },
+      {
+        "word": "worsen",
+        "register": "neutral"
+      },
+      {
+        "word": "go downhill",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "agree_deal",
+    "meaning": "to reach an agreement",
+    "words": [
+      {
+        "word": "consent",
+        "register": "formal"
+      },
+      {
+        "word": "agree",
+        "register": "neutral"
+      },
+      {
+        "word": "be down",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "disagree",
+    "meaning": "to hold a different opinion",
+    "words": [
+      {
+        "word": "dissent",
+        "register": "formal"
+      },
+      {
+        "word": "disagree",
+        "register": "neutral"
+      },
+      {
+        "word": "not vibe with",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "surprising",
+    "meaning": "causing astonishment",
+    "words": [
+      {
+        "word": "unexpected",
+        "register": "formal"
+      },
+      {
+        "word": "surprising",
+        "register": "neutral"
+      },
+      {
+        "word": "wild",
+        "register": "casual"
+      },
+      {
+        "word": "crazy",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "worried",
+    "meaning": "feeling anxious about a problem",
+    "words": [
+      {
+        "word": "concerned",
+        "register": "formal"
+      },
+      {
+        "word": "worried",
+        "register": "neutral"
+      },
+      {
+        "word": "stressed",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "lazy",
+    "meaning": "unwilling to work or make an effort",
+    "words": [
+      {
+        "word": "indolent",
+        "register": "literary"
+      },
+      {
+        "word": "lazy",
+        "register": "neutral"
+      },
+      {
+        "word": "slacking",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "hardworking",
+    "meaning": "putting in a lot of effort",
+    "words": [
+      {
+        "word": "diligent",
+        "register": "formal"
+      },
+      {
+        "word": "hardworking",
+        "register": "neutral"
+      },
+      {
+        "word": "grinding",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "rich",
+    "meaning": "having a lot of money",
+    "words": [
+      {
+        "word": "wealthy",
+        "register": "formal"
+      },
+      {
+        "word": "rich",
+        "register": "neutral"
+      },
+      {
+        "word": "loaded",
+        "register": "casual"
+      },
+      {
+        "word": "balling",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "poor",
+    "meaning": "having very little money",
+    "words": [
+      {
+        "word": "impoverished",
+        "register": "formal"
+      },
+      {
+        "word": "poor",
+        "register": "neutral"
+      },
+      {
+        "word": "broke",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "quick",
+    "meaning": "happening in a short time",
+    "words": [
+      {
+        "word": "prompt",
+        "register": "formal"
+      },
+      {
+        "word": "quick",
+        "register": "neutral"
+      },
+      {
+        "word": "speedy",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "slow",
+    "meaning": "not fast; taking a long time",
+    "words": [
+      {
+        "word": "sluggish",
+        "register": "formal"
+      },
+      {
+        "word": "slow",
+        "register": "neutral"
+      },
+      {
+        "word": "dragging",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "clean",
+    "meaning": "free from dirt or marks",
+    "words": [
+      {
+        "word": "spotless",
+        "register": "formal"
+      },
+      {
+        "word": "clean",
+        "register": "neutral"
+      },
+      {
+        "word": "tidy",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "dirty",
+    "meaning": "marked with dirt",
+    "words": [
+      {
+        "word": "soiled",
+        "register": "formal"
+      },
+      {
+        "word": "dirty",
+        "register": "neutral"
+      },
+      {
+        "word": "grimy",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "polite",
+    "meaning": "having good manners",
+    "words": [
+      {
+        "word": "courteous",
+        "register": "formal"
+      },
+      {
+        "word": "polite",
+        "register": "neutral"
+      },
+      {
+        "word": "nice",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "rude",
+    "meaning": "showing a lack of respect for others",
+    "words": [
+      {
+        "word": "impolite",
+        "register": "formal"
+      },
+      {
+        "word": "rude",
+        "register": "neutral"
+      },
+      {
+        "word": "salty",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "brave",
+    "meaning": "showing courage",
+    "words": [
+      {
+        "word": "courageous",
+        "register": "formal"
+      },
+      {
+        "word": "brave",
+        "register": "neutral"
+      },
+      {
+        "word": "gutsy",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "afraid",
+    "meaning": "feeling fear",
+    "words": [
+      {
+        "word": "fearful",
+        "register": "formal"
+      },
+      {
+        "word": "afraid",
+        "register": "neutral"
+      },
+      {
+        "word": "chicken",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "kind",
+    "meaning": "having a caring, friendly nature",
+    "words": [
+      {
+        "word": "compassionate",
+        "register": "formal"
+      },
+      {
+        "word": "kind",
+        "register": "neutral"
+      },
+      {
+        "word": "sweet",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "mean",
+    "meaning": "unkind or unpleasant to others",
+    "words": [
+      {
+        "word": "malicious",
+        "register": "formal"
+      },
+      {
+        "word": "mean",
+        "register": "neutral"
+      },
+      {
+        "word": "harsh",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "easy",
+    "meaning": "not difficult; simple",
+    "words": [
+      {
+        "word": "straightforward",
+        "register": "formal"
+      },
+      {
+        "word": "easy",
+        "register": "neutral"
+      },
+      {
+        "word": "a breeze",
+        "register": "casual"
+      },
+      {
+        "word": "ez",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "old_person",
+    "meaning": "an elderly person",
+    "words": [
+      {
+        "word": "senior citizen",
+        "register": "formal"
+      },
+      {
+        "word": "elderly person",
+        "register": "neutral"
+      },
+      {
+        "word": "old-timer",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "young_person",
+    "meaning": "a young person, especially a teenager",
+    "words": [
+      {
+        "word": "adolescent",
+        "register": "formal"
+      },
+      {
+        "word": "teenager",
+        "register": "neutral"
+      },
+      {
+        "word": "teen",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "meeting",
+    "meaning": "a gathering of people to discuss something",
+    "words": [
+      {
+        "word": "conference",
+        "register": "formal"
+      },
+      {
+        "word": "meeting",
+        "register": "neutral"
+      },
+      {
+        "word": "catch-up",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "vacation",
+    "meaning": "time away from work for rest or travel",
+    "words": [
+      {
+        "word": "leave of absence",
+        "register": "formal"
+      },
+      {
+        "word": "vacation",
+        "register": "neutral"
+      },
+      {
+        "word": "getaway",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "argument",
+    "meaning": "a disagreement, often heated",
+    "words": [
+      {
+        "word": "dispute",
+        "register": "formal"
+      },
+      {
+        "word": "argument",
+        "register": "neutral"
+      },
+      {
+        "word": "spat",
+        "register": "casual"
+      },
+      {
+        "word": "beef",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "excuse_me",
+    "meaning": "a polite way to get attention or apologize briefly",
+    "words": [
+      {
+        "word": "pardon me",
+        "register": "formal"
+      },
+      {
+        "word": "excuse me",
+        "register": "neutral"
+      },
+      {
+        "word": "my bad",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "party",
+    "meaning": "a social gathering for enjoyment",
+    "words": [
+      {
+        "word": "social event",
+        "register": "formal"
+      },
+      {
+        "word": "party",
+        "register": "neutral"
+      },
+      {
+        "word": "bash",
+        "register": "casual"
+      },
+      {
+        "word": "shindig",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "meal",
+    "meaning": "food eaten at a particular time",
+    "words": [
+      {
+        "word": "repast",
+        "register": "literary"
+      },
+      {
+        "word": "meal",
+        "register": "neutral"
+      },
+      {
+        "word": "grub",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "child",
+    "meaning": "a young human being",
+    "words": [
+      {
+        "word": "juvenile",
+        "register": "formal"
+      },
+      {
+        "word": "child",
+        "register": "neutral"
+      },
+      {
+        "word": "kiddo",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "sick",
+    "meaning": "affected by illness",
+    "words": [
+      {
+        "word": "unwell",
+        "register": "formal"
+      },
+      {
+        "word": "sick",
+        "register": "neutral"
+      },
+      {
+        "word": "under the weather",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "healthy",
+    "meaning": "in good physical condition",
+    "words": [
+      {
+        "word": "in good health",
+        "register": "formal"
+      },
+      {
+        "word": "healthy",
+        "register": "neutral"
+      },
+      {
+        "word": "fit",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "boss",
+    "meaning": "a person in charge at work",
+    "words": [
+      {
+        "word": "supervisor",
+        "register": "formal"
+      },
+      {
+        "word": "manager",
+        "register": "neutral"
+      },
+      {
+        "word": "boss",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "coworker",
+    "meaning": "a person who works with you",
+    "words": [
+      {
+        "word": "colleague",
+        "register": "formal"
+      },
+      {
+        "word": "coworker",
+        "register": "neutral"
+      },
+      {
+        "word": "workmate",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "wait",
+    "meaning": "to stay in place until something happens",
+    "words": [
+      {
+        "word": "await",
+        "register": "formal"
+      },
+      {
+        "word": "wait",
+        "register": "neutral"
+      },
+      {
+        "word": "hang tight",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "hurry",
+    "meaning": "to move or act with speed",
+    "words": [
+      {
+        "word": "expedite",
+        "register": "formal"
+      },
+      {
+        "word": "hurry",
+        "register": "neutral"
+      },
+      {
+        "word": "rush",
+        "register": "casual"
+      },
+      {
+        "word": "hustle",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "opinion",
+    "meaning": "a personal view or judgment",
+    "words": [
+      {
+        "word": "viewpoint",
+        "register": "formal"
+      },
+      {
+        "word": "opinion",
+        "register": "neutral"
+      },
+      {
+        "word": "take",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "annoying",
+    "meaning": "causing irritation",
+    "words": [
+      {
+        "word": "irksome",
+        "register": "literary"
+      },
+      {
+        "word": "annoying",
+        "register": "neutral"
+      },
+      {
+        "word": "irritating",
+        "register": "neutral"
+      },
+      {
+        "word": "mid",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "funny",
+    "meaning": "causing laughter or amusement",
+    "words": [
+      {
+        "word": "amusing",
+        "register": "formal"
+      },
+      {
+        "word": "funny",
+        "register": "neutral"
+      },
+      {
+        "word": "hilarious",
+        "register": "casual"
+      },
+      {
+        "word": "sending me",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "weird_behavior",
+    "meaning": "acting in an unusual way",
+    "words": [
+      {
+        "word": "eccentric",
+        "register": "formal"
+      },
+      {
+        "word": "odd",
+        "register": "neutral"
+      },
+      {
+        "word": "sketchy",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "leave_quickly",
+    "meaning": "to depart in a hurry",
+    "words": [
+      {
+        "word": "make a hasty exit",
+        "register": "formal"
+      },
+      {
+        "word": "hurry off",
+        "register": "neutral"
+      },
+      {
+        "word": "dash off",
+        "register": "casual"
+      },
+      {
+        "word": "dip",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "attractive_place",
+    "meaning": "pleasant or nice to be in",
+    "words": [
+      {
+        "word": "idyllic",
+        "register": "literary"
+      },
+      {
+        "word": "pleasant",
+        "register": "neutral"
+      },
+      {
+        "word": "nice",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "give",
+    "meaning": "to hand something over to someone",
+    "words": [
+      {
+        "word": "provide",
+        "register": "formal"
+      },
+      {
+        "word": "give",
+        "register": "neutral"
+      },
+      {
+        "word": "hand over",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "take",
+    "meaning": "to get hold of and remove something",
+    "words": [
+      {
+        "word": "acquire",
+        "register": "formal"
+      },
+      {
+        "word": "take",
+        "register": "neutral"
+      },
+      {
+        "word": "grab",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "make",
+    "meaning": "to create or produce something",
+    "words": [
+      {
+        "word": "manufacture",
+        "register": "formal"
+      },
+      {
+        "word": "make",
+        "register": "neutral"
+      },
+      {
+        "word": "whip up",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "get_it_done",
+    "meaning": "to accomplish a task",
+    "words": [
+      {
+        "word": "accomplish",
+        "register": "formal"
+      },
+      {
+        "word": "complete",
+        "register": "neutral"
+      },
+      {
+        "word": "knock out",
+        "register": "casual"
+      },
+      {
+        "word": "smash",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "keep",
+    "meaning": "to continue to have something",
+    "words": [
+      {
+        "word": "retain",
+        "register": "formal"
+      },
+      {
+        "word": "keep",
+        "register": "neutral"
+      },
+      {
+        "word": "hang on to",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "throw_away",
+    "meaning": "to discard something no longer wanted",
+    "words": [
+      {
+        "word": "dispose of",
+        "register": "formal"
+      },
+      {
+        "word": "throw away",
+        "register": "neutral"
+      },
+      {
+        "word": "toss",
+        "register": "casual"
+      },
+      {
+        "word": "ditch",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "find",
+    "meaning": "to discover the location of something",
+    "words": [
+      {
+        "word": "locate",
+        "register": "formal"
+      },
+      {
+        "word": "find",
+        "register": "neutral"
+      },
+      {
+        "word": "track down",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "lose_item",
+    "meaning": "to be unable to find something",
+    "words": [
+      {
+        "word": "misplace",
+        "register": "formal"
+      },
+      {
+        "word": "lose",
+        "register": "neutral"
+      },
+      {
+        "word": "can't find",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "meet",
+    "meaning": "to come together with someone",
+    "words": [
+      {
+        "word": "encounter",
+        "register": "formal"
+      },
+      {
+        "word": "meet",
+        "register": "neutral"
+      },
+      {
+        "word": "run into",
+        "register": "casual"
+      },
+      {
+        "word": "bump into",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "greet",
+    "meaning": "to say hello to someone",
+    "words": [
+      {
+        "word": "salute",
+        "register": "literary"
+      },
+      {
+        "word": "greet",
+        "register": "neutral"
+      },
+      {
+        "word": "say hi",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "call_person",
+    "meaning": "to contact someone by phone",
+    "words": [
+      {
+        "word": "telephone",
+        "register": "formal"
+      },
+      {
+        "word": "call",
+        "register": "neutral"
+      },
+      {
+        "word": "hit up",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "message",
+    "meaning": "to send a written note to someone",
+    "words": [
+      {
+        "word": "correspond",
+        "register": "formal"
+      },
+      {
+        "word": "message",
+        "register": "neutral"
+      },
+      {
+        "word": "text",
+        "register": "casual"
+      },
+      {
+        "word": "dm",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "visit",
+    "meaning": "to go see a person or place",
+    "words": [
+      {
+        "word": "call upon",
+        "register": "formal"
+      },
+      {
+        "word": "visit",
+        "register": "neutral"
+      },
+      {
+        "word": "stop by",
+        "register": "casual"
+      },
+      {
+        "word": "swing by",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "stay_home",
+    "meaning": "to remain at home rather than go out",
+    "words": [
+      {
+        "word": "remain indoors",
+        "register": "formal"
+      },
+      {
+        "word": "stay home",
+        "register": "neutral"
+      },
+      {
+        "word": "stay in",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "go_out",
+    "meaning": "to leave home for social activity",
+    "words": [
+      {
+        "word": "socialize",
+        "register": "formal"
+      },
+      {
+        "word": "go out",
+        "register": "neutral"
+      },
+      {
+        "word": "hit the town",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "wake_up",
+    "meaning": "to stop sleeping",
+    "words": [
+      {
+        "word": "awaken",
+        "register": "literary"
+      },
+      {
+        "word": "wake up",
+        "register": "neutral"
+      },
+      {
+        "word": "get up",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "go_to_bed",
+    "meaning": "to go to sleep",
+    "words": [
+      {
+        "word": "retire",
+        "register": "formal"
+      },
+      {
+        "word": "go to bed",
+        "register": "neutral"
+      },
+      {
+        "word": "turn in",
+        "register": "casual"
+      },
+      {
+        "word": "crash",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "study",
+    "meaning": "to spend time learning material",
+    "words": [
+      {
+        "word": "review coursework",
+        "register": "formal"
+      },
+      {
+        "word": "study",
+        "register": "neutral"
+      },
+      {
+        "word": "hit the books",
+        "register": "casual"
+      },
+      {
+        "word": "cram",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "teach",
+    "meaning": "to help someone learn something",
+    "words": [
+      {
+        "word": "instruct",
+        "register": "formal"
+      },
+      {
+        "word": "teach",
+        "register": "neutral"
+      },
+      {
+        "word": "show",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "quit_job",
+    "meaning": "to leave a job voluntarily",
+    "words": [
+      {
+        "word": "resign",
+        "register": "formal"
+      },
+      {
+        "word": "quit",
+        "register": "neutral"
+      },
+      {
+        "word": "walk away from",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "get_hired",
+    "meaning": "to be given a job",
+    "words": [
+      {
+        "word": "be appointed",
+        "register": "formal"
+      },
+      {
+        "word": "get hired",
+        "register": "neutral"
+      },
+      {
+        "word": "land a job",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "earn",
+    "meaning": "to receive money for work",
+    "words": [
+      {
+        "word": "generate income",
+        "register": "formal"
+      },
+      {
+        "word": "earn",
+        "register": "neutral"
+      },
+      {
+        "word": "make bank",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "spend",
+    "meaning": "to pay out money",
+    "words": [
+      {
+        "word": "expend",
+        "register": "formal"
+      },
+      {
+        "word": "spend",
+        "register": "neutral"
+      },
+      {
+        "word": "shell out",
+        "register": "casual"
+      },
+      {
+        "word": "splurge",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "save_money",
+    "meaning": "to keep money instead of spending it",
+    "words": [
+      {
+        "word": "conserve funds",
+        "register": "formal"
+      },
+      {
+        "word": "save",
+        "register": "neutral"
+      },
+      {
+        "word": "put aside",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "cost_a_lot",
+    "meaning": "requiring a large amount of money",
+    "words": [
+      {
+        "word": "costly",
+        "register": "formal"
+      },
+      {
+        "word": "expensive",
+        "register": "neutral"
+      },
+      {
+        "word": "pricey",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "sell",
+    "meaning": "to give something in exchange for money",
+    "words": [
+      {
+        "word": "vend",
+        "register": "formal"
+      },
+      {
+        "word": "sell",
+        "register": "neutral"
+      },
+      {
+        "word": "flip",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "eager",
+    "meaning": "wanting to do something very much",
+    "words": [
+      {
+        "word": "keen",
+        "register": "formal"
+      },
+      {
+        "word": "eager",
+        "register": "neutral"
+      },
+      {
+        "word": "psyched",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "reluctant",
+    "meaning": "unwilling to do something",
+    "words": [
+      {
+        "word": "disinclined",
+        "register": "formal"
+      },
+      {
+        "word": "reluctant",
+        "register": "neutral"
+      },
+      {
+        "word": "not feeling it",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "worried_about_money",
+    "meaning": "financially stressed",
+    "words": [
+      {
+        "word": "financially strained",
+        "register": "formal"
+      },
+      {
+        "word": "struggling financially",
+        "register": "neutral"
+      },
+      {
+        "word": "tight on cash",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "comfortable_money",
+    "meaning": "having enough money to live well",
+    "words": [
+      {
+        "word": "financially secure",
+        "register": "formal"
+      },
+      {
+        "word": "comfortable",
+        "register": "neutral"
+      },
+      {
+        "word": "well off",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "confused_about",
+    "meaning": "unable to understand clearly",
+    "words": [
+      {
+        "word": "perplexed",
+        "register": "formal"
+      },
+      {
+        "word": "confused",
+        "register": "neutral"
+      },
+      {
+        "word": "lost",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "obvious",
+    "meaning": "easy to see or understand",
+    "words": [
+      {
+        "word": "evident",
+        "register": "formal"
+      },
+      {
+        "word": "obvious",
+        "register": "neutral"
+      },
+      {
+        "word": "clear as day",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "unclear",
+    "meaning": "difficult to see or understand",
+    "words": [
+      {
+        "word": "ambiguous",
+        "register": "formal"
+      },
+      {
+        "word": "unclear",
+        "register": "neutral"
+      },
+      {
+        "word": "fuzzy",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "believe",
+    "meaning": "to accept something as true",
+    "words": [
+      {
+        "word": "trust",
+        "register": "formal"
+      },
+      {
+        "word": "believe",
+        "register": "neutral"
+      },
+      {
+        "word": "buy it",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "doubt",
+    "meaning": "to feel uncertain about something",
+    "words": [
+      {
+        "word": "question",
+        "register": "formal"
+      },
+      {
+        "word": "doubt",
+        "register": "neutral"
+      },
+      {
+        "word": "not buy it",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "remember",
+    "meaning": "to bring a fact back to mind",
+    "words": [
+      {
+        "word": "recall",
+        "register": "formal"
+      },
+      {
+        "word": "remember",
+        "register": "neutral"
+      },
+      {
+        "word": "think back to",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "forget",
+    "meaning": "to fail to remember something",
+    "words": [
+      {
+        "word": "neglect to recall",
+        "register": "formal"
+      },
+      {
+        "word": "forget",
+        "register": "neutral"
+      },
+      {
+        "word": "space on",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "plan",
+    "meaning": "to decide on and arrange something in advance",
+    "words": [
+      {
+        "word": "formulate a plan",
+        "register": "formal"
+      },
+      {
+        "word": "plan",
+        "register": "neutral"
+      },
+      {
+        "word": "map out",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "give_up",
+    "meaning": "to stop trying to do something",
+    "words": [
+      {
+        "word": "abandon the effort",
+        "register": "formal"
+      },
+      {
+        "word": "give up",
+        "register": "neutral"
+      },
+      {
+        "word": "throw in the towel",
+        "register": "casual"
+      },
+      {
+        "word": "bail",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "keep_trying",
+    "meaning": "to continue attempting despite difficulty",
+    "words": [
+      {
+        "word": "persevere",
+        "register": "formal"
+      },
+      {
+        "word": "keep trying",
+        "register": "neutral"
+      },
+      {
+        "word": "stick with it",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "control",
+    "meaning": "to have power over something",
+    "words": [
+      {
+        "word": "govern",
+        "register": "formal"
+      },
+      {
+        "word": "control",
+        "register": "neutral"
+      },
+      {
+        "word": "run",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "allow_permission",
+    "meaning": "to give someone permission",
+    "words": [
+      {
+        "word": "authorize",
+        "register": "formal"
+      },
+      {
+        "word": "allow",
+        "register": "neutral"
+      },
+      {
+        "word": "let",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "forbid",
+    "meaning": "to not allow something",
+    "words": [
+      {
+        "word": "prohibit",
+        "register": "formal"
+      },
+      {
+        "word": "forbid",
+        "register": "neutral"
+      },
+      {
+        "word": "not allow",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "warn",
+    "meaning": "to tell someone of a possible danger",
+    "words": [
+      {
+        "word": "caution",
+        "register": "formal"
+      },
+      {
+        "word": "warn",
+        "register": "neutral"
+      },
+      {
+        "word": "give a heads up",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "protect",
+    "meaning": "to keep something safe from harm",
+    "words": [
+      {
+        "word": "safeguard",
+        "register": "formal"
+      },
+      {
+        "word": "protect",
+        "register": "neutral"
+      },
+      {
+        "word": "look out for",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "hurt",
+    "meaning": "to cause pain or injury",
+    "words": [
+      {
+        "word": "injure",
+        "register": "formal"
+      },
+      {
+        "word": "hurt",
+        "register": "neutral"
+      },
+      {
+        "word": "mess up",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "heal",
+    "meaning": "to become healthy again",
+    "words": [
+      {
+        "word": "recover",
+        "register": "formal"
+      },
+      {
+        "word": "heal",
+        "register": "neutral"
+      },
+      {
+        "word": "get better",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "notice",
+    "meaning": "to become aware of something",
+    "words": [
+      {
+        "word": "perceive",
+        "register": "formal"
+      },
+      {
+        "word": "notice",
+        "register": "neutral"
+      },
+      {
+        "word": "spot",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "care_about",
+    "meaning": "to feel concern for something",
+    "words": [
+      {
+        "word": "be invested in",
+        "register": "formal"
+      },
+      {
+        "word": "care about",
+        "register": "neutral"
+      },
+      {
+        "word": "be into",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "not_care",
+    "meaning": "to have no interest or concern",
+    "words": [
+      {
+        "word": "indifferent",
+        "register": "formal"
+      },
+      {
+        "word": "not care",
+        "register": "neutral"
+      },
+      {
+        "word": "couldn't care less",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "admit",
+    "meaning": "to confess that something is true",
+    "words": [
+      {
+        "word": "acknowledge",
+        "register": "formal"
+      },
+      {
+        "word": "admit",
+        "register": "neutral"
+      },
+      {
+        "word": "own up",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "deny",
+    "meaning": "to say something is not true",
+    "words": [
+      {
+        "word": "refute",
+        "register": "formal"
+      },
+      {
+        "word": "deny",
+        "register": "neutral"
+      },
+      {
+        "word": "not admit to",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "accept_offer",
+    "meaning": "to say yes to an offer",
+    "words": [
+      {
+        "word": "accede to",
+        "register": "formal"
+      },
+      {
+        "word": "accept",
+        "register": "neutral"
+      },
+      {
+        "word": "take",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "decline",
+    "meaning": "to say no to an offer politely",
+    "words": [
+      {
+        "word": "decline",
+        "register": "formal"
+      },
+      {
+        "word": "turn down",
+        "register": "neutral"
+      },
+      {
+        "word": "pass on",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "praise",
+    "meaning": "to express approval of someone",
+    "words": [
+      {
+        "word": "commend",
+        "register": "formal"
+      },
+      {
+        "word": "praise",
+        "register": "neutral"
+      },
+      {
+        "word": "give props",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "criticize",
+    "meaning": "to express disapproval of someone",
+    "words": [
+      {
+        "word": "reprimand",
+        "register": "formal"
+      },
+      {
+        "word": "criticize",
+        "register": "neutral"
+      },
+      {
+        "word": "call out",
+        "register": "casual"
+      },
+      {
+        "word": "roast",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "impress",
+    "meaning": "to make someone admire you",
+    "words": [
+      {
+        "word": "captivate",
+        "register": "formal"
+      },
+      {
+        "word": "impress",
+        "register": "neutral"
+      },
+      {
+        "word": "wow",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "disappoint_someone",
+    "meaning": "to fail to meet someone's expectations",
+    "words": [
+      {
+        "word": "let down",
+        "register": "neutral"
+      },
+      {
+        "word": "disappoint",
+        "register": "neutral"
+      },
+      {
+        "word": "bum out",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "trick",
+    "meaning": "to deceive someone",
+    "words": [
+      {
+        "word": "deceive",
+        "register": "formal"
+      },
+      {
+        "word": "trick",
+        "register": "neutral"
+      },
+      {
+        "word": "fool",
+        "register": "casual"
+      },
+      {
+        "word": "scam",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "share_info",
+    "meaning": "to give information to others",
+    "words": [
+      {
+        "word": "disclose",
+        "register": "formal"
+      },
+      {
+        "word": "share",
+        "register": "neutral"
+      },
+      {
+        "word": "spill",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "hide",
+    "meaning": "to keep something out of sight",
+    "words": [
+      {
+        "word": "conceal",
+        "register": "formal"
+      },
+      {
+        "word": "hide",
+        "register": "neutral"
+      },
+      {
+        "word": "stash",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "search",
+    "meaning": "to try to find something",
+    "words": [
+      {
+        "word": "seek",
+        "register": "formal"
+      },
+      {
+        "word": "search",
+        "register": "neutral"
+      },
+      {
+        "word": "look for",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "arrive",
+    "meaning": "to reach a destination",
+    "words": [
+      {
+        "word": "arrive",
+        "register": "formal"
+      },
+      {
+        "word": "get there",
+        "register": "neutral"
+      },
+      {
+        "word": "roll up",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "delay",
+    "meaning": "to make something happen later than planned",
+    "words": [
+      {
+        "word": "postpone",
+        "register": "formal"
+      },
+      {
+        "word": "delay",
+        "register": "neutral"
+      },
+      {
+        "word": "push back",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "cancel",
+    "meaning": "to decide something will not happen",
+    "words": [
+      {
+        "word": "call off",
+        "register": "neutral"
+      },
+      {
+        "word": "cancel",
+        "register": "neutral"
+      },
+      {
+        "word": "scrap",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "prepare",
+    "meaning": "to make ready for something",
+    "words": [
+      {
+        "word": "make preparations",
+        "register": "formal"
+      },
+      {
+        "word": "prepare",
+        "register": "neutral"
+      },
+      {
+        "word": "get ready",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "drive",
+    "meaning": "to operate and travel by a vehicle",
+    "words": [
+      {
+        "word": "operate a vehicle",
+        "register": "formal"
+      },
+      {
+        "word": "drive",
+        "register": "neutral"
+      },
+      {
+        "word": "cruise",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "travel_far",
+    "meaning": "to go on a long trip",
+    "words": [
+      {
+        "word": "journey",
+        "register": "literary"
+      },
+      {
+        "word": "travel",
+        "register": "neutral"
+      },
+      {
+        "word": "go on a trip",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "move_house",
+    "meaning": "to change residence",
+    "words": [
+      {
+        "word": "relocate",
+        "register": "formal"
+      },
+      {
+        "word": "move",
+        "register": "neutral"
+      },
+      {
+        "word": "move out",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "change_job",
+    "meaning": "to leave one job for another",
+    "words": [
+      {
+        "word": "transition careers",
+        "register": "formal"
+      },
+      {
+        "word": "change jobs",
+        "register": "neutral"
+      },
+      {
+        "word": "switch it up",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "retire",
+    "meaning": "to stop working, usually due to age",
+    "words": [
+      {
+        "word": "retire",
+        "register": "formal"
+      },
+      {
+        "word": "stop working",
+        "register": "neutral"
+      },
+      {
+        "word": "call it a career",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "promote",
+    "meaning": "to raise someone to a higher position",
+    "words": [
+      {
+        "word": "elevate",
+        "register": "formal"
+      },
+      {
+        "word": "promote",
+        "register": "neutral"
+      },
+      {
+        "word": "bump up",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "hire",
+    "meaning": "to employ someone for a job",
+    "words": [
+      {
+        "word": "recruit",
+        "register": "formal"
+      },
+      {
+        "word": "hire",
+        "register": "neutral"
+      },
+      {
+        "word": "bring on",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "train_someone",
+    "meaning": "to teach someone a skill",
+    "words": [
+      {
+        "word": "instruct",
+        "register": "formal"
+      },
+      {
+        "word": "train",
+        "register": "neutral"
+      },
+      {
+        "word": "show the ropes",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "mentor",
+    "meaning": "to guide someone with less experience",
+    "words": [
+      {
+        "word": "mentor",
+        "register": "formal"
+      },
+      {
+        "word": "coach",
+        "register": "neutral"
+      },
+      {
+        "word": "look after",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "lead_team",
+    "meaning": "to be in charge of a group of people",
+    "words": [
+      {
+        "word": "preside over",
+        "register": "formal"
+      },
+      {
+        "word": "lead",
+        "register": "neutral"
+      },
+      {
+        "word": "run the show",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "follow_rules",
+    "meaning": "to obey established rules",
+    "words": [
+      {
+        "word": "comply with",
+        "register": "formal"
+      },
+      {
+        "word": "follow the rules",
+        "register": "neutral"
+      },
+      {
+        "word": "play by the book",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "break_rules",
+    "meaning": "to disobey rules",
+    "words": [
+      {
+        "word": "contravene",
+        "register": "formal"
+      },
+      {
+        "word": "break the rules",
+        "register": "neutral"
+      },
+      {
+        "word": "bend the rules",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "protest",
+    "meaning": "to publicly object to something",
+    "words": [
+      {
+        "word": "demonstrate",
+        "register": "formal"
+      },
+      {
+        "word": "protest",
+        "register": "neutral"
+      },
+      {
+        "word": "speak out",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "donate",
+    "meaning": "to give money or goods to a cause",
+    "words": [
+      {
+        "word": "contribute",
+        "register": "formal"
+      },
+      {
+        "word": "donate",
+        "register": "neutral"
+      },
+      {
+        "word": "chip in",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "volunteer",
+    "meaning": "to offer to do something without pay",
+    "words": [
+      {
+        "word": "volunteer",
+        "register": "formal"
+      },
+      {
+        "word": "help out",
+        "register": "neutral"
+      },
+      {
+        "word": "pitch in",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "cooperate",
+    "meaning": "to work together toward a goal",
+    "words": [
+      {
+        "word": "collaborate",
+        "register": "formal"
+      },
+      {
+        "word": "cooperate",
+        "register": "neutral"
+      },
+      {
+        "word": "team up",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "compete",
+    "meaning": "to try to win against others",
+    "words": [
+      {
+        "word": "contend",
+        "register": "formal"
+      },
+      {
+        "word": "compete",
+        "register": "neutral"
+      },
+      {
+        "word": "go up against",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "win",
+    "meaning": "to succeed in a contest",
+    "words": [
+      {
+        "word": "prevail",
+        "register": "formal"
+      },
+      {
+        "word": "win",
+        "register": "neutral"
+      },
+      {
+        "word": "come out on top",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "lose_contest",
+    "meaning": "to fail to win a contest",
+    "words": [
+      {
+        "word": "be defeated",
+        "register": "formal"
+      },
+      {
+        "word": "lose",
+        "register": "neutral"
+      },
+      {
+        "word": "get beat",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "practice_skill",
+    "meaning": "to repeat an activity to improve at it",
+    "words": [
+      {
+        "word": "rehearse",
+        "register": "formal"
+      },
+      {
+        "word": "practice",
+        "register": "neutral"
+      },
+      {
+        "word": "drill",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "master_skill",
+    "meaning": "to become highly skilled at something",
+    "words": [
+      {
+        "word": "become proficient",
+        "register": "formal"
+      },
+      {
+        "word": "master",
+        "register": "neutral"
+      },
+      {
+        "word": "get good at",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "beginner",
+    "meaning": "a person new to an activity",
+    "words": [
+      {
+        "word": "novice",
+        "register": "formal"
+      },
+      {
+        "word": "beginner",
+        "register": "neutral"
+      },
+      {
+        "word": "newbie",
+        "register": "casual"
+      },
+      {
+        "word": "noob",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "expert",
+    "meaning": "a person with great knowledge or skill",
+    "words": [
+      {
+        "word": "authority",
+        "register": "formal"
+      },
+      {
+        "word": "expert",
+        "register": "neutral"
+      },
+      {
+        "word": "pro",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "dress_up",
+    "meaning": "to wear formal or nice clothing",
+    "words": [
+      {
+        "word": "dress formally",
+        "register": "formal"
+      },
+      {
+        "word": "dress up",
+        "register": "neutral"
+      },
+      {
+        "word": "get glammed up",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "dress_down",
+    "meaning": "to wear casual clothing",
+    "words": [
+      {
+        "word": "dress casually",
+        "register": "formal"
+      },
+      {
+        "word": "dress down",
+        "register": "neutral"
+      },
+      {
+        "word": "throw something on",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "cook_food",
+    "meaning": "to prepare food using heat",
+    "words": [
+      {
+        "word": "prepare a meal",
+        "register": "formal"
+      },
+      {
+        "word": "cook",
+        "register": "neutral"
+      },
+      {
+        "word": "whip something up",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "order_food",
+    "meaning": "to request food, especially at a restaurant",
+    "words": [
+      {
+        "word": "place an order",
+        "register": "formal"
+      },
+      {
+        "word": "order",
+        "register": "neutral"
+      },
+      {
+        "word": "get takeout",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "snack",
+    "meaning": "to eat a small amount of food between meals",
+    "words": [
+      {
+        "word": "have a light refreshment",
+        "register": "formal"
+      },
+      {
+        "word": "snack",
+        "register": "neutral"
+      },
+      {
+        "word": "grab a snack",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "exercise",
+    "meaning": "to do physical activity for fitness",
+    "words": [
+      {
+        "word": "engage in physical activity",
+        "register": "formal"
+      },
+      {
+        "word": "exercise",
+        "register": "neutral"
+      },
+      {
+        "word": "work out",
+        "register": "casual"
+      },
+      {
+        "word": "get some reps in",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "rest",
+    "meaning": "to stop activity and relax",
+    "words": [
+      {
+        "word": "recuperate",
+        "register": "formal"
+      },
+      {
+        "word": "rest",
+        "register": "neutral"
+      },
+      {
+        "word": "take it easy",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "nap",
+    "meaning": "to sleep for a short period during the day",
+    "words": [
+      {
+        "word": "take a brief rest",
+        "register": "formal"
+      },
+      {
+        "word": "nap",
+        "register": "neutral"
+      },
+      {
+        "word": "catch some z's",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "meditate",
+    "meaning": "to focus the mind for relaxation or clarity",
+    "words": [
+      {
+        "word": "meditate",
+        "register": "formal"
+      },
+      {
+        "word": "clear your head",
+        "register": "neutral"
+      },
+      {
+        "word": "zone out",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "celebrate_holiday",
+    "meaning": "to mark a special occasion",
+    "words": [
+      {
+        "word": "commemorate",
+        "register": "formal"
+      },
+      {
+        "word": "celebrate",
+        "register": "neutral"
+      },
+      {
+        "word": "party",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "mourn",
+    "meaning": "to feel deep sorrow, especially over a death",
+    "words": [
+      {
+        "word": "grieve",
+        "register": "formal"
+      },
+      {
+        "word": "mourn",
+        "register": "neutral"
+      },
+      {
+        "word": "take it hard",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "comfort",
+    "meaning": "to ease someone's grief or worry",
+    "words": [
+      {
+        "word": "console",
+        "register": "formal"
+      },
+      {
+        "word": "comfort",
+        "register": "neutral"
+      },
+      {
+        "word": "be there for",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "cheer_up",
+    "meaning": "to become or make someone happier",
+    "words": [
+      {
+        "word": "uplift someone's spirits",
+        "register": "formal"
+      },
+      {
+        "word": "cheer up",
+        "register": "neutral"
+      },
+      {
+        "word": "lighten up",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "calm_down",
+    "meaning": "to become less upset or agitated",
+    "words": [
+      {
+        "word": "compose oneself",
+        "register": "formal"
+      },
+      {
+        "word": "calm down",
+        "register": "neutral"
+      },
+      {
+        "word": "chill out",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "get_angry",
+    "meaning": "to become angry",
+    "words": [
+      {
+        "word": "become incensed",
+        "register": "formal"
+      },
+      {
+        "word": "get angry",
+        "register": "neutral"
+      },
+      {
+        "word": "lose it",
+        "register": "casual"
+      },
+      {
+        "word": "flip out",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "thank",
+    "meaning": "to express gratitude to someone",
+    "words": [
+      {
+        "word": "express gratitude",
+        "register": "formal"
+      },
+      {
+        "word": "thank",
+        "register": "neutral"
+      },
+      {
+        "word": "say thanks",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "admire",
+    "meaning": "to regard someone with respect",
+    "words": [
+      {
+        "word": "esteem",
+        "register": "formal"
+      },
+      {
+        "word": "admire",
+        "register": "neutral"
+      },
+      {
+        "word": "look up to",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "insult",
+    "meaning": "to speak disrespectfully to someone",
+    "words": [
+      {
+        "word": "disparage",
+        "register": "formal"
+      },
+      {
+        "word": "insult",
+        "register": "neutral"
+      },
+      {
+        "word": "diss",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "compliment",
+    "meaning": "to say something nice about someone",
+    "words": [
+      {
+        "word": "commend",
+        "register": "formal"
+      },
+      {
+        "word": "compliment",
+        "register": "neutral"
+      },
+      {
+        "word": "hype up",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "flirt",
+    "meaning": "to behave playfully in a romantic way",
+    "words": [
+      {
+        "word": "court",
+        "register": "literary"
+      },
+      {
+        "word": "flirt",
+        "register": "neutral"
+      },
+      {
+        "word": "shoot your shot",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "date_someone",
+    "meaning": "to go out romantically with someone",
+    "words": [
+      {
+        "word": "court",
+        "register": "formal"
+      },
+      {
+        "word": "date",
+        "register": "neutral"
+      },
+      {
+        "word": "see each other",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "break_up",
+    "meaning": "to end a romantic relationship",
+    "words": [
+      {
+        "word": "terminate the relationship",
+        "register": "formal"
+      },
+      {
+        "word": "break up",
+        "register": "neutral"
+      },
+      {
+        "word": "call it quits",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "trust_someone",
+    "meaning": "to believe someone is reliable",
+    "words": [
+      {
+        "word": "have confidence in",
+        "register": "formal"
+      },
+      {
+        "word": "trust",
+        "register": "neutral"
+      },
+      {
+        "word": "vibe with",
+        "register": "slang"
+      }
+    ]
+  },
+  {
+    "id": "betray",
+    "meaning": "to be disloyal to someone who trusted you",
+    "words": [
+      {
+        "word": "betray",
+        "register": "formal"
+      },
+      {
+        "word": "let down badly",
+        "register": "neutral"
+      },
+      {
+        "word": "backstab",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "support_someone",
+    "meaning": "to help and encourage someone",
+    "words": [
+      {
+        "word": "champion",
+        "register": "formal"
+      },
+      {
+        "word": "support",
+        "register": "neutral"
+      },
+      {
+        "word": "have someone's back",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "neglect",
+    "meaning": "to fail to give proper care or attention",
+    "words": [
+      {
+        "word": "neglect",
+        "register": "formal"
+      },
+      {
+        "word": "ignore",
+        "register": "neutral"
+      },
+      {
+        "word": "slack on",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "discipline",
+    "meaning": "to train someone to follow rules or correct behavior",
+    "words": [
+      {
+        "word": "discipline",
+        "register": "formal"
+      },
+      {
+        "word": "correct",
+        "register": "neutral"
+      },
+      {
+        "word": "lay down the law",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "punish",
+    "meaning": "to impose a penalty for wrongdoing",
+    "words": [
+      {
+        "word": "penalize",
+        "register": "formal"
+      },
+      {
+        "word": "punish",
+        "register": "neutral"
+      },
+      {
+        "word": "come down on",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "inspire",
+    "meaning": "to fill someone with the urge to do something",
+    "words": [
+      {
+        "word": "inspire",
+        "register": "formal"
+      },
+      {
+        "word": "motivate",
+        "register": "neutral"
+      },
+      {
+        "word": "light a fire under",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "influence_decision",
+    "meaning": "to affect how someone decides something",
+    "words": [
+      {
+        "word": "sway",
+        "register": "formal"
+      },
+      {
+        "word": "influence",
+        "register": "neutral"
+      },
+      {
+        "word": "talk someone into",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "negotiate",
+    "meaning": "to discuss to reach an agreement",
+    "words": [
+      {
+        "word": "negotiate",
+        "register": "formal"
+      },
+      {
+        "word": "work something out",
+        "register": "neutral"
+      },
+      {
+        "word": "hash it out",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "compromise",
+    "meaning": "to settle by each side giving something up",
+    "words": [
+      {
+        "word": "reach a compromise",
+        "register": "formal"
+      },
+      {
+        "word": "compromise",
+        "register": "neutral"
+      },
+      {
+        "word": "meet in the middle",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "address_issue",
+    "meaning": "to deal directly with a problem",
+    "words": [
+      {
+        "word": "address",
+        "register": "formal"
+      },
+      {
+        "word": "deal with",
+        "register": "neutral"
+      },
+      {
+        "word": "tackle",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "avoid_conflict",
+    "meaning": "to stay away from disagreement",
+    "words": [
+      {
+        "word": "circumvent conflict",
+        "register": "formal"
+      },
+      {
+        "word": "avoid conflict",
+        "register": "neutral"
+      },
+      {
+        "word": "dodge drama",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "panic",
+    "meaning": "to feel sudden overwhelming fear",
+    "words": [
+      {
+        "word": "become alarmed",
+        "register": "formal"
+      },
+      {
+        "word": "panic",
+        "register": "neutral"
+      },
+      {
+        "word": "freak out",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "stay_calm",
+    "meaning": "to remain composed under pressure",
+    "words": [
+      {
+        "word": "maintain composure",
+        "register": "formal"
+      },
+      {
+        "word": "stay calm",
+        "register": "neutral"
+      },
+      {
+        "word": "keep cool",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "stress_out",
+    "meaning": "to feel overwhelmed by pressure",
+    "words": [
+      {
+        "word": "become overwhelmed",
+        "register": "formal"
+      },
+      {
+        "word": "stress out",
+        "register": "neutral"
+      },
+      {
+        "word": "lose your mind",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "unwind",
+    "meaning": "to relax after a period of work or stress",
+    "words": [
+      {
+        "word": "decompress",
+        "register": "formal"
+      },
+      {
+        "word": "unwind",
+        "register": "neutral"
+      },
+      {
+        "word": "chill",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "energize",
+    "meaning": "to give someone more energy or enthusiasm",
+    "words": [
+      {
+        "word": "invigorate",
+        "register": "formal"
+      },
+      {
+        "word": "energize",
+        "register": "neutral"
+      },
+      {
+        "word": "hype up",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "exhaust_tired",
+    "meaning": "to make someone very tired",
+    "words": [
+      {
+        "word": "enervate",
+        "register": "literary"
+      },
+      {
+        "word": "exhaust",
+        "register": "neutral"
+      },
+      {
+        "word": "wear out",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "recharge",
+    "meaning": "to restore one's energy",
+    "words": [
+      {
+        "word": "replenish energy",
+        "register": "formal"
+      },
+      {
+        "word": "recharge",
+        "register": "neutral"
+      },
+      {
+        "word": "get your batteries back",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "design",
+    "meaning": "to plan the form of something",
+    "words": [
+      {
+        "word": "conceptualize",
+        "register": "formal"
+      },
+      {
+        "word": "design",
+        "register": "neutral"
+      },
+      {
+        "word": "sketch out",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "invent",
+    "meaning": "to create something new",
+    "words": [
+      {
+        "word": "devise",
+        "register": "formal"
+      },
+      {
+        "word": "invent",
+        "register": "neutral"
+      },
+      {
+        "word": "come up with",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "build",
+    "meaning": "to construct something",
+    "words": [
+      {
+        "word": "construct",
+        "register": "formal"
+      },
+      {
+        "word": "build",
+        "register": "neutral"
+      },
+      {
+        "word": "put together",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "destroy",
+    "meaning": "to damage something severely or completely",
+    "words": [
+      {
+        "word": "demolish",
+        "register": "formal"
+      },
+      {
+        "word": "destroy",
+        "register": "neutral"
+      },
+      {
+        "word": "wreck",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "fix_problem",
+    "meaning": "to repair or resolve something",
+    "words": [
+      {
+        "word": "rectify",
+        "register": "formal"
+      },
+      {
+        "word": "fix",
+        "register": "neutral"
+      },
+      {
+        "word": "sort out",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "break_thing",
+    "meaning": "to damage something so it stops working",
+    "words": [
+      {
+        "word": "damage beyond use",
+        "register": "formal"
+      },
+      {
+        "word": "break",
+        "register": "neutral"
+      },
+      {
+        "word": "bust",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "renovate",
+    "meaning": "to repair and improve a building",
+    "words": [
+      {
+        "word": "refurbish",
+        "register": "formal"
+      },
+      {
+        "word": "renovate",
+        "register": "neutral"
+      },
+      {
+        "word": "fix up",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "pack",
+    "meaning": "to put things into containers for storage or travel",
+    "words": [
+      {
+        "word": "pack one's belongings",
+        "register": "formal"
+      },
+      {
+        "word": "pack",
+        "register": "neutral"
+      },
+      {
+        "word": "throw stuff in a bag",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "unpack",
+    "meaning": "to remove things from containers after travel",
+    "words": [
+      {
+        "word": "unpack one's belongings",
+        "register": "formal"
+      },
+      {
+        "word": "unpack",
+        "register": "neutral"
+      },
+      {
+        "word": "settle in",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "clean_up",
+    "meaning": "to make a place tidy",
+    "words": [
+      {
+        "word": "tidy up",
+        "register": "formal"
+      },
+      {
+        "word": "clean up",
+        "register": "neutral"
+      },
+      {
+        "word": "straighten out",
+        "register": "casual"
+      }
+    ]
+  },
+  {
+    "id": "mess_up",
+    "meaning": "to make a mistake or cause disorder",
+    "words": [
+      {
+        "word": "err",
+        "register": "formal"
+      },
+      {
+        "word": "make a mistake",
+        "register": "neutral"
+      },
+      {
+        "word": "mess up",
+        "register": "casual"
+      },
+      {
+        "word": "screw up",
+        "register": "slang"
+      }
+    ]
+  }
+]
